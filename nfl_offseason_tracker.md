@@ -23,6 +23,10 @@
 | Re-signing | K     | Chad Ryland      |
 | Re-signing | P     | Blake Gillikin   |
 | Re-signing | WR    | Simi Fehoko      |
+| Loss       | DL    | Dalvin Tomlinson |
+| Loss       | OG    | Evan Brown       |
+| Loss       | QB    | Kyler Murray     |
+| Loss       | S     | Jalen Thompson   |
 
 **Coaching Staff:**
 - HC: Mike LaFleur 🆕
@@ -79,6 +83,7 @@
 | Signing       | DL    | Chris Williams    |
 | Signing       | DL    | Da'Shawn Hand     |
 | Signing       | EDGE  | Azeez Ojulari     |
+| Signing       | EDGE  | Samson Ebukam     |
 | Signing       | K     | Nick Folk         |
 | Signing       | LB    | Christian Harris  |
 | Signing       | P     | Jake Bailey       |
@@ -88,6 +93,16 @@
 | Signing       | WR    | Olamide Zaccheaus |
 | Re-signing    | DT    | LaCale London     |
 | Franchise tag | TE    | Kyle Pitts        |
+| Loss          | CB    | Dee Alford        |
+| Loss          | DL    | David Onyemata    |
+| Loss          | EDGE  | Arnold Ebiketie   |
+| Loss          | EDGE  | Kentavius Street  |
+| Loss          | K     | Zane Gonzalez     |
+| Loss          | LB    | Kaden Elliss      |
+| Loss          | OG    | Elijah Wilkinson  |
+| Loss          | OT    | Ryan Hayes        |
+| Loss          | RB    | Tyler Allgeier    |
+| Loss          | WR    | Darnell Mooney    |
 
 **Coaching Staff:**
 - HC: Kevin Stefanski 🆕
@@ -134,14 +149,24 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type       | Pos   | Player           |
-|:-----------|:------|:-----------------|
-| Signing    | EDGE  | Trey Hendrickson |
-| Signing    | OL    | John Simpson     |
-| Signing    | S     | Jaylinn Hawkins  |
-| Signing    | TE    | Durham Smythe    |
-| Re-signing | CB    | Chidobe Awuzie   |
-| Re-signing | QB    | Tyler Huntley    |
+| Type       | Pos   | Player               |
+|:-----------|:------|:---------------------|
+| Signing    | EDGE  | Trey Hendrickson     |
+| Signing    | OL    | John Simpson         |
+| Signing    | S     | Jaylinn Hawkins      |
+| Signing    | TE    | Durham Smythe        |
+| Re-signing | CB    | Chidobe Awuzie       |
+| Re-signing | QB    | Tyler Huntley        |
+| Loss       | C     | Tyler Linderbaum     |
+| Loss       | DL    | Dre'Mont Jones       |
+| Loss       | EDGE  | David Ojabo          |
+| Loss       | FB    | Patrick Ricard       |
+| Loss       | P     | Jordan Stout         |
+| Loss       | RB    | Keaton Mitchell      |
+| Loss       | S     | Alohi Gilman         |
+| Loss       | S     | Ar'Darius Washington |
+| Loss       | TE    | Charlie Kolar        |
+| Loss       | TE    | Isaiah Likely        |
 
 **Coaching Staff:**
 - HC: Jesse Minter 🆕
@@ -199,6 +224,13 @@
 | Re-signing | P     | Mitch Wishnowsky         |
 | Re-signing | S     | Sam Franklin             |
 | Trade in   | WR    | DJ Moore                 |
+| Trade out  | CB    | Taron Johnson            |
+| Retired    | CB    | Darius Slay              |
+| Loss       | CB    | Cam Lewis                |
+| Loss       | FB    | Reggie Gilliam           |
+| Loss       | OG    | David Edwards            |
+| Loss       | QB    | Mitchell Trubisky        |
+| Loss       | S     | Darnell Savage           |
 
 **Coaching Staff:**
 - HC: Joe Brady 🆕
@@ -256,9 +288,14 @@
 | Signing    | QB    | Kenny Pickett    |
 | Signing    | WR    | John Metchie III |
 | Re-signing | CB    | Akayleb Evans    |
+| Re-signing | EDGE  | Trevis Gipson    |
 | Re-signing | LB    | Isaiah Simmons   |
 | Re-signing | LS    | J.J. Jansen      |
 | Re-signing | WR    | David Moore      |
+| Retired    | OT    | Yosh Nijman      |
+| Loss       | C     | Cade Mays        |
+| Loss       | DT    | A'Shawn Robinson |
+| Loss       | RB    | Rico Dowdle      |
 
 **Coaching Staff:**
 - HC: Dave Canales
@@ -304,22 +341,33 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type       | Pos   | Player            |
-|:-----------|:------|:------------------|
-| Signing    | CB    | Cam Lewis         |
-| Signing    | DL    | Neville Gallimore |
-| Signing    | EDGE  | Kentavius Street  |
-| Signing    | LB    | Devin Bush        |
-| Signing    | OL    | Jedrick Wills     |
-| Signing    | S     | Coby Bryant       |
-| Signing    | WR    | Kalif Raymond     |
-| Re-signing | DE    | Daniel Hardy      |
-| Re-signing | LB    | D'Marco Jackson   |
-| Re-signing | OG    | Jordan McFadden   |
-| Re-signing | OT    | Braxton Jones     |
-| Re-signing | QB    | Case Keenum       |
-| Re-signing | S     | Elijah Hicks      |
-| Trade in   | C     | Garrett Bradbury  |
+| Type       | Pos   | Player             |
+|:-----------|:------|:-------------------|
+| Signing    | CB    | Cam Lewis          |
+| Signing    | DL    | Neville Gallimore  |
+| Signing    | EDGE  | Kentavius Street   |
+| Signing    | LB    | Devin Bush         |
+| Signing    | OL    | Jedrick Wills      |
+| Signing    | S     | Coby Bryant        |
+| Signing    | WR    | Kalif Raymond      |
+| Re-signing | DE    | Daniel Hardy       |
+| Re-signing | LB    | D'Marco Jackson    |
+| Re-signing | OG    | Jordan McFadden    |
+| Re-signing | OT    | Braxton Jones      |
+| Re-signing | QB    | Case Keenum        |
+| Re-signing | S     | Elijah Hicks       |
+| Trade in   | C     | Garrett Bradbury   |
+| Trade out  | WR    | DJ Moore           |
+| Retired    | C     | Drew Dalman        |
+| Loss       | CB    | Nahshon Wright     |
+| Loss       | EDGE  | Dominique Robinson |
+| Loss       | LB    | Chris Williams     |
+| Loss       | LB    | Tremaine Edmunds   |
+| Loss       | S     | Jaquan Brisker     |
+| Loss       | S     | Jonathan Owens     |
+| Loss       | S     | Kevin Byard        |
+| Loss       | TE    | Durham Smythe      |
+| Loss       | WR    | Olamide Zaccheaus  |
 
 **Coaching Staff:**
 - HC: Ben Johnson
@@ -370,6 +418,11 @@
 | Re-signing | CB    | Jalen Davis       |
 | Re-signing | OG    | Dalton Risner     |
 | Extension  | OT    | Orlando Brown Jr. |
+| Loss       | EDGE  | Joseph Ossai      |
+| Loss       | EDGE  | Trey Hendrickson  |
+| Loss       | OG    | Cordell Volson    |
+| Loss       | QB    | Jake Browning     |
+| Loss       | TE    | Noah Fant         |
 
 **Coaching Staff:**
 - HC: Zac Taylor
@@ -420,6 +473,9 @@
 | Re-signing | OG    | Teven Jenkins   |
 | Re-signing | P     | Corey Bojorquez |
 | Trade in   | OT    | Tytus Howard    |
+| Loss       | EDGE  | Cameron Thomas  |
+| Loss       | LB    | Devin Bush      |
+| Loss       | RB    | Jerome Ford     |
 
 **Coaching Staff:**
 - HC: Todd Monken 🆕
@@ -487,6 +543,8 @@
 | Re-signing    | RB    | Javonte Williams |
 | Franchise tag | WR    | George Pickens   |
 | Trade in      | EDGE  | Rashan Gary      |
+| Trade out     | DL    | Solomon Thomas   |
+| Trade out     | DT    | Osa Odighizuwa   |
 
 **Coaching Staff:**
 - HC: Brian Schottenheimer
@@ -545,6 +603,8 @@
 | Re-signing | RB    | Jaleel McLaughlin   |
 | Re-signing | TE    | Adam Trautman       |
 | Re-signing | WR    | Lil'Jordan Humphrey |
+| Loss       | LB    | Dre Greenlaw        |
+| Loss       | S     | P.J. Locke          |
 
 **Coaching Staff:**
 - HC: Sean Payton
@@ -593,6 +653,13 @@
 | Signing    | TE    | Tyler Conklin     |
 | Re-signing | CB    | Rock Ya-Sin       |
 | Trade in   | OL    | Juice Scruggs     |
+| Trade out  | RB    | David Montgomery  |
+| Retired    | OT    | Dan Skipper       |
+| Loss       | CB    | Amik Robertson    |
+| Loss       | DL    | Roy Lopez         |
+| Loss       | LB    | Alex Anzalone     |
+| Loss       | QB    | Kyle Allen        |
+| Loss       | WR    | Kalif Raymond     |
 
 **Coaching Staff:**
 - HC: Dan Campbell
@@ -651,6 +718,16 @@
 | Signing    | WR    | Skyy Moore        |
 | Re-signing | OL    | Sean Rhyan        |
 | Trade in   | LB    | Zaire Franklin    |
+| Trade out  | DT    | Colby Wooden      |
+| Trade out  | EDGE  | Rashan Gary       |
+| Loss       | CB    | Nate Hobbs        |
+| Loss       | EDGE  | Kingsley Enagbare |
+| Loss       | LB    | Quay Walker       |
+| Loss       | OL    | Elgton Jenkins    |
+| Loss       | OT    | Rasheed Walker    |
+| Loss       | QB    | Malik Willis      |
+| Loss       | RB    | Emanuel Wilson    |
+| Loss       | WR    | Romeo Doubs       |
 
 **Coaching Staff:**
 - HC: Matt LaFleur
@@ -706,6 +783,11 @@
 | Extension  | TE    | Dalton Schultz     |
 | Trade in   | P     | Kai Kroeger        |
 | Trade in   | RB    | David Montgomery   |
+| Trade out  | OL    | Juice Scruggs      |
+| Trade out  | OT    | Tytus Howard       |
+| Loss       | DL    | Tim Settle         |
+| Loss       | LB    | Christian Harris   |
+| Loss       | P     | Tommy Townsend     |
 
 **Coaching Staff:**
 - HC: DeMeco Ryans
@@ -752,17 +834,25 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type           | Pos   | Player           |
-|:---------------|:------|:-----------------|
-| Signing        | DT    | Derrick Nnadi    |
-| Signing        | EDGE  | Arden Key        |
-| Signing        | EDGE  | Micheal Clemons  |
-| Signing        | S     | Jonathan Owens   |
-| Re-signing     | K     | Blake Grupe      |
-| Re-signing     | WR    | Alec Pierce      |
-| Re-signing     | WR    | Laquon Treadwell |
-| Transition tag | QB    | Daniel Jones     |
-| Trade in       | DT    | Colby Wooden     |
+| Type           | Pos   | Player            |
+|:---------------|:------|:------------------|
+| Signing        | DT    | Derrick Nnadi     |
+| Signing        | EDGE  | Arden Key         |
+| Signing        | EDGE  | Micheal Clemons   |
+| Signing        | S     | Jonathan Owens    |
+| Re-signing     | K     | Blake Grupe       |
+| Re-signing     | WR    | Alec Pierce       |
+| Re-signing     | WR    | Laquon Treadwell  |
+| Transition tag | QB    | Daniel Jones      |
+| Trade in       | DT    | Colby Wooden      |
+| Trade out      | LB    | Zaire Franklin    |
+| Trade out      | WR    | Michael Pittman   |
+| Loss           | CB    | Rodney Thomas     |
+| Loss           | DL    | Neville Gallimore |
+| Loss           | EDGE  | Kwity Paye        |
+| Loss           | EDGE  | Samson Ebukam     |
+| Loss           | OT    | Braden Smith      |
+| Loss           | S     | Nick Cross        |
 
 **Coaching Staff:**
 - HC: Shane Steichen
@@ -819,6 +909,11 @@
 | Re-signing | EDGE  | Dennis Gardeck      |
 | Re-signing | RB    | DeeJay Dallas       |
 | Re-signing | TE    | Quintin Morris      |
+| Loss       | LB    | Devin Lloyd         |
+| Loss       | RB    | Travis Etienne      |
+| Loss       | S     | Andrew Wingard      |
+| Loss       | TE    | Johnny Mundt        |
+| Loss       | WR    | Dyami Brown         |
 
 **Coaching Staff:**
 - HC: Liam Coen
@@ -864,12 +959,23 @@
 |:-----------|:------|:-------------------|
 | Signing    | CB    | Kader Kohou        |
 | Signing    | DL    | Khyiris Tonga      |
+| Signing    | RB    | Emari Demercado    |
 | Signing    | RB    | Kenneth Walker III |
 | Signing    | S     | Alohi Gilman       |
 | Re-signing | LS    | James Winchester   |
 | Re-signing | TE    | Travis Kelce       |
 | Re-signing | WR    | Tyquan Thornton    |
 | Trade in   | QB    | Justin Fields      |
+| Trade out  | CB    | Trent McDuffie     |
+| Loss       | CB    | Jaylen Watson      |
+| Loss       | CB    | Joshua Williams    |
+| Loss       | DL    | Derrick Nnadi      |
+| Loss       | EDGE  | Charles Omenihu    |
+| Loss       | LB    | Leo Chenal         |
+| Loss       | QB    | Gardner Minshew    |
+| Loss       | QB    | Shane Buechele     |
+| Loss       | RB    | Isiah Pacheco      |
+| Loss       | S     | Bryan Cook         |
 
 **Coaching Staff:**
 - HC: Andy Reid
@@ -933,6 +1039,11 @@
 | Re-signing | CB    | Eric Stokes      |
 | Re-signing | EDGE  | Malcolm Koonce   |
 | Trade in   | CB    | Taron Johnson    |
+| Trade out  | QB    | Geno Smith       |
+| Loss       | OG    | Dylan Parham     |
+| Loss       | OT    | Stone Forsythe   |
+| Loss       | QB    | Kenny Pickett    |
+| Loss       | S     | Lonnie Johnson   |
 
 **Coaching Staff:**
 - HC: Klint Kubiak 🆕
@@ -1002,6 +1113,13 @@
 | Re-signing | OT    | Trevor Penning     |
 | Re-signing | QB    | Trey Lance         |
 | Extension  | DT    | Teair Tart         |
+| Retired    | C     | Bradley Bozeman    |
+| Loss       | DL    | Da'Shawn Hand      |
+| Loss       | DL    | Otito Ogbonnia     |
+| Loss       | EDGE  | Odafe Oweh         |
+| Loss       | OG    | Jamaree Salyer     |
+| Loss       | OG    | Zion Johnson       |
+| Loss       | TE    | Tyler Conklin      |
 
 **Coaching Staff:**
 - HC: Jim Harbaugh
@@ -1051,6 +1169,10 @@
 | Re-signing | S     | Kamren Curl        |
 | Re-signing | TE    | Tyler Higbee       |
 | Trade in   | CB    | Trent McDuffie     |
+| Retired    | CB    | Darious Williams   |
+| Retired    | OT    | Rob Havenstein     |
+| Loss       | CB    | Cobie Durant       |
+| Loss       | WR    | Tutu Atwell        |
 
 **Coaching Staff:**
 - HC: Sean McVay
@@ -1093,22 +1215,33 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type       | Pos   | Player          |
-|:-----------|:------|:----------------|
-| Signing    | CB    | Marco Wilson    |
-| Signing    | DB    | Lonnie Johnson  |
-| Signing    | EDGE  | Josh Uche       |
-| Signing    | K     | Zane Gonzalez   |
-| Signing    | OT    | Charlie Heck    |
-| Signing    | OT    | Jamaree Salyer  |
-| Signing    | QB    | Malik Willis    |
-| Signing    | S     | Zayne Anderson  |
-| Signing    | TE    | Ben Sims        |
-| Signing    | WR    | Tutu Atwell     |
-| Re-signing | DT    | Matthew Butler  |
-| Re-signing | K     | Riley Patterson |
-| Re-signing | LB    | Willie Gay Jr.  |
-| Re-signing | TE    | Greg Dulcich    |
+| Type       | Pos   | Player             |
+|:-----------|:------|:-------------------|
+| Signing    | CB    | Marco Wilson       |
+| Signing    | DB    | Lonnie Johnson     |
+| Signing    | EDGE  | David Ojabo        |
+| Signing    | EDGE  | Josh Uche          |
+| Signing    | K     | Zane Gonzalez      |
+| Signing    | OT    | Charlie Heck       |
+| Signing    | OT    | Jamaree Salyer     |
+| Signing    | QB    | Malik Willis       |
+| Signing    | S     | Zayne Anderson     |
+| Signing    | TE    | Ben Sims           |
+| Signing    | WR    | Tutu Atwell        |
+| Re-signing | DT    | Matthew Butler     |
+| Re-signing | K     | Riley Patterson    |
+| Re-signing | LB    | Willie Gay Jr.     |
+| Re-signing | TE    | Greg Dulcich       |
+| Trade out  | S     | Minkah Fitzpatrick |
+| Loss       | CB    | Kader Kohou        |
+| Loss       | EDGE  | Bradley Chubb      |
+| Loss       | FB    | Alec Ingold        |
+| Loss       | K     | Jason Sanders      |
+| Loss       | LS    | Joe Cardona        |
+| Loss       | OG    | Cole Strange       |
+| Loss       | OT    | Larry Borom        |
+| Loss       | P     | Jake Bailey        |
+| Loss       | QB    | Tua Tagovailoa     |
 
 **Coaching Staff:**
 - HC: Jeff Hafley 🆕
@@ -1173,6 +1306,12 @@
 | Re-signing | LB    | Eric Wilson     |
 | Re-signing | LS    | Andrew DePaola  |
 | Re-signing | S     | Tavierre Thomas |
+| Retired    | C     | Ryan Kelly      |
+| Retired    | FB    | C.J. Ham        |
+| Loss       | DL    | Javon Hargrave  |
+| Loss       | DL    | Jonathan Allen  |
+| Loss       | P     | Ryan Wright     |
+| Loss       | WR    | Jalen Nailor    |
 
 **Coaching Staff:**
 - HC: Kevin O'Connell
@@ -1217,14 +1356,20 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type    | Pos   | Player             |
-|:--------|:------|:-------------------|
-| Signing | DL    | Dre'Mont Jones     |
-| Signing | FB    | Reggie Gilliam     |
-| Signing | OL    | Alijah Vera-Tucker |
-| Signing | S     | Kevin Byard        |
-| Signing | TE    | Julian Hill        |
-| Signing | WR    | Romeo Doubs        |
+| Type      | Pos   | Player             |
+|:----------|:------|:-------------------|
+| Signing   | DL    | Dre'Mont Jones     |
+| Signing   | FB    | Reggie Gilliam     |
+| Signing   | OL    | Alijah Vera-Tucker |
+| Signing   | S     | Kevin Byard        |
+| Signing   | TE    | Julian Hill        |
+| Signing   | WR    | Romeo Doubs        |
+| Trade out | C     | Garrett Bradbury   |
+| Loss      | DL    | Khyiris Tonga      |
+| Loss      | EDGE  | K'Lavon Chaisson   |
+| Loss      | OT    | Vederian Lowe      |
+| Loss      | S     | Jaylinn Hawkins    |
+| Loss      | TE    | Austin Hooper      |
 
 **Coaching Staff:**
 - HC: Mike Vrabel
@@ -1282,6 +1427,12 @@
 | Re-signing | DL    | John Ridgeway   |
 | Re-signing | OL    | Dillon Radunz   |
 | Re-signing | S     | Julian Blackmon |
+| Loss       | C     | Luke Fortner    |
+| Loss       | CB    | Alontae Taylor  |
+| Loss       | DL    | Jonah Williams  |
+| Loss       | LB    | Demario Davis   |
+| Loss       | TE    | Foster Moreau   |
+| Loss       | TE    | Jack Stoll      |
 
 **Coaching Staff:**
 - HC: Kellen Moore
@@ -1333,6 +1484,7 @@
 | Signing    | LB    | Tremaine Edmunds     |
 | Signing    | P     | Jordan Stout         |
 | Signing    | S     | Ar'Darius Washington |
+| Signing    | S     | Jason Pinnock        |
 | Signing    | TE    | Isaiah Likely        |
 | Signing    | WR    | Calvin Austin III    |
 | Signing    | WR    | Darnell Mooney       |
@@ -1342,6 +1494,12 @@
 | Re-signing | OL    | Jermaine Eluemunor   |
 | Re-signing | WR    | Gunner Olszewski     |
 | Re-signing | WR    | Isaiah Hodgins       |
+| Loss       | C     | Austin Schlottmann   |
+| Loss       | CB    | Cordale Flott        |
+| Loss       | LS    | Casey Kreiter        |
+| Loss       | S     | Dane Belton          |
+| Loss       | TE    | Daniel Bellinger     |
+| Loss       | WR    | Wan'Dale Robinson    |
 
 **Coaching Staff:**
 - HC: John Harbaugh 🆕
@@ -1390,26 +1548,32 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type          | Pos   | Player             |
-|:--------------|:------|:-------------------|
-| Signing       | CB    | Nahshon Wright     |
-| Signing       | DL    | David Onyemata     |
-| Signing       | EDGE  | Joseph Ossai       |
-| Signing       | EDGE  | Kingsley Enagbare  |
-| Signing       | K     | Cade York          |
-| Signing       | LB    | Demario Davis      |
-| Signing       | OG    | Dylan Parham       |
-| Signing       | S     | Dane Belton        |
-| Re-signing    | FB    | Andrew Beck        |
-| Re-signing    | LB    | Mykal Walker       |
-| Re-signing    | OL    | Max Mitchell       |
-| Re-signing    | RB    | Kene Nwangwu       |
-| Re-signing    | S     | Andre Cisco        |
-| Re-signing    | TE    | Jelani Woods       |
-| Franchise tag | RB    | Breece Hall        |
-| Trade in      | DL    | T'Vondre Sweat     |
-| Trade in      | QB    | Geno Smith         |
-| Trade in      | S     | Minkah Fitzpatrick |
+| Type          | Pos   | Player              |
+|:--------------|:------|:--------------------|
+| Signing       | CB    | Nahshon Wright      |
+| Signing       | DL    | David Onyemata      |
+| Signing       | EDGE  | Joseph Ossai        |
+| Signing       | EDGE  | Kingsley Enagbare   |
+| Signing       | K     | Cade York           |
+| Signing       | LB    | Demario Davis       |
+| Signing       | OG    | Dylan Parham        |
+| Signing       | S     | Dane Belton         |
+| Re-signing    | FB    | Andrew Beck         |
+| Re-signing    | LB    | Mykal Walker        |
+| Re-signing    | OL    | Max Mitchell        |
+| Re-signing    | RB    | Kene Nwangwu        |
+| Re-signing    | S     | Andre Cisco         |
+| Re-signing    | TE    | Jelani Woods        |
+| Franchise tag | RB    | Breece Hall         |
+| Trade in      | DL    | T'Vondre Sweat      |
+| Trade in      | QB    | Geno Smith          |
+| Trade in      | S     | Minkah Fitzpatrick  |
+| Trade out     | EDGE  | Jermaine Johnson II |
+| Trade out     | QB    | Justin Fields       |
+| Loss          | EDGE  | Micheal Clemons     |
+| Loss          | K     | Nick Folk           |
+| Loss          | LB    | Quincy Williams     |
+| Loss          | OG    | John Simpson        |
 
 **Coaching Staff:**
 - HC: Aaron Glenn
@@ -1467,6 +1631,16 @@
 | Re-signing | P     | Braden Mann      |
 | Re-signing | TE    | Grant Calcaterra |
 | Extension  | DT    | Jordan Davis     |
+| Loss       | EDGE  | Azeez Ojulari    |
+| Loss       | EDGE  | Jaelan Phillips  |
+| Loss       | EDGE  | Josh Uche        |
+| Loss       | LB    | Nakobe Dean      |
+| Loss       | OG    | Matt Pryor       |
+| Loss       | OT    | Brett Toth       |
+| Loss       | QB    | Sam Howell       |
+| Loss       | S     | Reed Blankenship |
+| Loss       | TE    | Kylen Granson    |
+| Loss       | WR    | Jahan Dotson     |
 
 **Coaching Staff:**
 - HC: Nick Sirianni
@@ -1509,18 +1683,27 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type       | Pos   | Player            |
-|:-----------|:------|:------------------|
-| Signing    | CB    | Jamel Dean        |
-| Signing    | OT    | Jack Driscoll     |
-| Signing    | RB    | Rico Dowdle       |
-| Signing    | S     | Darnell Savage    |
-| Signing    | S     | Jaquan Brisker    |
-| Re-signing | CB    | Asante Samuel Jr. |
-| Re-signing | DL    | Esezi Otomewo     |
-| Re-signing | LB    | Cole Holcomb      |
-| Extension  | DL    | Cameron Heyward   |
-| Trade in   | WR    | Michael Pittman   |
+| Type       | Pos   | Player               |
+|:-----------|:------|:---------------------|
+| Signing    | CB    | Jamel Dean           |
+| Signing    | DL    | Sebastian Joseph-Day |
+| Signing    | OT    | Jack Driscoll        |
+| Signing    | RB    | Rico Dowdle          |
+| Signing    | S     | Darnell Savage       |
+| Signing    | S     | Jaquan Brisker       |
+| Re-signing | CB    | Asante Samuel Jr.    |
+| Re-signing | DL    | Esezi Otomewo        |
+| Re-signing | LB    | Cole Holcomb         |
+| Extension  | DL    | Cameron Heyward      |
+| Trade in   | WR    | Michael Pittman      |
+| Retired    | WR    | Adam Thielen         |
+| Loss       | CB    | James Pierre         |
+| Loss       | OG    | Isaac Seumalo        |
+| Loss       | P     | Corliss Waitman      |
+| Loss       | RB    | Kenneth Gainwell     |
+| Loss       | S     | Miles Killebrew      |
+| Loss       | TE    | Connor Heyward       |
+| Loss       | WR    | Calvin Austin III    |
 
 **Coaching Staff:**
 - HC: Mike McCarthy 🆕
@@ -1590,6 +1773,13 @@
 | Re-signing | LB    | Luke Gifford    |
 | Re-signing | LS    | Jon Weeks       |
 | Trade in   | DT    | Osa Odighizuwa  |
+| Retired    | EDGE  | Bryce Huff      |
+| Loss       | C     | Matt Hennessy   |
+| Loss       | DL    | Jordan Elliott  |
+| Loss       | DL    | Kalia Davis     |
+| Loss       | S     | Jason Pinnock   |
+| Loss       | WR    | Kendrick Bourne |
+| Loss       | WR    | Skyy Moore      |
 
 **Coaching Staff:**
 - HC: Kyle Shanahan
@@ -1635,13 +1825,17 @@
 
 **Offseason Moves (NFL.com):**
 
-| Type       | Pos   | Player         |
-|:-----------|:------|:---------------|
-| Signing    | RB    | Emanuel Wilson |
-| Signing    | S     | Rodney Thomas  |
-| Re-signing | CB    | Joshua Jobe    |
-| Re-signing | OT    | Josh Jones     |
-| Re-signing | WR    | Rashid Shaheed |
+| Type       | Pos   | Player             |
+|:-----------|:------|:-------------------|
+| Signing    | RB    | Emanuel Wilson     |
+| Signing    | S     | Rodney Thomas      |
+| Re-signing | CB    | Joshua Jobe        |
+| Re-signing | OT    | Josh Jones         |
+| Re-signing | WR    | Rashid Shaheed     |
+| Loss       | CB    | Tariq Woolen       |
+| Loss       | EDGE  | Boye Mafe          |
+| Loss       | RB    | Kenneth Walker III |
+| Loss       | S     | Coby Bryant        |
 
 **Coaching Staff:**
 - HC: Mike Macdonald
@@ -1684,6 +1878,12 @@
 | Signing    | S     | Miles Killebrew    |
 | Signing    | TE    | Ko Kieft           |
 | Re-signing | TE    | Cade Otton         |
+| Loss       | CB    | Jamel Dean         |
+| Loss       | DL    | Logan Hall         |
+| Loss       | OT    | Charlie Heck       |
+| Loss       | QB    | Teddy Bridgewater  |
+| Loss       | RB    | Rachaad White      |
+| Loss       | WR    | Mike Evans         |
 
 **Coaching Staff:**
 - HC: Todd Bowles
@@ -1749,6 +1949,10 @@
 | Re-signing | LS    | Morgan Cox          |
 | Trade in   | DL    | Solomon Thomas      |
 | Trade in   | EDGE  | Jermaine Johnson II |
+| Trade out  | DL    | T'Vondre Sweat      |
+| Loss       | EDGE  | Arden Key           |
+| Loss       | TE    | Chigoziem Okonkwo   |
+| Loss       | WR    | Van Jefferson       |
 
 **Coaching Staff:**
 - HC: Robert Saleh 🆕
@@ -1824,6 +2028,10 @@
 | Re-signing | QB    | Marcus Mariota    |
 | Re-signing | WR    | Treylon Burks     |
 | Extension  | OT    | Laremy Tunsil     |
+| Loss       | C     | Tyler Biadasz     |
+| Loss       | CB    | Jonathan Jones    |
+| Loss       | EDGE  | Jacob Martin      |
+| Loss       | QB    | Josh Johnson      |
 
 **Coaching Staff:**
 - HC: Dan Quinn

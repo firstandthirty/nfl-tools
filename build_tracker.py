@@ -675,6 +675,81 @@ def pick_value(p: str, chart: dict[int, float]) -> float | None:
         return None
     return float(chart.get(n, 0.0))
 
+def extract_departures_team_items(text: str, teams_full: set[str]) -> dict[str, list[str]]:
+    import re
+    import unicodedata
+    from collections import defaultdict
+
+    def norm(s: str) -> str:
+        s = str(s or "")
+        s = html_lib.unescape(s)
+        s = unicodedata.normalize("NFKC", s)
+        s = s.replace("\u00a0", " ").replace("\ufeff", "")
+        s = re.sub(r"\s+", " ", s).strip()
+        return s
+
+    lines = [norm(x) for x in (text or "").splitlines()]
+    lines = [x for x in lines if x]
+
+    team_set = {norm(t) for t in teams_full}
+    out = defaultdict(list)
+
+    division_headers = {
+        "AFC EAST", "AFC NORTH", "AFC SOUTH", "AFC WEST",
+        "NFC EAST", "NFC NORTH", "NFC SOUTH", "NFC WEST",
+    }
+
+    pos_line_re = re.compile(
+        r"^(QB|RB|FB|WR|TE|OT|OG|C|OL|DT|DE|DL|EDGE|LB|ILB|OLB|CB|S|FS|SS|DB|K|P|LS|NT)\b",
+        re.IGNORECASE
+    )
+
+    current_team = None
+
+    for s in lines:
+        if not s:
+            continue
+
+        low = s.lower()
+
+        # skip obvious page junk
+        if any(x in low for x in [
+            "skip to main content",
+            "search by division",
+            "top 101 free agents",
+            "trade grades",
+            "rankings by position",
+            "original top 101",
+            "news home",
+            "podcasts",
+            "injuries",
+            "transactions",
+            "nfl writers",
+            "series",
+            "cookie settings",
+            "privacy policy",
+            "terms and conditions",
+            "nfl enterprises llc",
+        ]):
+            continue
+
+        if s in division_headers:
+            current_team = None
+            continue
+
+        if re.match(r"^(AFC|NFC)\s+(East|North|South|West):", s, flags=re.I):
+            current_team = None
+            continue
+
+        if s in team_set:
+            current_team = s
+            continue
+
+        if current_team and pos_line_re.match(s):
+            out[current_team].append(s)
+
+    return dict(out)
+
 # ---------------- CSV LOADERS ---------------- #
 
 def load_cap_csv(path: str) -> dict:
@@ -1059,8 +1134,17 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
     if (not contains_any_team(dep_visible)) or (len(dep_visible or "") < 5000):
         dep_visible = fetch_text_via_jina(DEPARTURES_URL, "departures") or dep_visible
 
+    print("\n[DEP VISIBLE SAMPLE START]")
+    print(repr(dep_visible[:3000]))
+    print("\n[DEP VISIBLE SAMPLE END]")
+    print(repr(dep_visible[-1500:]))
+    print(f"\n[DEP VISIBLE LEN] {len(dep_visible or '')}")
+    print(f"[DEP CONTAINS 'Buffalo Bills'] {'Buffalo Bills' in (dep_visible or '')}")
+    print(f"[DEP CONTAINS 'Miami Dolphins'] {'Miami Dolphins' in (dep_visible or '')}")
+    print(f"[DEP CONTAINS 'New York Jets'] {'New York Jets' in (dep_visible or '')}")
+
     add_bullets = extract_team_items_from_text(add_visible, teams_full)
-    dep_bullets = extract_team_items_from_text(dep_visible, teams_full)
+    dep_bullets = extract_departures_team_items(dep_visible, teams_full)
 
     # ---------------- parse ----------------
     out: dict[str, pd.DataFrame] = {}
@@ -1170,21 +1254,18 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
         # ---- DEPARTURES (token parse) ----
         dep_team_text = " ".join(dep_lines)
 
-        for token in re.split(r"\s*\*\s*", dep_team_text):
-            t = normalize_line(token)
+        for raw in dep_lines:
+            t = normalize_line(raw)
             if not t:
                 continue
 
-            t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)   # markdown links -> text
+            t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)
             t = t.replace("**", "")
             t = re.sub(r'^\*\s*', '', t).strip()
             t = normalize_line(t)
 
             if is_junk_blob(t) or "###" in t or "news" in t.lower():
                 continue
-
-            # if token still contains glued "* ..." after the note, chop it
-            t = re.sub(r"\s*\*\s+.*$", "", t).strip()
 
             mdep = re.search(
                 r"""^(?P<pos>QB|RB|FB|WR|TE|OT|OG|C|OL|DT|DE|DL|EDGE|LB|ILB|OLB|CB|S|FS|SS|DB|K|P|LS|NT)\b
@@ -1193,9 +1274,9 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
                     \s*
                     (?:
                         \((?P<note_paren>[^)]+)\) |
-                        [:—]\s*(?P<note_sep>.+) |
-                        (?P<note_bare>(?:signed|traded|released|waived|cut|retired)\b.+)
-                    )
+                        [:—-]\s*(?P<note_sep>.+) |
+                        (?P<note_bare>(?:signed|traded|released|waived|cut|retired|retiring)\b.+)
+                    )?
                     $""",
                 t,
                 flags=re.IGNORECASE | re.VERBOSE
@@ -1214,9 +1295,14 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
                 mdep.group("note_sep") or
                 mdep.group("note_bare") or
                 ""
-            ).lower()
+            )
 
-            if not any(k in note for k in note_keywords) and not looks_like_team_note(note):
+            note_low = note.lower()
+
+            # only keep actual departures, not plain FAs
+            if not note:
+                continue
+            if not any(k in note_low for k in note_keywords) and not looks_like_team_note(note_low):
                 continue
 
             details = clean_details(f"({note})")
@@ -1232,7 +1318,6 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
                 "Player": player,
                 "Details": details,
             })
-
         df = pd.DataFrame(rows, columns=["Type", "Pos", "Player", "Details"])
 
         if not df.empty:
