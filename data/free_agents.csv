@@ -1,4 +1,4 @@
-Player (413),Pos,Age,YOE,Prev Team,Prev AAV,Type,Market ValueAAV
+Player (405),Pos,Age,YOE,Prev Team,Prev AAV,Type,Market ValueAAV
 ,,,,,,,
 Kirk Cousins,QB,37.5,14,ATL,"$45,000,000",UFA,"$10,717,405"
 Tyreek Hill,WR,32,10,MIA,"$30,000,000",UFA,"$15,072,087"
@@ -8,10 +8,9 @@ Taylor Decker,LT,32.5,10,DET,"$20,000,000",UFA,"$21,326,582"
 Marshon Lattimore,CB,29.8,8,WAS,"$19,520,600",UFA,"$8,474,382"
 Trevon Diggs,CB,28.4,5,GB,"$19,400,000",UFA,"$7,536,772"
 L'Jarius Sneed,CB,29.1,5,TEN,"$19,100,000",UFA,
-Christian Kirk,WR,29.2,8,HOU,"$18,000,000",UFA,"$5,369,564"
 Deebo Samuel,WR,30.2,7,WAS,"$17,545,529",UFA,"$15,774,062"
-Jonah Williams,RT,28.2,7,ARI,"$15,000,000",UFA,"$10,335,676"
-Jack Conklin,RT,31.5,10,CLE,"$15,000,000",UFA,
+Jonah Williams,RT,28.3,7,ARI,"$15,000,000",UFA,"$10,335,676"
+Jack Conklin,RT,31.6,10,CLE,"$15,000,000",UFA,
 Joel Bitonio,G,34.4,12,CLE,"$15,000,000",UFA,"$12,905,800"
 Kyle Dugger,S,29.9,6,PIT,"$14,500,000",UFA,"$5,948,334"
 Wyatt Teller,G,31.2,7,CLE,"$14,200,000",UFA,"$10,170,762"
@@ -47,7 +46,7 @@ Donovan Wilson,S,29,8,DAL,"$7,000,000",UFA,"$6,942,556"
 Marquise Brown,WR,28.8,7,KC,"$7,000,000",UFA,"$5,521,415"
 Larry Ogunjobi,DL,31.8,9,BUF,"$6,696,735",UFA,"$5,032,625"
 Graham Glasgow,C,33.5,10,DET,"$6,666,667",UFA,"$5,883,787"
-Matt Milano,LB,30.9,9,BUF,"$6,306,500",UFA,"$4,598,821"
+Matt Milano,LB,31,9,BUF,"$6,306,500",UFA,"$4,598,821"
 D.J. Wonnum,ED,28.3,6,CAR,"$6,250,000",UFA,"$5,694,000"
 Zach Ertz,TE,35.3,13,WAS,"$6,250,000",UFA,"$2,231,951"
 Von Miller,ED,36.9,15,WAS,"$6,100,000",UFA,"$5,842,864"
@@ -78,7 +77,6 @@ Ryan Bates,C,29.1,7,CHI,"$4,250,000",UFA,"$1,227,766"
 Austin Ekeler,RB,30.8,9,WAS,"$4,215,000",UFA,"$2,871,871"
 Derek Barnett,ED,29.7,9,HOU,"$4,000,000",UFA,"$4,405,636"
 Anfernee Jennings,ED,28.8,6,NE,"$4,000,000",UFA,"$6,394,370"
-Andrew Billings,DL,31,10,CHI,"$4,000,000",UFA,"$2,511,816"
 Rakeem Nunez-Roches,DL,32.7,11,NYG,"$4,000,000",UFA,"$4,739,923"
 Kelvin Beachum,LT,36.8,14,ARI,"$4,000,000",UFA,"$1,948,556"
 Xavier Woods,S,30.6,9,TEN,"$4,000,000",UFA,"$4,894,991"
@@ -144,7 +142,7 @@ Justin Skule,LT,29.2,6,MIN,"$2,000,000",UFA,"$2,766,143"
 Damar Hamlin,S,27.9,5,BUF,"$2,000,000",UFA,"$1,777,484"
 Darren Waller,TE,33.5,8,MIA,"$2,000,000",UFA,"$3,216,168"
 Josh Paschal,ED,26.2,3,DET,"$1,933,913",UFA,"$1,674,440"
-Nazeeh Johnson,CB,27.6,4,KC,"$1,900,000",UFA,"$1,189,055"
+Nazeeh Johnson,CB,27.7,4,KC,"$1,900,000",UFA,"$1,189,055"
 Kurt Hinish,DL,26.8,3,HOU,"$1,800,000",UFA,"$1,207,829"
 Dare Ogunbowale,RB,31.8,7,HOU,"$1,800,000",UFA,"$1,116,233"
 Braxton Berrios,WR,30.4,8,HOU,"$1,800,000",UFA,"$1,094,614"
@@ -155,11 +153,9 @@ Sterling Shepard,WR,33.1,10,TB,"$1,750,000",UFA,"$3,313,695"
 Danny Pinter,C,29.7,6,IND,"$1,667,500",UFA,"$2,399,007"
 Isaiahh Loudermilk,DL,28.4,5,PIT,"$1,627,500",UFA,"$1,197,147"
 Skyy Moore,WR,25.5,4,SF,"$1,612,625",UFA,"$1,787,629"
-Sam Martin,P,36,13,CAR,"$1,600,000",UFA,
 Kris Boyd,CB,29.5,7,NYJ,"$1,600,000",UFA,"$1,157,147"
 Raheem Mostert,RB,33.9,10,LV,"$1,600,000",UFA,"$1,290,219"
 Rasul Douglas,CB,31.5,9,MIA,"$1,572,500",UFA,"$4,018,154"
-Charlie Heck,RT,29.2,6,TB,"$1,570,000",UFA,"$1,737,437"
 Ian Thomas,TE,29.8,8,LV,"$1,524,500",UFA,"$1,337,443"
 Dawuane Smoot,ED,31,9,JAX,"$1,500,000",UFA,"$1,469,138"
 Daniel Thomas,S,27.7,6,DET,"$1,500,000",UFA,"$2,584,249"
@@ -203,7 +199,6 @@ David Quessenberry,RT,35.5,8,LAR,"$1,330,000",UFA,
 Nick McCloud,CB,27.7,5,CHI,"$1,320,000",UFA,"$1,638,971"
 Blake Hance,G,30.2,5,TEN,"$1,320,000",UFA,"$1,435,940"
 DeAngelo Malone,LB,26.7,4,ATL,"$1,307,396",UFA,"$1,362,156"
-Jack Gibbens,LB,27.2,3,NE,"$1,300,000",UFA,
 Joey Slye,K,29.9,7,TEN,"$1,295,000",UFA,"$5,068,563"
 Dylan Parham,G,26.5,4,LV,"$1,282,857",UFA,"$10,063,467"
 Ugo Amadi,S,28.8,7,NO,"$1,280,000",UFA,
@@ -230,7 +225,7 @@ George Odum,S,32.3,8,IND,"$1,255,000",UFA,
 Ronnie Harrison,S,28.8,8,ATL,"$1,255,000",UFA,"$1,479,550"
 Jordan Poyer,S,34.8,13,BUF,"$1,255,000",UFA,"$1,284,130"
 Jabrill Peppers,S,30.4,9,PIT,"$1,255,000",UFA,"$1,387,831"
-Jamal Adams,S,30.3,8,LV,"$1,255,000",UFA,"$1,163,907"
+Jamal Adams,S,30.4,8,LV,"$1,255,000",UFA,"$1,163,907"
 Deon Bush,S,32.6,9,KC,"$1,255,000",UFA,
 Jalen Mills,CB,31.9,10,DET,"$1,255,000",UFA,"$1,297,105"
 Antonio Hamilton,CB,33.1,10,WAS,"$1,255,000",UFA,
@@ -239,7 +234,7 @@ Arthur Maulet,CB,32.7,9,DET,"$1,255,000",UFA,
 Michael Davis,CB,31.2,9,NO,"$1,255,000",UFA,
 C.J. Goodwin,CB,36.1,10,DAL,"$1,255,000",UFA,
 Ahkello Witherspoon,CB,30.9,9,LAR,"$1,255,000",UFA,"$1,403,453"
-Preston Smith,LB,33.2,11,WAS,"$1,255,000",UFA,"$2,200,887"
+Preston Smith,LB,33.3,11,WAS,"$1,255,000",UFA,"$2,200,887"
 Anthony Walker Jr.,LB,30.6,8,TB,"$1,255,000",UFA,"$2,566,416"
 Neville Hewitt,LB,32.9,11,NYG,"$1,255,000",UFA,"$970,249"
 Shaq Thompson,LB,31.8,11,BUF,"$1,255,000",UFA,"$2,396,249"
@@ -257,7 +252,6 @@ Pharaoh Brown,TE,31.8,8,ARI,"$1,255,000",UFA,"$1,011,343"
 Marcedes Lewis,TE,41.8,19,DEN,"$1,255,000",UFA,"$1,801,738"
 Robert Tonyan Jr.,TE,31.8,7,KC,"$1,255,000",UFA,"$1,500,008"
 Germain Ifedi,G,31.8,10,MIA,"$1,255,000",UFA,
-Dan Feeney,C,31.8,9,TB,"$1,255,000",UFA,"$1,089,594"
 Cameron Sample,ED,26.4,5,CIN,"$1,225,000",UFA,"$1,962,479"
 Jaylon Jones,S,28.4,4,CHI,"$1,200,000",UFA,
 Darnay Holmes,CB,27.7,6,LV,"$1,195,000",UFA,"$2,456,234"
@@ -285,7 +279,7 @@ Mykal Walker,LB,28.5,6,NYJ,"$1,170,000",UFA,"$2,234,199"
 Caleb Johnson,LB,27.6,5,MIA,"$1,170,000",UFA,
 Krys Barnes,LB,27.9,6,CAR,"$1,170,000",UFA,"$2,236,427"
 Troy Reeder,LB,31.5,7,LAR,"$1,170,000",UFA,"$1,051,000"
-Devin White,LB,28,7,LV,"$1,170,000",UFA,"$2,812,086"
+Devin White,LB,28.1,7,LV,"$1,170,000",UFA,"$2,812,086"
 Josh Woods,LB,29.7,6,ATL,"$1,170,000",UFA,
 John Wolford,QB,30.4,5,MIN,"$1,170,000",UFA,
 Easton Stick,QB,30.5,7,ATL,"$1,170,000",UFA,
@@ -323,7 +317,7 @@ Sam Roberts,DL,27.9,3,ATL,"$1,100,000",UFA,
 Thayer Munford Jr.,RT,26.4,4,NE,"$1,100,000",UFA,"$1,274,162"
 Lucas Niang,RT,27.5,4,WAS,"$1,100,000",UFA,
 Jamarco Jones,RT,29.8,6,DET,"$1,100,000",UFA,
-D’Anthony Bell,S,29.3,3,CAR,"$1,100,000",UFA,"$1,928,056"
+D’Anthony Bell,S,29.4,3,CAR,"$1,100,000",UFA,"$1,928,056"
 Kemon Hall,CB,28.8,4,TEN,"$1,100,000",UFA,
 Jack Jones,CB,28.2,4,MIA,"$1,100,000",UFA,"$5,080,833"
 Darren Hall,CB,25.8,4,ARI,"$1,100,000",UFA,"$1,141,126"
@@ -361,7 +355,7 @@ Zonovan Knight,RB,24.9,3,ARI,"$1,030,000",UFA,
 Tyler Goodson,RB,25.3,3,IND,"$1,030,000",UFA,
 Cody White,WR,27.2,3,SEA,"$1,030,000",UFA,
 Alex Bachman,WR,29.8,6,LV,"$1,030,000",UFA,"$1,245,813"
-DJ Montgomery,WR,29.2,4,IND,"$1,030,000",UFA,
+DJ Montgomery,WR,29.3,4,IND,"$1,030,000",UFA,
 James Mitchell,TE,26.6,3,CAR,"$1,030,000",UFA,
 Blake Whiteheart,TE,25.9,3,CLE,"$1,030,000",UFA,
 Travis Vokolek,TE,27.8,2,ARI,"$1,030,000",UFA,
@@ -380,7 +374,7 @@ Kyu Blu Kelly,CB,24.8,2,LV,"$972,500",UFA,
 P.J. Mustipher,DL,26.3,1,ARI,"$960,000",UFA,
 Luke Tenuta,LT,26.5,3,IND,"$960,000",UFA,
 Matt Araiza,P,25.8,2,KC,"$960,000",ERFA,
-Devon Key,S,27.8,2,DEN,"$960,000",ERFA,
+Devon Key,S,27.9,2,DEN,"$960,000",ERFA,
 Anthony Kendall,CB,26.2,2,CLE,"$960,000",UFA,
 Eric Scott Jr.,CB,26.6,2,KC,"$960,000",UFA,
 Deneric Prince,RB,25.9,1,NE,"$960,000",UFA,
@@ -394,7 +388,6 @@ Cam Jones,LB,26.3,3,NYJ,"$903,333",UFA,
 Malik Heath,WR,26,3,ATL,"$901,333",UFA,
 Markees Watts,ED,26.2,3,TB,"$898,333",UFA,
 Anfernee Orji,ED,25.4,2,TEN,"$877,500",UFA,
-Ryan Miller,WR,26,2,NYG,"$877,500",ERFA,
 Isaiah Iton,DL,24.5,1,NE,"$840,000",UFA,
 Jacob Slade,DL,26,1,PIT,"$840,000",UFA,
 Joshua Cephus,WR,24.9,1,JAX,"$840,000",UFA,
@@ -409,7 +402,6 @@ Nick Hampton,ED,25.9,3,LAR,"$234,000",UFA,
 Tyler McLellan,LT,26.6,,TB,"$234,000",ERFA,
 Jeff Driskel,QB,32.8,8,WAS,$0,UFA,
 Chase Edmonds,RB,29.9,7,WAS,$0,UFA,
-Jack Westover,TE,26.8,1,NE,$0,ERFA,
 Tyrone Wheatley Jr.,RT,29.1,2,ATL,,UFA,
-Dicaprio Bootle,CB,28.4,2,DET,,UFA,
+Dicaprio Bootle,CB,28.5,2,DET,,UFA,
 Jalen Reeves-Maybin,LB,31.1,8,CHI,,UFA,
