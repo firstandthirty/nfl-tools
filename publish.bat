@@ -7,7 +7,7 @@ echo ============================
 
 echo.
 echo Activating virtual environment...
-call C:\Users\brady\OneDrive\Desktop\nfl_tracker\offseason_env\Scripts\activate
+call C:\Users\brady\OneDrive\Desktop\nfl-tools\offseason_env\Scripts\activate
 
 echo.
 echo Python in use:
