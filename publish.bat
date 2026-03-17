@@ -7,8 +7,10 @@ echo ============================
 
 echo.
 echo Activating virtual environment...
-call offseason_env\Scripts\activate
+call C:\Users\brady\OneDrive\Desktop\nfl_tracker\offseason_env\Scripts\activate
 
+echo.
+echo Python in use:
 python --version
 where python
 
@@ -23,31 +25,23 @@ python build_tracker.py
 if errorlevel 1 goto :error
 
 echo.
-echo Staging changes...
+echo Staging files...
 git add offseason/index.html
+git add publish.bat
+git add -u
 if errorlevel 1 goto :error
 
 echo.
 echo Committing changes...
-git commit -m "Update offseason dashboard"
-if errorlevel 1 goto :pushanyway
+git diff --cached --quiet
+if %errorlevel%==0 goto :nocommit
 
-echo.
-echo Pushing to GitHub...
-git push
+git commit -m "Update offseason dashboard"
 if errorlevel 1 goto :error
 
+:nocommit
 echo.
-echo ============================
-echo DONE! Site updating now.
-echo ============================
-pause
-exit /b 0
-
-:pushanyway
-echo.
-echo Nothing new to commit, or commit step returned a non-zero code.
-echo Attempting push anyway...
+echo Pushing to GitHub...
 git push
 if errorlevel 1 goto :error
 

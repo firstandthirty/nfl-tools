@@ -2236,9 +2236,6 @@ def main():
             draft_pct=draft_pct.get(t),
         ))
 
-    with open("nfl_offseason_tracker.md", "w", encoding="utf-8") as f:
-        f.write("".join(md))
-
     # HTML output
     team_html = []
     for t in teams:
@@ -2263,8 +2260,7 @@ def main():
     with open("offseason/index.html", "w", encoding="utf-8") as f:
         f.write(html_page)
 
-    print("Wrote nfl_offseason_tracker.md")
-    print("Wrote nfl_offseason_tracker.html")
+    print("Wrote offseason/index.html")
 
 if __name__ == "__main__":
     main()
