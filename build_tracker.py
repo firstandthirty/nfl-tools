@@ -150,14 +150,6 @@ HEADERS2 = {
 
 def fetch_html(url: str, debug_name: str) -> str:
     r = requests.get(url, headers=HEADERS2, timeout=30, allow_redirects=True)
-    print(f"[fetch] {debug_name}: status={r.status_code} final_url={r.url} bytes={len(r.content)}")
-
-    # Save whatever we got so you can open it and see what the server returned
-    try:
-        with open(f"debug_{debug_name}.html", "w", encoding="utf-8") as f:
-            f.write(r.text or "")
-    except Exception as e:
-        print(f"[fetch] could not write debug_{debug_name}.html: {e}")
 
     # If blocked or empty, fail loudly
     if r.status_code != 200:
@@ -1133,15 +1125,6 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
 
     if (not contains_any_team(dep_visible)) or (len(dep_visible or "") < 5000):
         dep_visible = fetch_text_via_jina(DEPARTURES_URL, "departures") or dep_visible
-
-    print("\n[DEP VISIBLE SAMPLE START]")
-    print(repr(dep_visible[:3000]))
-    print("\n[DEP VISIBLE SAMPLE END]")
-    print(repr(dep_visible[-1500:]))
-    print(f"\n[DEP VISIBLE LEN] {len(dep_visible or '')}")
-    print(f"[DEP CONTAINS 'Buffalo Bills'] {'Buffalo Bills' in (dep_visible or '')}")
-    print(f"[DEP CONTAINS 'Miami Dolphins'] {'Miami Dolphins' in (dep_visible or '')}")
-    print(f"[DEP CONTAINS 'New York Jets'] {'New York Jets' in (dep_visible or '')}")
 
     add_bullets = extract_team_items_from_text(add_visible, teams_full)
     dep_bullets = extract_departures_team_items(dep_visible, teams_full)
