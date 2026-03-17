@@ -9,6 +9,7 @@
 
 | Type       | Pos   | Player           |
 |:-----------|:------|:-----------------|
+| Signing    | DL    | Andrew Billings  |
 | Signing    | DL    | Jonah Williams   |
 | Signing    | DL    | Roy Lopez        |
 | Signing    | LS    | Casey Kreiter    |
@@ -219,6 +220,7 @@
 | Signing    | QB    | Kyle Allen               |
 | Signing    | QB    | Shane Buechele           |
 | Signing    | S     | Chauncey Gardner-Johnson |
+| Signing    | S     | Geno Stone               |
 | Signing    | TE    | Dawson Knox              |
 | Re-signing | C     | Connor McGovern          |
 | Re-signing | P     | Mitch Wishnowsky         |
@@ -285,6 +287,7 @@
 | Signing    | LB    | Devin Lloyd      |
 | Signing    | OT    | Rasheed Walker   |
 | Signing    | OT    | Stone Forsythe   |
+| Signing    | P     | Sam Martin       |
 | Signing    | QB    | Kenny Pickett    |
 | Signing    | WR    | John Metchie III |
 | Re-signing | CB    | Akayleb Evans    |
@@ -350,6 +353,7 @@
 | Signing    | OL    | Jedrick Wills      |
 | Signing    | S     | Coby Bryant        |
 | Signing    | WR    | Kalif Raymond      |
+| Re-signing | CB    | Jaylon Jones       |
 | Re-signing | DE    | Daniel Hardy       |
 | Re-signing | LB    | D'Marco Jackson    |
 | Re-signing | OG    | Jordan McFadden    |
@@ -360,6 +364,7 @@
 | Trade out  | WR    | DJ Moore           |
 | Retired    | C     | Drew Dalman        |
 | Loss       | CB    | Nahshon Wright     |
+| Loss       | DL    | Andrew Billings    |
 | Loss       | EDGE  | Dominique Robinson |
 | Loss       | LB    | Chris Williams     |
 | Loss       | LB    | Tremaine Edmunds   |
@@ -422,6 +427,7 @@
 | Loss       | EDGE  | Trey Hendrickson  |
 | Loss       | OG    | Cordell Volson    |
 | Loss       | QB    | Jake Browning     |
+| Loss       | S     | Geno Stone        |
 | Loss       | TE    | Noah Fant         |
 
 **Coaching Staff:**
@@ -545,6 +551,7 @@
 | Trade in      | EDGE  | Rashan Gary      |
 | Trade out     | DL    | Solomon Thomas   |
 | Trade out     | DT    | Osa Odighizuwa   |
+| Loss          | WR    | Jalen Tolbert    |
 
 **Coaching Staff:**
 - HC: Brian Schottenheimer
@@ -646,18 +653,21 @@
 | Type       | Pos   | Player            |
 |:-----------|:------|:------------------|
 | Signing    | C     | Cade Mays         |
+| Signing    | CB    | Roger McCreary    |
 | Signing    | OT    | Larry Borom       |
 | Signing    | QB    | Teddy Bridgewater |
 | Signing    | RB    | Isiah Pacheco     |
 | Signing    | S     | Christian Izien   |
 | Signing    | TE    | Tyler Conklin     |
 | Re-signing | CB    | Rock Ya-Sin       |
+| Re-signing | LB    | Malcolm Rodriguez |
 | Trade in   | OL    | Juice Scruggs     |
 | Trade out  | RB    | David Montgomery  |
 | Retired    | OT    | Dan Skipper       |
 | Loss       | CB    | Amik Robertson    |
 | Loss       | DL    | Roy Lopez         |
 | Loss       | LB    | Alex Anzalone     |
+| Loss       | LB    | Grant Stuard      |
 | Loss       | QB    | Kyle Allen        |
 | Loss       | WR    | Kalif Raymond     |
 
@@ -788,6 +798,7 @@
 | Loss       | DL    | Tim Settle         |
 | Loss       | LB    | Christian Harris   |
 | Loss       | P     | Tommy Townsend     |
+| Loss       | WR    | Christian Kirk     |
 
 **Coaching Staff:**
 - HC: DeMeco Ryans
@@ -841,6 +852,7 @@
 | Signing        | EDGE  | Micheal Clemons   |
 | Signing        | S     | Jonathan Owens    |
 | Re-signing     | K     | Blake Grupe       |
+| Re-signing     | TE    | Mo Alie-Cox       |
 | Re-signing     | WR    | Alec Pierce       |
 | Re-signing     | WR    | Laquon Treadwell  |
 | Transition tag | QB    | Daniel Jones      |
@@ -1164,6 +1176,7 @@
 | Type       | Pos   | Player             |
 |:-----------|:------|:-------------------|
 | Signing    | CB    | Jaylen Watson      |
+| Signing    | LB    | Grant Stuard       |
 | Signing    | LS    | Joe Cardona        |
 | Re-signing | OT    | David Quessenberry |
 | Re-signing | S     | Kamren Curl        |
@@ -1172,6 +1185,7 @@
 | Retired    | CB    | Darious Williams   |
 | Retired    | OT    | Rob Havenstein     |
 | Loss       | CB    | Cobie Durant       |
+| Loss       | CB    | Roger McCreary     |
 | Loss       | WR    | Tutu Atwell        |
 
 **Coaching Staff:**
@@ -1227,6 +1241,7 @@
 | Signing    | QB    | Malik Willis       |
 | Signing    | S     | Zayne Anderson     |
 | Signing    | TE    | Ben Sims           |
+| Signing    | WR    | Jalen Tolbert      |
 | Signing    | WR    | Tutu Atwell        |
 | Re-signing | DT    | Matthew Butler     |
 | Re-signing | K     | Riley Patterson    |
@@ -1237,6 +1252,7 @@
 | Loss       | EDGE  | Bradley Chubb      |
 | Loss       | FB    | Alec Ingold        |
 | Loss       | K     | Jason Sanders      |
+| Loss       | LB    | K.J. Britt         |
 | Loss       | LS    | Joe Cardona        |
 | Loss       | OG    | Cole Strange       |
 | Loss       | OT    | Larry Borom        |
@@ -1360,6 +1376,7 @@
 |:----------|:------|:-------------------|
 | Signing   | DL    | Dre'Mont Jones     |
 | Signing   | FB    | Reggie Gilliam     |
+| Signing   | LB    | K.J. Britt         |
 | Signing   | OL    | Alijah Vera-Tucker |
 | Signing   | S     | Kevin Byard        |
 | Signing   | TE    | Julian Hill        |
@@ -1574,6 +1591,7 @@
 | Loss          | K     | Nick Folk           |
 | Loss          | LB    | Quincy Williams     |
 | Loss          | OG    | John Simpson        |
+| Loss          | S     | Tony Adams          |
 
 **Coaching Staff:**
 - HC: Aaron Glenn
@@ -1768,6 +1786,7 @@
 | Signing    | OT    | Brett Toth      |
 | Signing    | OT    | Vederian Lowe   |
 | Signing    | P     | Corliss Waitman |
+| Signing    | WR    | Christian Kirk  |
 | Signing    | WR    | Mike Evans      |
 | Re-signing | K     | Eddy Pineiro    |
 | Re-signing | LB    | Luke Gifford    |
@@ -1877,6 +1896,7 @@
 | Signing    | RB    | Kenneth Gainwell   |
 | Signing    | S     | Miles Killebrew    |
 | Signing    | TE    | Ko Kieft           |
+| Re-signing | OL    | Dan Feeney         |
 | Re-signing | TE    | Cade Otton         |
 | Loss       | CB    | Jamel Dean         |
 | Loss       | DL    | Logan Hall         |
@@ -1942,6 +1962,7 @@
 | Signing    | OG    | Cordell Volson      |
 | Signing    | P     | Tommy Townsend      |
 | Signing    | QB    | Mitchell Trubisky   |
+| Signing    | S     | Tony Adams          |
 | Signing    | TE    | Daniel Bellinger    |
 | Signing    | TE    | Kylen Granson       |
 | Signing    | WR    | Wan'Dale Robinson   |
