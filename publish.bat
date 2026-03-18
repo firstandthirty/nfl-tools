@@ -10,11 +10,6 @@ echo Activating virtual environment...
 call C:\Users\brady\OneDrive\Desktop\nfl-tools\offseason_env\Scripts\activate
 
 echo.
-echo Python in use:
-python --version
-where python
-
-echo.
 echo Pulling latest changes...
 git pull --rebase origin main
 if errorlevel 1 goto :error
