@@ -271,20 +271,25 @@ def inject_newlines_around_teams(text: str, teams_full: set[str]) -> str:
     """
     Jina sometimes returns an article as 1 mega-line.
     This inserts line breaks around full team names so our line-based parser can work.
+    IMPORTANT: do NOT collapse existing newlines.
     """
     if not text:
         return ""
 
-    # Normalize common separators into newlines/bullets
-    t = clean_weird_unicode(text)
+    t = str(text)
+
+    # remove zero-width junk, but preserve newlines
+    t = re.sub(r"[\u200b\u200c\u200d\ufeff]", "", t)
+    t = t.replace("\r\n", "\n").replace("\r", "\n")
+
+    # normalize spaces/tabs only, not newlines
+    t = re.sub(r"[ \t]+", " ", t)
 
     # Turn common bullet chars into newlines
     t = t.replace("•", "\n• ").replace("·", "\n· ")
 
-    # If the text has almost no newlines, we definitely need this
+    # If the text has almost no newlines, inject them around team names
     if t.count("\n") < 10:
-        # Replace each team name with \nTEAM\n
-        # Sort by length so "New York Jets" matches before "Jets" (though you only use full names)
         teams_sorted = sorted(teams_full, key=len, reverse=True)
         pattern = r"(?<!\w)(" + "|".join(re.escape(x) for x in teams_sorted) + r")(?!\w)"
         t = re.sub(pattern, r"\n\1\n", t)
@@ -1151,7 +1156,12 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
         print("[parse] departures using articleBody text")
 
     add_bullets = extract_team_items_from_text(add_visible, teams_full)
-    dep_bullets = extract_departures_team_items(dep_visible, teams_full)
+
+    dep_prepped = inject_newlines_around_teams(dep_visible, teams_full)
+    print(f"[debug] dep_prepped sample lines: {dep_prepped.splitlines()[:30]}")
+    dep_bullets = extract_team_items_from_text(dep_prepped, teams_full)
+
+    print(f"[debug] raw departures sample lines: {dep_visible.splitlines()[:20]}")
 
     add_total = sum(len(v) for v in add_bullets.values())
     dep_total = sum(len(v) for v in dep_bullets.values())
@@ -1200,6 +1210,9 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
 
         add_lines = clean_and_merge_team_bullets(add_bullets.get(team, []))
         dep_lines = clean_and_merge_team_bullets(dep_bullets.get(team, []))
+
+        if team == "New England Patriots":
+            print(f"[debug] cleaned departures lines for {team}: {dep_lines[:10]}")
 
         # ---- ADDITIONS ----
         for raw in add_lines:
@@ -1268,9 +1281,7 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
                     "Details": details,
                 })
 
-        # ---- DEPARTURES (token parse) ----
-        dep_team_text = " ".join(dep_lines)
-
+        # ---- DEPARTURES ----
         for raw in dep_lines:
             t = normalize_line(raw)
             if not t:
@@ -1279,47 +1290,69 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
             t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)
             t = t.replace("**", "")
             t = re.sub(r'^\*\s*', '', t).strip()
-            t = normalize_line(t)
+            t = re.sub(r'\s+', ' ', t).strip()
+
+            if not t:
+                continue
 
             if is_junk_blob(t) or "###" in t or "news" in t.lower():
                 continue
 
-            mdep = re.search(
-                r"""^(?P<pos>QB|RB|FB|WR|TE|OT|OG|C|OL|DT|DE|DL|EDGE|LB|ILB|OLB|CB|S|FS|SS|DB|K|P|LS|NT)\b
-                    \s+
-                    (?P<player>.+?)
-                    \s*
-                    (?:
-                        \((?P<note_paren>[^)]+)\) |
-                        [:—-]\s*(?P<note_sep>.+) |
-                        (?P<note_bare>(?:signed|traded|released|waived|cut|retired|retiring)\b.+)
-                    )?
-                    $""",
+            # expected patterns:
+            # "WR DJ Moore (traded to Bills)"
+            # "C Drew Dalman: retired"
+            # "QB Someone - signed with X"
+            # "LB Somebody released"
+            mdep = re.match(
+                rf"^(?P<pos>{POS_PATTERN})\b\s+(?P<rest>.+)$",
                 t,
-                flags=re.IGNORECASE | re.VERBOSE
+                flags=re.IGNORECASE
             )
-
             if not mdep:
                 continue
 
-            pos = re.sub(r"[^A-Za-z]", "", normalize_line(mdep.group("pos"))).upper()
+            pos = re.sub(r"[^A-Za-z]", "", mdep.group("pos")).upper()
             if pos not in ALLOWED_POS:
                 continue
 
-            player = normalize_name(mdep.group("player"))
-            note = normalize_line(
-                mdep.group("note_paren") or
-                mdep.group("note_sep") or
-                mdep.group("note_bare") or
-                ""
-            )
+            rest = mdep.group("rest").strip()
 
+            note = ""
+            player = rest
+
+            # parenthetical note at end
+            m_paren = re.search(r"\(([^)]+)\)\s*$", rest)
+            if m_paren:
+                note = normalize_line(m_paren.group(1))
+                player = normalize_line(rest[:m_paren.start()])
+            else:
+                # separator note
+                m_sep = re.search(r"\s*(?::|—|-)\s*(.+)$", rest)
+                if m_sep:
+                    possible_note = normalize_line(m_sep.group(1))
+                    possible_player = normalize_line(rest[:m_sep.start()])
+
+                    if any(k in possible_note.lower() for k in note_keywords) or looks_like_team_note(possible_note):
+                        note = possible_note
+                        player = possible_player
+                else:
+                    # bare action note at end
+                    m_bare = re.search(
+                        r"\b(signed(?: with)?|traded(?: to)?|released|waived|cut|retired|retiring)\b.*$",
+                        rest,
+                        flags=re.IGNORECASE
+                    )
+                    if m_bare:
+                        note = normalize_line(m_bare.group(0))
+                        player = normalize_line(rest[:m_bare.start()])
+
+            player = normalize_name(player)
             note_low = note.lower()
 
-            # only keep actual departures, not plain FAs
+            # only keep real departures, not plain free-agent listings
             if not note:
                 continue
-            if not any(k in note_low for k in note_keywords) and not looks_like_team_note(note_low):
+            if not any(k in note_low for k in note_keywords) and not looks_like_team_note(note):
                 continue
 
             details = clean_details(f"({note})")
