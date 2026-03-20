@@ -42,6 +42,30 @@
     margin:0 auto;
   }
 
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:inherit;
+    min-width:0;
+  }
+
+  .brand-logo{
+    width:42px;
+    height:42px;
+    border-radius:10px;
+    display:block;
+    object-fit:contain;
+    flex:0 0 auto;
+    background: rgba(255,255,255,0.04);
+    border:1px solid var(--border);
+  }
+
+  .brand-text{
+    min-width:0;
+  }
+
   .title{ font-weight:800; letter-spacing:.3px; }
   .hint{ color:var(--muted); font-size:12px; }
 
@@ -373,6 +397,18 @@
 
     .card{ padding:14px; border-radius:16px; }
 
+    header{
+      position:static;
+      top:auto;
+      backdrop-filter:none;
+      background: transparent;
+      border-bottom:0;
+    }
+
+    .topbar{
+      padding:12px 0 14px;
+    }
+
     .team-head{ flex-direction:column; align-items:flex-start; }
     .meta{ justify-content:flex-start; }
     .team-name{ font-size:18px; }
@@ -402,10 +438,17 @@
 <body>
 <header>
   <div class="topbar">
-    <div>
-      <div class="title">NFL Offseason Dashboard</div>
-      <div class="hint">Last update: Mar 20, 12:42 PM</div>
-    </div>
+    <a class="brand" href="https://www.firstandthirty.com" target="_blank" rel="noopener noreferrer">
+      <img
+        class="brand-logo"
+        src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/69222/98371_714484.png"
+        alt="First and Thirty logo"
+      />
+      <div class="brand-text">
+        <div class="title">NFL Offseason Dashboard</div>
+        <div class="hint">Last update: Mar 20, 01:00 PM</div>
+      </div>
+    </a>
 
     <div class="search">
       <span class="hint">Search</span>

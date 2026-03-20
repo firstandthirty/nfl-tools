@@ -151,6 +151,8 @@ HEADERS2 = {
 def fetch_html(url: str, debug_name: str) -> str:
     r = requests.get(url, headers=HEADERS2, timeout=30, allow_redirects=True)
 
+    print(f"[fetch] {debug_name}: status={r.status_code} final_url={r.url} bytes={len(r.text or '')}")
+
     # If blocked or empty, fail loudly
     if r.status_code != 200:
         raise RuntimeError(f"{debug_name} fetch failed: HTTP {r.status_code} (saved debug_{debug_name}.html)")
@@ -174,9 +176,10 @@ def fetch_text_via_jina(url: str, label: str) -> str:
             r = requests.get(jina_url, headers=HEADERS2, timeout=t)
             r.raise_for_status()
             txt = r.text or ""
+            print(f"[fetch] {label} via jina: status={r.status_code} bytes={len(txt)} try={i}")
             return txt
         except requests.exceptions.RequestException as e:
-            print(f"[warn] {label} via jina failed (try {i}/{len(timeouts)}): {e}")
+            print(f"[warn] {label} via jina failed (try {i}/{len(timeouts)} timeout={t}s): {e}")
 
     print(f"[warn] {label} via jina failed completely; continuing without it.")
     return ""
@@ -1119,15 +1122,46 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
     add_visible = extract_nfl_article_text(add_text)
     dep_visible = extract_nfl_article_text(dep_text)
 
-    # Fallback to Jina if articleBody didn't include teams OR extraction returned tiny text
-    if (not contains_any_team(add_visible)) or (len(add_visible or "") < 5000):
-        add_visible = fetch_text_via_jina(ADDITIONS_URL, "additions") or add_visible
+    print(f"[parse] additions articleBody chars={len(add_visible or '')} contains_team={contains_any_team(add_visible)}")
+    print(f"[parse] departures articleBody chars={len(dep_visible or '')} contains_team={contains_any_team(dep_visible)}")
 
-    if (not contains_any_team(dep_visible)) or (len(dep_visible or "") < 5000):
-        dep_visible = fetch_text_via_jina(DEPARTURES_URL, "departures") or dep_visible
+    add_use_jina = (not contains_any_team(add_visible)) or (len(add_visible or "") < 5000)
+    dep_use_jina = (not contains_any_team(dep_visible)) or (len(dep_visible or "") < 5000)
+
+    if add_use_jina:
+        print("[parse] additions articleBody looked weak -> trying jina fallback")
+        jina_add = fetch_text_via_jina(ADDITIONS_URL, "additions")
+        if jina_add:
+            add_visible = jina_add
+            print(f"[parse] additions using jina text chars={len(add_visible)}")
+        else:
+            print("[parse] additions jina returned empty; keeping articleBody text")
+    else:
+        print("[parse] additions using articleBody text")
+
+    if dep_use_jina:
+        print("[parse] departures articleBody looked weak -> trying jina fallback")
+        jina_dep = fetch_text_via_jina(DEPARTURES_URL, "departures")
+        if jina_dep:
+            dep_visible = jina_dep
+            print(f"[parse] departures using jina text chars={len(dep_visible)}")
+        else:
+            print("[parse] departures jina returned empty; keeping articleBody text")
+    else:
+        print("[parse] departures using articleBody text")
 
     add_bullets = extract_team_items_from_text(add_visible, teams_full)
     dep_bullets = extract_departures_team_items(dep_visible, teams_full)
+
+    add_total = sum(len(v) for v in add_bullets.values())
+    dep_total = sum(len(v) for v in dep_bullets.values())
+
+    print(f"[parse] additions team bullets found={add_total}")
+    print(f"[parse] departures team bullets found={dep_total}")
+
+    sample_team = "New England Patriots"
+    print(f"[debug] sample additions for {sample_team}: {add_bullets.get(sample_team, [])[:3]}")
+    print(f"[debug] sample departures for {sample_team}: {dep_bullets.get(sample_team, [])[:3]}")
 
     # ---------------- parse ----------------
     out: dict[str, pd.DataFrame] = {}
@@ -1318,6 +1352,10 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
             }
             df["_o"] = df["Type"].map(order).fillna(99).astype(int)
             df = df.sort_values(["_o", "Pos", "Player"]).drop(columns=["_o"]).reset_index(drop=True)
+
+        dep_count = 0 if df.empty else int(df["Type"].isin(["Loss", "Trade out", "Retired"]).sum())
+        if dep_count:
+            print(f"[team] {team}: departures parsed={dep_count}")
 
         out[team] = df
 
@@ -1673,6 +1711,30 @@ def build_html_page(team_sections_html: str, last_updated: str) -> str:
     margin:0 auto;
   }
 
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:inherit;
+    min-width:0;
+  }
+
+  .brand-logo{
+    width:42px;
+    height:42px;
+    border-radius:10px;
+    display:block;
+    object-fit:contain;
+    flex:0 0 auto;
+    background: rgba(255,255,255,0.04);
+    border:1px solid var(--border);
+  }
+
+  .brand-text{
+    min-width:0;
+  }
+
   .title{ font-weight:800; letter-spacing:.3px; }
   .hint{ color:var(--muted); font-size:12px; }
 
@@ -2004,6 +2066,18 @@ def build_html_page(team_sections_html: str, last_updated: str) -> str:
 
     .card{ padding:14px; border-radius:16px; }
 
+    header{
+      position:static;
+      top:auto;
+      backdrop-filter:none;
+      background: transparent;
+      border-bottom:0;
+    }
+
+    .topbar{
+      padding:12px 0 14px;
+    }
+
     .team-head{ flex-direction:column; align-items:flex-start; }
     .meta{ justify-content:flex-start; }
     .team-name{ font-size:18px; }
@@ -2033,10 +2107,17 @@ def build_html_page(team_sections_html: str, last_updated: str) -> str:
 <body>
 <header>
   <div class="topbar">
-    <div>
-      <div class="title">NFL Offseason Dashboard</div>
-      <div class="hint">Last update: __LAST_UPDATED__</div>
-    </div>
+    <a class="brand" href="https://www.firstandthirty.com" target="_blank" rel="noopener noreferrer">
+      <img
+        class="brand-logo"
+        src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/69222/98371_714484.png"
+        alt="First and Thirty logo"
+      />
+      <div class="brand-text">
+        <div class="title">NFL Offseason Dashboard</div>
+        <div class="hint">Last update: __LAST_UPDATED__</div>
+      </div>
+    </a>
 
     <div class="search">
       <span class="hint">Search</span>

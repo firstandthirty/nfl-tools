@@ -1,0 +1,24 @@
+python build_tracker.py
+git add .
+git commit -m "Update offseason dashboard"
+git push
+
+git add offseason/index.html
+git commit -m "Update offseason dashboard"
+git push
+
+git pull --rebase origin main
+python build_tracker.py
+git add offseason/index.html
+git commit -m "Update offseason dashboard"
+git push
+
+If you want to understand what’s going on before pushing, use:
+
+git status
+git log --oneline --decorate --graph -5
+
+And to see whether GitHub has newer commits before you do anything:
+
+git fetch
+git status
