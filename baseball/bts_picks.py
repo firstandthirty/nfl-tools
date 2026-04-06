@@ -22,15 +22,26 @@ REGIONS = "us"
 BOOKMAKERS = "draftkings,fanduel,betmgm,caesars,bovada"
 ODDS_FORMAT = "american"
 
-from datetime import datetime
+import unicodedata
 from zoneinfo import ZoneInfo
+from datetime import datetime
 
-player_game_info = {}
 
-def to_et_display(commence_time_str):
+def to_et_display(commence_time_str: str) -> str:
     dt_utc = datetime.fromisoformat(commence_time_str.replace("Z", "+00:00"))
     dt_et = dt_utc.astimezone(ZoneInfo("America/New_York"))
-    return dt_et.strftime("%-I:%M %p ET")
+    return dt_et.strftime("%I:%M %p ET").lstrip("0")
+
+
+def normalize_player_name(name: str) -> str:
+    if not name:
+        return ""
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(ch for ch in name if not unicodedata.combining(ch))
+    name = name.lower().replace(".", "").replace("'", "").replace("-", " ")
+    name = " ".join(name.split())
+    return name
+
 
 def american_to_prob(odds: int) -> float:
     if odds > 0:
@@ -125,16 +136,6 @@ def get_mlb_games_for_date(game_date: str):
     # game_date: YYYY-MM-DD
     return statsapi.schedule(date=game_date)
 
-def normalize_team_name(name: str) -> str:
-    return (
-        name.lower()
-        .replace(".", "")
-        .replace("st louis", "st. louis")
-        .replace("chi white sox", "chicago white sox")
-        .replace("chi cubs", "chicago cubs")
-        .strip()
-    )
-
 def find_matching_game_pk(event, mlb_games):
     home = normalize_team_name(event["home_team"])
     away = normalize_team_name(event["away_team"])
@@ -159,51 +160,51 @@ def extract_confirmed_lineup(game_pk: int):
 
         for p in players.values():
             person = p.get("person", {})
-            name = person.get("fullName")
-
+            raw_name = person.get("fullName")
             batting_order_raw = p.get("battingOrder")
 
-            if not name or not batting_order_raw:
+            if not raw_name or not batting_order_raw:
                 continue
 
             try:
                 batting_order = int(str(batting_order_raw)) // 100
-            except:
+            except Exception:
                 batting_order = None
 
-            lineup[name] = {
+            if batting_order is None:
+                continue
+
+            lineup[normalize_player_name(raw_name)] = {
                 "confirmed": True,
-                "batting_order": batting_order
+                "batting_order": batting_order,
+                "player_display": raw_name,
             }
 
     return lineup
 
 def build_lineup_map(events):
-    today = datetime.now().strftime("%Y-%m-%d")
-    mlb_games = get_mlb_games_for_date(today)
+    et_now = datetime.now(ZoneInfo("America/New_York"))
+    game_date = et_now.strftime("%Y-%m-%d")
+    mlb_games = get_mlb_games_for_date(game_date)
 
-    print(f"MLB schedule games found: {len(mlb_games)}")
+    print(f"MLB schedule games found: {len(mlb_games)} for ET date {game_date}")
 
     lineup_map = {}
 
     for event in events:
         try:
-            print(f"Checking event: {event.get('away_team')} at {event.get('home_team')}")
             game_pk = find_matching_game_pk(event, mlb_games)
-
             if not game_pk:
-                print("  -> No matching MLB game found")
                 continue
 
-            print(f"  -> Matched game_pk: {game_pk}")
-
             confirmed = extract_confirmed_lineup(game_pk)
-            print(f"  -> Confirmed lineup players found in this game: {len(confirmed)}")
-
             lineup_map.update(confirmed)
 
         except Exception as e:
-            print(f"Lineup check failed for {event.get('home_team')} vs {event.get('away_team')}: {e}")
+            print(
+                f"Lineup check failed for "
+                f"{event.get('away_team')} at {event.get('home_team')}: {e}"
+            )
 
     return lineup_map
 
@@ -217,49 +218,47 @@ def lineup_priority(row):
 def score_players(all_players, lineup_map=None, player_game_info=None):
     results = []
 
-    for player, ladders in all_players.items():
-        p_ge_1_list = []
-        p_ge_2_list = []
-
-        if 0.5 in ladders:
-            p_ge_1_list.extend(x["over_prob"] for x in ladders[0.5])
-
-        if 1.5 in ladders:
-            p_ge_2_list.extend(x["over_prob"] for x in ladders[1.5])
+    for player_key, ladders in all_players.items():
+        p_ge_1_list = sorted(x["over_prob"] for x in ladders.get(0.5, []))
+        p_ge_2_list = sorted(x["over_prob"] for x in ladders.get(1.5, []))
 
         if not p_ge_1_list and not p_ge_2_list:
             continue
 
-        # Prefer direct 1+ hit market when available, otherwise infer from 2+ hits
+        # Prefer direct 1+ hit market when available.
         if p_ge_1_list:
             p1 = mean(p_ge_1_list)
             lmbda = lambda_from_p_ge_1(p1)
+            source_market = "0.5"
         else:
             p_ge_2 = mean(p_ge_2_list)
             lmbda = lambda_from_p_ge_2(p_ge_2)
             p1 = poisson_p_ge_1(lmbda)
+            source_market = "1.5"
 
         confirmed = None
         batting_order = None
-        if lineup_map and player in lineup_map:
-            confirmed = lineup_map[player]["confirmed"]
-            batting_order = lineup_map[player]["batting_order"]
+        if lineup_map and player_key in lineup_map:
+            confirmed = lineup_map[player_key]["confirmed"]
+            batting_order = lineup_map[player_key]["batting_order"]
 
-        game_info = player_game_info.get(player, {}) if player_game_info else {}
-        
-        if player == "Jeremy Pena":
-            print("DEBUG Jeremy Pena")
-            print("  ladders:", sorted(ladders.keys()))
-            print("  books_0_5:", len(ladders.get(0.5, [])))
-            print("  books_1_5:", len(ladders.get(1.5, [])))
-            print("  p_ge_1_list:", p_ge_1_list)
-            print("  p_ge_2_list:", p_ge_2_list)
-            print("  final p_hit:", p1)
+        game_info = player_game_info.get(player_key, {}) if player_game_info else {}
+
+        # Use the first display name we have from the market feed.
+        display_name = None
+        if ladders.get(0.5):
+            display_name = ladders[0.5][0].get("player_display")
+        elif ladders.get(1.5):
+            display_name = ladders[1.5][0].get("player_display")
+        else:
+            display_name = player_key
 
         results.append({
-            "player": player,
+            "player": display_name,
+            "player_key": player_key,
             "lambda": lmbda,
             "p_hit": p1,
+            "source_market": source_market,
             "books_0_5": len(ladders.get(0.5, [])),
             "books_1_5": len(ladders.get(1.5, [])),
             "confirmed": confirmed,
@@ -299,7 +298,12 @@ def build_email_body(results):
     return "\n".join(lines)
 
 def extract_hit_markets(event_data):
-    players = defaultdict(lambda: defaultdict(list))
+    """
+    Dedupes by (normalized_player, point, book), so the same book/point
+    does not get counted twice if it appears in both batter_hits and
+    batter_hits_alternate.
+    """
+    players = defaultdict(lambda: defaultdict(dict))
 
     for bookmaker in event_data.get("bookmakers", []):
         book_title = bookmaker.get("title", bookmaker.get("key", "Unknown"))
@@ -312,21 +316,20 @@ def extract_hit_markets(event_data):
             grouped = defaultdict(dict)
 
             for outcome in market.get("outcomes", []):
-                # Odds API player props typically use description for player name
-                player = outcome.get("description") or outcome.get("name")
+                raw_player = outcome.get("description") or outcome.get("name")
                 point = outcome.get("point")
                 side = (outcome.get("name") or "").strip().lower()
                 price = outcome.get("price")
 
-                if player is None or point is None or price is None:
+                if raw_player is None or point is None or price is None:
                     continue
-
                 if side not in {"over", "under"}:
                     continue
 
-                grouped[(player, float(point))][side] = price
+                player_key = normalize_player_name(raw_player)
+                grouped[(player_key, raw_player, float(point))][side] = price
 
-            for (player, point), sides in grouped.items():
+            for (player_key, raw_player, point), sides in grouped.items():
                 if "over" not in sides or "under" not in sides:
                     continue
 
@@ -334,14 +337,32 @@ def extract_hit_markets(event_data):
                 under_prob = american_to_prob(int(sides["under"]))
                 fair_over, fair_under = no_vig_prob(over_prob, under_prob)
 
-                players[player][point].append({
+                new_entry = {
+                    "player_display": raw_player,
                     "book": book_title,
                     "market_key": market_key,
                     "over_prob": fair_over,
                     "under_prob": fair_under,
-                })
+                    "over_price": int(sides["over"]),
+                    "under_price": int(sides["under"]),
+                }
 
-    return players
+                existing = players[player_key][point].get(book_title)
+
+                # Prefer the non-alternate market if both exist for same book/point.
+                if existing is None or (
+                    existing["market_key"] == "batter_hits_alternate"
+                    and market_key == "batter_hits"
+                ):
+                    players[player_key][point][book_title] = new_entry
+
+    # Convert nested dicts back to list structure expected downstream.
+    out = defaultdict(lambda: defaultdict(list))
+    for player_key, ladders in players.items():
+        for point, by_book in ladders.items():
+            out[player_key][point] = list(by_book.values())
+
+    return out
 
 def send_email(subject: str, body: str):
     msg = MIMEText(body)
@@ -372,21 +393,21 @@ def main():
             away_team = event["away_team"]
             home_team = event["home_team"]
 
-            for player, ladders in players.items():
-                if player not in player_game_info:
-                    player_game_info[player] = {
+            for player_key, ladders in players.items():
+                if player_key not in player_game_info:
+                    player_game_info[player_key] = {
                         "start_time_et": start_time_et,
                         "matchup": f"{away_team} at {home_team}",
                     }
 
                 for point, entries in ladders.items():
-                    merged_players[player][point].extend(entries)
+                    merged_players[player_key][point].extend(entries)
 
         except Exception as e:
             print(f"Failed odds pull for event {event_id}: {e}")
 
     point_counts = defaultdict(int)
-    for player, ladders in merged_players.items():
+    for player_key, ladders in merged_players.items():
         for point in ladders.keys():
             point_counts[point] += 1
 
@@ -400,7 +421,7 @@ def main():
     results = score_players(
         merged_players,
         lineup_map=lineup_map,
-        player_game_info=player_game_info
+        player_game_info=player_game_info,
     )
 
     confirmed_results = sum(1 for r in results if r.get("confirmed") is True)
@@ -412,6 +433,6 @@ def main():
 
     send_email("Beat the Streak picks", body)
     print("\nEmail sent successfully.")
-
+    
 if __name__ == "__main__":
     main()
