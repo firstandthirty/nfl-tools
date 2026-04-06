@@ -1,14 +1,13 @@
 name: Beat the Streak Picks
 
 on:
+  workflow_dispatch:
   schedule:
     # 12:00 PM ET (16:00 UTC)
     - cron: "0 16 * * *"
 
     # 6:00 PM ET (22:00 UTC)
     - cron: "0 22 * * *"
-
-  workflow_dispatch:  # allows manual runs
 
 jobs:
   run-bts:
@@ -25,7 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pandas numpy python-dateutil pytz statsapi
+          python -m pip install --upgrade pip
+          pip install requests MLB-StatsAPI
 
       - name: Run Beat the Streak script
         env:
