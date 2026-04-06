@@ -354,37 +354,33 @@ def main():
     events = get_events()
 
     merged_players = defaultdict(lambda: defaultdict(list))
+    player_game_info = {}
 
     for event in events:
-    event_id = event["id"]
+        event_id = event["id"]
 
-    try:
-        data = get_event_props(event_id)
-        players = extract_hit_markets(data)
+        try:
+            data = get_event_props(event_id)
+            players = extract_hit_markets(data)
 
-        start_time_et = to_et_display(event["commence_time"])
-        away_team = event["away_team"]
-        home_team = event["home_team"]
+            start_time_et = to_et_display(event["commence_time"])
+            away_team = event["away_team"]
+            home_team = event["home_team"]
 
-        for player, ladders in players.items():
+            for player, ladders in players.items():
+                if player not in player_game_info:
+                    player_game_info[player] = {
+                        "start_time_et": start_time_et,
+                        "matchup": f"{away_team} at {home_team}",
+                    }
 
-            # store game info once per player
-            if player not in player_game_info:
-                player_game_info[player] = {
-                    "start_time_et": start_time_et,
-                    "matchup": f"{away_team} at {home_team}",
-                }
+                for point, entries in ladders.items():
+                    merged_players[player][point].extend(entries)
 
-            for point, entries in ladders.items():
-                merged_players[player][point].extend(entries)
-
-    except Exception as e:
-        print(f"Failed odds pull for event {event_id}: {e}")
-
-    lineup_map = build_lineup_map(events)
+        except Exception as e:
+            print(f"Failed odds pull for event {event_id}: {e}")
 
     point_counts = defaultdict(int)
-
     for player, ladders in merged_players.items():
         for point in ladders.keys():
             point_counts[point] += 1
@@ -393,20 +389,20 @@ def main():
     for point in sorted(point_counts.keys()):
         print(f"  {point}: {point_counts[point]}")
 
+    lineup_map = build_lineup_map(events)
     print(f"Lineup map players found: {len(lineup_map)}")
 
     results = score_players(
         merged_players,
         lineup_map=lineup_map,
         player_game_info=player_game_info
-    )   
+    )
 
     confirmed_results = sum(1 for r in results if r.get("confirmed") is True)
     print(f"Players scored: {len(results)}")
     print(f"Confirmed players in results: {confirmed_results}")
 
     body = build_email_body(results)
-
     print(body)
 
     try:
