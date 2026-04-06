@@ -100,6 +100,24 @@ def lambda_from_p_ge_2(target_p: float, lo=1e-6, hi=10.0, tol=1e-8) -> float:
             break
     return (lo + hi) / 2
 
+#temporary helper
+def debug_player_markets(all_players, player_name_substring):
+    needle = normalize_player_name(player_name_substring)
+
+    for player_key, ladders in all_players.items():
+        if needle in player_key:
+            print(f"\n=== DEBUG {player_key} ===")
+            for point in sorted(ladders.keys()):
+                print(f"  point {point}:")
+                for entry in ladders[point]:
+                    print(
+                        f"    book={entry.get('book')} "
+                        f"market_key={entry.get('market_key')} "
+                        f"over_price={entry.get('over_price')} "
+                        f"under_price={entry.get('under_price')} "
+                        f"over_prob={entry.get('over_prob'):.4f}"
+                    )
+
 
 def fit_lambda_from_markets(p_ge_1_list, p_ge_2_list, lo=1e-6, hi=10.0):
     def loss(lmbda: float) -> float:
@@ -426,6 +444,11 @@ def main():
 
     lineup_map = build_lineup_map(events)
     print(f"Lineup map players found: {len(lineup_map)}")
+
+    debug_player_markets(merged_players, "Jeremy Pena")
+    debug_player_markets(merged_players, "Yordan Alvarez")
+    debug_player_markets(merged_players, "Jose Altuve")
+    debug_player_markets(merged_players, "Trea Turner")
 
     results = score_players(
         merged_players,
