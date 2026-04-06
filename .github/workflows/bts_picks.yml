@@ -1,19 +1,14 @@
- name: Beat the Streak Picks
+name: Beat the Streak Picks
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "7 12 * * *"
-      timezone: "America/New_York"
     - cron: "7 18 * * *"
-      timezone: "America/New_York"
 
 jobs:
   run-bts-picks:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
 
     steps:
       - name: Check out repo
