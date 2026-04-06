@@ -13,7 +13,7 @@ jobs:
   run-bts:
     runs-on: ubuntu-latest
 
-    steps:
+    steps:    pip install requests pandas numpy python-dateutil pytz MLB-StatsAPI beautifulsoup4
       - name: Checkout repo
         uses: actions/checkout@v4
 
