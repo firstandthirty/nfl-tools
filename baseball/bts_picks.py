@@ -26,6 +26,44 @@ import unicodedata
 from zoneinfo import ZoneInfo
 from datetime import datetime
 
+import re
+import requests
+from bs4 import BeautifulSoup
+
+def fetch_mlb_starting_lineups():
+    url = "https://www.mlb.com/starting-lineups"
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.text
+
+
+def extract_lineups_from_mlb_page(html_text):
+    """
+    Returns normalized player-name map like:
+    {
+        "yandy diaz": {"confirmed": True, "batting_order": 1},
+        ...
+    }
+    """
+    lineup_map = {}
+
+    # Simple text-based parse works well enough for this page structure
+    text = BeautifulSoup(html_text, "html.parser").get_text("\n")
+
+    # Match lines like:
+    # 1. Yandy Díaz (R) DH
+    pattern = re.compile(r'^\s*([1-9])\.\s+([A-Za-zÀ-ÿ\.\'\- ]+?)\s+\([RLS]\)', re.MULTILINE)
+
+    for m in pattern.finditer(text):
+        batting_order = int(m.group(1))
+        raw_name = m.group(2).strip()
+        lineup_map[normalize_player_name(raw_name)] = {
+            "confirmed": True,
+            "batting_order": batting_order,
+            "player_display": raw_name,
+        }
+
+    return lineup_map
 
 def to_et_display(commence_time_str: str) -> str:
     dt_utc = datetime.fromisoformat(commence_time_str.replace("Z", "+00:00"))
