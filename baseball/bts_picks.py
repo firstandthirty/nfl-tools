@@ -246,6 +246,15 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
             batting_order = lineup_map[player]["batting_order"]
 
         game_info = player_game_info.get(player, {}) if player_game_info else {}
+        
+        if player == "Jeremy Pena":
+            print("DEBUG Jeremy Pena")
+            print("  ladders:", sorted(ladders.keys()))
+            print("  books_0_5:", len(ladders.get(0.5, [])))
+            print("  books_1_5:", len(ladders.get(1.5, [])))
+            print("  p_ge_1_list:", p_ge_1_list)
+            print("  p_ge_2_list:", p_ge_2_list)
+            print("  final p_hit:", p1)
 
         results.append({
             "player": player,
