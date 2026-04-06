@@ -219,22 +219,32 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
     results = []
 
     for player_key, ladders in all_players.items():
-        p_ge_1_list = sorted(x["over_prob"] for x in ladders.get(0.5, []))
-        p_ge_2_list = sorted(x["over_prob"] for x in ladders.get(1.5, []))
+        # Prefer FanDuel 1+ hit if available, then any 1+ hit market,
+        # then fall back to inferring from 2+ hit markets.
+        fd_05 = sorted(
+            x["over_prob"]
+            for x in ladders.get(0.5, [])
+            if "fan" in x.get("book", "").lower()
+        )
+        all_05 = sorted(x["over_prob"] for x in ladders.get(0.5, []))
+        all_15 = sorted(x["over_prob"] for x in ladders.get(1.5, []))
 
-        if not p_ge_1_list and not p_ge_2_list:
+        if not all_05 and not all_15:
             continue
 
-        # Prefer direct 1+ hit market when available.
-        if p_ge_1_list:
-            p1 = mean(p_ge_1_list)
+        if fd_05:
+            p1 = mean(fd_05)
             lmbda = lambda_from_p_ge_1(p1)
-            source_market = "0.5"
+            source_market = "FD 0.5"
+        elif all_05:
+            p1 = mean(all_05)
+            lmbda = lambda_from_p_ge_1(p1)
+            source_market = "market 0.5"
         else:
-            p_ge_2 = mean(p_ge_2_list)
+            p_ge_2 = mean(all_15)
             lmbda = lambda_from_p_ge_2(p_ge_2)
             p1 = poisson_p_ge_1(lmbda)
-            source_market = "1.5"
+            source_market = "inferred 1.5"
 
         confirmed = None
         batting_order = None
@@ -244,7 +254,6 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
 
         game_info = player_game_info.get(player_key, {}) if player_game_info else {}
 
-        # Use the first display name we have from the market feed.
         display_name = None
         if ladders.get(0.5):
             display_name = ladders[0.5][0].get("player_display")
