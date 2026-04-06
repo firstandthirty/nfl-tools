@@ -247,6 +247,7 @@ def build_lineup_map(events):
 
     lineup_map = {}
 
+    # First pass: StatsAPI
     for event in events:
         try:
             game_pk = find_matching_game_pk(event, mlb_games)
@@ -261,6 +262,21 @@ def build_lineup_map(events):
                 f"Lineup check failed for "
                 f"{event.get('away_team')} at {event.get('home_team')}: {e}"
             )
+
+    # Fallback: MLB starting-lineups page
+    try:
+        html_text = fetch_mlb_starting_lineups()
+        mlb_page_lineups = extract_lineups_from_mlb_page(html_text)
+
+        # Only fill missing players; don't overwrite StatsAPI if already present
+        for player_key, info in mlb_page_lineups.items():
+            if player_key not in lineup_map:
+                lineup_map[player_key] = info
+
+        print(f"Lineup map players found after MLB.com fallback: {len(lineup_map)}")
+
+    except Exception as e:
+        print(f"MLB.com starting-lineups fallback failed: {e}")
 
     return lineup_map
 
@@ -412,20 +428,13 @@ def extract_hit_markets(event_data):
                     "under_price": int(sides["under"]),
                 }
 
-                existing = players[player_key][point].get(book_title)
-
-                # Prefer the non-alternate market if both exist for same book/point.
-                if existing is None or (
-                    existing["market_key"] == "batter_hits_alternate"
-                    and market_key == "batter_hits"
-                ):
-                    players[player_key][point][book_title] = new_entry
+                players[player_key][point].append(new_entry)
 
     # Convert nested dicts back to list structure expected downstream.
     out = defaultdict(lambda: defaultdict(list))
     for player_key, ladders in players.items():
-        for point, by_book in ladders.items():
-            out[player_key][point] = list(by_book.values())
+        for point, entries in ladders.items():
+            out[player_key][point] = entries
 
     return out
 
