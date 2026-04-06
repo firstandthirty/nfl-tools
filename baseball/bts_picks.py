@@ -13,6 +13,8 @@ API_KEY = os.environ["ODDS_API_KEY"]
 SMTP_USER = os.environ["SMTP_USER"]
 SMTP_PASS = os.environ["SMTP_PASS"]
 EMAIL_TO = os.environ["EMAIL_TO"]
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
 
 # Example placeholders — replace with the actual keys you use
 SPORT = "baseball_mlb"
