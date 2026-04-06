@@ -13,6 +13,8 @@ API_KEY = os.environ["ODDS_API_KEY"]
 SMTP_USER = os.environ["SMTP_USER"]
 SMTP_PASS = os.environ["SMTP_PASS"]
 EMAIL_TO = os.environ["EMAIL_TO"]
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
 
 # Example placeholders — replace with the actual keys you use
 SPORT = "baseball_mlb"
@@ -228,6 +230,7 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
         if not p_ge_1_list and not p_ge_2_list:
             continue
 
+        # Prefer direct 1+ hit market when available, otherwise infer from 2+ hits
         if p_ge_1_list:
             p1 = mean(p_ge_1_list)
             lmbda = lambda_from_p_ge_1(p1)
@@ -256,38 +259,31 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
             "matchup": game_info.get("matchup"),
         })
 
-    # split confirmed vs unconfirmed
-    confirmed_results = [r for r in results if r["confirmed"] is True]
-    unconfirmed_results = [r for r in results if r["confirmed"] is not True]
-
-    # sort each group
-    confirmed_results.sort(key=lambda x: (-x["p_hit"], lineup_priority(x)))
-    unconfirmed_results.sort(key=lambda x: (-x["p_hit"], lineup_priority(x)))
-
-    if confirmed_results:
-        return confirmed_results + unconfirmed_results
-
-    return unconfirmed_results
+    results.sort(key=lambda x: x["p_hit"], reverse=True)
+    return results
 
 def build_email_body(results):
     lines = []
-    lines.append("Top Beat the Streak candidates for today\n")
-    lines.append("----------------------------------------\n")
+    lines.append("Top Beat the Streak candidates for today")
+    lines.append("")
+    lines.append("----------------------------------------")
+    lines.append("")
 
     for i, row in enumerate(results[:10], start=1):
-        bo = row["batting_order"]
         if row["confirmed"] is True:
             status = "CONFIRMED"
         else:
             status = "unconfirmed"
 
-        bo_txt = f", batting_order={bo}" if bo is not None else ""
+        bo_txt = f" | batting {row['batting_order']}" if row.get("batting_order") else ""
+        time_txt = row.get("start_time_et") or "time TBD"
+        matchup_txt = row.get("matchup") or "matchup TBD"
 
         lines.append(
-            f"{i}. {row['player']}: "
-            f"P(1+ hit)={row['p_hit']:.1%}, "
-            f"books(0.5)={row['books_0_5']}, "
-            f"books(1.5)={row['books_1_5']}, "
+            f"{i}. {row['player']} — "
+            f"{row['p_hit']:.1%} | "
+            f"{time_txt} | "
+            f"{matchup_txt} | "
             f"{status}{bo_txt}"
         )
 
@@ -405,12 +401,8 @@ def main():
     body = build_email_body(results)
     print(body)
 
-    try:
-        send_email("Beat the Streak picks", body)
-        print("\nEmail sent successfully.")
-    except Exception as e:
-        print(f"\nEmail failed: {e}")
-
+    send_email("Beat the Streak picks", body)
+    print("\nEmail sent successfully.")
 
 if __name__ == "__main__":
     main()
