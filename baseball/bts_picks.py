@@ -466,6 +466,11 @@ def main():
             data = get_event_props(event_id)
             players = extract_hit_markets(data)
 
+            print(
+                f"Event {event['away_team']} at {event['home_team']} "
+                f"-> players with markets: {len(players)}"
+            )
+
             start_time_et = to_et_display(event["commence_time"])
             away_team = event["away_team"]
             home_team = event["home_team"]
@@ -512,6 +517,12 @@ def main():
 
     body = build_email_body(results)
     print(body)
+
+    if not body.strip():
+        body = "Beat the Streak script ran, but the email body was empty."
+
+    send_email("Beat the Streak picks", body)
+    print("\nEmail sent successfully.")
 
     send_email("Beat the Streak picks", body)
     print("\nEmail sent successfully.")
