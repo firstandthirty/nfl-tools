@@ -358,6 +358,15 @@ def build_email_body(results):
     lines.append("----------------------------------------")
     lines.append("")
 
+    if not results:
+        lines.append("No qualified picks found.")
+        lines.append("")
+        lines.append("Possible causes:")
+        lines.append("- odds API returned no batter hit props")
+        lines.append("- market parsing failed")
+        lines.append("- no MLB games were available for the script's run window")
+        return "\n".join(lines)
+
     for i, row in enumerate(results[:10], start=1):
         if row["confirmed"] is True:
             status = "CONFIRMED"
@@ -380,11 +389,11 @@ def build_email_body(results):
 
 def extract_hit_markets(event_data):
     """
-    Dedupes by (normalized_player, point, book), so the same book/point
+    Dedupe by (normalized_player, point, book), so the same book/point
     does not get counted twice if it appears in both batter_hits and
     batter_hits_alternate.
     """
-    players = defaultdict(lambda: defaultdict(dict))
+    players = defaultdict(lambda: defaultdict(list))
 
     for bookmaker in event_data.get("bookmakers", []):
         book_title = bookmaker.get("title", bookmaker.get("key", "Unknown"))
@@ -430,13 +439,7 @@ def extract_hit_markets(event_data):
 
                 players[player_key][point].append(new_entry)
 
-    # Convert nested dicts back to list structure expected downstream.
-    out = defaultdict(lambda: defaultdict(list))
-    for player_key, ladders in players.items():
-        for point, entries in ladders.items():
-            out[player_key][point] = entries
-
-    return out
+    return players
 
 def send_email(subject: str, body: str):
     msg = MIMEText(body)
