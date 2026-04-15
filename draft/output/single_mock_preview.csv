@@ -1,0 +1,33 @@
+pick,round,team,player,position,school,rank,selection_source
+1,1,LV,Fernando Mendoza,QB,Indiana,1,override
+2,1,NYJ,Arvell Reese,EDGE,Ohio State,2,model
+3,1,ARI,David Bailey,EDGE,Texas Tech,3,model
+4,1,TEN,Jeremiyah Love,RB,Notre Dame,4,model
+5,1,NYG,Carnell Tate,WR,Ohio State,8,model
+6,1,CLE,Monroe Freeling,OT,Georgia,11,model
+7,1,WAS,Makai Lemon,WR,USC,13,model
+8,1,NO,Rueben Bain,EDGE,Miami (FL),7,model
+9,1,KC,Mansoor Delane,CB,LSU,10,model
+10,1,CIN,Sonny Styles,LB,Ohio State,5,model
+11,1,MIA,Caleb Downs,S,Ohio State,9,model
+12,1,DAL,Jermod McCoy,CB,Tennessee,15,model
+13,1,LAR,Francis Mauigoa,OT,Miami (FL),6,model
+14,1,BAL,Jordyn Tyson,WR,Arizona State,14,model
+15,1,TB,Kenyon Sadiq,TE,Oregon,16,model
+16,1,NYJ,Avieon Terrell,CB,Clemson,23,model
+17,1,DET,Spencer Fano,OT,Utah,12,model
+18,1,MIN,Dillon Thieneman,S,Oregon,18,model
+19,1,CAR,Kadyn Proctor,OT,Alabama,21,model
+20,1,DAL,Akheem Mesidor,EDGE,Miami (FL),19,model
+21,1,PIT,Omar Cooper Jr.,WR,Indiana,26,model
+22,1,LAC,Peter Woods,DT,Clemson,24,model
+23,1,PHI,Caleb Lomu,OT,Utah,22,model
+24,1,CLE,Olaivavega Ioane,IOL,Penn State,17,model
+25,1,CHI,Denzel Boston,WR,Washington,29,model
+26,1,BUF,Keldric Faulk,EDGE,Auburn,20,model
+27,1,SF,Kevin Concepcion,WR,Texas A&M,30,model
+28,1,HOU,Blake Miller,OT,Clemson,31,model
+29,1,KC,Emmanuel McNeil-Warren,S,Toledo,25,model
+30,1,MIA,Cashius Howell,EDGE,Texas A&M,34,model
+31,1,NE,Zion Young,EDGE,Missouri,37,model
+32,1,SEA,Colton Hood,CB,Tennessee,36,model

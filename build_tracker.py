@@ -12,6 +12,7 @@
 #   NFL free agent moves (scraped)
 
 from io import StringIO
+from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import re
@@ -159,7 +160,12 @@ def fetch_html(url: str, debug_name: str) -> str:
     if not (r.text and r.text.strip()):
         raise RuntimeError(f"{debug_name} fetch returned empty HTML (saved debug_{debug_name}.html)")
 
-    return r.text
+    # Strip UTF-8 BOM if present at start of response
+    text = r.text
+    if text.startswith('\ufeff'):
+        text = text[1:]
+    
+    return text
 
 def fetch_text_via_jina(url: str, label: str) -> str:
     """
@@ -266,6 +272,78 @@ def extract_nfl_article_text(html: str) -> str:
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
 
     return body
+
+def extract_nfl_page_text(html: str) -> str:
+    if not html:
+        return ""
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    for tag in soup(["script", "style", "noscript", "svg"]):
+        tag.decompose()
+
+    text = soup.get_text("\n")
+    text = clean_mojibake(text)  # <-- ADD THIS LINE (right after get_text)
+    text = html_lib.unescape(text)
+    text = re.sub(r"[\u200b\u200c\u200d\ufeff]", "", text)
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text)
+
+    return text.strip()
+
+def extract_team_bullets_strict(text: str, teams_full: set[str]) -> dict[str, list[str]]:
+    lines = [re.sub(r"\s+", " ", x).strip() for x in text.splitlines()]
+    out = {team: [] for team in teams_full}
+
+    current_team = None
+    current_item = None
+
+    team_lookup = {t.lower(): t for t in teams_full}
+
+    pos_re = re.compile(
+        r"^(QB|RB|FB|WR|TE|OT|OG|C|OL|DT|DE|DL|EDGE|LB|ILB|OLB|CB|S|FS|SS|DB|K|P|LS|NT)\b",
+        re.IGNORECASE
+    )
+
+    ignore_lines = {
+        "search by division",
+        "afc east", "afc north", "afc south", "afc west",
+        "nfc east", "nfc north", "nfc south", "nfc west",
+    }
+
+    for line in lines:
+        if not line:
+            continue
+
+        low = line.lower()
+
+        if low in ignore_lines:
+            continue
+
+        if low in team_lookup:
+            if current_team and current_item:
+                out[current_team].append(current_item.strip())
+                current_item = None
+            current_team = team_lookup[low]
+            continue
+
+        if not current_team:
+            continue
+
+        starts_new_item = line.startswith("*") or bool(pos_re.match(line))
+
+        if starts_new_item:
+            if current_item:
+                out[current_team].append(current_item.strip())
+            current_item = line if line.startswith("*") else "* " + line
+        elif current_item:
+            current_item += " " + line
+
+    if current_team and current_item:
+        out[current_team].append(current_item.strip())
+
+    return out
 
 def inject_newlines_around_teams(text: str, teams_full: set[str]) -> str:
     """
@@ -418,6 +496,25 @@ def clean_weird_unicode(s: str) -> str:
     s = re.sub(r"[\u200b\u200c\u200d\ufeff]", "", s)
     # collapse whitespace
     s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def clean_mojibake(s: str) -> str:
+    """Clean common mojibake patterns from BOM and double-encoding artifacts.
+    This is safe—only replaces known garbage patterns, preserves all valid text."""
+    if not s:
+        return s
+    
+    # UTF-8 BOM rendered as text
+    s = s.replace('ï»¿', '')
+    
+    # Common double-encoding artifacts (UTF-8 bytes read as Latin-1)
+    # These are safe replacements that don't affect real names/punctuation
+    s = s.replace('Â', '')      # orphaned combining char
+    s = s.replace('â€', '"')    # fancy quote variants
+    s = s.replace('â€™', "'")   # fancy apostrophe (O'Brien, etc.)
+    s = s.replace('â€œ', '"')   # left smart quote
+    s = s.replace('â€\x9d', '"')  # right smart quote variant
+    
     return s
 
 def extract_team_items_from_text(text: str, teams_full: set[str]) -> dict[str, list[str]]:
@@ -1124,43 +1221,25 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
     debug_script_markers(add_text, "additions")
     debug_script_markers(dep_text, "departures")
 
-    add_visible = extract_nfl_article_text(add_text)
-    dep_visible = extract_nfl_article_text(dep_text)
+    add_visible = extract_nfl_page_text(add_text)
+    dep_visible = extract_nfl_page_text(dep_text)
 
-    print(f"[parse] additions articleBody chars={len(add_visible or '')} contains_team={contains_any_team(add_visible)}")
-    print(f"[parse] departures articleBody chars={len(dep_visible or '')} contains_team={contains_any_team(dep_visible)}")
+    print(f"[parse] additions visible text chars={len(add_visible or '')} contains_team={contains_any_team(add_visible)}")
+    print(f"[parse] departures visible text chars={len(dep_visible or '')} contains_team={contains_any_team(dep_visible)}")
 
-    add_use_jina = (not contains_any_team(add_visible)) or (len(add_visible or "") < 5000)
-    dep_use_jina = (not contains_any_team(dep_visible)) or (len(dep_visible or "") < 5000)
+    print("[parse] additions using visible page text")
+    print("[parse] departures using visible page text")
 
-    if add_use_jina:
-        print("[parse] additions articleBody looked weak -> trying jina fallback")
-        jina_add = fetch_text_via_jina(ADDITIONS_URL, "additions")
-        if jina_add:
-            add_visible = jina_add
-            print(f"[parse] additions using jina text chars={len(add_visible)}")
-        else:
-            print("[parse] additions jina returned empty; keeping articleBody text")
-    else:
-        print("[parse] additions using articleBody text")
-
-    if dep_use_jina:
-        print("[parse] departures articleBody looked weak -> trying jina fallback")
-        jina_dep = fetch_text_via_jina(DEPARTURES_URL, "departures")
-        if jina_dep:
-            dep_visible = jina_dep
-            print(f"[parse] departures using jina text chars={len(dep_visible)}")
-        else:
-            print("[parse] departures jina returned empty; keeping articleBody text")
-    else:
-        print("[parse] departures using articleBody text")
-
-    add_bullets = extract_team_items_from_text(add_visible, teams_full)
-
+    add_prepped = inject_newlines_around_teams(add_visible, teams_full)
     dep_prepped = inject_newlines_around_teams(dep_visible, teams_full)
-    print(f"[debug] dep_prepped sample lines: {dep_prepped.splitlines()[:30]}")
-    dep_bullets = extract_team_items_from_text(dep_prepped, teams_full)
 
+    print(f"[debug] add_prepped sample lines: {add_prepped.splitlines()[:30]}")
+    print(f"[debug] dep_prepped sample lines: {dep_prepped.splitlines()[:30]}")
+
+    add_bullets = extract_team_bullets_strict(add_prepped, teams_full)
+    dep_bullets = extract_team_bullets_strict(dep_prepped, teams_full)
+
+    print(f"[debug] raw additions sample lines: {add_visible.splitlines()[:20]}")
     print(f"[debug] raw departures sample lines: {dep_visible.splitlines()[:20]}")
 
     add_total = sum(len(v) for v in add_bullets.values())

@@ -36,6 +36,31 @@ def fetch_mlb_starting_lineups():
     r.raise_for_status()
     return r.text
 
+def normalize_team_name(name: str) -> str:
+    if not name:
+        return ""
+    name = name.lower().strip()
+
+    aliases = {
+        "athletics": "oakland athletics",
+        "oakland athletics": "oakland athletics",
+        "a's": "oakland athletics",
+        "los angeles angels": "los angeles angels",
+        "la angels": "los angeles angels",
+        "los angeles dodgers": "los angeles dodgers",
+        "la dodgers": "los angeles dodgers",
+        "new york yankees": "new york yankees",
+        "new york mets": "new york mets",
+        "chicago cubs": "chicago cubs",
+        "chicago white sox": "chicago white sox",
+        "kansas city royals": "kansas city royals",
+        "tampa bay rays": "tampa bay rays",
+        "san francisco giants": "san francisco giants",
+        "san diego padres": "san diego padres",
+        "st louis cardinals": "st louis cardinals",
+    }
+
+    return aliases.get(name, name)
 
 def extract_lineups_from_mlb_page(html_text):
     """
@@ -459,11 +484,15 @@ def main():
     merged_players = defaultdict(lambda: defaultdict(list))
     player_game_info = {}
 
+    odds_failures = 0
+    odds_successes = 0
+
     for event in events:
         event_id = event["id"]
 
         try:
             data = get_event_props(event_id)
+            odds_successes += 1
             players = extract_hit_markets(data)
 
             print(
@@ -486,24 +515,28 @@ def main():
                     merged_players[player_key][point].extend(entries)
 
         except Exception as e:
+            odds_failures += 1
             print(f"Failed odds pull for event {event_id}: {e}")
 
-    point_counts = defaultdict(int)
-    for player_key, ladders in merged_players.items():
-        for point in ladders.keys():
-            point_counts[point] += 1
+    print(f"Odds pulls succeeded: {odds_successes}")
+    print(f"Odds pulls failed: {odds_failures}")
 
-    print("Point distribution:")
-    for point in sorted(point_counts.keys()):
-        print(f"  {point}: {point_counts[point]}")
+    if not merged_players:
+        body = (
+            "Beat the Streak script ran, but no batter hit props were loaded.\n\n"
+            "Most likely causes:\n"
+            "- The Odds API key does not have access to these markets\n"
+            "- The API key/subscription is invalid\n"
+            "- The request hit rate/usage limits\n\n"
+            "Check GitHub Actions logs for 401/429 errors."
+        )
+        print(body)
+        send_email("Beat the Streak picks - ERROR", body)
+        print("\nEmail sent successfully.")
+        return
 
     lineup_map = build_lineup_map(events)
     print(f"Lineup map players found: {len(lineup_map)}")
-
-    debug_player_markets(merged_players, "Jeremy Pena")
-    debug_player_markets(merged_players, "Yordan Alvarez")
-    debug_player_markets(merged_players, "Jose Altuve")
-    debug_player_markets(merged_players, "Trea Turner")
 
     results = score_players(
         merged_players,
@@ -511,18 +544,11 @@ def main():
         player_game_info=player_game_info,
     )
 
-    confirmed_results = sum(1 for r in results if r.get("confirmed") is True)
     print(f"Players scored: {len(results)}")
-    print(f"Confirmed players in results: {confirmed_results}")
+    print(f"Confirmed players in results: {sum(1 for r in results if r.get('confirmed') is True)}")
 
     body = build_email_body(results)
     print(body)
-
-    if not body.strip():
-        body = "Beat the Streak script ran, but the email body was empty."
-
-    send_email("Beat the Streak picks", body)
-    print("\nEmail sent successfully.")
 
     send_email("Beat the Streak picks", body)
     print("\nEmail sent successfully.")
