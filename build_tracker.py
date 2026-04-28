@@ -470,6 +470,50 @@ def percentile_from_rank(rank: int | None, n: int = 32) -> float | None:
         return None
     return (n - rank) / (n - 1) * 100.0
 
+def position_sort_key(pos: str) -> tuple[int, str]:
+    """Return a sort key for a position, ordered by: QB, WR, TE, RB, FB, OL (C/LG/RG/RT/LT), EDGE, DL, LB, CB, S, K, P, LS"""
+    pos_upper = str(pos).upper().strip() if pos else ""
+    
+    # Map positions to sort order
+    position_order = {
+        # Offense
+        "QB": 0,
+        "WR": 1,
+        "TE": 2,
+        "RB": 3,
+        "FB": 4,
+        # Offensive Line
+        "C": 5,
+        "OG": 5,
+        "OT": 5,
+        "LG": 5,
+        "RG": 5,
+        "RT": 5,
+        "LT": 5,
+        "OL": 5,
+        # Defense
+        "EDGE": 6,
+        "DE": 7,
+        "DT": 7,
+        "DL": 7,
+        "NT": 7,
+        "LB": 8,
+        "ILB": 8,
+        "OLB": 8,
+        "CB": 9,
+        "DB": 9,
+        "S": 10,
+        "FS": 10,
+        "SS": 10,
+        # Special Teams
+        "K": 11,
+        "P": 12,
+        "LS": 13,
+    }
+    
+    sort_order = position_order.get(pos_upper, 99)  # Unknown positions go last
+    return (sort_order, pos_upper)
+
 def is_new(hired_year) -> bool:
     try:
         return int(hired_year) == 2026
@@ -1549,7 +1593,8 @@ def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
                 "Other": 10,
             }
             df["_o"] = df["Type"].map(order).fillna(99).astype(int)
-            df = df.sort_values(["_o", "Pos", "Player"]).drop(columns=["_o"]).reset_index(drop=True)
+            df["_pos_sort"] = df["Pos"].apply(position_sort_key)
+            df = df.sort_values(["_o", "_pos_sort", "Player"]).drop(columns=["_o", "_pos_sort"]).reset_index(drop=True)
 
         dep_count = 0 if df.empty else int(df["Type"].isin(["Loss", "Trade out", "Retired"]).sum())
         if dep_count:
