@@ -1,0 +1,7 @@
+experiment_name,model_version,board_exp,need_exp,score_exp,fall_penalty_enabled,fall_penalty_grace_window,fall_penalty_power,fall_penalty_min_multiplier,matched_exact_pick_rows,mean_abs_edge,median_abs_edge,max_abs_edge,brier_score,run_dir
+baseline,v1,1.0,0.75,1.6,True,2,1.0,0.35,,0.031067503170545154,0.0085,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_152319_v1
+board_1_10,v1,1.1,0.75,1.6,True,2,1.0,0.35,,0.031232014272096275,0.0086164443813456,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_153737_v1
+board_1_20,v1,1.2,0.75,1.6,True,2,1.0,0.35,,0.03145288543564629,0.0086,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_155001_v1
+need_0_65,v1,1.0,0.65,1.6,True,2,1.0,0.35,,0.030546561534259248,0.0096,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_160306_v1
+fall_tighter,v1,1.0,0.75,1.6,True,1,1.15,0.3,,0.031098391361250224,0.0088,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_161359_v1
+board_1_10_fall_tighter,v1,1.1,0.75,1.6,True,1,1.15,0.3,,0.031516109510289346,0.009,1.0,,C:\Users\brady\OneDrive\Desktop\nfl-tools\draft\output\runs\2026-04-15_162504_v1

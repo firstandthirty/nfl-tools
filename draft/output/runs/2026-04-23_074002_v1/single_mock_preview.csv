@@ -1,0 +1,33 @@
+pick,round,team,player,position,school,rank,selection_source
+1,1,LV,Fernando Mendoza,QB,Indiana,1,override
+2,1,NYJ,Arvell Reese,LB,Ohio State,2,model
+3,1,ARI,David Bailey,EDGE,Texas Tech,3,model
+4,1,TEN,Jeremiyah Love,RB,Notre Dame,4,model
+5,1,NYG,Carnell Tate,WR,Ohio State,8,model
+6,1,CLE,Monroe Freeling,OT,Georgia,14,model
+7,1,WAS,Jordyn Tyson,WR,Arizona State,11,model
+8,1,NO,Mansoor Delane,CB,LSU,10,model
+9,1,KC,Rueben Bain,EDGE,Miami (FL),9,model
+10,1,NYG,Caleb Downs,S,Ohio State,6,model
+11,1,MIA,Makai Lemon,WR,USC,13,model
+12,1,DAL,Sonny Styles,LB,Ohio State,5,model
+13,1,LAR,Spencer Fano,OT,Utah,12,model
+14,1,BAL,Olaivavega Ioane,IOL,Penn State,15,model
+15,1,TB,Jermod McCoy,CB,Tennessee,17,model
+16,1,NYJ,Akheem Mesidor,EDGE,Miami (FL),21,model
+17,1,DET,Francis Mauigoa,OT,Miami (FL),7,model
+18,1,MIN,Dillon Thieneman,S,Oregon,18,model
+19,1,CAR,Kadyn Proctor,OT,Alabama,19,model
+20,1,DAL,Keldric Faulk,EDGE,Auburn,20,model
+21,1,PIT,Denzel Boston,WR,Washington,25,model
+22,1,LAC,Kayden McDonald,DT,Ohio State,28,model
+23,1,PHI,Omar Cooper Jr.,WR,Indiana,22,model
+24,1,CLE,Kevin Concepcion,WR,Texas A&M,23,model
+25,1,CHI,Kenyon Sadiq,TE,Oregon,16,model
+26,1,BUF,T.J. Parker,EDGE,Clemson,31,model
+27,1,SF,Caleb Lomu,OT,Utah,27,model
+28,1,HOU,Max Iheanachor,OT,Arizona State,29,model
+29,1,KC,Blake Miller,OT,Clemson,24,model
+30,1,MIA,Colton Hood,CB,Tennessee,33,model
+31,1,NE,Zion Young,EDGE,Missouri,39,model
+32,1,SEA,Malachi Lawrence,EDGE,UCF,37,model

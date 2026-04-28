@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import json
 import math
 import random
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -15,6 +17,8 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = Path(r"C:\Users\brady\OneDrive\Desktop\nfl_tools\draft\data")
 OUTPUT_DIR = BASE_DIR / "output"
+MODELS_DIR = BASE_DIR / "models"
+RUNS_DIR = OUTPUT_DIR / "runs"
 
 BIG_BOARD_PATH = DATA_DIR / "consensus_big_board.csv"
 TEAM_NEEDS_PATH = DATA_DIR / "team_needs.csv"
@@ -22,44 +26,55 @@ DRAFT_ORDER_PATH = DATA_DIR / "draft_order.csv"
 PLAYER_OVERRIDES_PATH = DATA_DIR / "player_overrides.csv"
 
 OUTPUT_DIR.mkdir(exist_ok=True)
+MODELS_DIR.mkdir(exist_ok=True)
+RUNS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # =========================
-# MODEL CONSTANTS
+# CONFIG
 # =========================
 
-POSITION_VALUE = {
-    "QB": 1.30,
-    "EDGE": 1.18,
-    "OT": 1.18,
-    "WR": 1.18,
-    "CB": 1.10,
-    "DT": 1.05,
-    "S": 0.97,
-    "LB": 0.95,
-    "IOL": 0.90,
-    "TE": 0.88,
-    "RB": 0.85,
+CONFIG = {
+    "MODEL_VERSION": "v1",
+    "POSITION_VALUE": {
+        "QB": 1.30,
+        "EDGE": 1.18,
+        "OT": 1.18,
+        "WR": 1.18,
+        "CB": 1.10,
+        "DT": 1.05,
+        "S": 0.97,
+        "LB": 0.95,
+        "IOL": 0.90,
+        "TE": 0.88,
+        "RB": 0.85,
+    },
+    "MARKET_PLAYER_BOOSTS": {
+        # temporary manual boosts
+        "Jeremiyah Love": 1.5,
+    },
+    "MARKET_TEAM_POSITION_BOOSTS": {
+        # examples if you want them later
+        # ("TEN", "RB"): 1.10,
+    },
+    "BOARD_EXPONENT": 0.70,
+    "NEED_EXPONENT": 1.25,
+    "DEFAULT_NEED_WEIGHT": 0.05,
+    "DEFAULT_POSITION_VALUE": 1.00,
+    "N_SIMS": 5000,
+    "RANDOM_SEED": 42,
 }
 
-MARKET_PLAYER_BOOSTS = {
-    # temporary manual boosts
-    "Jeremiyah Love": 1.5,
-}
-
-MARKET_TEAM_POSITION_BOOSTS = {
-    # examples if you want them later
-    # ("TEN", "RB"): 1.10,
-}
-
-BOARD_EXPONENT = 0.70
-NEED_EXPONENT = 1.25
-
-DEFAULT_NEED_WEIGHT = 0.05
-DEFAULT_POSITION_VALUE = 1.00
-
-N_SIMS = 5000
-RANDOM_SEED = 42
+MODEL_VERSION = CONFIG["MODEL_VERSION"]
+POSITION_VALUE = CONFIG["POSITION_VALUE"]
+MARKET_PLAYER_BOOSTS = CONFIG["MARKET_PLAYER_BOOSTS"]
+MARKET_TEAM_POSITION_BOOSTS = CONFIG["MARKET_TEAM_POSITION_BOOSTS"]
+BOARD_EXPONENT = CONFIG["BOARD_EXPONENT"]
+NEED_EXPONENT = CONFIG["NEED_EXPONENT"]
+DEFAULT_NEED_WEIGHT = CONFIG["DEFAULT_NEED_WEIGHT"]
+DEFAULT_POSITION_VALUE = CONFIG["DEFAULT_POSITION_VALUE"]
+N_SIMS = CONFIG["N_SIMS"]
+RANDOM_SEED = CONFIG["RANDOM_SEED"]
 
 
 # =========================
@@ -171,6 +186,72 @@ def weighted_choice(scored_rows: List[dict], rng: random.Random) -> dict:
             return row
 
     return scored_rows[-1]
+
+
+def make_json_safe(value):
+    if isinstance(value, dict):
+        safe_dict = {}
+        for key, item in value.items():
+            if isinstance(key, tuple):
+                safe_key = " | ".join(str(part) for part in key)
+            else:
+                safe_key = str(key)
+            safe_dict[safe_key] = make_json_safe(item)
+        return safe_dict
+
+    if isinstance(value, (list, tuple)):
+        return [make_json_safe(item) for item in value]
+
+    if isinstance(value, Path):
+        return str(value)
+
+    return value
+
+
+def write_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(make_json_safe(payload), f, indent=2)
+
+
+def build_run_paths(model_version: str, timestamp: datetime | None = None) -> dict[str, Path]:
+    run_timestamp = timestamp or datetime.now()
+    timestamp_str = run_timestamp.strftime("%Y-%m-%d_%H%M%S")
+    run_dir = RUNS_DIR / f"{timestamp_str}_{model_version}"
+
+    return {
+        "run_dir": run_dir,
+        "model_config": MODELS_DIR / f"{model_version}_config.json",
+        "run_config": run_dir / "config.json",
+        "metadata": run_dir / "metadata.json",
+        "preview": run_dir / "single_mock_preview.csv",
+        "simulated_picks": run_dir / "simulated_picks.csv",
+        "player_by_pick": run_dir / "player_by_pick_probs.csv",
+        "player_by_team": run_dir / "player_by_team_probs.csv",
+        "position_by_team": run_dir / "position_by_team_probs.csv",
+        "adp": run_dir / "adp_summary.csv",
+    }
+
+
+def build_run_metadata(
+    *,
+    model_version: str,
+    timestamp: datetime,
+    n_sims: int,
+    random_seed: int,
+) -> dict:
+    return {
+        "model_version": model_version,
+        "timestamp": timestamp.isoformat(timespec="seconds"),
+        "n_sims": n_sims,
+        "random_seed": random_seed,
+        "input_file_paths": {
+            "big_board": str(BIG_BOARD_PATH),
+            "team_needs": str(TEAM_NEEDS_PATH),
+            "draft_order": str(DRAFT_ORDER_PATH),
+            "player_overrides": str(PLAYER_OVERRIDES_PATH),
+        },
+    }
 
 
 # =========================
@@ -547,6 +628,22 @@ def summarize_adp(results_df: pd.DataFrame) -> pd.DataFrame:
 # =========================
 
 def main() -> None:
+    run_timestamp = datetime.now()
+    run_paths = build_run_paths(MODEL_VERSION, run_timestamp)
+    run_paths["run_dir"].mkdir(parents=True, exist_ok=False)
+
+    write_json(run_paths["model_config"], CONFIG)
+    write_json(run_paths["run_config"], CONFIG)
+    write_json(
+        run_paths["metadata"],
+        build_run_metadata(
+            model_version=MODEL_VERSION,
+            timestamp=run_timestamp,
+            n_sims=N_SIMS,
+            random_seed=RANDOM_SEED,
+        ),
+    )
+
     print("Loading data...")
     big_board_df = load_big_board(BIG_BOARD_PATH)
     need_map = load_team_needs(TEAM_NEEDS_PATH)
@@ -564,7 +661,7 @@ def main() -> None:
     )
     print(preview_df.head(20).to_string(index=False))
 
-    preview_path = OUTPUT_DIR / "single_mock_preview.csv"
+    preview_path = run_paths["preview"]
     preview_df.to_csv(preview_path, index=False)
     print(f"\nWrote {preview_path}")
 
@@ -578,7 +675,7 @@ def main() -> None:
         seed=RANDOM_SEED,
     )
 
-    simulated_picks_path = OUTPUT_DIR / "simulated_picks.csv"
+    simulated_picks_path = run_paths["simulated_picks"]
     results_df.to_csv(simulated_picks_path, index=False)
     print(f"Wrote {simulated_picks_path}")
 
@@ -587,16 +684,19 @@ def main() -> None:
     position_by_team_df = summarize_position_by_team(results_df)
     adp_df = summarize_adp(results_df)
 
-    player_by_pick_path = OUTPUT_DIR / "player_by_pick_probs.csv"
-    player_by_team_path = OUTPUT_DIR / "player_by_team_probs.csv"
-    position_by_team_path = OUTPUT_DIR / "position_by_team_probs.csv"
-    adp_path = OUTPUT_DIR / "adp_summary.csv"
+    player_by_pick_path = run_paths["player_by_pick"]
+    player_by_team_path = run_paths["player_by_team"]
+    position_by_team_path = run_paths["position_by_team"]
+    adp_path = run_paths["adp"]
 
     player_by_pick_df.to_csv(player_by_pick_path, index=False)
     player_by_team_df.to_csv(player_by_team_path, index=False)
     position_by_team_df.to_csv(position_by_team_path, index=False)
     adp_df.to_csv(adp_path, index=False)
 
+    print(f"Wrote {run_paths['model_config']}")
+    print(f"Wrote {run_paths['run_config']}")
+    print(f"Wrote {run_paths['metadata']}")
     print(f"Wrote {player_by_pick_path}")
     print(f"Wrote {player_by_team_path}")
     print(f"Wrote {position_by_team_path}")

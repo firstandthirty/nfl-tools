@@ -1,0 +1,141 @@
+{
+  "model_version": "v1",
+  "timestamp": "2026-04-23T07:40:02",
+  "n_sims": 5000,
+  "random_seed": 42,
+  "run_dir": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\output\\runs\\2026-04-23_074002_v1",
+  "input_file_paths": {
+    "big_board": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\consensus_big_board.csv",
+    "team_needs": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\team_needs.csv",
+    "draft_order": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\draft_order.csv",
+    "player_overrides": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\player_overrides.csv"
+  },
+  "config_path": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\output\\runs\\2026-04-23_074002_v1\\config.json",
+  "number_of_picks_simulated": 160000,
+  "number_of_unique_players_drafted": 52,
+  "number_of_unique_teams": 26,
+  "top_10_players_by_average_draft_position": [
+    {
+      "player": "Fernando Mendoza",
+      "position": "QB",
+      "avg_pick": 1.0
+    },
+    {
+      "player": "David Bailey",
+      "position": "EDGE",
+      "avg_pick": 3.0396
+    },
+    {
+      "player": "Arvell Reese",
+      "position": "LB",
+      "avg_pick": 3.1484
+    },
+    {
+      "player": "Carnell Tate",
+      "position": "WR",
+      "avg_pick": 6.4912
+    },
+    {
+      "player": "Sonny Styles",
+      "position": "LB",
+      "avg_pick": 7.234881858229876
+    },
+    {
+      "player": "Jeremiyah Love",
+      "position": "RB",
+      "avg_pick": 8.45585874799358
+    },
+    {
+      "player": "Jordyn Tyson",
+      "position": "WR",
+      "avg_pick": 9.109575320512821
+    },
+    {
+      "player": "Caleb Downs",
+      "position": "S",
+      "avg_pick": 9.16823741728494
+    },
+    {
+      "player": "Mansoor Delane",
+      "position": "CB",
+      "avg_pick": 9.39523714228537
+    },
+    {
+      "player": "Francis Mauigoa",
+      "position": "OT",
+      "avg_pick": 9.685897435897436
+    }
+  ],
+  "top_10_most_common_exact_pick_outcomes": [
+    {
+      "pick": 1,
+      "team": "LV",
+      "player": "Fernando Mendoza",
+      "probability": 1.0,
+      "config_version": "v1"
+    },
+    {
+      "pick": 18,
+      "team": "MIN",
+      "player": "Dillon Thieneman",
+      "probability": 0.515,
+      "config_version": "v1"
+    },
+    {
+      "pick": 2,
+      "team": "NYJ",
+      "player": "David Bailey",
+      "probability": 0.4496,
+      "config_version": "v1"
+    },
+    {
+      "pick": 2,
+      "team": "NYJ",
+      "player": "Arvell Reese",
+      "probability": 0.4432,
+      "config_version": "v1"
+    },
+    {
+      "pick": 17,
+      "team": "DET",
+      "player": "Kadyn Proctor",
+      "probability": 0.4354,
+      "config_version": "v1"
+    },
+    {
+      "pick": 4,
+      "team": "TEN",
+      "player": "Jeremiyah Love",
+      "probability": 0.4082,
+      "config_version": "v1"
+    },
+    {
+      "pick": 8,
+      "team": "NO",
+      "player": "Mansoor Delane",
+      "probability": 0.391,
+      "config_version": "v1"
+    },
+    {
+      "pick": 6,
+      "team": "CLE",
+      "player": "Carnell Tate",
+      "probability": 0.3844,
+      "config_version": "v1"
+    },
+    {
+      "pick": 14,
+      "team": "BAL",
+      "player": "Olaivavega Ioane",
+      "probability": 0.382,
+      "config_version": "v1"
+    },
+    {
+      "pick": 5,
+      "team": "NYG",
+      "player": "Caleb Downs",
+      "probability": 0.3702,
+      "config_version": "v1"
+    }
+  ]
+}

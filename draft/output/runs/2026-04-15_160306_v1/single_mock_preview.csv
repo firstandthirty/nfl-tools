@@ -1,0 +1,33 @@
+pick,round,team,player,position,school,rank,selection_source
+1,1,LV,Fernando Mendoza,QB,Indiana,1,override
+2,1,NYJ,Arvell Reese,LB,Ohio State,2,model
+3,1,ARI,David Bailey,EDGE,Texas Tech,3,model
+4,1,TEN,Jeremiyah Love,RB,Notre Dame,4,model
+5,1,NYG,Sonny Styles,LB,Ohio State,6,model
+6,1,CLE,Francis Mauigoa,OT,Miami (FL),5,model
+7,1,WAS,Makai Lemon,WR,USC,13,model
+8,1,NO,Carnell Tate,WR,Ohio State,7,model
+9,1,KC,Mansoor Delane,CB,LSU,10,model
+10,1,CIN,Caleb Downs,S,Ohio State,9,model
+11,1,MIA,Jermod McCoy,CB,Tennessee,14,model
+12,1,DAL,Monroe Freeling,OT,Georgia,12,model
+13,1,LAR,Jordyn Tyson,WR,Arizona State,15,model
+14,1,BAL,Olaivavega Ioane,IOL,Penn State,16,model
+15,1,TB,Kenyon Sadiq,TE,Oregon,17,model
+16,1,NYJ,Keldric Faulk,EDGE,Auburn,20,model
+17,1,DET,Kadyn Proctor,OT,Alabama,19,model
+18,1,MIN,Dillon Thieneman,S,Oregon,18,model
+19,1,CAR,Spencer Fano,OT,Utah,11,model
+20,1,DAL,Akheem Mesidor,EDGE,Miami (FL),21,model
+21,1,PIT,Avieon Terrell,CB,Clemson,27,model
+22,1,LAC,Kevin Concepcion,WR,Texas A&M,26,model
+23,1,PHI,Rueben Bain,EDGE,Miami (FL),8,model
+24,1,CLE,Omar Cooper Jr.,WR,Indiana,22,model
+25,1,CHI,Denzel Boston,WR,Washington,30,model
+26,1,BUF,Peter Woods,DT,Clemson,28,model
+27,1,SF,Caleb Lomu,OT,Utah,25,model
+28,1,HOU,Kayden McDonald,DT,Ohio State,31,model
+29,1,KC,Blake Miller,OT,Clemson,24,model
+30,1,MIA,Cashius Howell,EDGE,Texas A&M,32,model
+31,1,NE,Max Iheanachor,OT,Arizona State,36,model
+32,1,SEA,Chris Johnson,CB,San Diego State,39,model

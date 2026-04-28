@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>2026 NFL Draft Results</title>
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --card: #121a26;
+      --muted: #9aa4b2;
+      --text: #e7edf5;
+      --border: rgba(255,255,255,0.08);
+      --accent: #5aa2ff;
+      --accent-green: #78ffa3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: linear-gradient(180deg, #070a10 0%, var(--bg) 60%);
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 16px 80px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      background: rgba(11, 15, 23, 0.75);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 14px 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      min-width: 0;
+    }
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      display: block;
+      object-fit: contain;
+      flex: 0 0 auto;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .title {
+      font-weight: 800;
+      letter-spacing: 0.3px;
+      margin: 0;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 8px 10px;
+      min-width: 260px;
+    }
+
+    .search input {
+      width: 100%;
+      background: transparent;
+      border: 0;
+      color: var(--text);
+      outline: none;
+      font-size: 14px;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .controls select {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 8px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .controls select option {
+      background: var(--card);
+      color: var(--text);
+    }
+
+    .stats-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: rgba(18, 26, 38, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-weight: 900;
+      font-size: 24px;
+      color: var(--accent);
+      margin: 8px 0;
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .table-wrap {
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x;
+      background: rgba(18, 26, 38, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0;
+    }
+
+    .table {
+      border-collapse: collapse;
+      width: max-content;
+      min-width: 100%;
+    }
+
+    .table th,
+    .table td {
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 13px;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    .table th {
+      color: #cdd6e3;
+      font-weight: 900;
+      background: rgba(255, 255, 255, 0.03);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .table th:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .table th.sort-asc::after {
+      content: ' ↑';
+      color: var(--accent);
+    }
+
+    .table th.sort-desc::after {
+      content: ' ↓';
+      color: var(--accent);
+    }
+
+    .table tbody tr {
+      transition: background 0.15s ease;
+    }
+
+    .table tbody tr:hover {
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .table td:first-child {
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .pick-badge {
+      display: inline-block;
+      background: rgba(90, 162, 255, 0.2);
+      border: 1px solid rgba(90, 162, 255, 0.4);
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-weight: 700;
+    }
+
+    .position-badge {
+      display: inline-block;
+      background: rgba(120, 255, 163, 0.15);
+      border: 1px solid rgba(120, 255, 163, 0.3);
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+    }
+
+    .no-results p {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+
+    @media (max-width: 860px) {
+      .wrap { padding: 16px 12px 60px; }
+      .hint { display: none; }
+      .search { min-width: 0; width: 100%; }
+
+      .topbar {
+        padding: 12px 0 14px;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .search,
+      .controls select {
+        width: 100%;
+      }
+
+      .controls {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+      .controls select {
+        flex: 1;
+        min-width: 150px;
+      }
+
+      .stats-summary {
+        grid-template-columns: 1fr;
+      }
+
+      .table th,
+      .table td {
+        padding: 10px 12px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="brand" href="https://www.firstandthirty.com" target="_blank" rel="noopener noreferrer">
+      <img
+        class="brand-logo"
+        src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/69222/98371_714484.png"
+        alt="First and Thirty logo"
+      />
+      <div class="brand-text">
+        <h1 class="title">2026 NFL Draft Results</h1>
+        <p class="hint" id="lastUpdate">Loading...</p>
+      </div>
+    </a>
+
+    <div class="search">
+      <span class="hint">🔍</span>
+      <input id="searchInput" type="text" placeholder="Search player or team..." />
+    </div>
+
+    <div class="controls">
+      <select id="positionFilter">
+        <option value="">All Positions</option>
+      </select>
+      <select id="teamFilter">
+        <option value="">All Teams</option>
+      </select>
+      <select id="roundFilter">
+        <option value="">All Rounds</option>
+        <option value="1">Round 1</option>
+        <option value="2">Round 2</option>
+        <option value="3">Round 3</option>
+        <option value="4">Round 4</option>
+        <option value="5">Round 5</option>
+        <option value="6">Round 6</option>
+        <option value="7">Round 7</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats-summary">
+    <div class="stat-card">
+      <div class="stat-label">Total Picks</div>
+      <div class="stat-value" id="totalPicks">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Positions</div>
+      <div class="stat-value" id="uniquePositions">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Colleges</div>
+      <div class="stat-value" id="uniqueColleges">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Teams</div>
+      <div class="stat-value" id="uniqueTeams">0</div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="table" id="draftTable">
+      <thead>
+        <tr>
+          <th class="sortable" data-field="pick">Pick #</th>
+          <th class="sortable" data-field="player">Player</th>
+          <th class="sortable" data-field="position">Position</th>
+          <th class="sortable" data-field="college">College</th>
+          <th class="sortable" data-field="team_name">Team</th>
+        </tr>
+      </thead>
+      <tbody id="draftBody">
+        <tr><td colspan="5" class="no-results">Loading draft data...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="noResults" class="no-results" style="display:none;">
+    <p>No picks found matching your criteria.</p>
+    <p style="font-size:12px;">Try adjusting your search or filters.</p>
+  </div>
+</div>
+
+<script>
+  let allPicks = [];
+  let currentSort = { field: 'pick', order: 'asc' };
+
+  // Load data from JSON
+  async function loadDraftData() {
+    try {
+      const response = await fetch('./2026_nfl_draft.json');
+      const data = await response.json();
+      allPicks = data.picks;
+      
+      // Update header
+      const timestamp = new Date(data.timestamp);
+      document.getElementById('lastUpdate').textContent = `Last updated: ${timestamp.toLocaleDateString()} ${timestamp.toLocaleTimeString()}`;
+      
+      // Populate filters
+      populateFilters();
+      
+      // Update stats
+      updateStats();
+      
+      // Render table
+      renderTable(allPicks);
+    } catch (error) {
+      console.error('Error loading draft data:', error);
+      document.getElementById('draftBody').innerHTML = '<tr><td colspan="5" class="no-results"><p>Error loading draft data</p></td></tr>';
+    }
+  }
+
+  function populateFilters() {
+    // Get unique positions
+    const positions = [...new Set(allPicks.map(p => p.position))].sort();
+    const posSelect = document.getElementById('positionFilter');
+    positions.forEach(pos => {
+      const option = document.createElement('option');
+      option.value = pos;
+      option.textContent = pos;
+      posSelect.appendChild(option);
+    });
+
+    // Get unique teams
+    const teams = [...new Set(allPicks.map(p => p.team_name))].sort();
+    const teamSelect = document.getElementById('teamFilter');
+    teams.forEach(team => {
+      const option = document.createElement('option');
+      option.value = team;
+      option.textContent = team;
+      teamSelect.appendChild(option);
+    });
+  }
+
+  function updateStats() {
+    document.getElementById('totalPicks').textContent = allPicks.length.toLocaleString();
+    document.getElementById('uniquePositions').textContent = new Set(allPicks.map(p => p.position)).size;
+    document.getElementById('uniqueColleges').textContent = new Set(allPicks.map(p => p.college)).size;
+    document.getElementById('uniqueTeams').textContent = new Set(allPicks.map(p => p.team_name)).size;
+  }
+
+  function getFilteredPicks() {
+    let filtered = [...allPicks];
+
+    // Apply search
+    const search = document.getElementById('searchInput').value.toLowerCase();
+    if (search) {
+      filtered = filtered.filter(p =>
+        p.player.toLowerCase().includes(search) ||
+        p.team_name.toLowerCase().includes(search) ||
+        p.college.toLowerCase().includes(search) ||
+        p.position.toLowerCase().includes(search)
+      );
+    }
+
+    // Apply position filter
+    const position = document.getElementById('positionFilter').value;
+    if (position) {
+      filtered = filtered.filter(p => p.position === position);
+    }
+
+    // Apply team filter
+    const team = document.getElementById('teamFilter').value;
+    if (team) {
+      filtered = filtered.filter(p => p.team_name === team);
+    }
+
+    // Apply round filter
+    const round = document.getElementById('roundFilter').value;
+    if (round) {
+      const roundNum = parseInt(round);
+      const picksPerRound = 32;
+      const minPick = (roundNum - 1) * picksPerRound + 1;
+      const maxPick = roundNum * picksPerRound;
+      filtered = filtered.filter(p => p.pick >= minPick && p.pick <= maxPick);
+    }
+
+    // Apply sort
+    filtered.sort((a, b) => {
+      let aVal = a[currentSort.field];
+      let bVal = b[currentSort.field];
+
+      if (typeof aVal === 'number') {
+        return currentSort.order === 'asc' ? aVal - bVal : bVal - aVal;
+      }
+
+      aVal = String(aVal).toLowerCase();
+      bVal = String(bVal).toLowerCase();
+      return currentSort.order === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+    });
+
+    return filtered;
+  }
+
+  function renderTable(picks) {
+    const tbody = document.getElementById('draftBody');
+    const noResults = document.getElementById('noResults');
+
+    if (picks.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5"></td></tr>';
+      noResults.style.display = 'block';
+      return;
+    }
+
+    noResults.style.display = 'none';
+    tbody.innerHTML = picks.map(pick => {
+      const roundNum = Math.ceil(pick.pick / 32);
+      return `
+        <tr>
+          <td>
+            <span class="pick-badge">#${pick.pick}</span>
+          </td>
+          <td><strong>${pick.player}</strong></td>
+          <td>
+            <span class="position-badge">${pick.position}</span>
+          </td>
+          <td>${pick.college}</td>
+          <td>${pick.team}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Event listeners
+  document.getElementById('searchInput').addEventListener('input', () => {
+    renderTable(getFilteredPicks());
+  });
+
+  document.getElementById('positionFilter').addEventListener('change', () => {
+    renderTable(getFilteredPicks());
+  });
+
+  document.getElementById('teamFilter').addEventListener('change', () => {
+    renderTable(getFilteredPicks());
+  });
+
+  document.getElementById('roundFilter').addEventListener('change', () => {
+    renderTable(getFilteredPicks());
+  });
+
+  // Sortable headers
+  document.querySelectorAll('.sortable').forEach(header => {
+    header.addEventListener('click', () => {
+      const field = header.dataset.field;
+      
+      // Update sort state
+      if (currentSort.field === field) {
+        currentSort.order = currentSort.order === 'asc' ? 'desc' : 'asc';
+      } else {
+        currentSort.field = field;
+        currentSort.order = 'asc';
+      }
+
+      // Update header styles
+      document.querySelectorAll('.sortable').forEach(h => {
+        h.classList.remove('sort-asc', 'sort-desc');
+      });
+      header.classList.add(`sort-${currentSort.order}`);
+
+      renderTable(getFilteredPicks());
+    });
+  });
+
+  // Load data on page load
+  loadDraftData();
+</script>
+</body>
+</html>

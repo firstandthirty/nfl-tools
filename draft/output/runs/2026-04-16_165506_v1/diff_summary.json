@@ -1,0 +1,653 @@
+{
+  "previous_run_dir": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\output\\runs\\2026-04-16_163922_v1",
+  "current_run_dir": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\output\\runs\\2026-04-16_165506_v1",
+  "model_version": "v1",
+  "largest_exact_pick_changes": [
+    {
+      "pick": 13,
+      "team": "LAR",
+      "player": "Spencer Fano",
+      "previous_probability": 0.0664,
+      "current_probability": 0.1582,
+      "diff": 0.0918,
+      "abs_diff": 0.0918,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 19,
+      "team": "CAR",
+      "player": "Kenyon Sadiq",
+      "previous_probability": 0.0996,
+      "current_probability": 0.1894,
+      "diff": 0.08980000000000002,
+      "abs_diff": 0.08980000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 21,
+      "team": "PIT",
+      "player": "Kadyn Proctor",
+      "previous_probability": 0.0514,
+      "current_probability": 0.1322,
+      "diff": 0.08080000000000001,
+      "abs_diff": 0.08080000000000001,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 25,
+      "team": "CHI",
+      "player": "Emmanuel McNeil-Warren",
+      "previous_probability": 0.0712,
+      "current_probability": 0.147,
+      "diff": 0.07579999999999999,
+      "abs_diff": 0.07579999999999999,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 12,
+      "team": "DAL",
+      "player": "Jermod McCoy",
+      "previous_probability": 0.3868,
+      "current_probability": 0.3118,
+      "diff": -0.07499999999999996,
+      "abs_diff": 0.07499999999999996,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 14,
+      "team": "BAL",
+      "player": "Olaivavega Ioane",
+      "previous_probability": 0.3098,
+      "current_probability": 0.2402,
+      "diff": -0.06960000000000002,
+      "abs_diff": 0.06960000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 25,
+      "team": "CHI",
+      "player": "Kayden McDonald",
+      "previous_probability": 0.279,
+      "current_probability": 0.2094,
+      "diff": -0.06960000000000002,
+      "abs_diff": 0.06960000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 29,
+      "team": "KC",
+      "player": "Avieon Terrell",
+      "previous_probability": 0.0624,
+      "current_probability": 0.1316,
+      "diff": 0.0692,
+      "abs_diff": 0.0692,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 4,
+      "team": "TEN",
+      "player": "Arvell Reese",
+      "previous_probability": 0.0536,
+      "current_probability": 0.1214,
+      "diff": 0.0678,
+      "abs_diff": 0.0678,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 12,
+      "team": "DAL",
+      "player": "Mansoor Delane",
+      "previous_probability": 0.0892,
+      "current_probability": 0.155,
+      "diff": 0.0658,
+      "abs_diff": 0.0658,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 20,
+      "team": "DAL",
+      "player": "Dillon Thieneman",
+      "previous_probability": 0.0342,
+      "current_probability": 0.0998,
+      "diff": 0.06559999999999999,
+      "abs_diff": 0.06559999999999999,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 17,
+      "team": "DET",
+      "player": "Kadyn Proctor",
+      "previous_probability": 0.3626,
+      "current_probability": 0.2986,
+      "diff": -0.064,
+      "abs_diff": 0.064,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 25,
+      "team": "CHI",
+      "player": "Peter Woods",
+      "previous_probability": 0.3248,
+      "current_probability": 0.2614,
+      "diff": -0.06339999999999996,
+      "abs_diff": 0.06339999999999996,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 8,
+      "team": "NO",
+      "player": "Mansoor Delane",
+      "previous_probability": 0.3362,
+      "current_probability": 0.2784,
+      "diff": -0.05780000000000002,
+      "abs_diff": 0.05780000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 4,
+      "team": "TEN",
+      "player": "Jeremiyah Love",
+      "previous_probability": 0.3502,
+      "current_probability": 0.295,
+      "diff": -0.05520000000000003,
+      "abs_diff": 0.05520000000000003,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 7,
+      "team": "WAS",
+      "player": "Rueben Bain",
+      "previous_probability": 0.3074,
+      "current_probability": 0.2536,
+      "diff": -0.053800000000000014,
+      "abs_diff": 0.053800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 13,
+      "team": "LAR",
+      "player": "Jordyn Tyson",
+      "previous_probability": 0.262,
+      "current_probability": 0.2082,
+      "diff": -0.053800000000000014,
+      "abs_diff": 0.053800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 18,
+      "team": "MIN",
+      "player": "Dillon Thieneman",
+      "previous_probability": 0.3668,
+      "current_probability": 0.314,
+      "diff": -0.052800000000000014,
+      "abs_diff": 0.052800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 15,
+      "team": "TB",
+      "player": "Keldric Faulk",
+      "previous_probability": 0.2976,
+      "current_probability": 0.2484,
+      "diff": -0.049199999999999966,
+      "abs_diff": 0.049199999999999966,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "pick": 13,
+      "team": "LAR",
+      "player": "Monroe Freeling",
+      "previous_probability": 0.1962,
+      "current_probability": 0.1484,
+      "diff": -0.04780000000000001,
+      "abs_diff": 0.04780000000000001,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    }
+  ],
+  "largest_team_player_changes": [
+    {
+      "team": "LAR",
+      "player": "Spencer Fano",
+      "previous_probability": 0.0664,
+      "current_probability": 0.1582,
+      "diff": 0.0918,
+      "abs_diff": 0.0918,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "CAR",
+      "player": "Kenyon Sadiq",
+      "previous_probability": 0.0996,
+      "current_probability": 0.1894,
+      "diff": 0.08980000000000002,
+      "abs_diff": 0.08980000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "PIT",
+      "player": "Kadyn Proctor",
+      "previous_probability": 0.0514,
+      "current_probability": 0.1322,
+      "diff": 0.08080000000000001,
+      "abs_diff": 0.08080000000000001,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "CHI",
+      "player": "Emmanuel McNeil-Warren",
+      "previous_probability": 0.0712,
+      "current_probability": 0.147,
+      "diff": 0.07579999999999999,
+      "abs_diff": 0.07579999999999999,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "DAL",
+      "player": "Jermod McCoy",
+      "previous_probability": 0.411,
+      "current_probability": 0.3372,
+      "diff": -0.07379999999999998,
+      "abs_diff": 0.07379999999999998,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "BAL",
+      "player": "Olaivavega Ioane",
+      "previous_probability": 0.3098,
+      "current_probability": 0.2402,
+      "diff": -0.06960000000000002,
+      "abs_diff": 0.06960000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "CHI",
+      "player": "Kayden McDonald",
+      "previous_probability": 0.279,
+      "current_probability": 0.2094,
+      "diff": -0.06960000000000002,
+      "abs_diff": 0.06960000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "KC",
+      "player": "Avieon Terrell",
+      "previous_probability": 0.0624,
+      "current_probability": 0.1316,
+      "diff": 0.0692,
+      "abs_diff": 0.0692,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "TEN",
+      "player": "Arvell Reese",
+      "previous_probability": 0.0536,
+      "current_probability": 0.1214,
+      "diff": 0.0678,
+      "abs_diff": 0.0678,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "DET",
+      "player": "Kadyn Proctor",
+      "previous_probability": 0.3626,
+      "current_probability": 0.2986,
+      "diff": -0.064,
+      "abs_diff": 0.064,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "CHI",
+      "player": "Peter Woods",
+      "previous_probability": 0.3248,
+      "current_probability": 0.2614,
+      "diff": -0.06339999999999996,
+      "abs_diff": 0.06339999999999996,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "DAL",
+      "player": "Dillon Thieneman",
+      "previous_probability": 0.0868,
+      "current_probability": 0.147,
+      "diff": 0.06019999999999999,
+      "abs_diff": 0.06019999999999999,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "DAL",
+      "player": "Mansoor Delane",
+      "previous_probability": 0.1106,
+      "current_probability": 0.1694,
+      "diff": 0.05879999999999999,
+      "abs_diff": 0.05879999999999999,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "NO",
+      "player": "Mansoor Delane",
+      "previous_probability": 0.3362,
+      "current_probability": 0.2784,
+      "diff": -0.05780000000000002,
+      "abs_diff": 0.05780000000000002,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "TEN",
+      "player": "Jeremiyah Love",
+      "previous_probability": 0.3502,
+      "current_probability": 0.295,
+      "diff": -0.05520000000000003,
+      "abs_diff": 0.05520000000000003,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "LAR",
+      "player": "Jordyn Tyson",
+      "previous_probability": 0.262,
+      "current_probability": 0.2082,
+      "diff": -0.053800000000000014,
+      "abs_diff": 0.053800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "WAS",
+      "player": "Rueben Bain",
+      "previous_probability": 0.3074,
+      "current_probability": 0.2536,
+      "diff": -0.053800000000000014,
+      "abs_diff": 0.053800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "MIN",
+      "player": "Dillon Thieneman",
+      "previous_probability": 0.3668,
+      "current_probability": 0.314,
+      "diff": -0.052800000000000014,
+      "abs_diff": 0.052800000000000014,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "TB",
+      "player": "Keldric Faulk",
+      "previous_probability": 0.2976,
+      "current_probability": 0.2484,
+      "diff": -0.049199999999999966,
+      "abs_diff": 0.049199999999999966,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    },
+    {
+      "team": "LAR",
+      "player": "Monroe Freeling",
+      "previous_probability": 0.1962,
+      "current_probability": 0.1484,
+      "diff": -0.04780000000000001,
+      "abs_diff": 0.04780000000000001,
+      "previous_run": "2026-04-16_163922_v1",
+      "current_run": "2026-04-16_165506_v1"
+    }
+  ],
+  "largest_adp_changes": [
+    {
+      "player": "Cole Payton",
+      "previous_avg_pick": 0.0,
+      "current_avg_pick": 29.0,
+      "diff": 29.0,
+      "abs_diff": 29.0
+    },
+    {
+      "player": "Garrett Nussmeier",
+      "previous_avg_pick": 18.714285714285715,
+      "current_avg_pick": 20.33333333333333,
+      "diff": 1.6190476190476133,
+      "abs_diff": 1.6190476190476133
+    },
+    {
+      "player": "Spencer Fano",
+      "previous_avg_pick": 15.736842105263158,
+      "current_avg_pick": 14.13933236574746,
+      "diff": -1.5975097395156972,
+      "abs_diff": 1.5975097395156972
+    },
+    {
+      "player": "Ty Simpson",
+      "previous_avg_pick": 23.170357751277685,
+      "current_avg_pick": 24.49684542586751,
+      "diff": 1.3264876745898242,
+      "abs_diff": 1.3264876745898242
+    },
+    {
+      "player": "Jeremiyah Love",
+      "previous_avg_pick": 10.370004037141705,
+      "current_avg_pick": 9.25451263537906,
+      "diff": -1.115491401762645,
+      "abs_diff": 1.115491401762645
+    },
+    {
+      "player": "Avieon Terrell",
+      "previous_avg_pick": 23.651135358301385,
+      "current_avg_pick": 24.50400427122264,
+      "diff": 0.8528689129212559,
+      "abs_diff": 0.8528689129212559
+    },
+    {
+      "player": "Drew Allar",
+      "previous_avg_pick": 19.0,
+      "current_avg_pick": 18.25,
+      "diff": -0.75,
+      "abs_diff": 0.75
+    },
+    {
+      "player": "Emmanuel McNeil-Warren",
+      "previous_avg_pick": 20.62118822292324,
+      "current_avg_pick": 21.24709020368574,
+      "diff": 0.6259019807624995,
+      "abs_diff": 0.6259019807624995
+    },
+    {
+      "player": "Jordyn Tyson",
+      "previous_avg_pick": 12.886099203919168,
+      "current_avg_pick": 13.453673469387756,
+      "diff": 0.567574265468588,
+      "abs_diff": 0.567574265468588
+    },
+    {
+      "player": "Olaivavega Ioane",
+      "previous_avg_pick": 16.03704510786664,
+      "current_avg_pick": 16.552694222029864,
+      "diff": 0.5156491141632245,
+      "abs_diff": 0.5156491141632245
+    },
+    {
+      "player": "Jermod McCoy",
+      "previous_avg_pick": 12.35791624106231,
+      "current_avg_pick": 12.872716074727984,
+      "diff": 0.5147998336656752,
+      "abs_diff": 0.5147998336656752
+    },
+    {
+      "player": "Makai Lemon",
+      "previous_avg_pick": 11.095652173913043,
+      "current_avg_pick": 11.580592773041008,
+      "diff": 0.48494059912796494,
+      "abs_diff": 0.48494059912796494
+    },
+    {
+      "player": "Omar Cooper Jr.",
+      "previous_avg_pick": 19.126183659986783,
+      "current_avg_pick": 19.55434069538596,
+      "diff": 0.4281570353991775,
+      "abs_diff": 0.4281570353991775
+    },
+    {
+      "player": "Akheem Mesidor",
+      "previous_avg_pick": 18.667090754877016,
+      "current_avg_pick": 19.094227504244483,
+      "diff": 0.4271367493674667,
+      "abs_diff": 0.4271367493674667
+    },
+    {
+      "player": "Jacob Rodriguez",
+      "previous_avg_pick": 30.029411764705884,
+      "current_avg_pick": 29.630434782608692,
+      "diff": -0.39897698209719223,
+      "abs_diff": 0.39897698209719223
+    },
+    {
+      "player": "Peter Woods",
+      "previous_avg_pick": 23.72785534447242,
+      "current_avg_pick": 24.120702091849,
+      "diff": 0.39284674737658065,
+      "abs_diff": 0.39284674737658065
+    },
+    {
+      "player": "Keldric Faulk",
+      "previous_avg_pick": 17.56062858356339,
+      "current_avg_pick": 17.900253057781526,
+      "diff": 0.33962447421813735,
+      "abs_diff": 0.33962447421813735
+    },
+    {
+      "player": "Caleb Lomu",
+      "previous_avg_pick": 22.247264260768336,
+      "current_avg_pick": 22.585826771653544,
+      "diff": 0.3385625108852075,
+      "abs_diff": 0.3385625108852075
+    },
+    {
+      "player": "Arvell Reese",
+      "previous_avg_pick": 3.896,
+      "current_avg_pick": 3.5718,
+      "diff": -0.3241999999999998,
+      "abs_diff": 0.3241999999999998
+    },
+    {
+      "player": "T.J. Parker",
+      "previous_avg_pick": 25.79340909090909,
+      "current_avg_pick": 26.11153759313615,
+      "diff": 0.3181285022270579,
+      "abs_diff": 0.3181285022270579
+    }
+  ],
+  "picks_with_biggest_total_probability_reshuffling": [
+    {
+      "pick": 25,
+      "total_abs_diff": 0.3016
+    },
+    {
+      "pick": 21,
+      "total_abs_diff": 0.2848
+    },
+    {
+      "pick": 13,
+      "total_abs_diff": 0.2592
+    },
+    {
+      "pick": 19,
+      "total_abs_diff": 0.25000000000000006
+    },
+    {
+      "pick": 20,
+      "total_abs_diff": 0.22719999999999999
+    },
+    {
+      "pick": 29,
+      "total_abs_diff": 0.2248
+    },
+    {
+      "pick": 28,
+      "total_abs_diff": 0.22360000000000002
+    },
+    {
+      "pick": 12,
+      "total_abs_diff": 0.22319999999999995
+    },
+    {
+      "pick": 27,
+      "total_abs_diff": 0.22159999999999996
+    },
+    {
+      "pick": 10,
+      "total_abs_diff": 0.21399999999999997
+    },
+    {
+      "pick": 18,
+      "total_abs_diff": 0.21359999999999998
+    },
+    {
+      "pick": 24,
+      "total_abs_diff": 0.21000000000000002
+    },
+    {
+      "pick": 23,
+      "total_abs_diff": 0.20399999999999996
+    },
+    {
+      "pick": 31,
+      "total_abs_diff": 0.2028
+    },
+    {
+      "pick": 14,
+      "total_abs_diff": 0.20120000000000007
+    },
+    {
+      "pick": 26,
+      "total_abs_diff": 0.2
+    },
+    {
+      "pick": 17,
+      "total_abs_diff": 0.1928
+    },
+    {
+      "pick": 7,
+      "total_abs_diff": 0.1928
+    },
+    {
+      "pick": 16,
+      "total_abs_diff": 0.1904
+    },
+    {
+      "pick": 15,
+      "total_abs_diff": 0.19
+    }
+  ]
+}

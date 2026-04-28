@@ -20,7 +20,7 @@ import html as html_lib
 import time
 from datetime import datetime
 
-DRAFT_URL = "https://www.tankathon.com/nfl/full_draft"
+DRAFT_URL = "https://www.tankathon.com/nfl/past_drafts/2026"
 ADDITIONS_URL = "https://www.nfl.com/news/2026-nfl-free-agency-tracker-latest-signings-trades-contract-info-for-all-32-teams"
 DEPARTURES_URL = "https://www.nfl.com/news/2026-nfl-free-agency-free-agents-notable-departures-for-all-32-teams"
 
@@ -866,6 +866,62 @@ def load_cap_csv(path: str) -> dict:
         out[t] = str(row[cap_col])
     return out
 
+def load_spotrac_cap(url: str = "https://www.spotrac.com/nfl/cap") -> dict:
+    html = fetch_html(url, "Spotrac cap")
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table", class_="table dataTable premium")
+    if table is None:
+        raise RuntimeError("Spotrac cap page did not contain the expected cap table.")
+
+    headers = [th.get_text(strip=True) for th in table.find_all("th")]
+    team_col = next((i for i, h in enumerate(headers) if "team" in h.lower()), None)
+    cap_col = next((i for i, h in enumerate(headers) if "cap" in h.lower() and "space" in h.lower()), None)
+    if cap_col is None:
+        cap_col = next((i for i, h in enumerate(headers) if "cap" in h.lower()), None)
+    if team_col is None or cap_col is None:
+        raise RuntimeError(
+            f"Could not map Spotrac cap columns. headers={headers[:10]}"
+        )
+
+    out = {}
+    body = table.find("tbody")
+    if body is None:
+        raise RuntimeError("Spotrac cap table has no tbody element.")
+
+    for row in body.find_all("tr"):
+        cols = row.find_all("td")
+        if len(cols) <= max(team_col, cap_col):
+            continue
+
+        team_cell = cols[team_col]
+        team_abbr = team_cell.find("span", class_="d-none")
+        if team_abbr and team_abbr.get_text(strip=True):
+            raw_team = team_abbr.get_text(strip=True)
+        else:
+            raw_team = team_cell.get_text(" ", strip=True)
+
+        team = norm_team(raw_team)
+        if not team:
+            continue
+
+        cap_value = cols[cap_col].get_text(strip=True)
+        out[team] = cap_value
+
+    if not out:
+        raise RuntimeError("Spotrac cap scraper found no cap rows.")
+
+    return out
+
+
+def load_cap() -> dict:
+    try:
+        return load_spotrac_cap()
+    except Exception as exc:
+        print(f"[warn] load_spotrac_cap failed: {exc}")
+        print("[warn] Falling back to data/cap.csv")
+        return load_cap_csv("data/cap.csv")
+
+
 def load_free_agents_csv(path: str) -> dict:
     df = pd.read_csv(path)
 
@@ -946,29 +1002,59 @@ def load_trade_value_csv(path: str) -> dict[int, float]:
 
 def load_tankathon_draft() -> dict[str, list[str]]:
     html = requests.get(DRAFT_URL, headers=HEADERS, timeout=30).text
-    tables = pd.read_html(StringIO(html))
+    soup = BeautifulSoup(html, "html.parser")
 
     out: dict[str, list[str]] = {}
-    round_number = 1
 
-    for table in tables:
-        if table.shape[1] != 2:
+    # Each draft round is wrapped in a mock-rows container.
+    for round_block in soup.find_all("div", class_="mock-rows"):
+        round_div = round_block.find("div", class_="mock-round-label")
+        if not round_div:
             continue
-        table.columns = ["Pick", "Team"]
 
-        for _, row in table.iterrows():
-            try:
-                pick = str(int(float(row["Pick"]))).strip()
-            except Exception:
+        round_text = round_div.get_text(strip=True)
+        if not round_text.startswith("Round "):
+            continue
+        try:
+            round_number = int(round_text.split()[1])
+        except ValueError:
+            continue
+
+        rows = round_block.find_all("div", class_="mock-row")
+        for row in rows:
+            pick_div = row.find("div", class_="mock-row-pick-number")
+            if not pick_div:
                 continue
+            pick = pick_div.get_text(strip=True)
 
-            team = norm_team_tankathon(row["Team"])
+            logo_div = row.find("div", class_="mock-row-logo")
+            if not logo_div:
+                continue
+            img = logo_div.find("img")
+            if not img:
+                continue
+            alt = img.get("alt", "")
+            team = norm_team(alt)
             if not team:
                 continue
 
-            out.setdefault(team, []).append(f"Round {round_number}, Pick {pick}")
+            player_div = row.find("div", class_="mock-row-player")
+            if player_div:
+                name_div = player_div.find("div", class_="mock-row-name")
+                if name_div:
+                    player_name = name_div.get_text(strip=True)
+                    position_div = player_div.find("div", class_="mock-row-school-position")
+                    if position_div:
+                        position = position_div.get_text(strip=True)
+                        pick_info = f"Round {round_number}, Pick {pick}: {player_name} ({position})"
+                    else:
+                        pick_info = f"Round {round_number}, Pick {pick}: {player_name}"
+                else:
+                    pick_info = f"Round {round_number}, Pick {pick}"
+            else:
+                pick_info = f"Round {round_number}, Pick {pick}"
 
-        round_number += 1
+            out.setdefault(team, []).append(pick_info)
 
     return out
 
@@ -2370,7 +2456,7 @@ __TEAM_SECTIONS__
 # ---------------- MAIN ---------------- #
 
 def main():
-    cap = load_cap_csv("data/cap.csv")
+    cap = load_cap()
     fa = load_free_agents_csv("data/free_agents.csv")
     draft = load_tankathon_draft()
     coaches = load_coaches_csv("data/coaches.csv")

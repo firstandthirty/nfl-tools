@@ -1,0 +1,12 @@
+{
+  "model_version": "v1",
+  "timestamp": "2026-04-15T15:50:01",
+  "n_sims": 5000,
+  "random_seed": 42,
+  "input_file_paths": {
+    "big_board": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\consensus_big_board.csv",
+    "team_needs": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\team_needs.csv",
+    "draft_order": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\draft_order.csv",
+    "player_overrides": "C:\\Users\\brady\\OneDrive\\Desktop\\nfl-tools\\draft\\data\\player_overrides.csv"
+  }
+}
