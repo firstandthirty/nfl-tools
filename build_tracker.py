@@ -1,29 +1,28 @@
-# build_tracker.py
-# Outputs:
-#   nfl_offseason_tracker.md
-#   nfl_offseason_tracker.html
+# NFL Offseason Tracker Builder
+# Creates HTML and Markdown reports showing team cap space, draft picks, and offseason moves
 #
-# Inputs:
-#   data/cap.csv -> https://www.spotrac.com/nfl/cap
-#   data/free_agents.csv -> https://www.spotrac.com/nfl/free-agents
-#   data/trade_value.csv
-#   data/coaches.csv
-#   Tankathon draft order (scraped)
-#   NFL free agent moves (scraped)
+# Data Sources:
+# - Cap space: Spotrac.com (scraped) with CSV fallback
+# - Free agents: CSV data (Spotrac scraping not available)
+# - Draft picks: Tankathon.com (scraped)
+# - Offseason moves: NFL.com articles (scraped)
+# - Coaching staff: CSV data
+# - Trade values: CSV data for draft pick valuations
 
-from io import StringIO
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import re
 import html as html_lib
-import time
+import json
 from datetime import datetime
 
+# URLs for data scraping
 DRAFT_URL = "https://www.tankathon.com/nfl/past_drafts/2026"
 ADDITIONS_URL = "https://www.nfl.com/news/2026-nfl-free-agency-tracker-latest-signings-trades-contract-info-for-all-32-teams"
 DEPARTURES_URL = "https://www.nfl.com/news/2026-nfl-free-agency-free-agents-notable-departures-for-all-32-teams"
 
+# Team name mappings (abbreviations to full names)
 TEAM_ABBR_TO_FULL = {
     "ARI": "Arizona Cardinals",
     "ATL": "Atlanta Falcons",
@@ -60,6 +59,7 @@ TEAM_ABBR_TO_FULL = {
     "WSH": "Washington Commanders",  # Tankathon alt
 }
 
+# City name to full team name mapping
 CITY_TO_FULL = {
     "Arizona": "Arizona Cardinals",
     "Atlanta": "Atlanta Falcons",
@@ -97,6 +97,7 @@ CITY_TO_FULL = {
     "Washington": "Washington Commanders",
 }
 
+# Team to division mapping for organization
 TEAM_TO_DIVISION = {
     "Buffalo Bills": "AFC East",
     "Miami Dolphins": "AFC East",
@@ -139,6 +140,7 @@ TEAM_TO_DIVISION = {
     "Seattle Seahawks": "NFC West",
 }
 
+# Helper sets and constants
 ABBR_SET = set(TEAM_ABBR_TO_FULL.keys())
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -150,6 +152,7 @@ HEADERS2 = {
 }
 
 def fetch_html(url: str, debug_name: str) -> str:
+    """Download webpage HTML with error handling and logging"""
     r = requests.get(url, headers=HEADERS2, timeout=30, allow_redirects=True)
 
     print(f"[fetch] {debug_name}: status={r.status_code} final_url={r.url} bytes={len(r.text or '')}")
@@ -164,35 +167,13 @@ def fetch_html(url: str, debug_name: str) -> str:
     text = r.text
     if text.startswith('\ufeff'):
         text = text[1:]
-    
+
     return text
-
-def fetch_text_via_jina(url: str, label: str) -> str:
-    """
-    Fetch readable text via Jina reader. This should NEVER crash the script.
-    If Jina is down/slow, return "" so the dashboard still renders.
-    """
-    jina_url = "https://r.jina.ai/http://" + url.replace("https://", "").replace("http://", "")
-
-    # Jina can be flaky; do a couple quick retries with increasing timeouts.
-    timeouts = [20, 45, 75]
-
-    for i, t in enumerate(timeouts, 1):
-        try:
-            r = requests.get(jina_url, headers=HEADERS2, timeout=t)
-            r.raise_for_status()
-            txt = r.text or ""
-            print(f"[fetch] {label} via jina: status={r.status_code} bytes={len(txt)} try={i}")
-            return txt
-        except requests.exceptions.RequestException as e:
-            print(f"[warn] {label} via jina failed (try {i}/{len(timeouts)} timeout={t}s): {e}")
-
-    print(f"[warn] {label} via jina failed completely; continuing without it.")
-    return ""
 
 # ---------------- NORMALIZATION ---------------- #
 
 def norm_team(name) -> str:
+    """Standardize team names from various formats to full team names"""
     if pd.isna(name):
         return ""
     s = re.sub(r"\s+", " ", str(name)).strip()
@@ -207,6 +188,7 @@ def norm_team(name) -> str:
     return s
 
 def norm_team_tankathon(raw) -> str:
+    """Normalize team names from Tankathon draft pages"""
     if pd.isna(raw):
         return ""
     s = re.sub(r"\s+", " ", str(raw)).strip()
@@ -235,15 +217,21 @@ def norm_team_tankathon(raw) -> str:
                 s = remainder
             break
 
-    return norm_team(s)
+    # Try direct mappings
+    s_upper = s.upper()
+    if s_upper in TEAM_ABBR_TO_FULL:
+        return TEAM_ABBR_TO_FULL[s_upper]
 
-# ---------------- HELPERS ---------------- #
+    if s in CITY_TO_FULL:
+        return CITY_TO_FULL[s]
 
-import json
+    return ""
+
+# ---------------- TEXT EXTRACTION ---------------- #
 
 def extract_nfl_article_text(html: str) -> str:
-    """
-    NFL.com pages embed a JSON blob that includes `"articleBody":"...."`.
+    """Extract clean article text from NFL.com JSON-embedded pages.
+
     This pulls the articleBody string out, unescapes it, and returns clean text.
     """
     if not html:
@@ -274,6 +262,7 @@ def extract_nfl_article_text(html: str) -> str:
     return body
 
 def extract_nfl_page_text(html: str) -> str:
+    """Extract readable text from HTML by removing scripts/styles and cleaning formatting"""
     if not html:
         return ""
 
@@ -293,6 +282,7 @@ def extract_nfl_page_text(html: str) -> str:
     return text.strip()
 
 def extract_team_bullets_strict(text: str, teams_full: set[str]) -> dict[str, list[str]]:
+    """Parse text into team-organized bullet points from NFL articles"""
     lines = [re.sub(r"\s+", " ", x).strip() for x in text.splitlines()]
     out = {team: [] for team in teams_full}
 
@@ -449,6 +439,7 @@ def deep_join_strings(data) -> str:
     return "\n".join(out)
 
 def money_to_float(x) -> float:
+    """Convert money strings like '$63.9M' to float values"""
     if x is None or pd.isna(x):
         return float("nan")
     s = str(x).strip()
@@ -461,11 +452,13 @@ def money_to_float(x) -> float:
         return float("nan")
 
 def rank_desc(values_by_team: dict) -> dict:
+    """Rank teams by values in descending order (highest = rank 1)"""
     items = [(t, v) for t, v in values_by_team.items() if t and (v == v)]
     items.sort(key=lambda tv: tv[1], reverse=True)
     return {team: i + 1 for i, (team, _) in enumerate(items)}
 
 def percentile_from_rank(rank: int | None, n: int = 32) -> float | None:
+    """Convert rank to percentile (higher rank = higher percentile)"""
     if rank is None or n <= 1:
         return None
     return (n - rank) / (n - 1) * 100.0
@@ -515,23 +508,27 @@ def position_sort_key(pos: str) -> tuple[int, str]:
     return (sort_order, pos_upper)
 
 def is_new(hired_year) -> bool:
+    """Check if a hire is new this year (2026)"""
     try:
         return int(hired_year) == 2026
     except Exception:
         return False
 
 def fmt_staff(name, hired_year):
+    """Format staff name with new hire indicator if applicable"""
     if pd.isna(name) or not str(name).strip():
         return "VACANT"
     label = str(name).strip()
     if is_new(hired_year):
-        label += " 🆕"
+        label += " (NEW)"
     return label
 
 def esc(s: str) -> str:
+    """HTML escape text for safe display"""
     return html_lib.escape("" if s is None else str(s), quote=True)
 
 def clean_weird_unicode(s: str) -> str:
+    """Remove invisible Unicode characters and normalize whitespace"""
     # NFL.com pages often include zero-width / weird whitespace characters
     if s is None:
         return ""
@@ -544,7 +541,7 @@ def clean_weird_unicode(s: str) -> str:
 
 def clean_mojibake(s: str) -> str:
     """Clean common mojibake patterns from BOM and double-encoding artifacts.
-    This is safe—only replaces known garbage patterns, preserves all valid text."""
+    This is safe only replaces known garbage patterns and preserves all valid text."""
     if not s:
         return s
     
@@ -705,17 +702,16 @@ def extract_team_items_from_text(text: str, teams_full: set[str]) -> dict[str, l
     return out
 
 def parse_addition_bullet(b: str) -> dict:
+    """Parse a single addition bullet point into structured data"""
     s = clean_weird_unicode(b)
     s = re.sub(r'^\*\s*', '', s).strip()
 
     left, sep, right = s.partition(':')
     details = right.strip()
 
+    # Extract position and player name
     pos = ""
-    player = ""
-
-    # First try: position at the start (ideal)
-    m_pos = re.match(r"^([A-Z]{1,4})\s+(.*)$", left.strip())
+    m_pos = re.match(r'^([A-Z]{1,4})\s+(.*)$', left.strip())
     if m_pos:
         pos = m_pos.group(1)
         player = m_pos.group(2).strip()
@@ -727,15 +723,6 @@ def parse_addition_bullet(b: str) -> dict:
             player = m_any.group(2).strip()
         else:
             player = left.strip()
-
-    # Extract position if present
-    pos = ""
-    m_pos = re.match(r'^([A-Z]{1,4})\s+(.*)$', left.strip())
-    if m_pos:
-        pos = m_pos.group(1)
-        player = m_pos.group(2).strip()
-    else:
-        player = left.strip()
 
     # Final cleanup
     player = re.sub(r'[^A-Za-z\.\'\- ]', '', player).strip()
@@ -759,6 +746,7 @@ def parse_addition_bullet(b: str) -> dict:
     return {"Type": typ, "Pos": pos, "Player": player, "Details": details}
 
 def parse_departure_bullet(b: str) -> dict:
+    """Parse a single departure bullet point into structured data"""
     s = clean_weird_unicode(b)
     s = re.sub(r'^\*\s*', '', s).strip()
 
@@ -894,6 +882,7 @@ def extract_departures_team_items(text: str, teams_full: set[str]) -> dict[str, 
 # ---------------- CSV LOADERS ---------------- #
 
 def load_cap_csv(path: str) -> dict:
+    """Load cap space data from CSV file"""
     df = pd.read_csv(path)
     team_col = next((c for c in df.columns if "team" in c.lower()), df.columns[0])
     cap_col = next((c for c in df.columns if "cap" in c.lower() and "space" in c.lower()), None)
@@ -911,6 +900,7 @@ def load_cap_csv(path: str) -> dict:
     return out
 
 def load_spotrac_cap(url: str = "https://www.spotrac.com/nfl/cap") -> dict:
+    """Scrape current cap space data from Spotrac.com"""
     html = fetch_html(url, "Spotrac cap")
     soup = BeautifulSoup(html, "html.parser")
     table = soup.find("table", class_="table dataTable premium")
@@ -958,6 +948,7 @@ def load_spotrac_cap(url: str = "https://www.spotrac.com/nfl/cap") -> dict:
 
 
 def load_cap() -> dict:
+    """Load cap space data with Spotrac scraping and CSV fallback"""
     try:
         return load_spotrac_cap()
     except Exception as exc:
@@ -967,6 +958,7 @@ def load_cap() -> dict:
 
 
 def load_free_agents_csv(path: str) -> dict:
+    """Load free agents data from CSV file"""
     df = pd.read_csv(path)
 
     def find_col(*needles):
@@ -1002,6 +994,7 @@ def load_free_agents_csv(path: str) -> dict:
     return grouped
 
 def load_coaches_csv(path: str) -> dict:
+    """Load coaching staff data from CSV file"""
     df = pd.read_csv(path)
     df.columns = [c.strip() for c in df.columns]
 
@@ -1025,6 +1018,7 @@ def load_coaches_csv(path: str) -> dict:
     return coaches
 
 def load_trade_value_csv(path: str) -> dict[int, float]:
+    """Load draft pick trade values from CSV file"""
     df = pd.read_csv(path)
     pick_col = next((c for c in df.columns if "pick" in c.lower()), df.columns[0])
     val_col = next((c for c in df.columns if "value" in c.lower()), df.columns[1])
@@ -1045,6 +1039,7 @@ def load_trade_value_csv(path: str) -> dict[int, float]:
 # ---------------- TANKATHON DRAFT ---------------- #
 
 def load_tankathon_draft() -> dict[str, list[str]]:
+    """Scrape draft pick data from Tankathon.com"""
     html = requests.get(DRAFT_URL, headers=HEADERS, timeout=30).text
     soup = BeautifulSoup(html, "html.parser")
 
@@ -1104,6 +1099,7 @@ def load_tankathon_draft() -> dict[str, list[str]]:
 
 # ---------------- SCRAPE OFFSEASON MOVES ---------------- #
 def load_nfl_offseason_moves() -> dict[str, pd.DataFrame]:
+    """Scrape and parse offseason moves from NFL.com articles"""
     import re
     import unicodedata
 
@@ -1677,15 +1673,15 @@ def badge_bar(pct: float | None, label: str) -> str:
             '</div>'
         )
     width = max(0.0, min(100.0, float(pct)))
-    return f"""
-    <div class="metric">
-      <div class="metric-top">
-        <span class="metric-label">{esc(label)}</span>
-        <span class="metric-val">{width:.0f}th pct</span>
-      </div>
-      <div class="bar"><div class="fill" style="width:{width:.1f}%"></div></div>
-    </div>
-    """
+    return (
+        '<div class="metric">'
+        '<div class="metric-top">'
+        f'<span class="metric-label">{esc(label)}</span>'
+        f'<span class="metric-val">{width:.0f}th pct</span>'
+        '</div>'
+        f'<div class="bar"><div class="fill" style="width:{width:.1f}%"></div></div>'
+        '</div>'
+    )
 
 def render_team_html(
     team: str,
@@ -1787,8 +1783,8 @@ def render_team_html(
 
         sections.append(f"""
         <div class="moves-group">
-          <div class="moves-group-title">Additions</div>
-          {render_moves_table(additions_df)}
+        <div class="moves-group-title">Additions</div>
+        {render_moves_table(additions_df)}
         </div>
         """)
 
@@ -2501,6 +2497,7 @@ __TEAM_SECTIONS__
 # ---------------- MAIN ---------------- #
 
 def main():
+    """Generate NFL offseason tracker HTML and Markdown reports"""
     cap = load_cap()
     fa = load_free_agents_csv("data/free_agents.csv")
     draft = load_tankathon_draft()
