@@ -106,34 +106,14 @@ def normalize_player_name(name: str) -> str:
     return name
 
 
-def american_to_prob(odds: int) -> float:
+def american_to_implied_prob(odds):
+    if odds is None:
+        return None
+
+    odds = int(odds)
     if odds > 0:
         return 100 / (odds + 100)
-    return (-odds) / ((-odds) + 100)
-
-
-def decimal_to_prob(decimal_odds: float) -> float:
-    return 1.0 / decimal_odds
-
-
-def no_vig_prob(over_prob: float, under_prob: float) -> tuple[float, float]:
-    total = over_prob + under_prob
-    if total == 0:
-        return over_prob, under_prob
-    return over_prob / total, under_prob / total
-
-
-def poisson_p_ge_1(lmbda: float) -> float:
-    return 1 - math.exp(-lmbda)
-
-
-def poisson_p_ge_2(lmbda: float) -> float:
-    return 1 - math.exp(-lmbda) * (1 + lmbda)
-
-
-def lambda_from_p_ge_1(p: float) -> float:
-    p = min(max(p, 1e-9), 1 - 1e-9)
-    return -math.log(1 - p)
+    return abs(odds) / (abs(odds) + 100)
 
 def get_event_props(event_id: str):
     url = f"https://api.the-odds-api.com/v4/sports/{SPORT}/events/{event_id}/odds"
@@ -149,59 +129,20 @@ def get_event_props(event_id: str):
     return r.json()
 
 
-def lambda_from_p_ge_2(target_p: float, lo=1e-6, hi=10.0, tol=1e-8) -> float:
-    target_p = min(max(target_p, 1e-9), 1 - 1e-9)
-
-    for _ in range(100):
-        mid = (lo + hi) / 2
-        val = poisson_p_ge_2(mid)
-        if val < target_p:
-            lo = mid
-        else:
-            hi = mid
-        if abs(val - target_p) < tol:
-            break
-    return (lo + hi) / 2
-
 #temporary helper
 def debug_player_markets(all_players, player_name_substring):
     needle = normalize_player_name(player_name_substring)
 
-    for player_key, ladders in all_players.items():
+    for player_key, entries in all_players.items():
         if needle in player_key:
             print(f"\n=== DEBUG {player_key} ===")
-            for point in sorted(ladders.keys()):
-                print(f"  point {point}:")
-                for entry in ladders[point]:
-                    print(
-                        f"    book={entry.get('book')} "
-                        f"market_key={entry.get('market_key')} "
-                        f"over_price={entry.get('over_price')} "
-                        f"under_price={entry.get('under_price')} "
-                        f"over_prob={entry.get('over_prob'):.4f}"
-                    )
-
-
-def fit_lambda_from_markets(p_ge_1_list, p_ge_2_list, lo=1e-6, hi=10.0):
-    def loss(lmbda: float) -> float:
-        err = 0.0
-        for p in p_ge_1_list:
-            err += (poisson_p_ge_1(lmbda) - p) ** 2
-        for p in p_ge_2_list:
-            err += (poisson_p_ge_2(lmbda) - p) ** 2
-        return err
-
-    # simple grid search is plenty for this use case
-    best_lambda = None
-    best_loss = float("inf")
-    steps = 2000
-    for i in range(steps + 1):
-        lmbda = lo + (hi - lo) * i / steps
-        cur = loss(lmbda)
-        if cur < best_loss:
-            best_loss = cur
-            best_lambda = lmbda
-    return best_lambda
+            for entry in entries:
+                print(
+                    f"    book={entry.get('book')} "
+                    f"market_key={entry.get('market_key')} "
+                    f"over_price={entry.get('over_price')} "
+                    f"over_prob={entry.get('over_prob'):.4f}"
+                )
 
 
 def get_events():
@@ -315,13 +256,11 @@ def lineup_priority(row):
 def score_players(all_players, lineup_map=None, player_game_info=None):
     results = []
 
-    for player_key, ladders in all_players.items():
-        entries = ladders.get(0.5, [])
+    for player_key, entries in all_players.items():
         if not entries:
             continue
 
         p_hit = mean(x["over_prob"] for x in entries)
-        lmbda = lambda_from_p_ge_1(p_hit)
         source_market = "FanDuel 1+ hit"
 
         confirmed = None
@@ -333,13 +272,13 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
         game_info = player_game_info.get(player_key, {}) if player_game_info else {}
         display_name = entries[0].get("player_display", player_key)
         odds_text = " / ".join(
-            f"FD o0.5 {entry['over_price']}" for entry in entries
+            f"+{entry['over_price']}" if entry['over_price'] > 0 else str(entry['over_price'])
+            for entry in entries
         )
 
         results.append({
             "player": display_name,
             "player_key": player_key,
-            "lambda": lmbda,
             "p_hit": p_hit,
             "source_market": source_market,
             "odds_text": odds_text,
@@ -354,81 +293,51 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
 
 def build_email_body(results):
     lines = []
-    lines.append("Top Beat the Streak candidates for today")
-    lines.append("")
-    lines.append("----------------------------------------")
+    lines.append("TOP BTS PICKS")
     lines.append("")
 
     for i, row in enumerate(results[:10], start=1):
-        status = "CONFIRMED" if row["confirmed"] is True else "unconfirmed"
-        bo_txt = f" | batting {row['batting_order']}" if row.get("batting_order") else ""
-        time_txt = row.get("start_time_et") or "time TBD"
-        matchup_txt = row.get("matchup") or "matchup TBD"
-        odds_text = row.get("odds_text", "FD o0.5 N/A")
-
         lines.append(
-            f"{i}. {row['player']} — "
-            f"{row['p_hit']:.1%} | "
-            f"{odds_text} | "
-            f"{time_txt} | "
-            f"{matchup_txt} | "
-            f"{status}{bo_txt} | "
-            f"{row['source_market']}"
+            f"{i}. {row['player']} — {row['odds_text']} — {row['p_hit']:.1%}"
         )
 
     return "\n".join(lines)
 
 def extract_hit_markets(event_data):
-    players = defaultdict(lambda: defaultdict(list))
+    players = defaultdict(list)
 
     for bookmaker in event_data.get("bookmakers", []):
-        book_title = bookmaker.get("title", bookmaker.get("key", "Unknown"))
-
         for market in bookmaker.get("markets", []):
             if market.get("key") != "batter_hits_alternate":
                 continue
 
-            grouped = {}
             for outcome in market.get("outcomes", []):
-                raw_player = outcome.get("description") or outcome.get("name")
-                point = outcome.get("point")
-                side = (outcome.get("name") or "").strip().lower()
-                price = outcome.get("price")
+                if outcome.get("name") != "Over":
+                    continue
+                if float(outcome.get("point", -1)) != 0.5:
+                    continue
 
-                if raw_player is None or point is None or price is None:
+                raw_player = outcome.get("description") or outcome.get("name")
+                if not raw_player:
                     continue
-                try:
-                    point = float(point)
-                except (TypeError, ValueError):
+
+                price = outcome.get("price")
+                if price is None:
                     continue
-                if point != 0.5:
-                    continue
-                if side not in {"over", "under"}:
+
+                implied_prob = american_to_implied_prob(price)
+                if implied_prob is None:
                     continue
 
                 player_key = normalize_player_name(raw_player)
-                grouped.setdefault((player_key, raw_player, point), {})[side] = int(price)
-
-            for (player_key, raw_player, point), sides in grouped.items():
-                if "over" not in sides or "under" not in sides:
-                    continue
-
-                over_prob = american_to_prob(sides["over"])
-                under_prob = american_to_prob(sides["under"])
-                fair_over, fair_under = no_vig_prob(over_prob, under_prob)
-
-                new_entry = {
+                players[player_key].append({
                     "player_display": raw_player,
-                    "book": book_title,
+                    "book": bookmaker.get("title", bookmaker.get("key", "FanDuel")),
                     "market_key": "batter_hits_alternate",
-                    "point": point,
-                    "over_prob": fair_over,
-                    "under_prob": fair_under,
-                    "over_price": sides["over"],
-                    "under_price": sides["under"],
-                }
-
-                players[player_key][point].append(new_entry)
+                    "point": 0.5,
+                    "over_prob": implied_prob,
+                    "over_price": int(price),
+                })
 
     return players
 
@@ -448,7 +357,7 @@ def main():
     events = get_events()
     print(f"Events fetched: {len(events)}")
 
-    merged_players = defaultdict(lambda: defaultdict(list))
+    merged_players = defaultdict(list)
     player_game_info = {}
 
     odds_failures = 0
@@ -471,15 +380,13 @@ def main():
             away_team = event["away_team"]
             home_team = event["home_team"]
 
-            for player_key, ladders in players.items():
+            for player_key, entries in players.items():
                 if player_key not in player_game_info:
                     player_game_info[player_key] = {
                         "start_time_et": start_time_et,
                         "matchup": f"{away_team} at {home_team}",
                     }
-
-                for point, entries in ladders.items():
-                    merged_players[player_key][point].extend(entries)
+                merged_players[player_key].extend(entries)
 
         except Exception as e:
             odds_failures += 1
@@ -490,9 +397,9 @@ def main():
     print(f"Merged players: {len(merged_players)}")
 
     point_distribution = defaultdict(int)
-    for ladders in merged_players.values():
-        for point, entries in ladders.items():
-            point_distribution[point] += len(entries)
+    for entries in merged_players.values():
+        for entry in entries:
+            point_distribution[entry.get('point')] += 1
     print(f"Point distribution: {dict(point_distribution)}")
 
     if not merged_players:
