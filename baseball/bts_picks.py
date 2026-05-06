@@ -19,7 +19,7 @@ SMTP_PORT = 587
 # Example placeholders — replace with the actual keys you use
 SPORT = "baseball_mlb"
 REGIONS = "us"
-BOOKMAKERS = "draftkings,fanduel,betmgm,caesars,bovada"
+BOOKMAKERS = "fanduel"
 ODDS_FORMAT = "american"
 
 import unicodedata
@@ -141,7 +141,7 @@ def get_event_props(event_id: str):
         "apiKey": API_KEY,
         "regions": REGIONS,
         "bookmakers": BOOKMAKERS,
-        "markets": "batter_hits,batter_hits_alternate",
+        "markets": "batter_hits_alternate",
         "oddsFormat": ODDS_FORMAT,
     }
     r = requests.get(url, params=params, timeout=30)
@@ -316,32 +316,13 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
     results = []
 
     for player_key, ladders in all_players.items():
-        # Prefer FanDuel 1+ hit if available, then any 1+ hit market,
-        # then fall back to inferring from 2+ hit markets.
-        fd_05 = sorted(
-            x["over_prob"]
-            for x in ladders.get(0.5, [])
-            if "fan" in x.get("book", "").lower()
-        )
-        all_05 = sorted(x["over_prob"] for x in ladders.get(0.5, []))
-        all_15 = sorted(x["over_prob"] for x in ladders.get(1.5, []))
-
-        if not all_05 and not all_15:
+        entries = ladders.get(0.5, [])
+        if not entries:
             continue
 
-        if fd_05:
-            p1 = mean(fd_05)
-            lmbda = lambda_from_p_ge_1(p1)
-            source_market = "FD 0.5"
-        elif all_05:
-            p1 = mean(all_05)
-            lmbda = lambda_from_p_ge_1(p1)
-            source_market = "market 0.5"
-        else:
-            p_ge_2 = mean(all_15)
-            lmbda = lambda_from_p_ge_2(p_ge_2)
-            p1 = poisson_p_ge_1(lmbda)
-            source_market = "inferred 1.5"
+        p_hit = mean(x["over_prob"] for x in entries)
+        lmbda = lambda_from_p_ge_1(p_hit)
+        source_market = "FanDuel 1+ hit"
 
         confirmed = None
         batting_order = None
@@ -350,23 +331,18 @@ def score_players(all_players, lineup_map=None, player_game_info=None):
             batting_order = lineup_map[player_key]["batting_order"]
 
         game_info = player_game_info.get(player_key, {}) if player_game_info else {}
-
-        display_name = None
-        if ladders.get(0.5):
-            display_name = ladders[0.5][0].get("player_display")
-        elif ladders.get(1.5):
-            display_name = ladders[1.5][0].get("player_display")
-        else:
-            display_name = player_key
+        display_name = entries[0].get("player_display", player_key)
+        odds_text = " / ".join(
+            f"FD o0.5 {entry['over_price']}" for entry in entries
+        )
 
         results.append({
             "player": display_name,
             "player_key": player_key,
             "lambda": lmbda,
-            "p_hit": p1,
+            "p_hit": p_hit,
             "source_market": source_market,
-            "books_0_5": len(ladders.get(0.5, [])),
-            "books_1_5": len(ladders.get(1.5, [])),
+            "odds_text": odds_text,
             "confirmed": confirmed,
             "batting_order": batting_order,
             "start_time_et": game_info.get("start_time_et"),
@@ -383,53 +359,36 @@ def build_email_body(results):
     lines.append("----------------------------------------")
     lines.append("")
 
-    if not results:
-        lines.append("No qualified picks found.")
-        lines.append("")
-        lines.append("Possible causes:")
-        lines.append("- odds API returned no batter hit props")
-        lines.append("- market parsing failed")
-        lines.append("- no MLB games were available for the script's run window")
-        return "\n".join(lines)
-
     for i, row in enumerate(results[:10], start=1):
-        if row["confirmed"] is True:
-            status = "CONFIRMED"
-        else:
-            status = "unconfirmed"
-
+        status = "CONFIRMED" if row["confirmed"] is True else "unconfirmed"
         bo_txt = f" | batting {row['batting_order']}" if row.get("batting_order") else ""
         time_txt = row.get("start_time_et") or "time TBD"
         matchup_txt = row.get("matchup") or "matchup TBD"
+        odds_text = row.get("odds_text", "FD o0.5 N/A")
 
         lines.append(
             f"{i}. {row['player']} — "
             f"{row['p_hit']:.1%} | "
+            f"{odds_text} | "
             f"{time_txt} | "
             f"{matchup_txt} | "
-            f"{status}{bo_txt}"
+            f"{status}{bo_txt} | "
+            f"{row['source_market']}"
         )
 
     return "\n".join(lines)
 
 def extract_hit_markets(event_data):
-    """
-    Dedupe by (normalized_player, point, book), so the same book/point
-    does not get counted twice if it appears in both batter_hits and
-    batter_hits_alternate.
-    """
     players = defaultdict(lambda: defaultdict(list))
 
     for bookmaker in event_data.get("bookmakers", []):
         book_title = bookmaker.get("title", bookmaker.get("key", "Unknown"))
 
         for market in bookmaker.get("markets", []):
-            market_key = market.get("key")
-            if market_key not in {"batter_hits", "batter_hits_alternate"}:
+            if market.get("key") != "batter_hits_alternate":
                 continue
 
-            grouped = defaultdict(dict)
-
+            grouped = {}
             for outcome in market.get("outcomes", []):
                 raw_player = outcome.get("description") or outcome.get("name")
                 point = outcome.get("point")
@@ -438,28 +397,35 @@ def extract_hit_markets(event_data):
 
                 if raw_player is None or point is None or price is None:
                     continue
+                try:
+                    point = float(point)
+                except (TypeError, ValueError):
+                    continue
+                if point != 0.5:
+                    continue
                 if side not in {"over", "under"}:
                     continue
 
                 player_key = normalize_player_name(raw_player)
-                grouped[(player_key, raw_player, float(point))][side] = price
+                grouped.setdefault((player_key, raw_player, point), {})[side] = int(price)
 
             for (player_key, raw_player, point), sides in grouped.items():
                 if "over" not in sides or "under" not in sides:
                     continue
 
-                over_prob = american_to_prob(int(sides["over"]))
-                under_prob = american_to_prob(int(sides["under"]))
+                over_prob = american_to_prob(sides["over"])
+                under_prob = american_to_prob(sides["under"])
                 fair_over, fair_under = no_vig_prob(over_prob, under_prob)
 
                 new_entry = {
                     "player_display": raw_player,
                     "book": book_title,
-                    "market_key": market_key,
+                    "market_key": "batter_hits_alternate",
+                    "point": point,
                     "over_prob": fair_over,
                     "under_prob": fair_under,
-                    "over_price": int(sides["over"]),
-                    "under_price": int(sides["under"]),
+                    "over_price": sides["over"],
+                    "under_price": sides["under"],
                 }
 
                 players[player_key][point].append(new_entry)
@@ -480,6 +446,7 @@ def send_email(subject: str, body: str):
 
 def main():
     events = get_events()
+    print(f"Events fetched: {len(events)}")
 
     merged_players = defaultdict(lambda: defaultdict(list))
     player_game_info = {}
@@ -520,6 +487,13 @@ def main():
 
     print(f"Odds pulls succeeded: {odds_successes}")
     print(f"Odds pulls failed: {odds_failures}")
+    print(f"Merged players: {len(merged_players)}")
+
+    point_distribution = defaultdict(int)
+    for ladders in merged_players.values():
+        for point, entries in ladders.items():
+            point_distribution[point] += len(entries)
+    print(f"Point distribution: {dict(point_distribution)}")
 
     if not merged_players:
         body = (
@@ -544,8 +518,17 @@ def main():
         player_game_info=player_game_info,
     )
 
-    print(f"Players scored: {len(results)}")
-    print(f"Confirmed players in results: {sum(1 for r in results if r.get('confirmed') is True)}")
+    print(f"Results after scoring: {len(results)}")
+    if results:
+        print("Top 5 preview:")
+        for row in results[:5]:
+            print(
+                f"  {row['player']} - {row['p_hit']:.1%} | {row['odds_text']} | "
+                f"{row.get('start_time_et', 'time TBD')} | {row.get('matchup', 'matchup TBD')} | {row['source_market']}"
+            )
+
+    if not results:
+        raise RuntimeError("No Beat the Streak results found after scoring.")
 
     body = build_email_body(results)
     print(body)
