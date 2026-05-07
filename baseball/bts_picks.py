@@ -300,7 +300,6 @@ def build_email_body(results):
     lines.append("")
 
     for i, row in enumerate(results[:10], start=1):
-<<<<<<< HEAD
         if row["confirmed"] is True:
             bo = row.get("batting_order")
             if bo is not None:
@@ -315,10 +314,6 @@ def build_email_body(results):
 
         lines.append(
             f"{i}. {row['player']} — {row['odds_text']} — {row['p_hit']:.1%} — {lineup_status} — {game} — {game_time_et}"
-=======
-        lines.append(
-            f"{i}. {row['player']} — {row['odds_text']} — {row['p_hit']:.1%}"
->>>>>>> 0def92b18825037544045efebf7e1c0a0f226936
         )
 
     return "\n".join(lines)
