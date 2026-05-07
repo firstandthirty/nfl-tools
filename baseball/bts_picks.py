@@ -210,6 +210,7 @@ def build_lineup_map(events):
     mlb_games = get_mlb_games_for_date(game_date)
 
     print(f"MLB schedule games found: {len(mlb_games)} for ET date {game_date}")
+    print(f"MLB games loaded: {len(mlb_games)}")
 
     lineup_map = {}
 
@@ -217,11 +218,13 @@ def build_lineup_map(events):
     for event in events:
         try:
             game_pk = find_matching_game_pk(event, mlb_games)
-            if not game_pk:
-                continue
-
-            confirmed = extract_confirmed_lineup(game_pk)
-            lineup_map.update(confirmed)
+            if game_pk:
+                print(f"Matched Odds API event '{event.get('away_team')} at {event.get('home_team')}' to MLB gamePk {game_pk}")
+                confirmed = extract_confirmed_lineup(game_pk)
+                print(f"Starters found for gamePk {game_pk}: {len(confirmed)}")
+                lineup_map.update(confirmed)
+            else:
+                print(f"Unmatched Odds API event: '{event.get('away_team')} at {event.get('home_team')}'")
 
         except Exception as e:
             print(
@@ -297,8 +300,20 @@ def build_email_body(results):
     lines.append("")
 
     for i, row in enumerate(results[:10], start=1):
+        if row["confirmed"] is True:
+            bo = row.get("batting_order")
+            if bo is not None:
+                lineup_status = f"confirmed batting {bo}{'st' if bo==1 else 'nd' if bo==2 else 'rd' if bo==3 else 'th'}"
+            else:
+                lineup_status = "confirmed"
+        else:
+            lineup_status = "lineup not confirmed"
+
+        game = row.get("matchup", "game TBD")
+        game_time_et = row.get("start_time_et", "time TBD")
+
         lines.append(
-            f"{i}. {row['player']} — {row['odds_text']} — {row['p_hit']:.1%}"
+            f"{i}. {row['player']} — {row['odds_text']} — {row['p_hit']:.1%} — {lineup_status} — {game} — {game_time_et}"
         )
 
     return "\n".join(lines)
@@ -356,6 +371,7 @@ def send_email(subject: str, body: str):
 def main():
     events = get_events()
     print(f"Events fetched: {len(events)}")
+    print(f"Odds API events loaded: {len(events)}")
 
     merged_players = defaultdict(list)
     player_game_info = {}
