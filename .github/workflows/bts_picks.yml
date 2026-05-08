@@ -3,11 +3,11 @@ name: Beat the Streak Picks
 on:
   workflow_dispatch:
   schedule:
-    # 12:00 PM ET during daylight time
-    - cron: "0 16 * * *"
+    # 10:00 AM ET during daylight time
+    - cron: "0 14 * * *"
 
-    # 6:00 PM ET during daylight time
-    - cron: "0 22 * * *"
+    # 4:00 PM ET during daylight time
+    - cron: "0 20 * * *"
 
 jobs:
   run-bts:
