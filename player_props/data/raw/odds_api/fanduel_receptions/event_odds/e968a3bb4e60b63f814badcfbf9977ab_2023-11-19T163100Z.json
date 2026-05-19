@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-19T16:30:41Z",
+  "previous_timestamp": "2023-11-19T16:25:41Z",
+  "next_timestamp": "2023-11-19T16:35:41Z",
+  "data": {
+    "id": "e968a3bb4e60b63f814badcfbf9977ab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:01:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T16:28:58Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-19T16:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.69,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": 1.77,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 1.69,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 2.08,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-10-22T15:30:40Z",
+  "previous_timestamp": "2023-10-22T15:25:40Z",
+  "next_timestamp": "2023-10-22T15:35:40Z",
+  "data": {
+    "id": "50bd8049327bddb2433b90e98994d98b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:01:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T15:30:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-22T15:28:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": 1.67,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Logan Thomas",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Logan Thomas",
+                "price": 2.4,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

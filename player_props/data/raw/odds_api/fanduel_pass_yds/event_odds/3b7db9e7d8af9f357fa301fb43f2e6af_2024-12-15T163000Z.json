@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-15T16:25:37Z",
+  "previous_timestamp": "2024-12-15T16:20:37Z",
+  "next_timestamp": "2024-12-15T16:30:37Z",
+  "data": {
+    "id": "3b7db9e7d8af9f357fa301fb43f2e6af",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T16:25:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Haener",
+                "price": 1.91,
+                "point": 186.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Haener",
+                "price": 1.91,
+                "point": 186.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

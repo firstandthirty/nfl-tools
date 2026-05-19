@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-11-16T16:25:37Z",
+  "previous_timestamp": "2025-11-16T16:20:38Z",
+  "next_timestamp": "2025-11-16T16:30:37Z",
+  "data": {
+    "id": "0ae85bbc3711ad0cb94475a40e2364f0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-16T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T16:25:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-16T16:25:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Xavier Legette",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Legette",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Coker",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Coker",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tetairoa McMillan",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tetairoa McMillan",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 2.16,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Tavion Sanders",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Tavion Sanders",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": 1.82,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

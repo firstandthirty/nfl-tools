@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-09-22T18:35:38Z",
+  "previous_timestamp": "2024-09-22T18:30:38Z",
+  "next_timestamp": "2024-09-22T18:40:38Z",
+  "data": {
+    "id": "49397bc00cf6d5e50f0a943538f1b00d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T20:07:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-09-22T18:34:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.41
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-09-22T18:31:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:31:59Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.96
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:31:59Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.95,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:31:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-09-22T18:34:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.05
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.41
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T18:34:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:55Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.05
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:55Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.87,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-09-22T18:30:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.98
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-09-22T18:34:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.92,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.89,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-09-22T18:34:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-09-22T18:34:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.92,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.99,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-09-22T18:33:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:33:45Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:33:45Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:33:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-09-22T18:34:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 3.05
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.41
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T18:34:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

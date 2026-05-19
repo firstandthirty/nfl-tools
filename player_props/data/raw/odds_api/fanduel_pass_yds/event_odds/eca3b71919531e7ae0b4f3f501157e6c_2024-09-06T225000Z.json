@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-06T22:45:38Z",
+  "previous_timestamp": "2024-09-06T22:40:38Z",
+  "next_timestamp": "2024-09-06T22:50:38Z",
+  "data": {
+    "id": "eca3b71919531e7ae0b4f3f501157e6c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-07T00:20:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-06T22:45:10Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-06T22:46:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 240.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 240.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

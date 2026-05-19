@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-21T18:30:39Z",
+  "previous_timestamp": "2025-09-21T18:25:38Z",
+  "next_timestamp": "2025-09-21T18:35:38Z",
+  "data": {
+    "id": "0ee3f5a0078c21cfdffd1b97002e7da5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T20:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-21T18:30:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.3
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-21T18:30:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.25
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-21T18:29:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.22
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T18:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.24
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.82,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-21T18:29:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.18
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-21T18:29:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.25
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.82,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.11,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-21T18:29:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.25
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-21T18:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.15
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-21T18:26:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.3
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.03,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.84,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-21T18:29:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.3
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-21T18:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.25
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

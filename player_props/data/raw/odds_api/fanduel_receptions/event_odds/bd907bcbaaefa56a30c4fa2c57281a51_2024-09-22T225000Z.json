@@ -1,0 +1,172 @@
+{
+  "timestamp": "2024-09-22T22:45:38Z",
+  "previous_timestamp": "2024-09-22T22:40:38Z",
+  "next_timestamp": "2024-09-22T22:50:38Z",
+  "data": {
+    "id": "bd907bcbaaefa56a30c4fa2c57281a51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-23T00:20:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T22:45:09Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-22T22:44:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Carson Steele",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Carson Steele",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Samaje Perine",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Samaje Perine",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.61,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

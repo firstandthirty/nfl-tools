@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-22T18:35:41Z",
+  "previous_timestamp": "2023-10-22T18:30:41Z",
+  "next_timestamp": "2023-10-22T18:40:40Z",
+  "data": {
+    "id": "1c4772551a69fb6409e6a77dbd6845ab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:06:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T18:35:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.6
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.85,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.96,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-22T18:35:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.59
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-22T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.01,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-22T18:35:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.58
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-22T18:34:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-10-22T18:34:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.52
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-22T18:34:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:45Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:45Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.83,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-22T18:28:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:28:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:28:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.83,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:28:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-22T18:34:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:34:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-22T18:35:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-22T18:35:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

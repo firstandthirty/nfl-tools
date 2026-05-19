@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-08T15:30:38Z",
+  "previous_timestamp": "2023-10-08T15:25:39Z",
+  "next_timestamp": "2023-10-08T15:35:38Z",
+  "data": {
+    "id": "83400c65dd84cef26b7911a49fe909f5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:03:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-08T15:28:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 209.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 209.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

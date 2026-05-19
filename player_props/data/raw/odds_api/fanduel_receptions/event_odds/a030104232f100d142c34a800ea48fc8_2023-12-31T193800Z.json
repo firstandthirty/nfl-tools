@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-12-31T19:35:38Z",
+  "previous_timestamp": "2023-12-31T19:30:38Z",
+  "next_timestamp": "2023-12-31T19:40:38Z",
+  "data": {
+    "id": "a030104232f100d142c34a800ea48fc8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T21:08:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-31T19:35:31Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-31T19:33:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Allen Robinson II",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Robinson II",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 2.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": 1.48,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.9,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Diontae Johnson",
+                "price": 2.42,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Diontae Johnson",
+                "price": 1.54,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

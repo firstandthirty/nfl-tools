@@ -1,0 +1,810 @@
+{
+  "timestamp": "2023-09-17T18:35:40Z",
+  "previous_timestamp": "2023-09-17T18:30:41Z",
+  "next_timestamp": "2023-09-17T18:40:42Z",
+  "data": {
+    "id": "6166ce062983d3566b0ef03d8fd2ab87",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:06:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.7
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.93,
+                "point": 4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-17T18:34:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.85
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 5.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-17T18:35:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.75
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.93,
+                "point": 4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.7
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.93,
+                "point": 4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.75
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.76
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.96,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-17T18:35:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-17T18:35:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.9
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.9
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-17T18:34:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.85
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-17T18:34:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.7
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.87,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.85
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.87,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.47
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

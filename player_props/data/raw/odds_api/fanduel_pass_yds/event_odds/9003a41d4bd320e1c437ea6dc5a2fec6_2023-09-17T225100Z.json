@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-17T22:50:41Z",
+  "previous_timestamp": "2023-09-17T22:45:40Z",
+  "next_timestamp": "2023-09-17T22:55:41Z",
+  "data": {
+    "id": "9003a41d4bd320e1c437ea6dc5a2fec6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-18T00:21:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T22:50:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-17T22:49:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 268.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 268.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

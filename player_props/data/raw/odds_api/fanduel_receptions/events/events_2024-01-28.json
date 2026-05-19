@@ -1,0 +1,55 @@
+{
+  "timestamp": "2024-01-28T11:55:38Z",
+  "previous_timestamp": "2024-01-28T11:50:38Z",
+  "next_timestamp": "2024-01-28T12:00:38Z",
+  "data": [
+    {
+      "id": "61dcc385d9c0927b9392d04c3b944198",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-28T20:06:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Kansas City Chiefs"
+    },
+    {
+      "id": "a37cd2c4037d3d5a79c0d014ff6357ee",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-28T23:31:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Detroit Lions"
+    },
+    {
+      "id": "e89a34588d65a68265c104373ffdc28a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Detroit Lions"
+    },
+    {
+      "id": "b6e6703ec11fa7058cca1e8300fc757f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "San Francisco 49ers"
+    },
+    {
+      "id": "1e5633073b585f9550959cc85872c68d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Detroit Lions"
+    },
+    {
+      "id": "821066e2d2f7a99b660ffc6aec1cb85f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "San Francisco 49ers"
+    }
+  ]
+}

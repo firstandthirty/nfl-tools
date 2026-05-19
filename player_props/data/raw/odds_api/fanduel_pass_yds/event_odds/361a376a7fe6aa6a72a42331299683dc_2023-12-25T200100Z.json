@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-25T20:00:38Z",
+  "previous_timestamp": "2023-12-25T19:55:38Z",
+  "next_timestamp": "2023-12-25T20:05:38Z",
+  "data": {
+    "id": "361a376a7fe6aa6a72a42331299683dc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-25T21:31:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-25T20:00:22Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-25T20:00:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 187.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 187.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

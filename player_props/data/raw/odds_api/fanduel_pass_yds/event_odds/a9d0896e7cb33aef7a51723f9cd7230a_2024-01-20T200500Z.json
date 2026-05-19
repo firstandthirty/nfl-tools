@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-20T20:00:39Z",
+  "previous_timestamp": "2024-01-20T19:55:39Z",
+  "next_timestamp": "2024-01-20T20:05:38Z",
+  "data": {
+    "id": "a9d0896e7cb33aef7a51723f9cd7230a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-20T21:35:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-20T19:56:59Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-20T20:00:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 228.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

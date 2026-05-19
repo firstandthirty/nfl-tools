@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-16T22:40:39Z",
+  "previous_timestamp": "2024-09-16T22:35:39Z",
+  "next_timestamp": "2024-09-16T22:45:39Z",
+  "data": {
+    "id": "2cefb0f9bcf18ed3f64396174ece14ad",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-17T00:15:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-16T22:39:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-16T22:40:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 226.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 226.5
+              },
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 227.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

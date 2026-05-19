@@ -1,0 +1,810 @@
+{
+  "timestamp": "2023-09-17T18:35:40Z",
+  "previous_timestamp": "2023-09-17T18:30:41Z",
+  "next_timestamp": "2023-09-17T18:40:42Z",
+  "data": {
+    "id": "a6a30233e1ec7fb3b9f9a5e4444ff14b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:06:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.6
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.75
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.65
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-17T18:34:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.82
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-17T18:35:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.75
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.65
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.65
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.65
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-17T18:35:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.6
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-17T18:35:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.85
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.01,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.89,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.85
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.9,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-17T18:34:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.8
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.8
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-17T18:34:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.6
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:34:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-17T18:35:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.7
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.83,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T18:35:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

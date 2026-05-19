@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-09T23:45:37Z",
+  "previous_timestamp": "2025-11-09T23:40:36Z",
+  "next_timestamp": "2025-11-09T23:50:37Z",
+  "data": {
+    "id": "349d53a4f89591312ea528e81b786474",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-10T01:20:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T23:44:44Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-09T23:45:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Herbert",
+                "price": 1.89,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Herbert",
+                "price": 1.89,
+                "point": 252.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.89,
+                "point": 217.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

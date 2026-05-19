@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-04T19:50:37Z",
+  "previous_timestamp": "2026-01-04T19:45:37Z",
+  "next_timestamp": "2026-01-04T19:55:37Z",
+  "data": {
+    "id": "b6eb23d78a4e1b3bf9946be7cfac0e6b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T21:25:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T19:50:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-04T19:50:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tanner McKee",
+                "price": 1.89,
+                "point": 219.5
+              },
+              {
+                "name": "Under",
+                "description": "Tanner McKee",
+                "price": 1.89,
+                "point": 219.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Johnson",
+                "price": 1.89,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Johnson",
+                "price": 1.89,
+                "point": 178.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

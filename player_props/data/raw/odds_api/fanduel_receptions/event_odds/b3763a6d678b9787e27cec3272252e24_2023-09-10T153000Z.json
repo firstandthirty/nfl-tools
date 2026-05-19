@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-09-10T15:25:40Z",
+  "previous_timestamp": "2023-09-10T15:20:42Z",
+  "next_timestamp": "2023-09-10T15:30:41Z",
+  "data": {
+    "id": "b3763a6d678b9787e27cec3272252e24",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T15:25:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-10T15:23:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alexander Mattison",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alexander Mattison",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "KJ Osborn",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "KJ Osborn",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 1.8,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

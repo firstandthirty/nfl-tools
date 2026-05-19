@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-12-10T16:30:39Z",
+  "previous_timestamp": "2023-12-10T16:25:39Z",
+  "next_timestamp": "2023-12-10T16:35:39Z",
+  "data": {
+    "id": "21466b3f0fdff97da5c44d0774f2c1a6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:03:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-10T16:29:55Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-10T16:27:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.77,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 2.18,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.67,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Mingo",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Mingo",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Miles Sanders",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Miles Sanders",
+                "price": 1.57,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-10T15:25:40Z",
+  "previous_timestamp": "2023-09-10T15:20:42Z",
+  "next_timestamp": "2023-09-10T15:30:41Z",
+  "data": {
+    "id": "741437df0e5c0350c32ce707161bd423",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T15:25:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-10T15:24:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 230.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

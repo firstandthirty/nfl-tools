@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-06T15:25:37Z",
+  "previous_timestamp": "2024-10-06T15:20:37Z",
+  "next_timestamp": "2024-10-06T15:30:37Z",
+  "data": {
+    "id": "43f21c8e455914cc71d00ca0001ae85b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-06T17:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-06T15:25:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-06T15:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 200.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 200.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

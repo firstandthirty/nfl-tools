@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-10T19:55:38Z",
+  "previous_timestamp": "2026-01-10T19:50:39Z",
+  "next_timestamp": "2026-01-10T20:00:51Z",
+  "data": {
+    "id": "c37a03009947c0191ab4e2de9664705a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-10T21:30:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-10T19:55:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-10T19:55:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 255.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 255.5
+              },
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 189.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 189.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-19T22:40:39Z",
+  "previous_timestamp": "2024-09-19T22:35:39Z",
+  "next_timestamp": "2024-09-19T22:45:39Z",
+  "data": {
+    "id": "ff0f310a02a527f105b5b37dbd61c502",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-20T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-19T22:38:46Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-19T22:40:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jacoby Brissett",
+                "price": 1.91,
+                "point": 163.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacoby Brissett",
+                "price": 1.91,
+                "point": 163.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 218.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

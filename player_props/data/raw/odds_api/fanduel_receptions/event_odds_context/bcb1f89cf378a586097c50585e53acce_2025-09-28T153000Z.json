@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-28T15:25:38Z",
+  "previous_timestamp": "2025-09-28T15:20:39Z",
+  "next_timestamp": "2025-09-28T15:30:38Z",
+  "data": {
+    "id": "bcb1f89cf378a586097c50585e53acce",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-28T15:25:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.25
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-28T15:23:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:23:46Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:23:46Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.93,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.89,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:23:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T15:25:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.3
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.98,
+                "point": 9.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.83,
+                "point": -9.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-28T15:25:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.46
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-28T15:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:02Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.15
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:02Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.97,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.93,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-28T15:25:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.15
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.87,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-28T15:25:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.85,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.93,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-28T15:25:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:05Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.05
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:05Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.87,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-28T15:24:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:24:43Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 4.75
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:24:43Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:24:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-28T15:25:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.25
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 10.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": -10.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-28T15:25:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 5.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.16
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 10.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": -10.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

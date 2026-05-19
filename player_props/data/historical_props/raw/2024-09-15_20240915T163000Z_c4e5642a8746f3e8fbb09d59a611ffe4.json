@@ -1,0 +1,322 @@
+{
+  "timestamp": "2024-09-15T16:25:38Z",
+  "previous_timestamp": "2024-09-15T16:20:38Z",
+  "next_timestamp": "2024-09-15T16:30:38Z",
+  "data": {
+    "id": "c4e5642a8746f3e8fbb09d59a611ffe4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-15T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T16:25:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-15T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 197.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Willis",
+                "price": -110,
+                "point": 166.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Willis",
+                "price": -110,
+                "point": 166.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-09-15T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": -110,
+                "point": 56.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": -110,
+                "point": 56.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Watson",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Watson",
+                "price": -110,
+                "point": 24.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-15T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -168,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 128,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 126,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": -165,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 125,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": -164,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": -128,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": -102,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": -118,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": -110,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": 130,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": -170,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Watson",
+                "price": 116,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Watson",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": -140,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-09-15T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 80.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 80.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Willis",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Willis",
+                "price": -110,
+                "point": 28.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

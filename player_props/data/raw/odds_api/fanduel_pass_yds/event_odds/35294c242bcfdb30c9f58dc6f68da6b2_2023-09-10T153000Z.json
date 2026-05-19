@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-10T15:25:40Z",
+  "previous_timestamp": "2023-09-10T15:20:42Z",
+  "next_timestamp": "2023-09-10T15:30:41Z",
+  "data": {
+    "id": "35294c242bcfdb30c9f58dc6f68da6b2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T15:25:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-10T15:24:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.91,
+                "point": 260.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.91,
+                "point": 260.5
+              },
+              {
+                "name": "Over",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 235.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

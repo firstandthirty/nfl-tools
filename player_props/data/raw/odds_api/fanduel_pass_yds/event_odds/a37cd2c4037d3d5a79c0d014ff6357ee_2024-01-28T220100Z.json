@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-28T22:00:38Z",
+  "previous_timestamp": "2024-01-28T21:55:38Z",
+  "next_timestamp": "2024-01-28T22:05:38Z",
+  "data": {
+    "id": "a37cd2c4037d3d5a79c0d014ff6357ee",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-28T23:31:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-28T21:59:58Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-28T21:56:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 277.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 277.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

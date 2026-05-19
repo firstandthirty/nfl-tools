@@ -1,0 +1,406 @@
+{
+  "timestamp": "2024-11-10T17:25:37Z",
+  "previous_timestamp": "2024-11-10T17:20:37Z",
+  "next_timestamp": "2024-11-10T17:30:37Z",
+  "data": {
+    "id": "853cc3b59ffe65a55a55d799789bc726",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T17:25:09Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T17:25:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": -110,
+                "point": 243.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": -110,
+                "point": 243.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 256.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-11-10T17:25:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen McMillan",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen McMillan",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": -110,
+                "point": 29.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-10T17:25:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": -108,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": -120,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 102,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": -132,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 102,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen McMillan",
+                "price": -114,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen McMillan",
+                "price": -114,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": -156,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": 120,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": -128,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": -102,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": -156,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 120,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": -108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": -120,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": 126,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": -165,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 102,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-11-10T17:25:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": -110,
+                "point": 69.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": -110,
+                "point": 69.5
+              },
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": -110,
+                "point": 24.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

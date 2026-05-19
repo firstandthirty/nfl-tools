@@ -1,0 +1,172 @@
+{
+  "timestamp": "2023-12-23T20:00:38Z",
+  "previous_timestamp": "2023-12-23T19:55:38Z",
+  "next_timestamp": "2023-12-23T20:05:38Z",
+  "data": {
+    "id": "d86898556d2e1132370891f1fc23603f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-23T21:31:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-23T19:58:28Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-23T19:57:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Diontae Johnson",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Diontae Johnson",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Najee Harris",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Najee Harris",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tanner Hudson",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tanner Hudson",
+                "price": 2.42,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trenton Irwin",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Trenton Irwin",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Robinson II",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Robinson II",
+                "price": 1.94,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.34,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.58,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

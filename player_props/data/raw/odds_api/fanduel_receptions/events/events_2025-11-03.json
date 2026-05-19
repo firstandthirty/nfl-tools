@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-11-03T11:55:37Z",
+  "previous_timestamp": "2025-11-03T11:50:37Z",
+  "next_timestamp": "2025-11-03T12:00:37Z",
+  "data": [
+    {
+      "id": "f3dfb574e0a542375a480534525ee6cf",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-04T01:15:00Z",
+      "home_team": "Dallas Cowboys",
+      "away_team": "Arizona Cardinals"
+    },
+    {
+      "id": "13bdffda97e8fb13179fe3f2f69d66f8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-07T01:15:00Z",
+      "home_team": "Denver Broncos",
+      "away_team": "Las Vegas Raiders"
+    },
+    {
+      "id": "42473c1ddf8f424069ff3f264dd8dca4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T14:30:00Z",
+      "home_team": "Indianapolis Colts",
+      "away_team": "Atlanta Falcons"
+    },
+    {
+      "id": "9900b89c4776c5b47dd26ca4c755edf9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Minnesota Vikings",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "3c10bc18680995136017c3bfd3152334",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Miami Dolphins",
+      "away_team": "Buffalo Bills"
+    },
+    {
+      "id": "21f47a328fb2ab65c01360a7a2bd9571",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Carolina Panthers",
+      "away_team": "New Orleans Saints"
+    },
+    {
+      "id": "3b1a97366685a96e6e1940ae56cc4d31",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Chicago Bears",
+      "away_team": "New York Giants"
+    },
+    {
+      "id": "844b89333f293f055f8e0c147fb9fec5",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "New York Jets",
+      "away_team": "Cleveland Browns"
+    },
+    {
+      "id": "9dbf94f23521c7cae7fd89b2d33fc3bd",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "Jacksonville Jaguars"
+    },
+    {
+      "id": "39e7c1f6e36d5bc4d2613ebf7bb83c10",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T18:00:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "New England Patriots"
+    },
+    {
+      "id": "740b843794cc89176c4ffe38b66d30d9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T21:05:00Z",
+      "home_team": "Seattle Seahawks",
+      "away_team": "Arizona Cardinals"
+    },
+    {
+      "id": "93365f943b3aa23705bc9e1c7b47d7f8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T21:25:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Detroit Lions"
+    },
+    {
+      "id": "2710103fe4fb0170ae03b4e34bde8132",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-09T21:25:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Los Angeles Rams"
+    },
+    {
+      "id": "349d53a4f89591312ea528e81b786474",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-10T01:20:00Z",
+      "home_team": "Los Angeles Chargers",
+      "away_team": "Pittsburgh Steelers"
+    },
+    {
+      "id": "438868ff90501a1fe9a0fbecbee9dc12",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-11T01:15:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "Philadelphia Eagles"
+    }
+  ]
+}

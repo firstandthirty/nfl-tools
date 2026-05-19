@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-01-13T19:55:39Z",
+  "previous_timestamp": "2024-01-13T19:50:38Z",
+  "next_timestamp": "2024-01-13T20:00:39Z",
+  "data": {
+    "id": "20a35d24ca8a5d672a6520effdcbacb6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-13T21:30:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-13T19:54:23Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-01-13T19:54:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.82,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.96,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "David Bell",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "David Bell",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Devin Singletary",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devin Singletary",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.24,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.63,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 2.0,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

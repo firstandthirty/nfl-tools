@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-05T22:45:38Z",
+  "previous_timestamp": "2024-09-05T22:40:38Z",
+  "next_timestamp": "2024-09-05T22:50:38Z",
+  "data": {
+    "id": "612c2c3f6ca9e10d4b7ead21a2b0ff38",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-06T00:20:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-05T22:45:11Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-05T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 268.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 268.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

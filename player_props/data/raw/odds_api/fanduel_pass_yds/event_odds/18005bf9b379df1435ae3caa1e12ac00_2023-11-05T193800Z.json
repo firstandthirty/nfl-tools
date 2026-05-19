@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-05T19:35:40Z",
+  "previous_timestamp": "2023-11-05T19:30:39Z",
+  "next_timestamp": "2023-11-05T19:40:40Z",
+  "data": {
+    "id": "18005bf9b379df1435ae3caa1e12ac00",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T21:08:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-05T19:35:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-05T19:31:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 221.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

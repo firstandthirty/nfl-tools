@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-09-08T18:50:38Z",
+  "previous_timestamp": "2024-09-08T18:45:37Z",
+  "next_timestamp": "2024-09-08T18:55:38Z",
+  "data": {
+    "id": "a1682ca5d9e0c4b14d19ed69d6299806",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-08T20:25:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-08T18:48:26Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-08T18:48:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ezekiel Elliott",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ezekiel Elliott",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.72,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.06,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 1.71,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-11-23T23:50:40Z",
+  "previous_timestamp": "2023-11-23T23:45:39Z",
+  "next_timestamp": "2023-11-23T23:55:40Z",
+  "data": {
+    "id": "d001a3b1c793ab693130ede3dc9e6810",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-24T01:21:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-23T23:49:55Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-23T23:45:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": 1.67,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.1,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.68,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

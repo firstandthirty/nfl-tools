@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-11-03T16:25:38Z",
+  "previous_timestamp": "2024-11-03T16:20:38Z",
+  "next_timestamp": "2024-11-03T16:30:37Z",
+  "data": {
+    "id": "db18946165af62532b19d4c509d7ba56",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-03T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-03T16:25:00Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-03T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 2.22,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.62,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 2.22,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.62,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.77,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

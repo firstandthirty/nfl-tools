@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-28T22:50:38Z",
+  "previous_timestamp": "2025-09-28T22:45:38Z",
+  "next_timestamp": "2025-09-28T22:55:38Z",
+  "data": {
+    "id": "de432abcc3bd8d42a582ae9f71388dcd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-29T00:21:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T22:50:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-28T22:50:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 2.16,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.52,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Golden",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Golden",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 2.2,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

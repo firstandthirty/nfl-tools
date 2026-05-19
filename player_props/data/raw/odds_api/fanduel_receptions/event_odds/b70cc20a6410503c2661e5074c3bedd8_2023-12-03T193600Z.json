@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-12-03T19:35:38Z",
+  "previous_timestamp": "2023-12-03T19:30:38Z",
+  "next_timestamp": "2023-12-03T19:40:38Z",
+  "data": {
+    "id": "b70cc20a6410503c2661e5074c3bedd8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T21:06:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-03T19:34:39Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-03T19:33:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Mingo",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Mingo",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Chark Jr.",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Chark Jr.",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 1.88,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

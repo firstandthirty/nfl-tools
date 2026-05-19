@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-30T22:40:38Z",
+  "previous_timestamp": "2024-09-30T22:35:38Z",
+  "next_timestamp": "2024-09-30T22:45:39Z",
+  "data": {
+    "id": "2b7f812133cedc184625d7bc8362564a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-01T00:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-30T22:39:52Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-30T22:40:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 244.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 244.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

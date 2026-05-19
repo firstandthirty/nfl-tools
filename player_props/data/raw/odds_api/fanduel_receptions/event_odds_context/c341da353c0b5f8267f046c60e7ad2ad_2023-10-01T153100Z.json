@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-01T15:30:40Z",
+  "previous_timestamp": "2023-10-01T15:25:40Z",
+  "next_timestamp": "2023-10-01T15:35:40Z",
+  "data": {
+    "id": "c341da353c0b5f8267f046c60e7ad2ad",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:01:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.42
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.98,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-01T15:29:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.41
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-01T15:30:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.41
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.35
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.35
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.61
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.92,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.92,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.39
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.58
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.0,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.83,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-01T15:30:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.45
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.0,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.83,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.3
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.45
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.4
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.92,
+                "point": 3.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

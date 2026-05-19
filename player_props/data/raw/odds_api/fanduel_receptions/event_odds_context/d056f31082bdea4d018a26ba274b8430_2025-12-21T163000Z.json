@@ -1,0 +1,582 @@
+{
+  "timestamp": "2025-12-21T16:25:37Z",
+  "previous_timestamp": "2025-12-21T16:20:37Z",
+  "next_timestamp": "2025-12-21T16:30:37Z",
+  "data": {
+    "id": "d056f31082bdea4d018a26ba274b8430",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T16:25:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-21T16:25:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.34
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-12-21T16:25:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.85,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.97,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T16:25:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.28
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.66
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.98,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-21T16:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.28
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.63
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T16:24:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:24:39Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:24:39Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.85,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.97,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:24:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T16:24:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:24:37Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:24:37Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.88,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.02,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:24:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T16:25:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:29Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.28
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:29Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.85,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.93,
+                "point": -3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-12-21T16:25:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:28Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:28Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-21T16:25:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T16:25:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.8,
+                "point": 3.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.05,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "timestamp": "2024-09-12T22:45:39Z",
+  "previous_timestamp": "2024-09-12T22:40:39Z",
+  "next_timestamp": "2024-09-12T22:50:39Z",
+  "data": {
+    "id": "ddd9b67cf1d68282e1e8652000c0d015",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-13T00:20:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-12T22:44:21Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-12T22:45:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Braxton Berrios",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Braxton Berrios",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 2.25,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": 1.87,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": 1.78,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

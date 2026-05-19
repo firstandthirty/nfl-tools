@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "cd5151f8a1e7fcba4901929e77b94acd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-14T16:25:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.1,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.71,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 1.69,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Oronde Gadsden II",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Oronde Gadsden II",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.96,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.82,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Omarion Hampton",
+                "price": 2.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Omarion Hampton",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.65,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

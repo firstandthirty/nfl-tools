@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "813dab51d999b87c7968ac4890965f73",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-14T16:25:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 203.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 203.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenny Pickett",
+                "price": 1.89,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenny Pickett",
+                "price": 1.89,
+                "point": 178.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-26T18:30:39Z",
+  "previous_timestamp": "2025-10-26T18:25:38Z",
+  "next_timestamp": "2025-10-26T18:35:38Z",
+  "data": {
+    "id": "a8dd9bb0681692540d067bd0e9e66989",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-26T20:05:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-26T18:30:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-26T18:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.7
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-26T18:29:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:29:37Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:29:37Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:29:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-26T18:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.7
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.92,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.89,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-26T18:30:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:31Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.72
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:31Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-26T18:28:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:28:38Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.73
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:28:38Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:28:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-26T18:30:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:02Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:02Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.98,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-26T18:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.93,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-26T18:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.43
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.88,
+                "point": 4.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.89,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-26T18:30:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:03Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:03Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-26T18:30:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T18:30:17Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T18:30:17Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T18:30:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

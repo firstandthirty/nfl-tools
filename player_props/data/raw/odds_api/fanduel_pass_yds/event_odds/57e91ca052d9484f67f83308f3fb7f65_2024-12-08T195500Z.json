@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-08T19:50:38Z",
+  "previous_timestamp": "2024-12-08T19:45:37Z",
+  "next_timestamp": "2024-12-08T19:55:37Z",
+  "data": {
+    "id": "57e91ca052d9484f67f83308f3fb7f65",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T21:25:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T19:50:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-08T19:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 226.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 226.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 226.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 226.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

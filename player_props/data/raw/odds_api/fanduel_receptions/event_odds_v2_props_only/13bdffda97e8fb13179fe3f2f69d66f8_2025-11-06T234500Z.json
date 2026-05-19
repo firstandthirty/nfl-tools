@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-06T23:40:38Z",
+  "previous_timestamp": "2025-11-06T23:35:38Z",
+  "next_timestamp": "2025-11-06T23:45:37Z",
+  "data": {
+    "id": "13bdffda97e8fb13179fe3f2f69d66f8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-07T01:15:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-06T23:40:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-06T23:40:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ashton Jeanty",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ashton Jeanty",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jack Bech",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jack Bech",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Bryant",
+                "price": 1.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Bryant",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Bowers",
+                "price": 2.06,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Bowers",
+                "price": 1.75,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "RJ Harvey",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "RJ Harvey",
+                "price": 1.85,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

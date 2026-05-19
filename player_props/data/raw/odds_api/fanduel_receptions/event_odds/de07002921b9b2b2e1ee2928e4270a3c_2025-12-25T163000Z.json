@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-12-25T16:25:37Z",
+  "previous_timestamp": "2025-12-25T16:20:37Z",
+  "next_timestamp": "2025-12-25T16:30:37Z",
+  "data": {
+    "id": "de07002921b9b2b2e1ee2928e4270a3c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-25T18:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-25T16:25:28Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-25T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.7,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Treylon Burks",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Treylon Burks",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel Sr.",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel Sr.",
+                "price": 1.81,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ben Sinnott",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ben Sinnott",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.58,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.82,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.94,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 2.4,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

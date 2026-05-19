@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-15T18:55:40Z",
+  "previous_timestamp": "2023-10-15T18:50:41Z",
+  "next_timestamp": "2023-10-15T19:00:41Z",
+  "data": {
+    "id": "18aaf89457d739e1a06bda112ef80cc7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:28:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-15T18:55:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-15T18:55:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 245.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 245.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-01-24T11:55:38Z",
+  "previous_timestamp": "2025-01-24T11:50:38Z",
+  "next_timestamp": "2025-01-24T12:00:38Z",
+  "data": [
+    {
+      "id": "1828ad92c570cf68cb77f7754e9c6a5a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "d43eaaa8d1f21ca6d9822bca070a3d30",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills"
+    },
+    {
+      "id": "d90bef2fcd891c33dc2932f0fb7c1786",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Buffalo Bills"
+    },
+    {
+      "id": "885a39a6a793bebb4b8b6533d69a505b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Buffalo Bills"
+    },
+    {
+      "id": "3fd7cba821568399920fcea4dadad30d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Kansas City Chiefs"
+    },
+    {
+      "id": "bd4955e110d816bbdff723b41d29d698",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Kansas City Chiefs"
+    }
+  ]
+}

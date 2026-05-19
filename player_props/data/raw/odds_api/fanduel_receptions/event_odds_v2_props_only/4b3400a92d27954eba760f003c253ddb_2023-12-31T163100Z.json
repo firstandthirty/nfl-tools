@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-12-31T16:30:38Z",
+  "previous_timestamp": "2023-12-31T16:25:38Z",
+  "next_timestamp": "2023-12-31T16:35:38Z",
+  "data": {
+    "id": "4b3400a92d27954eba760f003c253ddb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:01:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-31T16:30:35Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-31T16:26:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.59,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Logan Thomas",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Logan Thomas",
+                "price": 1.57,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

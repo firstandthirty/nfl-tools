@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-28T23:45:38Z",
+  "previous_timestamp": "2024-11-28T23:40:39Z",
+  "next_timestamp": "2024-11-28T23:50:39Z",
+  "data": {
+    "id": "e6b414e1b7a012e57d1a0746769f28a2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-29T01:20:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-28T23:45:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 238.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 238.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 241.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

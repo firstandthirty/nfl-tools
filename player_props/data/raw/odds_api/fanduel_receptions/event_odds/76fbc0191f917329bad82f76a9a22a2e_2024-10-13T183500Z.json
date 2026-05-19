@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-10-13T18:30:38Z",
+  "previous_timestamp": "2024-10-13T18:25:38Z",
+  "next_timestamp": "2024-10-13T18:35:38Z",
+  "data": {
+    "id": "76fbc0191f917329bad82f76a9a22a2e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T20:05:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T18:30:34Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-13T18:29:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joshua Palmer",
+                "price": 2.42,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Palmer",
+                "price": 1.53,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.59,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Lil'Jordan Humphrey",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Lil'Jordan Humphrey",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hayden Hurst",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hayden Hurst",
+                "price": 1.51,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

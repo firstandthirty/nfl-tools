@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-12-27T19:55:37Z",
+  "previous_timestamp": "2025-12-27T19:50:37Z",
+  "next_timestamp": "2025-12-27T20:00:37Z",
+  "data": {
+    "id": "832c36c4b6d5132e88cf11391797c194",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-27T21:30:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-27T19:55:14Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-27T19:55:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Oronde Gadsden II",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Oronde Gadsden II",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tre Harris",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Harris",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 2.48,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.53,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Woody Marks",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Woody Marks",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 1.67,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Higgins",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Higgins",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Hutchinson",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Hutchinson",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Omarion Hampton",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Omarion Hampton",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.89,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-26T21:55:38Z",
+  "previous_timestamp": "2025-01-26T21:50:38Z",
+  "next_timestamp": "2025-01-26T22:00:38Z",
+  "data": {
+    "id": "d43eaaa8d1f21ca6d9822bca070a3d30",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-26T23:30:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-26T21:55:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-26T21:55:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 231.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

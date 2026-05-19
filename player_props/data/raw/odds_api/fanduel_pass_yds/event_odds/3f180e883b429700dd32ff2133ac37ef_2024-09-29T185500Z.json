@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-29T18:50:38Z",
+  "previous_timestamp": "2024-09-29T18:45:38Z",
+  "next_timestamp": "2024-09-29T18:55:38Z",
+  "data": {
+    "id": "3f180e883b429700dd32ff2133ac37ef",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T20:25:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T18:49:44Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-29T18:49:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 199.5
+              },
+              {
+                "name": "Under",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 199.5
+              },
+              {
+                "name": "Over",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 194.5
+              },
+              {
+                "name": "Under",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 194.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

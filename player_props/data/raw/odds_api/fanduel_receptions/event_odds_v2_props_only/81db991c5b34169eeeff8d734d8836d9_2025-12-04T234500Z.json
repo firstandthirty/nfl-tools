@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-12-04T23:40:38Z",
+  "previous_timestamp": "2025-12-04T23:35:38Z",
+  "next_timestamp": "2025-12-04T23:45:38Z",
+  "data": {
+    "id": "81db991c5b34169eeeff8d734d8836d9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-05T01:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-04T23:40:28Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-04T23:40:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.77,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Ryan Flournoy",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Flournoy",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.77,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.79,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 1.77,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

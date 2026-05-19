@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-12-21T19:50:37Z",
+  "previous_timestamp": "2025-12-21T19:45:37Z",
+  "next_timestamp": "2025-12-21T19:55:37Z",
+  "data": {
+    "id": "a03f89d3aaadf737deb09be24986d5bf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T21:25:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T19:50:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-21T19:50:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.55,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 2.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Gainwell",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Gainwell",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Washington",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Washington",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.1,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.71,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 2.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": 1.47,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 2.2,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

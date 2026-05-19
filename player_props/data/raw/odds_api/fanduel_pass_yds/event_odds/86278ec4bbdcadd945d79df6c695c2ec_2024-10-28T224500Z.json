@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-28T22:40:38Z",
+  "previous_timestamp": "2024-10-28T22:35:39Z",
+  "next_timestamp": "2024-10-28T22:45:39Z",
+  "data": {
+    "id": "86278ec4bbdcadd945d79df6c695c2ec",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-29T00:15:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-28T22:40:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-28T22:40:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 188.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 188.5
+              },
+              {
+                "name": "Over",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 197.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

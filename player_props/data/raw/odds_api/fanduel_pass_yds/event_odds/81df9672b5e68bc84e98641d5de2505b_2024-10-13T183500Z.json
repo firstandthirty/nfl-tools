@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-13T18:30:38Z",
+  "previous_timestamp": "2024-10-13T18:25:38Z",
+  "next_timestamp": "2024-10-13T18:35:38Z",
+  "data": {
+    "id": "81df9672b5e68bc84e98641d5de2505b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T20:05:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T18:30:34Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-13T18:30:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 188.5
+              },
+              {
+                "name": "Under",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 188.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 175.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 175.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

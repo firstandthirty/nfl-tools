@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-19T18:30:38Z",
+  "previous_timestamp": "2025-10-19T18:25:38Z",
+  "next_timestamp": "2025-10-19T18:35:38Z",
+  "data": {
+    "id": "a0ad5501e9d1d2ee9f61d9f293374f17",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:30:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-19T18:30:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Herbert",
+                "price": 1.89,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Herbert",
+                "price": 1.89,
+                "point": 256.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

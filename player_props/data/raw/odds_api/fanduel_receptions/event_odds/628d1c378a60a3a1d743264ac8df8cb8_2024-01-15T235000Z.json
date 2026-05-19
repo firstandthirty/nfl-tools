@@ -1,0 +1,172 @@
+{
+  "timestamp": "2024-01-15T23:45:39Z",
+  "previous_timestamp": "2024-01-15T23:40:39Z",
+  "next_timestamp": "2024-01-15T23:50:38Z",
+  "data": {
+    "id": "628d1c378a60a3a1d743264ac8df8cb8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-16T01:20:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-15T23:44:50Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-01-15T23:43:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.53,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 2.46,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Julio Jones",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Julio Jones",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 2.42,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Gainwell",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Gainwell",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Quez Watkins",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Quez Watkins",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 2.24,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 1.63,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeVonta Smith",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DeVonta Smith",
+                "price": 1.8,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

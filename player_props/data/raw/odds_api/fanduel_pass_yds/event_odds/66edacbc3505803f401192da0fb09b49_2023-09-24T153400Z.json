@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-24T15:30:40Z",
+  "previous_timestamp": "2023-09-24T15:25:41Z",
+  "next_timestamp": "2023-09-24T15:35:40Z",
+  "data": {
+    "id": "66edacbc3505803f401192da0fb09b49",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:04:00Z",
+    "home_team": "New York Jets",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-24T15:30:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Zach Wilson",
+                "price": 1.91,
+                "point": 175.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Wilson",
+                "price": 1.91,
+                "point": 175.5
+              },
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 204.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

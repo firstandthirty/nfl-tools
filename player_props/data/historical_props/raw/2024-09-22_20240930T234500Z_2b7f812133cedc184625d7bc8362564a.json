@@ -1,0 +1,406 @@
+{
+  "timestamp": "2024-09-30T23:40:39Z",
+  "previous_timestamp": "2024-09-30T23:35:39Z",
+  "next_timestamp": "2024-09-30T23:45:39Z",
+  "data": {
+    "id": "2b7f812133cedc184625d7bc8362564a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-01T00:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-30T23:39:40Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-30T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 252.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": -110,
+                "point": 244.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": -110,
+                "point": 244.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-09-30T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -105,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -115,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Tim Patrick",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Tim Patrick",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": -110,
+                "point": 73.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": -110,
+                "point": 73.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-30T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": -146,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 112,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": 154,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -205,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 122,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": -160,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -138,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": 106,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 112,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": -146,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": -168,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 128,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 136,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -178,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -120,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -108,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": 128,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -168,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 126,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": -165,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 108,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": -140,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-09-30T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 51.5
+              },
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 63.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

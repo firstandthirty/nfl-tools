@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-25T21:55:37Z",
+  "previous_timestamp": "2026-01-25T21:50:37Z",
+  "next_timestamp": "2026-01-25T22:00:37Z",
+  "data": {
+    "id": "4bc6eb576f5079baecce8c56689c259a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-25T23:30:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-25T21:55:33Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-25T21:55:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 233.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 256.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

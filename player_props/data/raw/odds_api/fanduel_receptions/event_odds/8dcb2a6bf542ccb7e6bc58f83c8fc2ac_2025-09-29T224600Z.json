@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-09-29T22:45:39Z",
+  "previous_timestamp": "2025-09-29T22:40:39Z",
+  "next_timestamp": "2025-09-29T22:50:39Z",
+  "data": {
+    "id": "8dcb2a6bf542ccb7e6bc58f83c8fc2ac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-30T00:16:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-29T22:45:18Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-29T22:44:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "J.K. Dobbins",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "J.K. Dobbins",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.75,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 2.06,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.26,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.62,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "RJ Harvey",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "RJ Harvey",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Drew Sample",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Drew Sample",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 2.32,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

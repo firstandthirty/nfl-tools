@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-21T16:25:37Z",
+  "previous_timestamp": "2025-12-21T16:20:37Z",
+  "next_timestamp": "2025-12-21T16:30:37Z",
+  "data": {
+    "id": "aa5b25e85d1ad6540d7a5ae04b73ddfd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T16:25:30Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-21T16:25:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kevin Austin",
+                "price": 1.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kevin Austin",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Audric Estime",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Audric Estime",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Williams",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Williams",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Tipton",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Tipton",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jeremy Ruckert",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jeremy Ruckert",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 2.1,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "John Metchie III",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "John Metchie III",
+                "price": 1.74,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

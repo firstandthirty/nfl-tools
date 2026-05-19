@@ -1,0 +1,40 @@
+{
+  "timestamp": "2023-12-18T23:45:38Z",
+  "previous_timestamp": "2023-12-18T23:40:39Z",
+  "next_timestamp": "2023-12-18T23:50:38Z",
+  "data": {
+    "id": "f51da6d224ba8d719fe220e807cd0442",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-19T01:18:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-18T23:42:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-18T23:42:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 242.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

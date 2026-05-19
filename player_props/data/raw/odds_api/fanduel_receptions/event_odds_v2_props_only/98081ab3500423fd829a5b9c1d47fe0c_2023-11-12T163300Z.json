@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-12T16:30:39Z",
+  "previous_timestamp": "2023-11-12T16:25:39Z",
+  "next_timestamp": "2023-11-12T16:35:39Z",
+  "data": {
+    "id": "98081ab3500423fd829a5b9c1d47fe0c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:03:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-12T16:29:39Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-12T16:29:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 2.14,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.68,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 1.63,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Irv Smith Jr.",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Irv Smith Jr.",
+                "price": 1.68,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

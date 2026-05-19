@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-03T16:25:38Z",
+  "previous_timestamp": "2024-11-03T16:20:38Z",
+  "next_timestamp": "2024-11-03T16:30:37Z",
+  "data": {
+    "id": "11154d508a0b557087b0fa84cccf8a66",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-03T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-03T16:25:00Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-03T16:25:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 220.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

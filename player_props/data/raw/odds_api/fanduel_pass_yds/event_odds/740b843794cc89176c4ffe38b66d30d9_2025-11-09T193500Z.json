@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-09T19:30:37Z",
+  "previous_timestamp": "2025-11-09T19:25:37Z",
+  "next_timestamp": "2025-11-09T19:35:37Z",
+  "data": {
+    "id": "740b843794cc89176c4ffe38b66d30d9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T21:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T19:30:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-09T19:30:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 235.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 257.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 257.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

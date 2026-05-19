@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-13T21:40:40Z",
+  "previous_timestamp": "2025-10-13T21:35:39Z",
+  "next_timestamp": "2025-10-13T21:45:39Z",
+  "data": {
+    "id": "33e0adf378d2856ffe5f8452e7d5512d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-13T23:15:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-13T21:40:30Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-13T21:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Michael Penix Jr.",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Penix Jr.",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 232.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

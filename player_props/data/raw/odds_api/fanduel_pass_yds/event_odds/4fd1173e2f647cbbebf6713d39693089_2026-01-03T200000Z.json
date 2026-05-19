@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-03T19:55:37Z",
+  "previous_timestamp": "2026-01-03T19:50:37Z",
+  "next_timestamp": "2026-01-03T20:00:48Z",
+  "data": {
+    "id": "4fd1173e2f647cbbebf6713d39693089",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-03T21:30:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-03T19:55:22Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-03T19:55:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 204.5
+              },
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 217.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

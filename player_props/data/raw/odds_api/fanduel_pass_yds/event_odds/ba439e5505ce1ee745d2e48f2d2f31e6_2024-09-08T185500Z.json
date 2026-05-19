@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-08T18:50:38Z",
+  "previous_timestamp": "2024-09-08T18:45:37Z",
+  "next_timestamp": "2024-09-08T18:55:38Z",
+  "data": {
+    "id": "ba439e5505ce1ee745d2e48f2d2f31e6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-08T20:25:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-08T18:48:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-08T18:48:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 248.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 248.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

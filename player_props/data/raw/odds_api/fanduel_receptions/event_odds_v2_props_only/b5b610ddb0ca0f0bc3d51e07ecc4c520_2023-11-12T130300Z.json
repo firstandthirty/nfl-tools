@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-11-12T13:00:40Z",
+  "previous_timestamp": "2023-11-12T12:55:40Z",
+  "next_timestamp": "2023-11-12T13:05:39Z",
+  "data": {
+    "id": "b5b610ddb0ca0f0bc3d51e07ecc4c520",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T14:33:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-12T13:00:31Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-12T12:56:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Demario Douglas",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Demario Douglas",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kylen Granson",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kylen Granson",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.3,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

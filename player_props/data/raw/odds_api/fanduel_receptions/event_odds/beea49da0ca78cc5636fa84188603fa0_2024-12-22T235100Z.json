@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-12-22T23:50:37Z",
+  "previous_timestamp": "2024-12-22T23:45:37Z",
+  "next_timestamp": "2024-12-22T23:55:37Z",
+  "data": {
+    "id": "beea49da0ca78cc5636fa84188603fa0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-23T01:21:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T23:50:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-22T23:50:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.77,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.0,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 2.25,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen McMillan",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen McMillan",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

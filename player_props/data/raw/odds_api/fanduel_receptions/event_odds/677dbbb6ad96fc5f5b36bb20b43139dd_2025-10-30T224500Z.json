@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-10-30T22:40:40Z",
+  "previous_timestamp": "2025-10-30T22:35:39Z",
+  "next_timestamp": "2025-10-30T22:45:40Z",
+  "data": {
+    "id": "677dbbb6ad96fc5f5b36bb20b43139dd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-31T00:15:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-30T22:40:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-30T22:40:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Washington",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Washington",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedrick Wilson Jr.",
+                "price": 1.52,
+                "point": 0.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedrick Wilson Jr.",
+                "price": 2.5,
+                "point": 0.5
+              },
+              {
+                "name": "Over",
+                "description": "Justice Hill",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Justice Hill",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 2.3,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 1.6,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tanner Conner",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tanner Conner",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 1.74,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

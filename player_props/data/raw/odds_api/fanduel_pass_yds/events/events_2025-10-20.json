@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-20T11:55:39Z",
+  "previous_timestamp": "2025-10-20T11:50:39Z",
+  "next_timestamp": "2025-10-20T12:00:39Z",
+  "data": [
+    {
+      "id": "b808059d3ccc754ace4a3d23b58e47e8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-20T23:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Tampa Bay Buccaneers"
+    },
+    {
+      "id": "7ca953ab786f70b22cabbe4946d330fa",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-21T02:00:00Z",
+      "home_team": "Seattle Seahawks",
+      "away_team": "Houston Texans"
+    },
+    {
+      "id": "6439b16f4a038f1c351dc3f1aef27471",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-24T00:15:00Z",
+      "home_team": "Los Angeles Chargers",
+      "away_team": "Minnesota Vikings"
+    },
+    {
+      "id": "ac02b1b59aa0623845378a02bc530c68",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Atlanta Falcons",
+      "away_team": "Miami Dolphins"
+    },
+    {
+      "id": "a061e80d1f50eab193b34d19f8e59f62",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Chicago Bears"
+    },
+    {
+      "id": "53d4369464c66630f03a5d128cd39b08",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Carolina Panthers",
+      "away_team": "Buffalo Bills"
+    },
+    {
+      "id": "9c1f73e48ca9750f6e7d5d64874057c2",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "New York Jets"
+    },
+    {
+      "id": "3536a3e857050d2dd6e2019ceb668f67",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "Cleveland Browns"
+    },
+    {
+      "id": "abc4104a9ac597ce37d703613256fd6c",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "San Francisco 49ers"
+    },
+    {
+      "id": "a8ebe01e05675c109b53a97f653f8653",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T17:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "New York Giants"
+    },
+    {
+      "id": "a8dd9bb0681692540d067bd0e9e66989",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T20:05:00Z",
+      "home_team": "New Orleans Saints",
+      "away_team": "Tampa Bay Buccaneers"
+    },
+    {
+      "id": "40c2ebd9ddd5ce8ff5b1ada730bb1785",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T20:25:00Z",
+      "home_team": "Denver Broncos",
+      "away_team": "Dallas Cowboys"
+    },
+    {
+      "id": "88187a33b007c088d75c6cd14c83086c",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-26T20:25:00Z",
+      "home_team": "Indianapolis Colts",
+      "away_team": "Tennessee Titans"
+    },
+    {
+      "id": "fb900eef07307ebf5c1930341ecd852a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-27T00:20:00Z",
+      "home_team": "Pittsburgh Steelers",
+      "away_team": "Green Bay Packers"
+    },
+    {
+      "id": "7e3361e84d5223a8d210a887b249f247",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-28T00:15:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Washington Commanders"
+    }
+  ]
+}

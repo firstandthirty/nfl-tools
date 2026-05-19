@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-09-19T22:40:39Z",
+  "previous_timestamp": "2024-09-19T22:35:39Z",
+  "next_timestamp": "2024-09-19T22:45:39Z",
+  "data": {
+    "id": "ff0f310a02a527f105b5b37dbd61c502",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-20T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-19T22:38:46Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-19T22:40:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mike Williams",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Williams",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 1.83,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Lynn Polk",
+                "price": 1.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Lynn Polk",
+                "price": 2.46,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "K.J. Osborn",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "K.J. Osborn",
+                "price": 1.59,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

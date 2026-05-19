@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-21T22:40:42Z",
+  "previous_timestamp": "2023-09-21T22:35:43Z",
+  "next_timestamp": "2023-09-21T22:45:44Z",
+  "data": {
+    "id": "47b49faf45f8a39f9910f004a79ff360",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-22T00:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-21T22:40:08Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-21T22:40:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 223.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 223.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 211.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

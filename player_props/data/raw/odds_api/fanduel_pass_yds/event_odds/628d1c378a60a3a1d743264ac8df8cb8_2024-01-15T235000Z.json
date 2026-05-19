@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-15T23:45:39Z",
+  "previous_timestamp": "2024-01-15T23:40:39Z",
+  "next_timestamp": "2024-01-15T23:50:38Z",
+  "data": {
+    "id": "628d1c378a60a3a1d743264ac8df8cb8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-16T01:20:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-15T23:44:50Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-15T23:43:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 219.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 219.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

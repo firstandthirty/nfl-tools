@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-16T16:25:37Z",
+  "previous_timestamp": "2025-11-16T16:20:38Z",
+  "next_timestamp": "2025-11-16T16:30:37Z",
+  "data": {
+    "id": "7147476b5d96c0ee874b838de3910ee3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-16T18:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T16:25:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-16T16:25:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 2.04,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 1.76,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Washington",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Washington",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Austin III",
+                "price": 1.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Austin III",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.98,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.81,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.2,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

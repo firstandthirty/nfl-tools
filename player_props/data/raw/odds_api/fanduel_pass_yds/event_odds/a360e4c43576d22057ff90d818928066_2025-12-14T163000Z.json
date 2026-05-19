@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "a360e4c43576d22057ff90d818928066",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-14T16:25:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 231.5
+              },
+              {
+                "name": "Over",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 234.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

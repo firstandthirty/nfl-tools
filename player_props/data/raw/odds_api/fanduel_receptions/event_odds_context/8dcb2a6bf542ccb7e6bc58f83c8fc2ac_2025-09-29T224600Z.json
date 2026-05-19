@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-29T22:45:39Z",
+  "previous_timestamp": "2025-09-29T22:40:39Z",
+  "next_timestamp": "2025-09-29T22:50:39Z",
+  "data": {
+    "id": "8dcb2a6bf542ccb7e6bc58f83c8fc2ac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-30T00:16:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-29T22:45:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.7
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.21
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-29T22:44:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:44:54Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.45
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.23
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:44:54Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:44:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-29T22:43:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:43:00Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.6
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.21
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:43:00Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:43:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-29T22:45:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.22
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.93,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-29T22:45:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:25Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.67
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:25Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-29T22:45:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.67
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.21
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.92,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.99,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.97,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.9,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-29T22:45:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.67
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.21
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-29T22:45:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.35
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.88,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-29T22:45:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.22
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-29T22:45:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.8
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-29T22:45:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.22
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T22:45:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-10-16T22:40:41Z",
+  "previous_timestamp": "2023-10-16T22:35:42Z",
+  "next_timestamp": "2023-10-16T22:45:42Z",
+  "data": {
+    "id": "818b323e8a88e6a5701ea3f725f51d3c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-17T00:15:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-16T22:39:40Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-16T22:41:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Gallup",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Gallup",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.0,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 1.71,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 2.1,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Palmer",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Palmer",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Gerald Everett",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gerald Everett",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Ekeler",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Ekeler",
+                "price": 1.83,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

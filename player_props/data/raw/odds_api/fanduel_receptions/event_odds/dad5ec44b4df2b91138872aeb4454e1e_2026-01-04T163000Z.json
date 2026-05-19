@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-01-04T16:25:37Z",
+  "previous_timestamp": "2026-01-04T16:20:37Z",
+  "next_timestamp": "2026-01-04T16:30:39Z",
+  "data": {
+    "id": "dad5ec44b4df2b91138872aeb4454e1e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T16:25:26Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-04T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 2.04,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 2.12,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

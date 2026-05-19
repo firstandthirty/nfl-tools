@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-09-29T15:25:38Z",
+  "previous_timestamp": "2024-09-29T15:20:38Z",
+  "next_timestamp": "2024-09-29T15:30:38Z",
+  "data": {
+    "id": "6b08b0416089dbb0459c208f5c0c6d41",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T17:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T15:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-29T15:26:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 2.16,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 1.66,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Johnny Wilson",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Johnny Wilson",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Parris Campbell",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parris Campbell",
+                "price": 1.96,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

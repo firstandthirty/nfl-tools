@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-22T16:30:39Z",
+  "previous_timestamp": "2024-12-22T16:25:37Z",
+  "next_timestamp": "2024-12-22T16:35:38Z",
+  "data": {
+    "id": "7f9202e3018e484a3f30bc99422776fa",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T18:01:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-22T16:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 195.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 195.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 210.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.91,
+                "point": 210.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

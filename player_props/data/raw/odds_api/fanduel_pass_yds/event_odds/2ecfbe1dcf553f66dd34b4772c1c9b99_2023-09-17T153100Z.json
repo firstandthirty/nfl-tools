@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-17T15:30:40Z",
+  "previous_timestamp": "2023-09-17T15:25:40Z",
+  "next_timestamp": "2023-09-17T15:35:40Z",
+  "data": {
+    "id": "2ecfbe1dcf553f66dd34b4772c1c9b99",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-17T15:30:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 191.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 191.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 203.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 203.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

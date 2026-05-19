@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-09-24T15:30:40Z",
+  "previous_timestamp": "2023-09-24T15:25:41Z",
+  "next_timestamp": "2023-09-24T15:35:40Z",
+  "data": {
+    "id": "c6aa32a2bdcc85e5d8b8ae2e570607e6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:04:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.85
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-09-24T15:27:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:27:18Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.85
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:27:18Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:27:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-24T15:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.95
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-24T15:29:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.8
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.9
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.88,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.94,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-24T15:29:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.83,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.0,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-24T15:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.2
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.92,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-24T15:29:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.1
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.92,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.1
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.92,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-24T15:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.95
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.08,
+                "point": 7.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.84,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.97,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.95
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.86,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.85
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.83,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.0,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.91,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-24T15:28:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:28:36Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:28:36Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:28:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-09-24T15:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 4.2
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 8.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.91,
+                "point": -8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-24T15:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 3.9
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-24T15:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

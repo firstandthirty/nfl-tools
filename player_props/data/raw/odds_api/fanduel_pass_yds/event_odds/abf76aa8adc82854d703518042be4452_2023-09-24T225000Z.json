@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-24T22:45:40Z",
+  "previous_timestamp": "2023-09-24T22:40:40Z",
+  "next_timestamp": "2023-09-24T22:50:40Z",
+  "data": {
+    "id": "abf76aa8adc82854d703518042be4452",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-25T00:20:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T22:45:29Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-24T22:45:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 221.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-11-11T23:40:37Z",
+  "previous_timestamp": "2024-11-11T23:35:37Z",
+  "next_timestamp": "2024-11-11T23:45:37Z",
+  "data": {
+    "id": "d6eab9011bd146fdbb2639f6e8c07056",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-12T01:15:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-11-11T23:40:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.7
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-11-11T23:39:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.69
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.22
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-11-11T23:40:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": -2.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-11-11T23:39:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.93,
+                "point": -2.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.98,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 49.0
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 49.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-11-11T23:40:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.71
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-11T23:40:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.75
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.14
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-11-11T23:40:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.7
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.92,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.89,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-11-11T23:40:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.77
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-11-11T23:39:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:39:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.71
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:39:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:39:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-11-11T23:40:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-11T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 49.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 49.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

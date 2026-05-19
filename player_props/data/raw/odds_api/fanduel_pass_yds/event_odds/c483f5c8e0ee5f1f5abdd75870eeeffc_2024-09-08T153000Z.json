@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-08T15:25:38Z",
+  "previous_timestamp": "2024-09-08T15:20:38Z",
+  "next_timestamp": "2024-09-08T15:30:38Z",
+  "data": {
+    "id": "c483f5c8e0ee5f1f5abdd75870eeeffc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-08T17:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-08T15:25:02Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-08T15:24:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 229.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 229.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 212.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T23:45:37Z",
+  "previous_timestamp": "2024-11-10T23:40:39Z",
+  "next_timestamp": "2024-11-10T23:50:37Z",
+  "data": {
+    "id": "e27b5c11ba461a77a8e7773b2ea30238",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-11T01:20:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T23:45:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T23:45:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 237.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

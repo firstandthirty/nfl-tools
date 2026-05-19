@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-11T22:45:39Z",
+  "previous_timestamp": "2025-09-11T22:40:39Z",
+  "next_timestamp": "2025-09-11T22:50:39Z",
+  "data": {
+    "id": "0c6e5d9821ce0d3e82f3e792879776a6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-12T00:16:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-11T22:45:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-11T22:44:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 228.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.89,
+                "point": 236.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.89,
+                "point": 236.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-09T16:25:37Z",
+  "previous_timestamp": "2025-11-09T16:20:37Z",
+  "next_timestamp": "2025-11-09T16:30:37Z",
+  "data": {
+    "id": "9dbf94f23521c7cae7fd89b2d33fc3bd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T16:25:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-09T16:25:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Davis Mills",
+                "price": 1.89,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Davis Mills",
+                "price": 1.89,
+                "point": 211.5
+              },
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 201.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 201.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

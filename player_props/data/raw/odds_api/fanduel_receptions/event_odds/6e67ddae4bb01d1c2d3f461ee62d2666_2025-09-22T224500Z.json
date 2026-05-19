@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-22T22:40:39Z",
+  "previous_timestamp": "2025-09-22T22:35:39Z",
+  "next_timestamp": "2025-09-22T22:45:40Z",
+  "data": {
+    "id": "6e67ddae4bb01d1c2d3f461ee62d2666",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-23T00:15:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-22T22:40:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-22T22:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaac TeSlaa",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaac TeSlaa",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Justice Hill",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Justice Hill",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.75,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

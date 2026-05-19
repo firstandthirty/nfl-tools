@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-11-16T23:45:37Z",
+  "previous_timestamp": "2025-11-16T23:40:37Z",
+  "next_timestamp": "2025-11-16T23:50:37Z",
+  "data": {
+    "id": "6d209e0e637f3b116ec958e0634f2a02",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-17T01:20:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T23:45:19Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-16T23:45:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Wright",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Wright",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeVonta Smith",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeVonta Smith",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "AJ Brown",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "AJ Brown",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.06,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.75,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Kalif Raymond",
+                "price": 2.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kalif Raymond",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.75,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 1.63,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

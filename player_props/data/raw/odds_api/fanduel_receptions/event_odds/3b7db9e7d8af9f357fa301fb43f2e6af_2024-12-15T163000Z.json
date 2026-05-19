@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-12-15T16:25:37Z",
+  "previous_timestamp": "2024-12-15T16:20:37Z",
+  "next_timestamp": "2024-12-15T16:30:37Z",
+  "data": {
+    "id": "3b7db9e7d8af9f357fa301fb43f2e6af",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T16:25:14Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-15T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dyami Brown",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dyami Brown",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Robinson Jr.",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Robinson Jr.",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 2.26,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 1.61,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": 1.71,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kevin Austin",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kevin Austin",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 2.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": 1.47,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": 1.83,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "timestamp": "2024-10-06T16:25:37Z",
+  "previous_timestamp": "2024-10-06T16:20:37Z",
+  "next_timestamp": "2024-10-06T16:30:37Z",
+  "data": {
+    "id": "2eb8e0798cb1b1f9d0f0d414253b4e37",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-06T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-06T16:24:44Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-06T16:24:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 230.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 259.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 259.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-10-06T16:24:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": -110,
+                "point": 55.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": -110,
+                "point": 55.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": -110,
+                "point": 77.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": -110,
+                "point": 77.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-06T16:24:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": -154,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 118,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 116,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": -152,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 116,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 102,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": -132,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -128,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": -102,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Akers",
+                "price": 112,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Akers",
+                "price": -146,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 118,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": -154,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 128,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": -168,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": -120,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": -108,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": -146,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 112,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 148,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -196,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 122,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": -160,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-10-06T16:24:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -110,
+                "point": 57.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": -110,
+                "point": 57.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray Davis",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray Davis",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 10.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

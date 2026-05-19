@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "a6383a73f7e6937fcdc376b50d4dc510",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 240.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 240.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

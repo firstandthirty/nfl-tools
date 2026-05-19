@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-24T16:30:38Z",
+  "previous_timestamp": "2023-12-24T16:25:39Z",
+  "next_timestamp": "2023-12-24T16:35:38Z",
+  "data": {
+    "id": "5500b405eeb2cd0ef11921548ec01793",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-24T16:30:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-24T16:29:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Flacco",
+                "price": 1.91,
+                "point": 250.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Flacco",
+                "price": 1.91,
+                "point": 250.5
+              },
+              {
+                "name": "Over",
+                "description": "Case Keenum",
+                "price": 1.91,
+                "point": 202.5
+              },
+              {
+                "name": "Under",
+                "description": "Case Keenum",
+                "price": 1.91,
+                "point": 202.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

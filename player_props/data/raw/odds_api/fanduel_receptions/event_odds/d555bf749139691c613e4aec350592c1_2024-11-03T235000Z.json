@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-11-03T23:45:38Z",
+  "previous_timestamp": "2024-11-03T23:40:38Z",
+  "next_timestamp": "2024-11-03T23:50:38Z",
+  "data": {
+    "id": "d555bf749139691c613e4aec350592c1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-04T01:20:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-03T23:45:33Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-03T23:45:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 2.08,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 1.71,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.47,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 2.62,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mo Alie-Cox",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mo Alie-Cox",
+                "price": 1.53,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 2.25,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.6,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 2.28,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-20T23:45:37Z",
+  "previous_timestamp": "2025-12-20T23:40:37Z",
+  "next_timestamp": "2025-12-20T23:50:37Z",
+  "data": {
+    "id": "9f70d98bc6918dc8e21f329405b649fe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T01:20:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-20T23:45:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-20T23:45:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.89,
+                "point": 239.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.89,
+                "point": 239.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 205.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-15T15:25:37Z",
+  "previous_timestamp": "2024-09-15T15:20:38Z",
+  "next_timestamp": "2024-09-15T15:30:38Z",
+  "data": {
+    "id": "5a2bfc721fb2300d4578743aee7ad891",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-15T17:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T15:24:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-15T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Over",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 200.5
+              },
+              {
+                "name": "Under",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 200.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

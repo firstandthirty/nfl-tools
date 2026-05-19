@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "d4901034c9f4ee931bc6971a4b089209",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-10T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Devaughn Vele",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devaughn Vele",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.18,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.65,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.55,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.38,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 2.04,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Lil'Jordan Humphrey",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Lil'Jordan Humphrey",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.78,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

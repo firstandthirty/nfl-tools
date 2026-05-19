@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-15T19:50:37Z",
+  "previous_timestamp": "2024-12-15T19:45:37Z",
+  "next_timestamp": "2024-12-15T19:55:37Z",
+  "data": {
+    "id": "f3f5d87420f5bc34d3affc8f44a1c934",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T21:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T19:50:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T19:50:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 190.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 190.5
+              },
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 235.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-10-06T15:25:37Z",
+  "previous_timestamp": "2024-10-06T15:20:37Z",
+  "next_timestamp": "2024-10-06T15:30:37Z",
+  "data": {
+    "id": "43f21c8e455914cc71d00ca0001ae85b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-06T17:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-06T15:25:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-06T15:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 1.59,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Ekeler",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Ekeler",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Luke McCaffrey",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Luke McCaffrey",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Robinson Jr.",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Robinson Jr.",
+                "price": 2.2,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

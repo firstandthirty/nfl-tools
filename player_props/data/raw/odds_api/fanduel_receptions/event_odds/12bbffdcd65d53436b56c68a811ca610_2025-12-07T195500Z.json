@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-12-07T19:50:37Z",
+  "previous_timestamp": "2025-12-07T19:45:37Z",
+  "next_timestamp": "2025-12-07T19:55:37Z",
+  "data": {
+    "id": "12bbffdcd65d53436b56c68a811ca610",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-07T21:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-07T19:50:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-07T19:50:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Davis Allen",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Davis Allen",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.66,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Bam Knight",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bam Knight",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.75,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 2.06,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Higgins",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Higgins",
+                "price": 2.14,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Carter",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Carter",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Smith",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Smith",
+                "price": 1.7,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

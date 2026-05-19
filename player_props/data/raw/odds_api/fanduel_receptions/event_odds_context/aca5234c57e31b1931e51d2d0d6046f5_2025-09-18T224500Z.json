@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-18T22:40:39Z",
+  "previous_timestamp": "2025-09-18T22:35:39Z",
+  "next_timestamp": "2025-09-18T22:45:39Z",
+  "data": {
+    "id": "aca5234c57e31b1931e51d2d0d6046f5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-19T00:15:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-18T22:40:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.12
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -12.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 12.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-18T22:40:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:28Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.12
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:28Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-18T22:40:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.13
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-18T22:40:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.11
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 2.0,
+                "point": -12.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": 12.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-18T22:40:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:12Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.13
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:12Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -11.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 11.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-18T22:40:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.11
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 7.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.96,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.86,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-18T22:40:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:40:06Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.11
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 7.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:40:06Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 2.05,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.86,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:40:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 50.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 50.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-18T22:39:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:39:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.1
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:39:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.88,
+                "point": -12.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.88,
+                "point": 12.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:39:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-18T22:39:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.12
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 6.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -11.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 11.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-18T22:39:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:39:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.15
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 5.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:39:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:39:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-18T22:39:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.11
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 7.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -11.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-18T22:39:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

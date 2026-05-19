@@ -1,0 +1,172 @@
+{
+  "timestamp": "2024-10-07T22:40:38Z",
+  "previous_timestamp": "2024-10-07T22:35:38Z",
+  "next_timestamp": "2024-10-07T22:45:38Z",
+  "data": {
+    "id": "5e0d59f75b7f9056461e2970aca2a6cb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-08T00:15:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-07T22:38:04Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-07T22:39:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Samaje Perine",
+                "price": 2.42,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Samaje Perine",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.42,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.43,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 2.72,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.49,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 1.98,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

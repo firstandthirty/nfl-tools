@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-10-19T15:25:38Z",
+  "previous_timestamp": "2025-10-19T15:20:38Z",
+  "next_timestamp": "2025-10-19T15:30:38Z",
+  "data": {
+    "id": "8f06a4b503cc7309cb0df4a8b67f9930",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T15:25:34Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T15:25:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Luther Burden III",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Luther Burden III",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 2.44,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": 1.55,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 2.38,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.57,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Colston Loveland",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Colston Loveland",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 1.94,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

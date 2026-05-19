@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-12-28T23:45:37Z",
+  "previous_timestamp": "2025-12-28T23:40:38Z",
+  "next_timestamp": "2025-12-28T23:50:37Z",
+  "data": {
+    "id": "b0dedebd28a82f8f38398033356e9015",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-29T01:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-28T23:45:23Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-28T23:44:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Luther Burden III",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Luther Burden III",
+                "price": 1.81,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.74,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Colston Loveland",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Colston Loveland",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.89,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

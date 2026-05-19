@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-11-16T12:55:37Z",
+  "previous_timestamp": "2025-11-16T12:50:38Z",
+  "next_timestamp": "2025-11-16T13:00:37Z",
+  "data": {
+    "id": "265f0188945bb81ec64751571eb724cb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-16T14:30:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-11-16T12:55:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:15Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.68
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.24
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:15Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T12:55:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.72
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.94,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-11-16T12:55:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:03Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.68
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:03Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-11-16T12:55:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.67
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-11-16T12:48:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:48:26Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.7
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:48:26Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.88,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:48:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-11-16T12:55:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:22Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.69
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:22Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.8,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 2.05,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-11-16T12:54:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:54:51Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.74
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:54:51Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.0
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.0,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:54:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-11-16T12:55:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.72
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.96,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.94,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-11-16T12:55:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:29Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.72
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:29Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.93,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-11-16T12:55:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.68
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-11-16T12:55:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.71
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-16T12:55:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-12T15:30:39Z",
+  "previous_timestamp": "2025-10-12T15:25:39Z",
+  "next_timestamp": "2025-10-12T15:35:39Z",
+  "data": {
+    "id": "b235bc78609644cb28492cc1d6ad69fd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-12T17:01:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-12T15:30:15Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-12T15:30:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justice Hill",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Justice Hill",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 2.12,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.7,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.79,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 2.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 1.45,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.06,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

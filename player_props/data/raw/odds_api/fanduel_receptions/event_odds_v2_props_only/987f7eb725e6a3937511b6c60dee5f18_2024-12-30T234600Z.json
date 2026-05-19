@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-12-30T23:45:37Z",
+  "previous_timestamp": "2024-12-30T23:40:38Z",
+  "next_timestamp": "2024-12-30T23:50:38Z",
+  "data": {
+    "id": "987f7eb725e6a3937511b6c60dee5f18",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-31T01:16:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-30T23:45:01Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-30T23:45:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tim Patrick",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tim Patrick",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 2.28,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaac Guerendo",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaac Guerendo",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": 1.48,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": 2.58,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

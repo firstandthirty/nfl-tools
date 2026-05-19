@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-15T18:55:40Z",
+  "previous_timestamp": "2023-10-15T18:50:41Z",
+  "next_timestamp": "2023-10-15T19:00:41Z",
+  "data": {
+    "id": "a87c4b6c187d59ac7f17783f0b810501",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:28:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-15T18:55:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-15T18:53:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 277.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 277.5
+              },
+              {
+                "name": "Over",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 211.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

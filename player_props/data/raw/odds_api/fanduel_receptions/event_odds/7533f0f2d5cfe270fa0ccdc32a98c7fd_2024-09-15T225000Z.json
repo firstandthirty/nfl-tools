@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-09-15T22:45:38Z",
+  "previous_timestamp": "2024-09-15T22:40:38Z",
+  "next_timestamp": "2024-09-15T22:50:37Z",
+  "data": {
+    "id": "7533f0f2d5cfe270fa0ccdc32a98c7fd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-16T00:20:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T22:44:44Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-15T22:45:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Gerald Everett",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gerald Everett",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 1.83,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

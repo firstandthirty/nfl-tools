@@ -1,0 +1,810 @@
+{
+  "timestamp": "2023-09-17T15:30:40Z",
+  "previous_timestamp": "2023-09-17T15:25:40Z",
+  "next_timestamp": "2023-09-17T15:35:40Z",
+  "data": {
+    "id": "1ed637f2ef1ae5f2f7184d38e94fe137",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:04:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.93,
+                "point": -8.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.89,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-09-17T15:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-17T15:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -8.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.92,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-17T15:29:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -8.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.92,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -8.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.92,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-17T15:29:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.87
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-17T15:29:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -8.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.87,
+                "point": 8.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-17T15:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-17T15:29:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 2.0,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.93,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-17T15:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:31Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:31Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-17T15:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.95,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.0,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.83,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-17T15:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -7.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.95,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-17T15:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

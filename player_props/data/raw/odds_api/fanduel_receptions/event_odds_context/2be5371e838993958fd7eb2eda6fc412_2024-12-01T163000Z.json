@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-12-01T16:25:38Z",
+  "previous_timestamp": "2024-12-01T16:20:38Z",
+  "next_timestamp": "2024-12-01T16:30:38Z",
+  "data": {
+    "id": "2be5371e838993958fd7eb2eda6fc412",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-01T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-12-01T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.42
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-12-01T16:13:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:13:59Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.43
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:13:59Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 2.0,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:13:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-12-01T16:25:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T16:25:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.44
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.58
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.96,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-12-01T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.44
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.56
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 2.0,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-12-01T16:25:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:04Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:04Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.96,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-12-01T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.53
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.58
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.98,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-12-01T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.53
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.58
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.07,
+                "point": 3.0
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.85,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.9,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.97,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-12-01T16:23:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:23:53Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:23:53Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:23:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-12-01T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.5
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.0,
+                "point": 3.0
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.83,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-01T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

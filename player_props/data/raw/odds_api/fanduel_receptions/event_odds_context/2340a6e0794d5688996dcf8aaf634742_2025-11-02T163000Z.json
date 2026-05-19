@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-11-02T16:25:39Z",
+  "previous_timestamp": "2025-11-02T16:20:38Z",
+  "next_timestamp": "2025-11-02T16:30:39Z",
+  "data": {
+    "id": "2340a6e0794d5688996dcf8aaf634742",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-02T18:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-11-02T16:25:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.83,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "price": 2.0,
+                "point": 50.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-11-02T16:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.61
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.83,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-11-02T16:25:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.83,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.98,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-02T16:25:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.6
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-11-02T16:23:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:23:41Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.43
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:23:41Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:23:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-11-02T16:23:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:23:52Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.61
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:23:52Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.85,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.98,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:23:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-11-02T16:25:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:31Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.61
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:31Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-11-02T16:25:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.56
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.38
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.92,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 51.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-11-02T16:25:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.53
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-11-02T16:25:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-11-02T16:24:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-02T16:24:57Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.57
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-02T16:24:57Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.83,
+                "point": -3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-02T16:24:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

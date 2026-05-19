@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-11-16T23:45:42Z",
+  "previous_timestamp": "2023-11-16T23:40:42Z",
+  "next_timestamp": "2023-11-16T23:50:42Z",
+  "data": {
+    "id": "ad2140bcb78fd6f6d37bee937bfa4d90",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-17T01:16:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-16T23:44:54Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-16T23:45:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 2.14,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.68,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Tanner Hudson",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tanner Hudson",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Odell Beckham Jr.",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Odell Beckham Jr.",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trenton Irwin",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Trenton Irwin",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 2.02,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

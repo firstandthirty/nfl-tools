@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-28T15:30:38Z",
+  "previous_timestamp": "2025-09-28T15:25:38Z",
+  "next_timestamp": "2025-09-28T15:35:38Z",
+  "data": {
+    "id": "894976986c24d52cf1d45f0e6bb0e90c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T17:01:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-28T15:30:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.56
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.98,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.85,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-28T15:30:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.51
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-28T15:28:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.49
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T15:30:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.51
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.64
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-28T15:29:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.48
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-28T15:29:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.51
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-28T15:30:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.51
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-28T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.49
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.88,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.89,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-28T15:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:45Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.54
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:45Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-28T15:30:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-28T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

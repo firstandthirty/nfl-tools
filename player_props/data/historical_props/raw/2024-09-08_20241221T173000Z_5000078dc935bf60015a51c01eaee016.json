@@ -1,0 +1,394 @@
+{
+  "timestamp": "2024-12-21T17:25:38Z",
+  "previous_timestamp": "2024-12-21T17:20:38Z",
+  "next_timestamp": "2024-12-21T17:30:38Z",
+  "data": {
+    "id": "5000078dc935bf60015a51c01eaee016",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-21T18:01:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-21T17:24:56Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-21T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": -110,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": -110,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": -110,
+                "point": 230.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-21T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": -110,
+                "point": 84.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": -110,
+                "point": 84.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": -110,
+                "point": 15.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": -110,
+                "point": 15.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": -110,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": -110,
+                "point": 51.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": -110,
+                "point": 41.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-21T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 116,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": -152,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 158,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": -210,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": -108,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": -120,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 102,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": -132,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 102,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": -138,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": 106,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": -120,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": -108,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": -114,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": -114,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 102,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": -132,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": -128,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": -102,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-21T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": -105,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": -115,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": -105,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": -115,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": -110,
+                "point": 62.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": -110,
+                "point": 62.5
+              },
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": -110,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

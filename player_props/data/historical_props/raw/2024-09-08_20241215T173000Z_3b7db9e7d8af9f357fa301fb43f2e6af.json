@@ -1,0 +1,370 @@
+{
+  "timestamp": "2024-12-15T17:25:37Z",
+  "previous_timestamp": "2024-12-15T17:20:38Z",
+  "next_timestamp": "2024-12-15T17:30:37Z",
+  "data": {
+    "id": "3b7db9e7d8af9f357fa301fb43f2e6af",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T17:24:59Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T17:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": -110,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": -110,
+                "point": 221.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Haener",
+                "price": -110,
+                "point": 186.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Haener",
+                "price": -110,
+                "point": 186.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-15T17:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Over",
+                "description": "Dyami Brown",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Dyami Brown",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": -110,
+                "point": 36.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": -110,
+                "point": 36.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Robinson Jr.",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Robinson Jr.",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 30.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 30.5
+              },
+              {
+                "name": "Over",
+                "description": "Kevin Austin",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Kevin Austin",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 37.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": -110,
+                "point": 19.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-15T17:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dyami Brown",
+                "price": 102,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dyami Brown",
+                "price": -132,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Robinson Jr.",
+                "price": -128,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Robinson Jr.",
+                "price": -102,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 126,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": -165,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 126,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": -165,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": -140,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": 108,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kevin Austin",
+                "price": -198,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kevin Austin",
+                "price": 150,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 162,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": -215,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -102,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -128,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -114,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -114,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": -120,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -108,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-15T17:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jake Haener",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Haener",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendre Miller",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendre Miller",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 60.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 60.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Robinson Jr.",
+                "price": -110,
+                "point": 77.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Robinson Jr.",
+                "price": -110,
+                "point": 77.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

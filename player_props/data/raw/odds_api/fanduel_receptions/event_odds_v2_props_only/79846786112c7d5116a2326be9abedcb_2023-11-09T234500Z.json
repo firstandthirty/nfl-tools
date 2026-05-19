@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-11-09T23:40:43Z",
+  "previous_timestamp": "2023-11-09T23:35:44Z",
+  "next_timestamp": "2023-11-09T23:45:42Z",
+  "data": {
+    "id": "79846786112c7d5116a2326be9abedcb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-10T01:18:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-09T23:40:11Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-09T23:37:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Terrace Marshall Jr.",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Terrace Marshall Jr.",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.83,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.94,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Hayden Hurst",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hayden Hurst",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 1.67,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Mingo",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Mingo",
+                "price": 1.62,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

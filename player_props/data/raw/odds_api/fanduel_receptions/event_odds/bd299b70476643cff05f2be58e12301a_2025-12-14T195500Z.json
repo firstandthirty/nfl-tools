@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-12-14T19:50:37Z",
+  "previous_timestamp": "2025-12-14T19:45:37Z",
+  "next_timestamp": "2025-12-14T19:55:37Z",
+  "data": {
+    "id": "bd299b70476643cff05f2be58e12301a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T19:50:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-14T19:50:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Davis Allen",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Davis Allen",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.3,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.6,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.7,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.12,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Firkser",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Firkser",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.7,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 2.12,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaac TeSlaa",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaac TeSlaa",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 2.4,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.56,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.69,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.14,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

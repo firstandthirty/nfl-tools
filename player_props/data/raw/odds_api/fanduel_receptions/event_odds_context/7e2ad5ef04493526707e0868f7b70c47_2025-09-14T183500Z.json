@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-14T18:30:38Z",
+  "previous_timestamp": "2025-09-14T18:25:38Z",
+  "next_timestamp": "2025-09-14T18:35:38Z",
+  "data": {
+    "id": "7e2ad5ef04493526707e0868f7b70c47",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-14T20:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.32
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-14T18:29:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.29
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-14T18:25:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:25:54Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.3
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:25:54Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:25:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-14T18:29:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.3
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.29
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.29
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-14T18:25:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:25:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.29
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:25:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:25:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.31
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.83,
+                "point": -6.5
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.0,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.3
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.28
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.88,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.88,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-14T18:29:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-14T18:29:32Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.31
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-14T18:29:32Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-14T18:29:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

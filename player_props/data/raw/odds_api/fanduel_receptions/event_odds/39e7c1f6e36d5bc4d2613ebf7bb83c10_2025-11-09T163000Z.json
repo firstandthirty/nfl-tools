@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-11-09T16:25:37Z",
+  "previous_timestamp": "2025-11-09T16:20:37Z",
+  "next_timestamp": "2025-11-09T16:30:37Z",
+  "data": {
+    "id": "39e7c1f6e36d5bc4d2613ebf7bb83c10",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T16:25:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-09T16:25:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tez Johnson",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tez Johnson",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Williams",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Williams",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.81,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 2.34,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 1.58,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Emeka Egbuka",
+                "price": 2.04,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Emeka Egbuka",
+                "price": 1.76,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

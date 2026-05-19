@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-21T15:25:38Z",
+  "previous_timestamp": "2025-09-21T15:20:39Z",
+  "next_timestamp": "2025-09-21T15:30:38Z",
+  "data": {
+    "id": "581955d1b79fe87a3a61a4885cd7ea67",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T15:25:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-21T15:25:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Golden",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Golden",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Harold Fannin Jr.",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Harold Fannin Jr.",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dylan Sampson",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Dylan Sampson",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 2.02,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

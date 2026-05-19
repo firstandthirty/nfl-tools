@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-12-25T16:25:38Z",
+  "previous_timestamp": "2024-12-25T16:20:38Z",
+  "next_timestamp": "2024-12-25T16:30:38Z",
+  "data": {
+    "id": "ce94e5673c8b7a0834f1948f1c5f52c7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-25T18:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-25T16:24:54Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-25T16:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Calvin Austin III",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Austin III",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 1.71,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Williams",
+                "price": 2.42,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Williams",
+                "price": 1.53,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

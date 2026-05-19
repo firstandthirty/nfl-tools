@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-21T15:30:38Z",
+  "previous_timestamp": "2025-09-21T15:25:38Z",
+  "next_timestamp": "2025-09-21T15:35:38Z",
+  "data": {
+    "id": "bb506016737825f4d0b1f9862f95c246",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T17:01:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T15:30:10Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-21T15:30:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cam Ward",
+                "price": 1.89,
+                "point": 198.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Ward",
+                "price": 1.89,
+                "point": 198.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 214.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

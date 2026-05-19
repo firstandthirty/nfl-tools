@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-01T16:25:38Z",
+  "previous_timestamp": "2024-12-01T16:20:38Z",
+  "next_timestamp": "2024-12-01T16:30:38Z",
+  "data": {
+    "id": "2be5371e838993958fd7eb2eda6fc412",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-01T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T16:25:03Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-01T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 224.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 224.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

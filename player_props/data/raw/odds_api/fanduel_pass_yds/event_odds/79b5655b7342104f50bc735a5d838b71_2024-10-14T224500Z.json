@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-14T22:40:38Z",
+  "previous_timestamp": "2024-10-14T22:35:38Z",
+  "next_timestamp": "2024-10-14T22:45:38Z",
+  "data": {
+    "id": "79b5655b7342104f50bc735a5d838b71",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-14T22:40:18Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-14T22:40:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 213.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

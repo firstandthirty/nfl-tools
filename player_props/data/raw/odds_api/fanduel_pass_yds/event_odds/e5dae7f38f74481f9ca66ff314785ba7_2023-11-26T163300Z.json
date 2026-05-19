@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-26T16:30:38Z",
+  "previous_timestamp": "2023-11-26T16:25:38Z",
+  "next_timestamp": "2023-11-26T16:35:38Z",
+  "data": {
+    "id": "e5dae7f38f74481f9ca66ff314785ba7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:03:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-26T16:29:52Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-26T16:29:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.88,
+                "point": 255.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.88,
+                "point": 255.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.88,
+                "point": 272.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.88,
+                "point": 272.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

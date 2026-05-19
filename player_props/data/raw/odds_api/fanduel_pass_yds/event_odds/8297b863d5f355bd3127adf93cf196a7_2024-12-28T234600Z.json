@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-28T23:45:38Z",
+  "previous_timestamp": "2024-12-28T23:40:38Z",
+  "next_timestamp": "2024-12-28T23:50:38Z",
+  "data": {
+    "id": "8297b863d5f355bd3127adf93cf196a7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-29T01:16:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-28T23:45:30Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-28T23:44:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 236.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 236.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 228.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

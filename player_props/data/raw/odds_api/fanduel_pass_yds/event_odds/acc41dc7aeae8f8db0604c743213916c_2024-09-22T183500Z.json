@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-22T18:30:38Z",
+  "previous_timestamp": "2024-09-22T18:25:37Z",
+  "next_timestamp": "2024-09-22T18:35:38Z",
+  "data": {
+    "id": "acc41dc7aeae8f8db0604c743213916c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T20:07:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T18:30:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-22T18:30:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Skylar Thompson",
+                "price": 1.91,
+                "point": 193.5
+              },
+              {
+                "name": "Under",
+                "description": "Skylar Thompson",
+                "price": 1.91,
+                "point": 193.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

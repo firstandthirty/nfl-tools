@@ -1,0 +1,172 @@
+{
+  "timestamp": "2024-11-17T19:50:38Z",
+  "previous_timestamp": "2024-11-17T19:45:38Z",
+  "next_timestamp": "2024-11-17T19:55:38Z",
+  "data": {
+    "id": "2ac4732d168fd3fd0958719e2b11aad1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T21:25:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T19:50:09Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T19:50:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 2.42,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.42,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.53,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 2.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": 1.49,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.76,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.02,
+                "point": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

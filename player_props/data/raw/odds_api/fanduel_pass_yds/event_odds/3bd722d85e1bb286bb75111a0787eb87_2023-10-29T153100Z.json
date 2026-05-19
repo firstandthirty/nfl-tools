@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-29T15:30:40Z",
+  "previous_timestamp": "2023-10-29T15:25:40Z",
+  "next_timestamp": "2023-10-29T15:35:40Z",
+  "data": {
+    "id": "3bd722d85e1bb286bb75111a0787eb87",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:01:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T15:30:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-29T15:29:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.91,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.91,
+                "point": 241.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

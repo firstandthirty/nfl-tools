@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-27T18:50:37Z",
+  "previous_timestamp": "2024-10-27T18:45:37Z",
+  "next_timestamp": "2024-10-27T18:55:38Z",
+  "data": {
+    "id": "bba53e1026b6121c0255771479517a2f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T18:49:57Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-27T18:50:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 201.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 201.5
+              },
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 161.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.91,
+                "point": 161.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

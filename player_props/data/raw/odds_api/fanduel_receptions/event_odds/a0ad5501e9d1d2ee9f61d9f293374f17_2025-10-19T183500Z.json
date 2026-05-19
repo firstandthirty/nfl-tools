@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-19T18:30:38Z",
+  "previous_timestamp": "2025-10-19T18:25:38Z",
+  "next_timestamp": "2025-10-19T18:35:38Z",
+  "data": {
+    "id": "a0ad5501e9d1d2ee9f61d9f293374f17",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:30:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T18:30:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 1.65,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 1.7,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.65,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Oronde Gadsden II",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Oronde Gadsden II",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kimani Vidal",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kimani Vidal",
+                "price": 1.81,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

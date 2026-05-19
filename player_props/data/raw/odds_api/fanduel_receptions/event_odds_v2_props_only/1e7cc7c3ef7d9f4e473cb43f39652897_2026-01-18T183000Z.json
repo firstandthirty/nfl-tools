@@ -1,0 +1,196 @@
+{
+  "timestamp": "2026-01-18T18:25:37Z",
+  "previous_timestamp": "2026-01-18T18:20:38Z",
+  "next_timestamp": "2026-01-18T18:30:37Z",
+  "data": {
+    "id": "1e7cc7c3ef7d9f4e473cb43f39652897",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-18T20:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-18T18:25:15Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-18T18:26:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Woody Marks",
+                "price": 1.96,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Woody Marks",
+                "price": 1.82,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": 2.94,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": 1.38,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Higgins",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Higgins",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Stover",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Stover",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylin Noel",
+                "price": 2.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylin Noel",
+                "price": 1.45,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Hutchinson",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Hutchinson",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 2.58,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.49,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

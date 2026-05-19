@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-11-19T16:30:41Z",
+  "previous_timestamp": "2023-11-19T16:25:41Z",
+  "next_timestamp": "2023-11-19T16:35:41Z",
+  "data": {
+    "id": "3d08e5109caaffbcbe0deb49638886df",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:01:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T16:28:58Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-19T16:30:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy Tremble",
+                "price": 2.42,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy Tremble",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Gallup",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Gallup",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.82,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.96,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Mingo",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Mingo",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Chark Jr.",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Chark Jr.",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.74,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 2.06,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

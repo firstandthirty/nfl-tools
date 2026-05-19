@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-08T15:30:38Z",
+  "previous_timestamp": "2023-10-08T15:25:39Z",
+  "next_timestamp": "2023-10-08T15:35:38Z",
+  "data": {
+    "id": "bef2023cdadb009e088e3ef6db2ea809",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:03:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.42
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.98
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.87,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.46
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.95,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.42
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-08T15:29:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:29:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.46
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:29:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:29:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.46
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-10-08T15:29:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:29:23Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:29:23Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:29:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.43
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.83
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-08T15:30:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.44
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-08T15:28:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-08T15:28:10Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.42
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 3.03
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-08T15:28:10Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-08T15:28:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

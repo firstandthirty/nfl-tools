@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-10-26T18:50:38Z",
+  "previous_timestamp": "2025-10-26T18:45:38Z",
+  "next_timestamp": "2025-10-26T18:55:38Z",
+  "data": {
+    "id": "88187a33b007c088d75c6cd14c83086c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-26T20:25:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-26T18:50:34Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-26T18:50:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Elic Ayomanor",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elic Ayomanor",
+                "price": 1.69,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 2.32,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 2.24,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 1.63,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyjae Spears",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyjae Spears",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Gunnar Helm",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gunnar Helm",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chimere Dike",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chimere Dike",
+                "price": 2.28,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

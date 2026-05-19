@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-14T23:45:39Z",
+  "previous_timestamp": "2024-01-14T23:40:38Z",
+  "next_timestamp": "2024-01-14T23:50:39Z",
+  "data": {
+    "id": "179977a061c9f44b3ead0b6130c5f51d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-15T01:16:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-14T23:44:56Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-14T23:43:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 278.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 278.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 261.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 261.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

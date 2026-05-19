@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-19T11:55:39Z",
+  "previous_timestamp": "2025-10-19T11:50:39Z",
+  "next_timestamp": "2025-10-19T12:00:40Z",
+  "data": {
+    "id": "79de65f1b97c9145ebdcb019eb486500",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T13:30:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T11:55:30Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T11:55:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Hunter",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Hunter",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": 2.44,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": 1.55,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Long",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Long",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 2.04,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.76,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Dyami Brown",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dyami Brown",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Whittington",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Whittington",
+                "price": 2.04,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

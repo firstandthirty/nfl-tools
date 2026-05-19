@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-10-29T18:35:39Z",
+  "previous_timestamp": "2023-10-29T18:30:40Z",
+  "next_timestamp": "2023-10-29T18:40:39Z",
+  "data": {
+    "id": "787552bac1bf53711f90ae8de5c55aef",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:06:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T18:34:41Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-29T18:32:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.0,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

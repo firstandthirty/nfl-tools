@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-11-17T16:25:38Z",
+  "previous_timestamp": "2024-11-17T16:20:38Z",
+  "next_timestamp": "2024-11-17T16:30:38Z",
+  "data": {
+    "id": "e552bfd99b12a0acd319b922f7a9fa7c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-11-17T16:25:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.64
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.51
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.93,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.89,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-11-17T16:22:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.7
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T16:24:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.72
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": 4.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-11-17T16:20:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:20:45Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.65
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:20:45Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:20:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-11-17T16:25:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.75
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.97,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-11-17T16:25:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:29Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.75
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:29Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.95,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.87,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-11-17T16:25:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.65
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.92,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.89,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-11-17T16:23:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:23:40Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.75
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:23:40Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:23:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-11-17T16:25:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.7
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-11-17T16:25:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-17T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.7
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-17T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": 4.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": -4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-17T16:25:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

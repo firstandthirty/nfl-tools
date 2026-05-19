@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-09-21T22:50:38Z",
+  "previous_timestamp": "2025-09-21T22:45:38Z",
+  "next_timestamp": "2025-09-21T22:55:39Z",
+  "data": {
+    "id": "ee840f13db8bd150fcdd8f6670fa7041",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-22T00:21:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T22:50:19Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-21T22:50:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": 1.75,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Skattebo",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Skattebo",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Theo Johnson",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Theo Johnson",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Nabers",
+                "price": 1.93,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Nabers",
+                "price": 1.85,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyquan Thornton",
+                "price": 1.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyquan Thornton",
+                "price": 2.5,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

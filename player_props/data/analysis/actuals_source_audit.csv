@@ -1,0 +1,40 @@
+candidate_path,candidate_rows,actual_col,has_event_id,has_player_col,has_player_norm,has_season,has_week,has_game_date,best_join_method,matched_odds_rows,match_rate,note,candidate_dedup_rows
+data\processed\pff\pff_player_weekly_master.csv,27984,passing_yards,False,True,True,True,True,False,player_norm,1538,1.0,,1206.0
+data\processed\pff\pff_passing_weekly.csv,3471,passing_yards,False,True,True,True,True,False,player_norm,1538,1.0,,236.0
+data\raw\pff\passing_summary_aggregated.csv,3471,yards,False,True,True,False,False,False,player_norm,1538,1.0,,236.0
+data\processed\projections\2026\week_01\qb_projection_sources_long.csv,196,pass_yds,False,True,True,False,False,False,player_norm,1356,0.881664499349805,,90.0
+data\historical_props\pass_yds_baseline_predictions.csv,444,actual_value,False,True,True,True,True,True,player_norm,1322,0.8595578673602081,,51.0
+data\historical_props\pass_yds_sim_results.csv,444,actual_value,False,True,True,True,True,True,player_norm,1322,0.8595578673602081,,51.0
+data\historical_props\merged_props_actuals.csv,6224,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,366.0
+data\historical_props\merged_props_with_context.csv,6224,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,366.0
+data\historical_props\merged_props_with_rolling.csv,6224,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,366.0
+data\processed\merged_props_with_context.csv,6224,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,366.0
+data\processed\merged_props_with_rolling.csv,6224,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,366.0
+data\processed\pass_yds_dataset.csv,455,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,51.0
+data\processed\pass_yds_dataset_fp.csv,444,actual_value,True,True,True,True,True,True,player_norm,1297,0.8433029908972692,,51.0
+data\processed\pass_yds_dataset_fp_debiased.csv,393,actual_value,True,True,True,True,True,True,player_norm,1190,0.7737321196358907,,45.0
+data\processed\pass_yds_dataset_sigma.csv,393,actual_value,True,True,True,True,True,True,player_norm,1190,0.7737321196358907,,45.0
+data\processed\pass_yds_sim_probs.csv,393,actual_value,True,True,True,True,True,True,player_norm,1190,0.7737321196358907,,45.0
+data\processed\ffa_weekly_projections.csv,44758,<missing>,False,True,True,True,True,False,no_actual,0,0.0,no actual column,
+data\processed\pff\pff_receiving_weekly.csv,22502,<missing>,False,True,True,True,True,False,no_actual,0,0.0,no actual column,
+data\processed\pff\pff_rushing_weekly.csv,11856,<missing>,False,True,True,True,True,False,no_actual,0,0.0,no actual column,
+data\historical_props\historical_closing_props.csv,6584,<missing>,True,True,True,False,False,True,no_actual,0,0.0,no actual column,
+data\processed\fantasypros_qb_weekly_projections.csv,4591,<missing>,False,True,True,True,True,False,no_actual,0,0.0,no actual column,
+data\processed\eda\player_volatility.csv,2824,<missing>,False,True,True,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\archive\fanduel_pass_yds_history_2023_2024_2025_v1.csv,1538,<missing>,True,True,True,False,False,True,no_actual,0,0.0,no actual column,
+data\processed\archive\fanduel_pass_yds_history_2024_v1.csv,507,<missing>,True,True,True,False,False,True,no_actual,0,0.0,no actual column,
+data\historical_props\game_context.csv,222,<missing>,False,False,False,True,True,False,no_actual,0,0.0,no actual column,
+data\historical_props\game_context_TEMPLATE.csv,222,<missing>,False,False,False,True,True,True,no_actual,0,0.0,no actual column,
+data\processed\game_context.csv,222,<missing>,False,False,False,True,True,False,no_actual,0,0.0,no actual column,
+data\processed\eda\stat_summary_by_position.csv,150,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda\missingness_report.csv,113,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\projections\2026\week_01\QB_FantasyPros.csv,93,<missing>,False,True,True,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\projections\2026\week_01\qb_projection_ensemble.csv,90,<missing>,False,True,True,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\projections\2026\week_01\QB_ESPN_CBS.csv,78,<missing>,False,True,True,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda\archetype_summary.csv,46,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\projections\2026\week_01\QB_NFL_FFToday.csv,34,<missing>,False,True,True,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda_filtered\filtered_stat_summary.csv,16,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda\stat_summary_overall.csv,14,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda\correlation_report.csv,10,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\historical_props\market_results_summary.csv,4,<missing>,False,False,False,False,False,False,no_actual,0,0.0,no actual column,
+data\processed\eda\duplicate_check.csv,0,<missing>,False,True,False,False,False,False,no_actual,0,0.0,no actual column,

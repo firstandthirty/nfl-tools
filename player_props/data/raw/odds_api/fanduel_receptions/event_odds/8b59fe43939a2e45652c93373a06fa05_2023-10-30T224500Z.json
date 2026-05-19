@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-10-30T22:40:42Z",
+  "previous_timestamp": "2023-10-30T22:35:42Z",
+  "next_timestamp": "2023-10-30T22:45:42Z",
+  "data": {
+    "id": "8b59fe43939a2e45652c93373a06fa05",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-31T00:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-30T22:40:00Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-30T22:36:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 2.0,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.98,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.8,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Kalif Raymond",
+                "price": 2.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kalif Raymond",
+                "price": 1.49,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.67,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Reynolds",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Reynolds",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 2.24,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

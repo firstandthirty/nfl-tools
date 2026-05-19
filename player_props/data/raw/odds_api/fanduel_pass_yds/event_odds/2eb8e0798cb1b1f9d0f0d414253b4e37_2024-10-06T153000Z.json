@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-06T15:25:37Z",
+  "previous_timestamp": "2024-10-06T15:20:37Z",
+  "next_timestamp": "2024-10-06T15:30:37Z",
+  "data": {
+    "id": "2eb8e0798cb1b1f9d0f0d414253b4e37",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-06T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-06T15:25:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-06T15:25:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 259.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 259.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2023-10-08T15:30:38Z",
+  "previous_timestamp": "2023-10-08T15:25:39Z",
+  "next_timestamp": "2023-10-08T15:35:38Z",
+  "data": {
+    "id": "088c8fc0a2e5f02bb2591f44a41a2cd1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:03:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-08T15:29:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 210.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 210.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

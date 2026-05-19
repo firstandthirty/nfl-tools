@@ -1,0 +1,114 @@
+{
+  "market": "player_pass_yds",
+  "input_path": "data\\processed\\merged_props_with_rolling.csv",
+  "features": [
+    "line",
+    "team_spread",
+    "game_total",
+    "team_total",
+    "is_home",
+    "is_favorite",
+    "is_underdog",
+    "rolling_pass_yds_3g",
+    "rolling_pass_yds_5g",
+    "rolling_actual_minus_line_3g",
+    "rolling_actual_minus_line_5g",
+    "rolling_std_pass_yds_3g",
+    "rolling_std_pass_yds_5g",
+    "rolling_over_rate_3g",
+    "rolling_over_rate_5g",
+    "season_avg_pass_yds_pre",
+    "season_avg_actual_minus_line_pre",
+    "games_played_pre"
+  ],
+  "target": "residual_yards",
+  "rows_total": 444,
+  "rows_train": 352,
+  "rows_test": 92,
+  "model_mae_actual": 61.765440004590474,
+  "market_mae_actual": 59.30434782608695,
+  "model_rmse_actual": 77.38190586500399,
+  "market_rmse_actual": 73.90027063549903,
+  "model_r2_actual": 0.03984974716083323,
+  "market_r2_actual": 0.12430591839665295,
+  "model_mae_residual": 61.76544000459047,
+  "zero_mae_residual": 59.30434782608695,
+  "model_rmse_residual": 77.38190586500399,
+  "zero_rmse_residual": 73.90027063549903,
+  "model_r2_residual": -0.09723977806754491,
+  "train_residual_std": 63.71209569511673,
+  "feature_importances": [
+    {
+      "feature": "game_total",
+      "importance": 0.10658808425473135
+    },
+    {
+      "feature": "line",
+      "importance": 0.08008527446637158
+    },
+    {
+      "feature": "season_avg_actual_minus_line_pre",
+      "importance": 0.07584580241372524
+    },
+    {
+      "feature": "rolling_actual_minus_line_5g",
+      "importance": 0.07488893867880461
+    },
+    {
+      "feature": "rolling_std_pass_yds_5g",
+      "importance": 0.07406767147710933
+    },
+    {
+      "feature": "rolling_pass_yds_5g",
+      "importance": 0.06957569322412503
+    },
+    {
+      "feature": "team_total",
+      "importance": 0.06841222233637988
+    },
+    {
+      "feature": "rolling_std_pass_yds_3g",
+      "importance": 0.06542069918213825
+    },
+    {
+      "feature": "season_avg_pass_yds_pre",
+      "importance": 0.06219845939198269
+    },
+    {
+      "feature": "games_played_pre",
+      "importance": 0.06157533695051586
+    },
+    {
+      "feature": "rolling_pass_yds_3g",
+      "importance": 0.0610333885943737
+    },
+    {
+      "feature": "rolling_actual_minus_line_3g",
+      "importance": 0.06057433179277242
+    },
+    {
+      "feature": "team_spread",
+      "importance": 0.04967229520222978
+    },
+    {
+      "feature": "rolling_over_rate_5g",
+      "importance": 0.0362273995429583
+    },
+    {
+      "feature": "rolling_over_rate_3g",
+      "importance": 0.021240648081080196
+    },
+    {
+      "feature": "is_home",
+      "importance": 0.01619839939266356
+    },
+    {
+      "feature": "is_favorite",
+      "importance": 0.008319051516935277
+    },
+    {
+      "feature": "is_underdog",
+      "importance": 0.008076303501103107
+    }
+  ]
+}

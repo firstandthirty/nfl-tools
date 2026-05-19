@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-05T15:30:37Z",
+  "previous_timestamp": "2025-10-05T15:25:37Z",
+  "next_timestamp": "2025-10-05T15:35:38Z",
+  "data": {
+    "id": "6eb8eeff6a052455649ddd2a50e0a188",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T17:01:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-05T15:30:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 1.49,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 2.58,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Woody Marks",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Woody Marks",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justice Hill",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Justice Hill",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Hutchinson",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Hutchinson",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.68,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

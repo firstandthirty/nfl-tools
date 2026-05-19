@@ -1,0 +1,76 @@
+{
+  "timestamp": "2023-10-29T15:30:40Z",
+  "previous_timestamp": "2023-10-29T15:25:40Z",
+  "next_timestamp": "2023-10-29T15:35:40Z",
+  "data": {
+    "id": "f6d472a6b7b7e70ba2d43f8a975fdccc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:03:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T15:30:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-29T15:26:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 2.18,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 1.67,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.63,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.83,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

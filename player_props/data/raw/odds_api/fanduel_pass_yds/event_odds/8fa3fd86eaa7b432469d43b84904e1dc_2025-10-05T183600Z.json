@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-05T18:35:37Z",
+  "previous_timestamp": "2025-10-05T18:30:37Z",
+  "next_timestamp": "2025-10-05T18:40:38Z",
+  "data": {
+    "id": "8fa3fd86eaa7b432469d43b84904e1dc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T20:06:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T18:35:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-05T18:35:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.89,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.89,
+                "point": 220.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Ward",
+                "price": 1.89,
+                "point": 179.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Ward",
+                "price": 1.89,
+                "point": 179.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

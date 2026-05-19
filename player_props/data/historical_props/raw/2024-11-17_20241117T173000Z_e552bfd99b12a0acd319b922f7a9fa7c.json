@@ -1,0 +1,346 @@
+{
+  "timestamp": "2024-11-17T17:25:38Z",
+  "previous_timestamp": "2024-11-17T17:20:38Z",
+  "next_timestamp": "2024-11-17T17:30:38Z",
+  "data": {
+    "id": "e552bfd99b12a0acd319b922f7a9fa7c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T17:25:04Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-17T17:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 176.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 176.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": -110,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": -110,
+                "point": 235.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-11-17T17:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Jeremy Ruckert",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Jeremy Ruckert",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Gipson",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Gipson",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": -110,
+                "point": 60.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": -110,
+                "point": 60.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T17:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": -130,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 100,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 126,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": -165,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": -132,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 102,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": -168,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 128,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -128,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": -102,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": -113,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": -115,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": -114,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": -114,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-11-17T17:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Braelon Allen",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Braelon Allen",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 70.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 70.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 81.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": -110,
+                "point": 81.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": -110,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

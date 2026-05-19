@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-11-27T19:55:38Z",
+  "previous_timestamp": "2025-11-27T19:50:38Z",
+  "next_timestamp": "2025-11-27T20:00:43Z",
+  "data": {
+    "id": "de53b8a594fe830c5fd56484705cd756",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-27T21:30:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-27T19:55:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-27T19:55:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.04,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.76,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 1.94,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 2.14,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.0,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.78,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

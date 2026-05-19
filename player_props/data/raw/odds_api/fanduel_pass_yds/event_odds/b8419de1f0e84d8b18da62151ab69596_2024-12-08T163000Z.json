@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-08T16:25:38Z",
+  "previous_timestamp": "2024-12-08T16:20:38Z",
+  "next_timestamp": "2024-12-08T16:30:38Z",
+  "data": {
+    "id": "b8419de1f0e84d8b18da62151ab69596",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T16:25:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-08T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 224.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 224.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 252.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dc56d980f527ffeef89940133b211b13",
+  "sport_key": "americanfootball_nfl",
+  "sport_title": "NFL",
+  "commence_time": "2026-11-08T14:30:00Z",
+  "home_team": "Atlanta Falcons",
+  "away_team": "Cincinnati Bengals",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Atlanta Falcons",
+              "price": 180
+            },
+            {
+              "name": "Cincinnati Bengals",
+              "price": -215
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Atlanta Falcons",
+              "price": -105,
+              "point": 3.5
+            },
+            {
+              "name": "Cincinnati Bengals",
+              "price": -115,
+              "point": -3.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -105,
+              "point": 49.5
+            },
+            {
+              "name": "Under",
+              "price": -115,
+              "point": 49.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

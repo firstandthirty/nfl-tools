@@ -1,0 +1,406 @@
+{
+  "timestamp": "2024-10-27T19:30:38Z",
+  "previous_timestamp": "2024-10-27T19:25:38Z",
+  "next_timestamp": "2024-10-27T19:35:37Z",
+  "data": {
+    "id": "9a263061dd1c784a20f393971744d176",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T19:30:08Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-27T19:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 242.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-10-27T19:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": -105,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": -115,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 32.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 32.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Bobo",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Bobo",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 54.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-27T19:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -168,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 128,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": -120,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -108,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": -130,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 100,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 136,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": -178,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 108,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": -140,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": -132,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 122,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -160,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -128,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -102,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Bobo",
+                "price": 112,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Bobo",
+                "price": -146,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": -125,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": -104,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-10-27T19:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray Davis",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray Davis",
+                "price": -110,
+                "point": 23.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-11T23:30:38Z",
+  "previous_timestamp": "2025-01-11T23:25:38Z",
+  "next_timestamp": "2025-01-11T23:35:38Z",
+  "data": {
+    "id": "08e2147df0b21744fdef99cbcdf3edb7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-12T01:01:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-11T23:30:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-11T23:30:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 204.5
+              },
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 214.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

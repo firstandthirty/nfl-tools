@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-22T22:45:38Z",
+  "previous_timestamp": "2024-09-22T22:40:38Z",
+  "next_timestamp": "2024-09-22T22:50:38Z",
+  "data": {
+    "id": "bd907bcbaaefa56a30c4fa2c57281a51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-23T00:20:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T22:45:09Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-22T22:44:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 269.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 269.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

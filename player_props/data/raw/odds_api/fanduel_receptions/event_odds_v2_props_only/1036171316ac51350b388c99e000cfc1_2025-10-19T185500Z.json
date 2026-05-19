@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-10-19T18:50:38Z",
+  "previous_timestamp": "2025-10-19T18:45:38Z",
+  "next_timestamp": "2025-10-19T18:55:39Z",
+  "data": {
+    "id": "1036171316ac51350b388c99e000cfc1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:50:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T18:50:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.79,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Carter",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Carter",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.79,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Golden",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Golden",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 2.16,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

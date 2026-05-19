@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-19T21:55:38Z",
+  "previous_timestamp": "2025-01-19T21:50:38Z",
+  "next_timestamp": "2025-01-19T22:00:38Z",
+  "data": {
+    "id": "e2845c7119bd64fe725e9f9495032d72",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-19T23:30:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-19T21:54:49Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-19T21:55:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 238.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 238.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

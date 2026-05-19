@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-21T18:30:39Z",
+  "previous_timestamp": "2025-09-21T18:25:38Z",
+  "next_timestamp": "2025-09-21T18:35:38Z",
+  "data": {
+    "id": "311c411c2d53e36a902763dc7a2ef678",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-21T18:30:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 3.95
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 7.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-21T18:30:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.08
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-21T18:29:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.05
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.88,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T18:30:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.15
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.82,
+                "point": 7.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 2.0,
+                "point": -7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-21T18:29:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.24
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.23
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-21T18:29:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.16
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.86,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-21T18:29:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.16
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.97,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.93,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.99,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-21T18:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 3.95
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.24
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.85,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-21T18:26:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.15
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.88,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:26:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-21T18:29:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.1
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:29:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-21T18:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 4.1
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T18:30:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

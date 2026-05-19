@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-10-19T15:25:38Z",
+  "previous_timestamp": "2025-10-19T15:20:38Z",
+  "next_timestamp": "2025-10-19T15:30:38Z",
+  "data": {
+    "id": "3127c0dd6ed51a44354af51791bc3e5a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T15:25:34Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T15:25:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 2.28,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 1.86,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brashard Smith",
+                "price": 1.75,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brashard Smith",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Ashton Jeanty",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ashton Jeanty",
+                "price": 1.81,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

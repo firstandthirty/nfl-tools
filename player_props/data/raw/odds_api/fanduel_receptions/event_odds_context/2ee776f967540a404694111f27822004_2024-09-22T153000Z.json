@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-09-22T15:25:38Z",
+  "previous_timestamp": "2024-09-22T15:20:38Z",
+  "next_timestamp": "2024-09-22T15:30:38Z",
+  "data": {
+    "id": "2ee776f967540a404694111f27822004",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-09-22T15:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.24
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 35.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 35.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-09-22T15:22:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:22:52Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.26
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:22:52Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:22:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 35.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 35.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-09-22T15:24:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.25
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 35.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 35.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T15:24:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:49Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.22
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:49Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 33.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-09-22T15:20:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:20:04Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.22
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:20:04Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:20:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 35.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 35.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-09-22T15:24:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.2
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 35.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 35.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-09-22T15:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.28
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.97,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.85,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-09-22T15:24:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.28
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-09-22T15:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-09-22T15:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.8,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.05,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-22T15:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

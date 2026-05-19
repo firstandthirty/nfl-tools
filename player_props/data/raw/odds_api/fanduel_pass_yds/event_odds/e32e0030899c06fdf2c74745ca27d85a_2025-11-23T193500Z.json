@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-23T19:30:37Z",
+  "previous_timestamp": "2025-11-23T19:25:37Z",
+  "next_timestamp": "2025-11-23T19:35:37Z",
+  "data": {
+    "id": "e32e0030899c06fdf2c74745ca27d85a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T21:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T19:30:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-23T19:30:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 215.5
+              },
+              {
+                "name": "Over",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 247.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 247.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

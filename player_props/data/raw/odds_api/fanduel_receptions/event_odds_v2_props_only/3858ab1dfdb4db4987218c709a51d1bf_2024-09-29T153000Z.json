@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-09-29T15:25:38Z",
+  "previous_timestamp": "2024-09-29T15:20:38Z",
+  "next_timestamp": "2024-09-29T15:30:38Z",
+  "data": {
+    "id": "3858ab1dfdb4db4987218c709a51d1bf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T15:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-29T15:25:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.66,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 2.02,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-12T19:55:39Z",
+  "previous_timestamp": "2023-11-12T19:50:39Z",
+  "next_timestamp": "2023-11-12T20:00:39Z",
+  "data": {
+    "id": "e658ecc30213f84c4b68dc3cf5f3f44c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T21:28:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-12T19:55:15Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-12T19:46:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 2.3,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 1.6,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Antonio Gibson",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Antonio Gibson",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Logan Thomas",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Logan Thomas",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

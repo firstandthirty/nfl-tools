@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-20T20:25:37Z",
+  "previous_timestamp": "2025-12-20T20:20:37Z",
+  "next_timestamp": "2025-12-20T20:30:37Z",
+  "data": {
+    "id": "18fe4528a0bc43d9cd64bd09c0d5019f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-20T22:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-20T20:25:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-20T20:25:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Over",
+                "description": "Marcus Mariota",
+                "price": 1.89,
+                "point": 196.5
+              },
+              {
+                "name": "Under",
+                "description": "Marcus Mariota",
+                "price": 1.89,
+                "point": 196.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-11-16T19:50:37Z",
+  "previous_timestamp": "2025-11-16T19:45:37Z",
+  "next_timestamp": "2025-11-16T19:55:37Z",
+  "data": {
+    "id": "cc60225b5a907bd9ba7c27c23131fc5c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-16T21:25:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T19:50:33Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-16T19:50:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 2.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 1.49,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.81,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Harold Fannin Jr.",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Harold Fannin Jr.",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.79,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 2.0,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

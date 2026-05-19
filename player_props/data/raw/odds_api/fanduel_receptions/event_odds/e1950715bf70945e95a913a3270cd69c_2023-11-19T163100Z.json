@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-19T16:30:41Z",
+  "previous_timestamp": "2023-11-19T16:25:41Z",
+  "next_timestamp": "2023-11-19T16:35:41Z",
+  "data": {
+    "id": "e1950715bf70945e95a913a3270cd69c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T16:28:58Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-19T16:30:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.58,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.34,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.65,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Rondale Moore",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rondale Moore",
+                "price": 2.06,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-03T22:40:39Z",
+  "previous_timestamp": "2024-10-03T22:35:39Z",
+  "next_timestamp": "2024-10-03T22:45:39Z",
+  "data": {
+    "id": "b516611a4ade7c4d55fcde561ed71328",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-04T00:15:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-03T22:40:02Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-03T22:40:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 233.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

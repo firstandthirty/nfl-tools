@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-11-30T19:50:37Z",
+  "previous_timestamp": "2025-11-30T19:45:37Z",
+  "next_timestamp": "2025-11-30T19:55:37Z",
+  "data": {
+    "id": "76ac5a8d2c8679ae6ea8861114791bd8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T21:25:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T19:49:56Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-30T19:50:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kimani Vidal",
+                "price": 1.75,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kimani Vidal",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Bowers",
+                "price": 1.58,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Bowers",
+                "price": 2.34,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Oronde Gadsden II",
+                "price": 1.55,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Oronde Gadsden II",
+                "price": 2.42,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ashton Jeanty",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Ashton Jeanty",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ian Thomas",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ian Thomas",
+                "price": 1.89,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-29T19:30:37Z",
+  "previous_timestamp": "2024-12-29T19:25:37Z",
+  "next_timestamp": "2024-12-29T19:35:37Z",
+  "data": {
+    "id": "7c63b1e23a0c65ee07312131e1b7be7e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-29T21:05:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-29T19:30:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-29T19:29:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 160.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 160.5
+              },
+              {
+                "name": "Over",
+                "description": "Dorian Thompson-Robinson",
+                "price": 1.91,
+                "point": 152.5
+              },
+              {
+                "name": "Under",
+                "description": "Dorian Thompson-Robinson",
+                "price": 1.91,
+                "point": 152.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

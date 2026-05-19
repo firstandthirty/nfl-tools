@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-01-18T21:55:37Z",
+  "previous_timestamp": "2026-01-18T21:50:38Z",
+  "next_timestamp": "2026-01-18T22:00:40Z",
+  "data": {
+    "id": "3cb03f5ff8d371b94e8b55c7e58b7a34",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-18T23:30:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-18T21:55:08Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-18T21:55:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 2.32,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Colston Loveland",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Colston Loveland",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Luther Burden III",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Luther Burden III",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 1.5,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 2.54,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Monangai",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Monangai",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.89,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.89,
+                "point": 7.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

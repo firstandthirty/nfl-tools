@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-08T22:40:39Z",
+  "previous_timestamp": "2025-09-08T22:35:40Z",
+  "next_timestamp": "2025-09-08T22:45:38Z",
+  "data": {
+    "id": "c6d7807cee33d5e81c671527b9c8b3f1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-09T00:15:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-08T22:40:19Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-08T22:40:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 214.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-20T15:25:38Z",
+  "previous_timestamp": "2024-10-20T15:20:37Z",
+  "next_timestamp": "2024-10-20T15:30:38Z",
+  "data": {
+    "id": "15077c31238fbc767b91e73f8068f2a2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-20T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-20T15:24:43Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-20T15:25:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 248.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 248.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 259.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 259.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

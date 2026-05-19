@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-17T16:25:38Z",
+  "previous_timestamp": "2023-12-17T16:20:38Z",
+  "next_timestamp": "2023-12-17T16:30:38Z",
+  "data": {
+    "id": "e3f50249e8a9b42484ad0922fca4f9f0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:03:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-17T16:24:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-17T16:24:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 206.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 206.5
+              },
+              {
+                "name": "Over",
+                "description": "Case Keenum",
+                "price": 1.91,
+                "point": 190.5
+              },
+              {
+                "name": "Under",
+                "description": "Case Keenum",
+                "price": 1.91,
+                "point": 190.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

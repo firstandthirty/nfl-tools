@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-26T15:25:38Z",
+  "previous_timestamp": "2025-10-26T15:20:38Z",
+  "next_timestamp": "2025-10-26T15:30:38Z",
+  "data": {
+    "id": "3536a3e857050d2dd6e2019ceb668f67",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-26T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-26T15:25:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:25:22Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 4.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:25:22Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-26T15:24:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:24:35Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.93
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:24:35Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:24:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-26T15:23:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:23:28Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.85
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:23:28Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.89,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:23:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-26T15:25:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.95
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-26T15:24:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:24:09Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.75
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:24:09Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.83,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:24:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-26T15:24:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:24:59Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.92
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:24:59Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:24:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-26T15:24:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:24:56Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.92
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:24:56Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.94,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.96,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:24:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-26T15:25:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:25:35Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.7
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:25:35Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.85,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.92,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:25:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-26T15:24:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.8
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-26T15:25:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.8
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:25:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-26T15:25:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-26T15:25:25Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 3.95
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-26T15:25:25Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": 7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-26T15:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

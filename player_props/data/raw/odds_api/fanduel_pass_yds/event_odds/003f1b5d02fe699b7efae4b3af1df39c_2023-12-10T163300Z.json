@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-10T16:30:39Z",
+  "previous_timestamp": "2023-12-10T16:25:39Z",
+  "next_timestamp": "2023-12-10T16:35:39Z",
+  "data": {
+    "id": "003f1b5d02fe699b7efae4b3af1df39c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:03:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-10T16:29:55Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-10T16:26:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 197.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

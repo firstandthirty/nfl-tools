@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-30T19:30:37Z",
+  "previous_timestamp": "2025-11-30T19:25:37Z",
+  "next_timestamp": "2025-11-30T19:35:37Z",
+  "data": {
+    "id": "6f956074c4df48e7b07a3286a6c6ed2a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T21:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T19:30:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-30T19:30:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Max Brosmer",
+                "price": 1.89,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Max Brosmer",
+                "price": 1.89,
+                "point": 178.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

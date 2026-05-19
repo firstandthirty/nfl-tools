@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-12-03T16:30:38Z",
+  "previous_timestamp": "2023-12-03T16:25:38Z",
+  "next_timestamp": "2023-12-03T16:35:38Z",
+  "data": {
+    "id": "41c4d77b6a910a6b2364fbeb51dba059",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:01:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-03T16:30:12Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-03T16:26:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Reynolds",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Reynolds",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 2.0,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.96,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.82,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "A.T. Perry",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "A.T. Perry",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 2.32,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 1.59,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

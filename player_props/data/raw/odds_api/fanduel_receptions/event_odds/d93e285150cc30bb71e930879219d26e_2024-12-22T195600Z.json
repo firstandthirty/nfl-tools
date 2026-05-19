@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-12-22T19:55:37Z",
+  "previous_timestamp": "2024-12-22T19:50:38Z",
+  "next_timestamp": "2024-12-22T20:00:38Z",
+  "data": {
+    "id": "d93e285150cc30bb71e930879219d26e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T21:26:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T19:55:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-22T19:55:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 2.06,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ameer Abdullah",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ameer Abdullah",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Bowers",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Bowers",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 2.08,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

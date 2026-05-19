@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-11-17T16:25:38Z",
+  "previous_timestamp": "2024-11-17T16:20:38Z",
+  "next_timestamp": "2024-11-17T16:30:38Z",
+  "data": {
+    "id": "d0f73537e153be7455c87ae97864ef7d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T16:24:49Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brock Wright",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Wright",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.83,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Gabe Davis",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gabe Davis",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.87,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tim Patrick",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tim Patrick",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.32,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

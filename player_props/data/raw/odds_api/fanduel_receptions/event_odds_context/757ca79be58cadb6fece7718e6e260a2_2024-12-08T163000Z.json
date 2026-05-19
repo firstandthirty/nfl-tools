@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-12-08T16:25:38Z",
+  "previous_timestamp": "2024-12-08T16:20:38Z",
+  "next_timestamp": "2024-12-08T16:30:38Z",
+  "data": {
+    "id": "757ca79be58cadb6fece7718e6e260a2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T18:00:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-12-08T16:25:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.89,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.93,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-12-08T16:22:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:22:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-12-08T16:24:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T16:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.4
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.96,
+                "point": 13.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.85,
+                "point": -13.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-12-08T16:24:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:24:24Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.6
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:24:24Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 2.0,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:24:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-12-08T16:24:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.6
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-12-08T16:25:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.7
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-12-08T16:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.88,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.93,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-12-08T16:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 7.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-12-08T16:25:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 6.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.12
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95,
+                "point": 13.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.87,
+                "point": -13.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-08T16:25:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-11T23:45:39Z",
+  "previous_timestamp": "2023-12-11T23:40:38Z",
+  "next_timestamp": "2023-12-11T23:50:39Z",
+  "data": {
+    "id": "ea43090cd4cc2eb2fb98ba3847aba986",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-12T01:16:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-11T23:44:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-11T23:45:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 173.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 173.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

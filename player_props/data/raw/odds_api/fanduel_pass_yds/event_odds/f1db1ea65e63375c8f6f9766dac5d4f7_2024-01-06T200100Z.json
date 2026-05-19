@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-06T20:00:39Z",
+  "previous_timestamp": "2024-01-06T19:55:38Z",
+  "next_timestamp": "2024-01-06T20:05:39Z",
+  "data": {
+    "id": "f1db1ea65e63375c8f6f9766dac5d4f7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-06T21:31:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-06T19:59:43Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-06T19:59:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 160.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 160.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 189.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 189.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

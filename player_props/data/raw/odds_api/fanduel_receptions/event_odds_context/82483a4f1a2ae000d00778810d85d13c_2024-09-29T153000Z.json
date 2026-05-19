@@ -1,0 +1,529 @@
+{
+  "timestamp": "2024-09-29T15:25:38Z",
+  "previous_timestamp": "2024-09-29T15:20:38Z",
+  "next_timestamp": "2024-09-29T15:30:38Z",
+  "data": {
+    "id": "82483a4f1a2ae000d00778810d85d13c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T17:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-09-29T15:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.7
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.89,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-09-29T15:24:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:01Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.85
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:01Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-09-29T15:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.9
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T15:24:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.98
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:53Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-09-29T15:20:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:20:50Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.86
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.43
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:20:50Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": 5.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": -5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:20:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-09-29T15:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.75
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.47
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.89,
+                "point": 5.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.92,
+                "point": -5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-09-29T15:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.8
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.44
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-09-29T15:24:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.88
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.99,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.92,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-09-29T15:24:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.88
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.46
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-09-29T15:24:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.95
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.43
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.83,
+                "point": -4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-09-29T15:24:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

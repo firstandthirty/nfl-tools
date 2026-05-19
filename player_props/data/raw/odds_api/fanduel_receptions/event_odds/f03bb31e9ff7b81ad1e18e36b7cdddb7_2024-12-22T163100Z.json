@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-12-22T16:30:39Z",
+  "previous_timestamp": "2024-12-22T16:25:37Z",
+  "next_timestamp": "2024-12-22T16:35:38Z",
+  "data": {
+    "id": "f03bb31e9ff7b81ad1e18e36b7cdddb7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T18:01:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-22T16:28:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.62,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

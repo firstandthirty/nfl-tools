@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-28T15:25:38Z",
+  "previous_timestamp": "2025-09-28T15:20:39Z",
+  "next_timestamp": "2025-09-28T15:30:38Z",
+  "data": {
+    "id": "bcb1f89cf378a586097c50585e53acce",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T15:25:04Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-28T15:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Harold Fannin Jr.",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Harold Fannin Jr.",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.81,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 1.79,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Quinshon Judkins",
+                "price": 1.63,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Quinshon Judkins",
+                "price": 2.24,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 2.34,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 1.58,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.14,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

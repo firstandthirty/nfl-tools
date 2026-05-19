@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-12T16:30:39Z",
+  "previous_timestamp": "2023-11-12T16:25:39Z",
+  "next_timestamp": "2023-11-12T16:35:39Z",
+  "data": {
+    "id": "c5eeafee32ce8de348c503a58d42e8d5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:03:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-12T16:29:39Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-12T16:25:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 2.18,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.67,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Odell Beckham Jr.",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Odell Beckham Jr.",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 1.72,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

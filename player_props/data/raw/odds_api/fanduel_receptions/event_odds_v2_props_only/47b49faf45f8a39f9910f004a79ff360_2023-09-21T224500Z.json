@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-09-21T22:40:42Z",
+  "previous_timestamp": "2023-09-21T22:35:43Z",
+  "next_timestamp": "2023-09-21T22:45:44Z",
+  "data": {
+    "id": "47b49faf45f8a39f9910f004a79ff360",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-22T00:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-21T22:40:08Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-21T22:40:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Parris Campbell",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parris Campbell",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Hodgins",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Hodgins",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 2.06,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

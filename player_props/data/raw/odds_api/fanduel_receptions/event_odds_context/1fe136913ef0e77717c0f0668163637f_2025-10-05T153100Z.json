@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-05T15:30:37Z",
+  "previous_timestamp": "2025-10-05T15:25:37Z",
+  "next_timestamp": "2025-10-05T15:35:38Z",
+  "data": {
+    "id": "1fe136913ef0e77717c0f0668163637f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T17:01:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-05T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.82
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.02
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.89,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-05T15:29:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:29:47Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.77
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:29:47Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.83,
+                "point": -1.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.0,
+                "point": 1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:29:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-05T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.78
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.83,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.98,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.79
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-05T15:29:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.81
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.01
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:29:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-05T15:30:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:35Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.77
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:35Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.98,
+                "point": -2.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.93,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.77
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": -2.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-05T15:30:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.79
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:09Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.88,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.89,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-05T15:28:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:28:46Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:28:46Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": -2.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.87,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:28:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-05T15:30:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:16Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:16Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.8
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": -1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T15:30:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

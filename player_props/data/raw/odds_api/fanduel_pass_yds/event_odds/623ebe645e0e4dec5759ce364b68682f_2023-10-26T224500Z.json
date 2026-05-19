@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-26T22:40:43Z",
+  "previous_timestamp": "2023-10-26T22:35:43Z",
+  "next_timestamp": "2023-10-26T22:45:42Z",
+  "data": {
+    "id": "623ebe645e0e4dec5759ce364b68682f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-27T00:18:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-26T22:39:42Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-26T22:39:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 259.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 259.5
+              },
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 227.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

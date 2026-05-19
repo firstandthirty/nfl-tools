@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-12-04T23:40:38Z",
+  "previous_timestamp": "2025-12-04T23:35:38Z",
+  "next_timestamp": "2025-12-04T23:45:38Z",
+  "data": {
+    "id": "81db991c5b34169eeeff8d734d8836d9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-05T01:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-04T23:40:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-04T23:40:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 275.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 275.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

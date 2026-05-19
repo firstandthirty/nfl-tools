@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-10-20T22:45:38Z",
+  "previous_timestamp": "2024-10-20T22:40:38Z",
+  "next_timestamp": "2024-10-20T22:50:38Z",
+  "data": {
+    "id": "6103604599da91e8a44ce683292242ec",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-21T00:20:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-20T22:45:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-20T22:44:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Najee Harris",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Najee Harris",
+                "price": 1.59,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Austin III",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Austin III",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 2.12,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

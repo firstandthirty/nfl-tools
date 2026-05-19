@@ -1,0 +1,346 @@
+{
+  "timestamp": "2024-11-17T17:25:38Z",
+  "previous_timestamp": "2024-11-17T17:20:38Z",
+  "next_timestamp": "2024-11-17T17:30:38Z",
+  "data": {
+    "id": "73f1d28c0bfe32a1ff292b688bb85df3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T17:25:04Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-17T17:24:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 205.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 241.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-11-17T17:24:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Over",
+                "description": "Davis Allen",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Davis Allen",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": -110,
+                "point": 17.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T17:24:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": -138,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 106,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": 116,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davis Allen",
+                "price": 100,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Davis Allen",
+                "price": -130,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": -128,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -102,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": -156,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 120,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 102,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 116,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": -120,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": -108,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 108,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": -140,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -120,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-11-17T17:24:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 83.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 83.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

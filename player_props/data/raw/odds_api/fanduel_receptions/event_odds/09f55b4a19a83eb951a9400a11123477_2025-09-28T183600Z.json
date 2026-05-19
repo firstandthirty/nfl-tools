@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-09-28T18:35:38Z",
+  "previous_timestamp": "2025-09-28T18:30:38Z",
+  "next_timestamp": "2025-09-28T18:40:38Z",
+  "data": {
+    "id": "09f55b4a19a83eb951a9400a11123477",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T20:06:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T18:35:29Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-28T18:35:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Hunter",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Hunter",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Tonges",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Tonges",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 1.65,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

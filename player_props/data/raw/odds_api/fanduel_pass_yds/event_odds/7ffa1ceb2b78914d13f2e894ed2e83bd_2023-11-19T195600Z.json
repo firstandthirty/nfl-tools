@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-19T19:55:40Z",
+  "previous_timestamp": "2023-11-19T19:50:40Z",
+  "next_timestamp": "2023-11-19T20:00:40Z",
+  "data": {
+    "id": "7ffa1ceb2b78914d13f2e894ed2e83bd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T21:26:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T19:55:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-19T19:52:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.88,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.88,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Wilson",
+                "price": 1.88,
+                "point": 206.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Wilson",
+                "price": 1.88,
+                "point": 206.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

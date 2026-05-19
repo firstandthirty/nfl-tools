@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-10-02T22:45:41Z",
+  "previous_timestamp": "2023-10-02T22:40:42Z",
+  "next_timestamp": "2023-10-02T22:50:41Z",
+  "data": {
+    "id": "5176634f6d30e29b08199d1e0ed6309d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-03T00:16:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-02T22:45:29Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-02T22:43:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matt Breida",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Matt Breida",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Hodgins",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Hodgins",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 2.42,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 1.54,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Parris Campbell",
+                "price": 1.9,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parris Campbell",
+                "price": 1.87,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.59,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.32,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 1.88,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

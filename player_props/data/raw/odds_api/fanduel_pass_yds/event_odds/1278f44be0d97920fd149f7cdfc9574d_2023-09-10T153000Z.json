@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-10T15:25:40Z",
+  "previous_timestamp": "2023-09-10T15:20:42Z",
+  "next_timestamp": "2023-09-10T15:30:41Z",
+  "data": {
+    "id": "1278f44be0d97920fd149f7cdfc9574d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T15:25:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-10T15:22:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 184.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 184.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "timestamp": "2023-12-10T19:55:38Z",
+  "previous_timestamp": "2023-12-10T19:50:38Z",
+  "next_timestamp": "2023-12-10T20:00:38Z",
+  "data": {
+    "id": "3f3e724f37cedc82b772233204dc42eb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T21:28:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-10T19:54:17Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-10T19:55:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Gabriel Davis",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gabriel Davis",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.9,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.87,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Skyy Moore",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Skyy Moore",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.67,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Clyde Edwards-Helaire",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Clyde Edwards-Helaire",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerick McKinnon",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerick McKinnon",
+                "price": 2.22,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

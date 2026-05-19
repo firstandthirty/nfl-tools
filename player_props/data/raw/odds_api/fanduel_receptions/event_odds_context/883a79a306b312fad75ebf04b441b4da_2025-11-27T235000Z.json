@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-11-27T23:45:37Z",
+  "previous_timestamp": "2025-11-27T23:40:38Z",
+  "next_timestamp": "2025-11-27T23:50:37Z",
+  "data": {
+    "id": "883a79a306b312fad75ebf04b441b4da",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-28T01:20:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-11-27T23:45:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.27
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.83,
+                "point": -7.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 2.0,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-11-27T23:45:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:29Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.28
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:29Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-11-27T23:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.26
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.95,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-11-27T23:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.27
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 2.0,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:44:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-27T23:45:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.27
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:28Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.94,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.88,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-11-27T23:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.24
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-11-27T23:45:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.26
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 2.0,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-11-27T23:45:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:13Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.26
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:13Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.87,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.95,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-11-27T23:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.24
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.93,
+                "point": -7.5
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.83,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-11-27T23:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.25
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.91,
+                "point": -8.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-11-27T23:45:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-27T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.24
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 4.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-27T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.95,
+                "point": -8.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-27T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

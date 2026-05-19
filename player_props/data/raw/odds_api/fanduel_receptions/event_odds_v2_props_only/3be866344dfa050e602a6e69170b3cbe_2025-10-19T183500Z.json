@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-19T18:30:38Z",
+  "previous_timestamp": "2025-10-19T18:25:38Z",
+  "next_timestamp": "2025-10-19T18:35:38Z",
+  "data": {
+    "id": "3be866344dfa050e602a6e69170b3cbe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:05:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:30:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T18:30:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalin Hyatt",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalin Hyatt",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Theo Johnson",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Theo Johnson",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Skattebo",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Skattebo",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.66,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "RJ Harvey",
+                "price": 2.1,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "RJ Harvey",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Lil'Jordan Humphrey",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Lil'Jordan Humphrey",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "J.K. Dobbins",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "J.K. Dobbins",
+                "price": 1.68,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

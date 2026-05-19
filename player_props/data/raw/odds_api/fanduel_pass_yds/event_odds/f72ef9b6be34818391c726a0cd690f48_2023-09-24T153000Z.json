@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-24T15:25:41Z",
+  "previous_timestamp": "2023-09-24T15:20:41Z",
+  "next_timestamp": "2023-09-24T15:30:40Z",
+  "data": {
+    "id": "f72ef9b6be34818391c726a0cd690f48",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:01:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T15:24:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-24T15:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 192.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 192.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

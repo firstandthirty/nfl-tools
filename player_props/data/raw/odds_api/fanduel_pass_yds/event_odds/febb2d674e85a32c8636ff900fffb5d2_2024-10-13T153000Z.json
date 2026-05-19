@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-13T15:25:38Z",
+  "previous_timestamp": "2024-10-13T15:20:38Z",
+  "next_timestamp": "2024-10-13T15:30:38Z",
+  "data": {
+    "id": "febb2d674e85a32c8636ff900fffb5d2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T15:25:33Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-13T15:25:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": 1.91,
+                "point": 166.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": 1.91,
+                "point": 166.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-12T16:30:39Z",
+  "previous_timestamp": "2023-11-12T16:25:39Z",
+  "next_timestamp": "2023-11-12T16:35:39Z",
+  "data": {
+    "id": "c5eeafee32ce8de348c503a58d42e8d5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:03:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-12T16:29:39Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-12T16:25:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 189.5
+              },
+              {
+                "name": "Under",
+                "description": "Deshaun Watson",
+                "price": 1.91,
+                "point": 189.5
+              },
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 199.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 199.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

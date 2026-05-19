@@ -1,0 +1,184 @@
+{
+  "timestamp": "2026-01-11T23:25:38Z",
+  "previous_timestamp": "2026-01-11T23:20:37Z",
+  "next_timestamp": "2026-01-11T23:30:37Z",
+  "data": {
+    "id": "d48193fef08ca62ade864612a40e2a4e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-12T01:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-11T23:25:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-11T23:25:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tre Harris",
+                "price": 1.58,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Harris",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 1.67,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Omarion Hampton",
+                "price": 2.46,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Omarion Hampton",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Oronde Gadsden II",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Oronde Gadsden II",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 2.52,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.51,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

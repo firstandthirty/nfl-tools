@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-01T15:30:40Z",
+  "previous_timestamp": "2023-10-01T15:25:40Z",
+  "next_timestamp": "2023-10-01T15:35:40Z",
+  "data": {
+    "id": "24264c7ce10b65e575310ae99c25fb7f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.38
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.61
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.36
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.93,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-01T15:30:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.86,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.96,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-01T15:29:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.01,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:29:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.35
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.33
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.92,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.33
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.92,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-01T15:30:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.33
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.61
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-01T15:30:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-01T15:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.33
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.3
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.35
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.33
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 3.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.92,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T15:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

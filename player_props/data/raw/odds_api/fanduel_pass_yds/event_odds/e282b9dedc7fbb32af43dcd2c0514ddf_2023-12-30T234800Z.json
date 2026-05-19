@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-30T23:45:38Z",
+  "previous_timestamp": "2023-12-30T23:40:38Z",
+  "next_timestamp": "2023-12-30T23:50:38Z",
+  "data": {
+    "id": "e282b9dedc7fbb32af43dcd2c0514ddf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T01:18:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-30T23:45:05Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-30T23:41:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.91,
+                "point": 286.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.91,
+                "point": 286.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 259.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 259.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

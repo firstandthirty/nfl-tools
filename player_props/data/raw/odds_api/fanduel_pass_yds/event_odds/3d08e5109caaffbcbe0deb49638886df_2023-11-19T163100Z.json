@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-19T16:30:41Z",
+  "previous_timestamp": "2023-11-19T16:25:41Z",
+  "next_timestamp": "2023-11-19T16:35:41Z",
+  "data": {
+    "id": "3d08e5109caaffbcbe0deb49638886df",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:01:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T16:28:58Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-19T16:30:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.88,
+                "point": 188.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.88,
+                "point": 188.5
+              },
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.88,
+                "point": 258.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.88,
+                "point": 258.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

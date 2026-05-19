@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-11-30T16:25:37Z",
+  "previous_timestamp": "2025-11-30T16:20:37Z",
+  "next_timestamp": "2025-11-30T16:30:38Z",
+  "data": {
+    "id": "c0d324e29ce58b36bdc77564f7aae56f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T16:25:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-30T16:25:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": 1.67,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Greg Dortch",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dortch",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Bam Knight",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bam Knight",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tez Johnson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tez Johnson",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.61,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.28,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.75,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Emeka Egbuka",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Emeka Egbuka",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 1.6,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

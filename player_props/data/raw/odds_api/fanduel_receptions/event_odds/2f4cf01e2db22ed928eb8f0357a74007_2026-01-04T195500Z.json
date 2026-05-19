@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-01-04T19:50:37Z",
+  "previous_timestamp": "2026-01-04T19:45:37Z",
+  "next_timestamp": "2026-01-04T19:55:37Z",
+  "data": {
+    "id": "2f4cf01e2db22ed928eb8f0357a74007",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T19:50:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-04T19:50:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.96,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.82,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 2.22,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.75,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.06,
+                "point": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-28T16:25:37Z",
+  "previous_timestamp": "2025-12-28T16:20:37Z",
+  "next_timestamp": "2025-12-28T16:30:38Z",
+  "data": {
+    "id": "374166780155b8c14e867face95885ee",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-28T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-28T16:25:21Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-28T16:25:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Quinn Ewers",
+                "price": 1.89,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Quinn Ewers",
+                "price": 1.89,
+                "point": 205.5
+              },
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 222.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

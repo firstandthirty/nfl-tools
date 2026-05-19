@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-11-28T23:45:38Z",
+  "previous_timestamp": "2024-11-28T23:40:39Z",
+  "next_timestamp": "2024-11-28T23:50:39Z",
+  "data": {
+    "id": "e6b414e1b7a012e57d1a0746769f28a2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-29T01:20:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.59
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.42
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-11-28T23:42:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:42:32Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.51
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:42:32Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:42:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.54
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.54
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.56
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-11-28T23:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.53
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-11-28T23:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.53
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 2.01,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.89,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.97,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-11-28T23:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.55
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.56
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.56
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-11-28T23:45:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.51
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T23:45:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

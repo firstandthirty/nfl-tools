@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-12-25T23:40:37Z",
+  "previous_timestamp": "2025-12-25T23:35:38Z",
+  "next_timestamp": "2025-12-25T23:45:37Z",
+  "data": {
+    "id": "29164a99a917051c6e1778270033d362",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-26T01:15:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-25T23:40:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-25T23:40:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 1.86,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Lil'Jordan Humphrey",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Lil'Jordan Humphrey",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 2.48,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.53,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.5,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.52,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "RJ Harvey",
+                "price": 1.86,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "RJ Harvey",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.43,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.8,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 2.52,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.51,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": 2.34,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.56,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

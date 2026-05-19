@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-08T19:50:38Z",
+  "previous_timestamp": "2024-12-08T19:45:37Z",
+  "next_timestamp": "2024-12-08T19:55:37Z",
+  "data": {
+    "id": "5188cb03fd7577d7448874486c26dccb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T19:50:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-08T19:50:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 251.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 251.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

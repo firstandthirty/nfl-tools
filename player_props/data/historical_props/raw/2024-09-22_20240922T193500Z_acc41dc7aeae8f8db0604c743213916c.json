@@ -1,0 +1,334 @@
+{
+  "timestamp": "2024-09-22T19:30:38Z",
+  "previous_timestamp": "2024-09-22T19:25:37Z",
+  "next_timestamp": "2024-09-22T19:35:38Z",
+  "data": {
+    "id": "acc41dc7aeae8f8db0604c743213916c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T20:07:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T19:29:48Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-22T19:29:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Skylar Thompson",
+                "price": -110,
+                "point": 193.5
+              },
+              {
+                "name": "Under",
+                "description": "Skylar Thompson",
+                "price": -110,
+                "point": 193.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-09-22T19:29:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": -110,
+                "point": 41.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-22T19:29:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": 100,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": -130,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": -130,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 100,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -188,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": 142,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 126,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": -165,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -120,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -108,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": -120,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": -108,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": -135,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 104,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 112,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-09-22T19:29:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 69.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": -110,
+                "point": 69.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 72.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 72.5
+              },
+              {
+                "name": "Over",
+                "description": "Skylar Thompson",
+                "price": -110,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Skylar Thompson",
+                "price": -110,
+                "point": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

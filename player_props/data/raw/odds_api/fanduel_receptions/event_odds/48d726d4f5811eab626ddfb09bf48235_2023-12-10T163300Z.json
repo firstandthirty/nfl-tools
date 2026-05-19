@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-12-10T16:30:39Z",
+  "previous_timestamp": "2023-12-10T16:25:39Z",
+  "next_timestamp": "2023-12-10T16:35:39Z",
+  "data": {
+    "id": "48d726d4f5811eab626ddfb09bf48235",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:03:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-10T16:29:55Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-10T16:26:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": 1.8,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.26,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.62,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Jones",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Jones",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 2.06,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

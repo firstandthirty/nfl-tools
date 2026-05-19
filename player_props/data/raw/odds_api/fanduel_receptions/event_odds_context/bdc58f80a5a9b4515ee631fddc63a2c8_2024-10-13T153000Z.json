@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-10-13T15:25:38Z",
+  "previous_timestamp": "2024-10-13T15:20:38Z",
+  "next_timestamp": "2024-10-13T15:30:38Z",
+  "data": {
+    "id": "bdc58f80a5a9b4515ee631fddc63a2c8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T17:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.24
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-10-13T15:24:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.3
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-10-13T15:25:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.29
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.8,
+                "point": 3.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.05,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T15:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.3
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.85,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.23
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.66
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.16
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.85,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.2
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-10-13T15:24:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.35
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.05,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.86,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.35
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.3
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

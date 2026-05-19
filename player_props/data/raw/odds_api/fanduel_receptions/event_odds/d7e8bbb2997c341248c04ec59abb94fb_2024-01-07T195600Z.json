@@ -1,0 +1,88 @@
+{
+  "timestamp": "2024-01-07T19:55:38Z",
+  "previous_timestamp": "2024-01-07T19:50:38Z",
+  "next_timestamp": "2024-01-07T20:00:38Z",
+  "data": {
+    "id": "d7e8bbb2997c341248c04ec59abb94fb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T21:26:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-07T19:55:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-01-07T19:49:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.2,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

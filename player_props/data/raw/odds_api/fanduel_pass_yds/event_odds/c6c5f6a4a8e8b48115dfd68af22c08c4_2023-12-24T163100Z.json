@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-24T16:30:38Z",
+  "previous_timestamp": "2023-12-24T16:25:39Z",
+  "next_timestamp": "2023-12-24T16:35:38Z",
+  "data": {
+    "id": "c6c5f6a4a8e8b48115dfd68af22c08c4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:01:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-24T16:30:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-24T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Siemian",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Siemian",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam Howell",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Howell",
+                "price": 1.91,
+                "point": 205.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

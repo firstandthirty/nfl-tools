@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-22T18:55:40Z",
+  "previous_timestamp": "2023-10-22T18:50:40Z",
+  "next_timestamp": "2023-10-22T19:00:40Z",
+  "data": {
+    "id": "e5a039468378fe43795987ade2d44536",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:26:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T18:55:02Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-22T18:52:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Over",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Under",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 218.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

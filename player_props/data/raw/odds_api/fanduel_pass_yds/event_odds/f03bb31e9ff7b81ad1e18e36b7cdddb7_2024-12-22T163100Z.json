@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-22T16:30:39Z",
+  "previous_timestamp": "2024-12-22T16:25:37Z",
+  "next_timestamp": "2024-12-22T16:35:38Z",
+  "data": {
+    "id": "f03bb31e9ff7b81ad1e18e36b7cdddb7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T18:01:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-22T16:30:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 212.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 178.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

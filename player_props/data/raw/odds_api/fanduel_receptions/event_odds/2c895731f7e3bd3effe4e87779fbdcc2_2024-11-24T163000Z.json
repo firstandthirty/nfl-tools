@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-11-24T16:25:38Z",
+  "previous_timestamp": "2024-11-24T16:20:38Z",
+  "next_timestamp": "2024-11-24T16:30:38Z",
+  "data": {
+    "id": "2c895731f7e3bd3effe4e87779fbdcc2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-24T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-24T16:24:55Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-24T16:25:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.3,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.59,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Legette",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Legette",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 1.71,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Coker",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Coker",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Tavion Sanders",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Tavion Sanders",
+                "price": 1.68,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

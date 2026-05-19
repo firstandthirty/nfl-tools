@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-28T15:30:38Z",
+  "previous_timestamp": "2025-09-28T15:25:38Z",
+  "next_timestamp": "2025-09-28T15:35:38Z",
+  "data": {
+    "id": "85c9b76cd6bd575b611cb4e8feb7a0b0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T17:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-28T15:30:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.24
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.85,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.98,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-28T15:30:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.25
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-28T15:30:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.27
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-28T15:28:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.25
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.93,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:28:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T15:30:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.27
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.0,
+                "point": -7.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.82,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-28T15:29:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.26
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 3.98
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-28T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.23
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.85,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.93,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-28T15:29:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.26
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.06
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.04,
+                "point": -7.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.87,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-28T15:30:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.26
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.06
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.88,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.94,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-28T15:29:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:29:46Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.26
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:29:46Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:29:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-28T15:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.27
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-28T15:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

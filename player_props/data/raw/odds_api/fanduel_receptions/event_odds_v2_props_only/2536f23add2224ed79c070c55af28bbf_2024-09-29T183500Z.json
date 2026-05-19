@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-09-29T18:30:38Z",
+  "previous_timestamp": "2024-09-29T18:25:38Z",
+  "next_timestamp": "2024-09-29T18:35:38Z",
+  "data": {
+    "id": "2536f23add2224ed79c070c55af28bbf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T20:05:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T18:29:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-29T18:30:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Antonio Gibson",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Antonio Gibson",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Lynn Polk",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Lynn Polk",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": 1.76,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": 1.91,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "K.J. Osborn",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "K.J. Osborn",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.98,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

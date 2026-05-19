@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-29T21:45:39Z",
+  "previous_timestamp": "2025-09-29T21:40:39Z",
+  "next_timestamp": "2025-09-29T21:50:39Z",
+  "data": {
+    "id": "bc76fb8d846588ed46297aaab4e83de9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-29T23:16:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-29T21:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:44:48Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.68
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.24
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:44:48Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:44:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.0,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.83,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-29T21:45:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.62
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.35
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-29T21:42:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:42:08Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.65
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:42:08Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.98,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:42:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-29T21:45:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:29Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.68
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.24
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:29Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.98,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.83,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-29T21:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:44:10Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.65
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:44:10Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:44:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-29T21:45:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:05Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.67
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:05Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.86,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.05,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-29T21:45:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:06Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.67
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:06Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-29T21:45:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:23Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.67
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:23Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-29T21:45:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:15Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.65
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.23
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:15Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-29T21:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:02Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.67
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:02Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-29T21:45:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.62
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-29T21:45:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

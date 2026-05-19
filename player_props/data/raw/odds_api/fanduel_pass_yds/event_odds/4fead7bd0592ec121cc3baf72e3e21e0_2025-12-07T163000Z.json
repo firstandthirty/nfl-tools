@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-07T16:25:37Z",
+  "previous_timestamp": "2025-12-07T16:20:37Z",
+  "next_timestamp": "2025-12-07T16:30:39Z",
+  "data": {
+    "id": "4fead7bd0592ec121cc3baf72e3e21e0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-07T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-07T16:25:31Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-07T16:25:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 224.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 224.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.89,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.89,
+                "point": 204.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

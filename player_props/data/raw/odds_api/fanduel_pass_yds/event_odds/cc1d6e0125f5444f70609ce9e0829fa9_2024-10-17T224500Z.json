@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-17T22:40:39Z",
+  "previous_timestamp": "2024-10-17T22:35:39Z",
+  "next_timestamp": "2024-10-17T22:45:39Z",
+  "data": {
+    "id": "cc1d6e0125f5444f70609ce9e0829fa9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-18T00:15:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-17T22:39:58Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-17T22:39:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Spencer Rattler",
+                "price": 1.91,
+                "point": 184.5
+              },
+              {
+                "name": "Under",
+                "description": "Spencer Rattler",
+                "price": 1.91,
+                "point": 184.5
+              },
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 194.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 194.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

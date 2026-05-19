@@ -1,0 +1,14 @@
+{
+  "timestamp": "2023-10-19T22:45:42Z",
+  "previous_timestamp": "2023-10-19T22:40:43Z",
+  "next_timestamp": "2023-10-19T22:50:43Z",
+  "data": {
+    "id": "16143d5b3cfe34d32198da53771e14ee",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-20T00:16:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  }
+}

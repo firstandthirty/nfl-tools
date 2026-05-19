@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-14T15:30:38Z",
+  "previous_timestamp": "2025-09-14T15:25:38Z",
+  "next_timestamp": "2025-09-14T15:35:38Z",
+  "data": {
+    "id": "553edb8bf2452482b37dde58e832a6fb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-14T17:01:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-14T15:29:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-14T15:31:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 212.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Flacco",
+                "price": 1.89,
+                "point": 240.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Flacco",
+                "price": 1.89,
+                "point": 240.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2024-12-16T23:55:38Z",
+  "previous_timestamp": "2024-12-16T23:50:38Z",
+  "next_timestamp": "2024-12-17T00:00:38Z",
+  "data": {
+    "id": "b72078945287a94944a0ffefcd09c42c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-17T01:30:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-16T23:55:10Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-16T23:55:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 242.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

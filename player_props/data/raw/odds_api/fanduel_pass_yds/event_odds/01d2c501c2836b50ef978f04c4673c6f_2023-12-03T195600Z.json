@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-03T19:55:38Z",
+  "previous_timestamp": "2023-12-03T19:50:38Z",
+  "next_timestamp": "2023-12-03T20:00:38Z",
+  "data": {
+    "id": "01d2c501c2836b50ef978f04c4673c6f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T21:26:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-03T19:55:31Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-03T19:51:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 258.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

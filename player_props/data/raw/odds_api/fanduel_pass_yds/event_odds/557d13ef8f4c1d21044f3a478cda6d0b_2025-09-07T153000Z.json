@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-07T15:25:38Z",
+  "previous_timestamp": "2025-09-07T15:20:38Z",
+  "next_timestamp": "2025-09-07T15:30:38Z",
+  "data": {
+    "id": "557d13ef8f4c1d21044f3a478cda6d0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-07T17:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-07T15:25:09Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-07T15:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.88,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.88,
+                "point": 222.5
+              },
+              {
+                "name": "Over",
+                "description": "Spencer Rattler",
+                "price": 1.88,
+                "point": 199.5
+              },
+              {
+                "name": "Under",
+                "description": "Spencer Rattler",
+                "price": 1.88,
+                "point": 199.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

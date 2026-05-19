@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-10-06T15:25:37Z",
+  "previous_timestamp": "2024-10-06T15:20:37Z",
+  "next_timestamp": "2024-10-06T15:30:37Z",
+  "data": {
+    "id": "5cb3b58ed90ecfac2acac9115e08c017",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-06T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-06T15:25:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-06T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Lynn Polk",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Lynn Polk",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": 2.1,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": 1.69,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Antonio Gibson",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Antonio Gibson",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 2.12,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

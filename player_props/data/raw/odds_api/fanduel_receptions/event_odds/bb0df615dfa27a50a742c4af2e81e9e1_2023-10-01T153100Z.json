@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-10-01T15:30:40Z",
+  "previous_timestamp": "2023-10-01T15:25:40Z",
+  "next_timestamp": "2023-10-01T15:35:40Z",
+  "data": {
+    "id": "bb0df615dfa27a50a742c4af2e81e9e1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:01:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-01T15:30:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Terry McLaurin",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Terry McLaurin",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Logan Thomas",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Logan Thomas",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "A.J. Brown",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "A.J. Brown",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DeVonta Smith",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeVonta Smith",
+                "price": 2.14,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

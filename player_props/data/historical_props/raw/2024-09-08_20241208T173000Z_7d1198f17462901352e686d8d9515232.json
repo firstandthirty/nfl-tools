@@ -1,0 +1,382 @@
+{
+  "timestamp": "2024-12-08T17:25:37Z",
+  "previous_timestamp": "2024-12-08T17:20:38Z",
+  "next_timestamp": "2024-12-08T17:30:37Z",
+  "data": {
+    "id": "7d1198f17462901352e686d8d9515232",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T17:25:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-08T17:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": -110,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": -110,
+                "point": 214.5
+              },
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": -110,
+                "point": 199.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": -110,
+                "point": 199.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-08T17:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": -110,
+                "point": 32.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": -110,
+                "point": 32.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": -110,
+                "point": 60.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": -110,
+                "point": 60.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Over",
+                "description": "Devin Duvernay",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Devin Duvernay",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyjae Spears",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyjae Spears",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": -110,
+                "point": 64.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": -110,
+                "point": 64.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": -110,
+                "point": 22.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-08T17:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": -102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": -128,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 102,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": -132,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": -138,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 106,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -198,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 150,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": 108,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": -140,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": -156,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 120,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyjae Spears",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyjae Spears",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": -164,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": 125,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 106,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": -138,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": -140,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-08T17:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyjae Spears",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyjae Spears",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Bigsby",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Bigsby",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": -110,
+                "point": 64.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": -110,
+                "point": 64.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-17T16:25:41Z",
+  "previous_timestamp": "2023-09-17T16:20:41Z",
+  "next_timestamp": "2023-09-17T16:30:41Z",
+  "data": {
+    "id": "450d0600bc30565494c6df8096e04976",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:01:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T16:24:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-17T16:22:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 301.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 301.5
+              },
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 257.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 257.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

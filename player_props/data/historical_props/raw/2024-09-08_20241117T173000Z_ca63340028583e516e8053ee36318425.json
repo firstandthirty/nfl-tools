@@ -1,0 +1,382 @@
+{
+  "timestamp": "2024-11-17T17:25:38Z",
+  "previous_timestamp": "2024-11-17T17:20:38Z",
+  "next_timestamp": "2024-11-17T17:30:38Z",
+  "data": {
+    "id": "ca63340028583e516e8053ee36318425",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T17:25:04Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-17T17:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jameis Winston",
+                "price": -110,
+                "point": 239.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameis Winston",
+                "price": -110,
+                "point": 239.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": -110,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": -110,
+                "point": 215.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-11-17T17:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Chubb",
+                "price": -110,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Chubb",
+                "price": -110,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedrick Wilson Jr.",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedrick Wilson Jr.",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T17:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": -125,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": -104,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 106,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -138,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedrick Wilson Jr.",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedrick Wilson Jr.",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": -148,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 114,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": -114,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": -114,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -113,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -115,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -160,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 122,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": -152,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 116,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-11-17T17:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Chubb",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Chubb",
+                "price": -110,
+                "point": 68.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 73.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 73.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameis Winston",
+                "price": -110,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameis Winston",
+                "price": -110,
+                "point": 11.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

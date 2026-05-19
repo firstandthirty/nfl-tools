@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-11-11T23:40:37Z",
+  "previous_timestamp": "2024-11-11T23:35:37Z",
+  "next_timestamp": "2024-11-11T23:45:37Z",
+  "data": {
+    "id": "d6eab9011bd146fdbb2639f6e8c07056",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-12T01:15:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-11T23:40:03Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-11T23:40:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 1.71,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.87,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 1.61,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": 2.26,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": 1.71,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

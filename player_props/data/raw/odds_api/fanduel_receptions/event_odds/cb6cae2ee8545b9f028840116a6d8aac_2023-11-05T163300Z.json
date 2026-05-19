@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-11-05T16:30:41Z",
+  "previous_timestamp": "2023-11-05T16:25:41Z",
+  "next_timestamp": "2023-11-05T16:35:41Z",
+  "data": {
+    "id": "cb6cae2ee8545b9f028840116a6d8aac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:03:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-05T16:29:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-05T16:30:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Noah Brown",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Brown",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 1.8,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.9,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.87,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 2.08,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

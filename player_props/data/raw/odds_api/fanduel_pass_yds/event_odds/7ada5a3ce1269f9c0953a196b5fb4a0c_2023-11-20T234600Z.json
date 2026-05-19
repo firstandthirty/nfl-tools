@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-20T23:45:42Z",
+  "previous_timestamp": "2023-11-20T23:40:41Z",
+  "next_timestamp": "2023-11-20T23:50:43Z",
+  "data": {
+    "id": "7ada5a3ce1269f9c0953a196b5fb4a0c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-21T01:16:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-20T23:45:25Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-20T23:42:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 284.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 284.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 235.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

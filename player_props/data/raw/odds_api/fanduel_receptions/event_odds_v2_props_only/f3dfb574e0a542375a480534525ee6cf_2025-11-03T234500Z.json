@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-11-03T23:40:37Z",
+  "previous_timestamp": "2025-11-03T23:35:37Z",
+  "next_timestamp": "2025-11-03T23:45:38Z",
+  "data": {
+    "id": "f3dfb574e0a542375a480534525ee6cf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-04T01:15:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-03T23:40:28Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-03T23:40:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.89,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Ryan Flournoy",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Flournoy",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 2.1,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Bam Knight",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Bam Knight",
+                "price": 2.14,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Jones",
+                "price": 1.82,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Jones",
+                "price": 1.96,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Greg Dortch",
+                "price": 2.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dortch",
+                "price": 1.45,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.74,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.08,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.85,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.93,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.58,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.34,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.12,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

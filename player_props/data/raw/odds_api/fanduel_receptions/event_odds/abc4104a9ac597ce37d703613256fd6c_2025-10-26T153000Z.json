@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-26T15:25:38Z",
+  "previous_timestamp": "2025-10-26T15:20:38Z",
+  "next_timestamp": "2025-10-26T15:30:38Z",
+  "data": {
+    "id": "abc4104a9ac597ce37d703613256fd6c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-26T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-26T15:25:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-26T15:26:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyle Juszczyk",
+                "price": 1.52,
+                "point": 0.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Juszczyk",
+                "price": 2.5,
+                "point": 0.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 1.89,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.89,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Hutchinson",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Hutchinson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Woody Marks",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Woody Marks",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Higgins",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Higgins",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 2.06,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.75,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylin Noel",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylin Noel",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.94,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

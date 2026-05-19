@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-15T21:30:39Z",
+  "previous_timestamp": "2025-09-15T21:25:39Z",
+  "next_timestamp": "2025-09-15T21:35:39Z",
+  "data": {
+    "id": "7d9a04f411031528d9c1d2df7b9a0453",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-15T23:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-15T21:29:59Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-15T21:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.89,
+                "point": 232.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 229.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 229.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-27T11:55:38Z",
+  "previous_timestamp": "2025-10-27T11:50:38Z",
+  "next_timestamp": "2025-10-27T12:00:38Z",
+  "data": [
+    {
+      "id": "7e3361e84d5223a8d210a887b249f247",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-28T00:15:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "677dbbb6ad96fc5f5b36bb20b43139dd",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-10-31T00:15:00Z",
+      "home_team": "Miami Dolphins",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "6dd3b8a705ed0db85d59fa19b9062cc8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "Atlanta Falcons"
+    },
+    {
+      "id": "6031b513e188fc19a2311499566c9258",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "Carolina Panthers"
+    },
+    {
+      "id": "016f76d8237e8d4eb62b9c2ef68381bb",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Chicago Bears"
+    },
+    {
+      "id": "72e2ce6652bbb3901f60b38bec05bf5f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "Denver Broncos"
+    },
+    {
+      "id": "cf95657d78ab3e515203df1d19c3b0c2",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Minnesota Vikings"
+    },
+    {
+      "id": "2340a6e0794d5688996dcf8aaf634742",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Pittsburgh Steelers",
+      "away_team": "Indianapolis Colts"
+    },
+    {
+      "id": "b60025aea576e2e89ef7bc7303f847ec",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "Tennessee Titans",
+      "away_team": "Los Angeles Chargers"
+    },
+    {
+      "id": "a788e7cebff4b5fe10034710090e4529",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T18:00:00Z",
+      "home_team": "New York Giants",
+      "away_team": "San Francisco 49ers"
+    },
+    {
+      "id": "d0bf341e7959d69b55f1a8ff09065234",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T21:05:00Z",
+      "home_team": "Las Vegas Raiders",
+      "away_team": "Jacksonville Jaguars"
+    },
+    {
+      "id": "b08df670a95f1809707b335dc75081c6",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T21:05:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "New Orleans Saints"
+    },
+    {
+      "id": "61531628516decd1ee8116da5f6f9056",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-02T21:25:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Kansas City Chiefs"
+    },
+    {
+      "id": "c2fd8a23091a954fb21ff6d3537db826",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-03T01:20:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Seattle Seahawks"
+    },
+    {
+      "id": "f3dfb574e0a542375a480534525ee6cf",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-11-04T01:15:00Z",
+      "home_team": "Dallas Cowboys",
+      "away_team": "Arizona Cardinals"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-01-07T19:55:38Z",
+  "previous_timestamp": "2024-01-07T19:50:38Z",
+  "next_timestamp": "2024-01-07T20:00:38Z",
+  "data": {
+    "id": "2b2da592b91fb61473aed5b4fe975254",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T21:26:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-07T19:55:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-07T19:51:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 203.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 203.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 246.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 246.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

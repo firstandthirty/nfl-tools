@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-09-11T22:40:42Z",
+  "previous_timestamp": "2023-09-11T22:35:42Z",
+  "next_timestamp": "2023-09-11T22:45:41Z",
+  "data": {
+    "id": "87ca05f061855f8497a3a81d9942b5d1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-12T00:20:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-11T22:40:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:40:17Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.7
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:40:17Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:40:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-09-11T22:39:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.77
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-09-11T22:39:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:36Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.72
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.13
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:36Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-09-11T22:39:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.77
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-09-11T22:40:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:40:30Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.79
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.12
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:40:30Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.92,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:40:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-09-11T22:40:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:40:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:40:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:40:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-09-11T22:39:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:28Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.72
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:28Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.94,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.96,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-09-11T22:40:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:40:29Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.71
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:40:29Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-09-11T22:39:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:42Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.12
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:42Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.92,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-09-11T22:39:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.72
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.9,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.92,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-09-11T22:40:11Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:40:11Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.69
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:40:11Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:40:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-09-11T22:38:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:38:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.77
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:38:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:38:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-09-11T22:39:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.14
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-09-11T22:39:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:43Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.67
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:43Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-09-11T22:39:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.78
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.83,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 2.0,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-09-11T22:39:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.12
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.92,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-09-11T22:39:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

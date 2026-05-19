@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-10T15:25:40Z",
+  "previous_timestamp": "2023-09-10T15:20:42Z",
+  "next_timestamp": "2023-09-10T15:30:41Z",
+  "data": {
+    "id": "bbe791f371726d950a509d928f4c65cd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T15:25:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-10T15:25:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 244.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 244.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

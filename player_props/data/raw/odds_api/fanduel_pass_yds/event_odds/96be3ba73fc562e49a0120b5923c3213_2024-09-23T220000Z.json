@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-23T21:55:39Z",
+  "previous_timestamp": "2024-09-23T21:50:39Z",
+  "next_timestamp": "2024-09-23T22:00:38Z",
+  "data": {
+    "id": "96be3ba73fc562e49a0120b5923c3213",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-23T23:30:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-23T21:54:01Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-23T21:54:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 222.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-12-01T16:25:38Z",
+  "previous_timestamp": "2024-12-01T16:20:38Z",
+  "next_timestamp": "2024-12-01T16:30:38Z",
+  "data": {
+    "id": "2be5371e838993958fd7eb2eda6fc412",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-01T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T16:25:03Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-01T16:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "James Conner",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Conner",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.06,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 1.71,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 2.08,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

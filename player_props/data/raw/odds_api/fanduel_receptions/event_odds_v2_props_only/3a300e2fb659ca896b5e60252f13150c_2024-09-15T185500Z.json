@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-09-15T18:50:38Z",
+  "previous_timestamp": "2024-09-15T18:45:38Z",
+  "next_timestamp": "2024-09-15T18:55:38Z",
+  "data": {
+    "id": "3a300e2fb659ca896b5e60252f13150c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-15T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T18:50:29Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-15T18:50:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Najee Harris",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Najee Harris",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Greg Dulcich",
+                "price": 2.1,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dulcich",
+                "price": 1.69,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Reynolds",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Reynolds",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaleel McLaughlin",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaleel McLaughlin",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.93,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

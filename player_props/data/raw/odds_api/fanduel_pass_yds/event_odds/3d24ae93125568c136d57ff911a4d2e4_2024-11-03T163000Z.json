@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-03T16:25:38Z",
+  "previous_timestamp": "2024-11-03T16:20:38Z",
+  "next_timestamp": "2024-11-03T16:30:37Z",
+  "data": {
+    "id": "3d24ae93125568c136d57ff911a4d2e4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-03T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-03T16:25:00Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-03T16:25:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Under",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 218.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.91,
+                "point": 257.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.91,
+                "point": 257.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

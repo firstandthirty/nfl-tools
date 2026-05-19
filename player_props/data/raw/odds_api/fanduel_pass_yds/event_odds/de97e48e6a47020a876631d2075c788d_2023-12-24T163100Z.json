@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-24T16:30:38Z",
+  "previous_timestamp": "2023-12-24T16:25:39Z",
+  "next_timestamp": "2023-12-24T16:35:38Z",
+  "data": {
+    "id": "de97e48e6a47020a876631d2075c788d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:01:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-24T16:30:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-24T16:24:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 238.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": 1.91,
+                "point": 238.5
+              },
+              {
+                "name": "Over",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 205.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

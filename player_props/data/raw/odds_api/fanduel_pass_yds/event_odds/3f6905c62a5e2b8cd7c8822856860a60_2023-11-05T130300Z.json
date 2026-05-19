@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-05T13:00:41Z",
+  "previous_timestamp": "2023-11-05T12:55:40Z",
+  "next_timestamp": "2023-11-05T13:05:41Z",
+  "data": {
+    "id": "3f6905c62a5e2b8cd7c8822856860a60",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T14:33:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-05T13:00:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-05T12:57:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 271.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 271.5
+              },
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 284.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 284.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

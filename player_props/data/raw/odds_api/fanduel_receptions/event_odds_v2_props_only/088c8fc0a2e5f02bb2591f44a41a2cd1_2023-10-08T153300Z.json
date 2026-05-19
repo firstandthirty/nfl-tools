@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-10-08T15:30:38Z",
+  "previous_timestamp": "2023-10-08T15:25:39Z",
+  "next_timestamp": "2023-10-08T15:35:38Z",
+  "data": {
+    "id": "088c8fc0a2e5f02bb2591f44a41a2cd1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:03:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-08T15:29:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.8,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Thomas",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Thomas",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Devante Parker",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devante Parker",
+                "price": 2.14,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

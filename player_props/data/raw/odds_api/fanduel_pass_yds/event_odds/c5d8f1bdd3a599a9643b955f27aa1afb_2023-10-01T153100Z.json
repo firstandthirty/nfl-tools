@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-01T15:30:40Z",
+  "previous_timestamp": "2023-10-01T15:25:40Z",
+  "next_timestamp": "2023-10-01T15:35:40Z",
+  "data": {
+    "id": "c5d8f1bdd3a599a9643b955f27aa1afb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:01:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-01T15:26:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 262.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 262.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 200.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 200.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

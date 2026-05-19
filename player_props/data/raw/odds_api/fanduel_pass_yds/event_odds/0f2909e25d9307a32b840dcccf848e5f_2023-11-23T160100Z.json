@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-23T16:00:39Z",
+  "previous_timestamp": "2023-11-23T15:55:40Z",
+  "next_timestamp": "2023-11-23T16:05:40Z",
+  "data": {
+    "id": "0f2909e25d9307a32b840dcccf848e5f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-23T17:31:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-23T15:59:35Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-23T15:59:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.88,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.88,
+                "point": 256.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.88,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.88,
+                "point": 230.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

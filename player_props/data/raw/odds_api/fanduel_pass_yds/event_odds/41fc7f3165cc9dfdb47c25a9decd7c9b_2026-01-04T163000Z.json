@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-01-04T16:25:37Z",
+  "previous_timestamp": "2026-01-04T16:20:37Z",
+  "next_timestamp": "2026-01-04T16:30:39Z",
+  "data": {
+    "id": "41fc7f3165cc9dfdb47c25a9decd7c9b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T16:25:26Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-04T16:26:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 190.5
+              },
+              {
+                "name": "Under",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 190.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

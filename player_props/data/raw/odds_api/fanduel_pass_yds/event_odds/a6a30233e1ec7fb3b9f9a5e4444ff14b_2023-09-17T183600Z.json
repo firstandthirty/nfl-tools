@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-17T18:35:40Z",
+  "previous_timestamp": "2023-09-17T18:30:41Z",
+  "next_timestamp": "2023-09-17T18:40:42Z",
+  "data": {
+    "id": "a6a30233e1ec7fb3b9f9a5e4444ff14b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:06:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-17T18:34:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 228.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

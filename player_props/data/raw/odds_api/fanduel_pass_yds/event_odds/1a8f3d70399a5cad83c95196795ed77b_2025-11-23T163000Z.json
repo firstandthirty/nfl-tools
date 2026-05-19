@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-23T16:25:37Z",
+  "previous_timestamp": "2025-11-23T16:20:37Z",
+  "next_timestamp": "2025-11-23T16:30:37Z",
+  "data": {
+    "id": "1a8f3d70399a5cad83c95196795ed77b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T16:25:22Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-23T16:26:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Flacco",
+                "price": 1.89,
+                "point": 243.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Flacco",
+                "price": 1.89,
+                "point": 243.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": 1.89,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": 1.89,
+                "point": 256.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

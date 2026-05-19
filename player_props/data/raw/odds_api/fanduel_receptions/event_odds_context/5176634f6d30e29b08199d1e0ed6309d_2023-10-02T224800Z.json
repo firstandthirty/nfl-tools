@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-02T22:45:41Z",
+  "previous_timestamp": "2023-10-02T22:40:42Z",
+  "next_timestamp": "2023-10-02T22:50:41Z",
+  "data": {
+    "id": "5176634f6d30e29b08199d1e0ed6309d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-03T00:16:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-02T22:45:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-02T22:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:01Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:01Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.87,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-02T22:45:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.89,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-02T22:45:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:32Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.18
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.73
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:32Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-02T22:45:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.16
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.74
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-02T22:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:44:51Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:44:51Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:44:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-02T22:45:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.25
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-10-02T22:44:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:44:05Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.22
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:44:05Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:44:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-02T22:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:00Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:00Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-02T22:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:09Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:09Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-02T22:45:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-02T22:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:44:24Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.15
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.74
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:44:24Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:44:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-02T22:45:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:21Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:21Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.83,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-02T22:45:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:30Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.25
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:30Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-02T22:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:02Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.15
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:02Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-02T22:45:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 2.2
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.68
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-02T22:45:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

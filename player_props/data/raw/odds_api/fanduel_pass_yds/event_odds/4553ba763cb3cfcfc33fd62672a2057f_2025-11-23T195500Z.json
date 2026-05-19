@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-23T19:50:37Z",
+  "previous_timestamp": "2025-11-23T19:45:37Z",
+  "next_timestamp": "2025-11-23T19:55:38Z",
+  "data": {
+    "id": "4553ba763cb3cfcfc33fd62672a2057f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T21:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T19:50:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-23T19:50:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 241.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 217.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2024-09-22T15:25:38Z",
+  "previous_timestamp": "2024-09-22T15:20:38Z",
+  "next_timestamp": "2024-09-22T15:30:38Z",
+  "data": {
+    "id": "2ee776f967540a404694111f27822004",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T15:24:49Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-22T15:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 162.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 162.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

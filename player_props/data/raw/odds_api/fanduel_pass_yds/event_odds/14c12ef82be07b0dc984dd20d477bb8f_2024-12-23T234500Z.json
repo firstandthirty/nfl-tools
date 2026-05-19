@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-23T23:40:38Z",
+  "previous_timestamp": "2024-12-23T23:35:38Z",
+  "next_timestamp": "2024-12-23T23:45:38Z",
+  "data": {
+    "id": "14c12ef82be07b0dc984dd20d477bb8f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-24T01:15:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-23T23:40:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-23T23:40:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Over",
+                "description": "Spencer Rattler",
+                "price": 1.91,
+                "point": 185.5
+              },
+              {
+                "name": "Under",
+                "description": "Spencer Rattler",
+                "price": 1.91,
+                "point": 185.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

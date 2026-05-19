@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-05T22:50:38Z",
+  "previous_timestamp": "2025-10-05T22:45:38Z",
+  "next_timestamp": "2025-10-05T22:55:37Z",
+  "data": {
+    "id": "ba826e757d625a676452b8d3d6971bb0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-06T00:21:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T22:50:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-05T22:50:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 225.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": 1.89,
+                "point": 226.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": 1.89,
+                "point": 226.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

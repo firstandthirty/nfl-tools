@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-12-21T19:30:37Z",
+  "previous_timestamp": "2025-12-21T19:25:37Z",
+  "next_timestamp": "2025-12-21T19:35:37Z",
+  "data": {
+    "id": "7d71a0d3cc2a04eb35f1a725104217b5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T21:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T19:30:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-21T19:30:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.7,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 2.52,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 1.75,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 2.06,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 2.26,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.62,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.93,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

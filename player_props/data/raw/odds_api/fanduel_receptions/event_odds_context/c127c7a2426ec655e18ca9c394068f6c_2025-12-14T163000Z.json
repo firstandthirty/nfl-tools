@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "c127c7a2426ec655e18ca9c394068f6c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-14T16:25:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.14
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-12-14T16:20:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.73
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.93,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.89,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-14T16:25:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.71
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.75
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.14
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-14T16:23:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.69
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.18
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-14T16:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.71
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -2.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-14T16:25:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.0,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-14T16:25:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -2.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-14T16:25:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.74
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.06
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.88,
+                "point": -2.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.89,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-12-14T16:24:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.71
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-14T16:25:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.71
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 49.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

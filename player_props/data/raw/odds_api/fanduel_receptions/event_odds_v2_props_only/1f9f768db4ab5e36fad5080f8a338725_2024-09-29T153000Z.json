@@ -1,0 +1,184 @@
+{
+  "timestamp": "2024-09-29T15:25:38Z",
+  "previous_timestamp": "2024-09-29T15:20:38Z",
+  "next_timestamp": "2024-09-29T15:30:38Z",
+  "data": {
+    "id": "1f9f768db4ab5e36fad5080f8a338725",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T15:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-29T15:23:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Johnny Mundt",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Johnny Mundt",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Watson",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Watson",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Ty Chandler",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ty Chandler",
+                "price": 1.53,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Emanuel Wilson",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Emanuel Wilson",
+                "price": 1.76,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

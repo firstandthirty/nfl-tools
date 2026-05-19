@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-23T20:00:38Z",
+  "previous_timestamp": "2023-12-23T19:55:38Z",
+  "next_timestamp": "2023-12-23T20:05:38Z",
+  "data": {
+    "id": "d86898556d2e1132370891f1fc23603f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-23T21:31:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-23T19:58:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-23T19:57:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jake Browning",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Browning",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 190.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Rudolph",
+                "price": 1.91,
+                "point": 190.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

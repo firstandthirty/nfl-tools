@@ -1,0 +1,406 @@
+{
+  "timestamp": "2024-10-13T19:50:38Z",
+  "previous_timestamp": "2024-10-13T19:45:39Z",
+  "next_timestamp": "2024-10-13T19:55:38Z",
+  "data": {
+    "id": "d4d2902446e120ea6f1afafdc0b3d55d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T19:50:29Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-13T19:49:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": -110,
+                "point": 282.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": -110,
+                "point": 282.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": -110,
+                "point": 245.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": -110,
+                "point": 245.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-10-13T19:49:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tim Patrick",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Tim Patrick",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Brooks",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Brooks",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": -110,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": -110,
+                "point": 47.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": -110,
+                "point": 87.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": -110,
+                "point": 87.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": -110,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": -110,
+                "point": 41.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-13T19:49:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": -138,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 106,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -108,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -120,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tim Patrick",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tim Patrick",
+                "price": -114,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 122,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": -160,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 126,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": -165,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 142,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -188,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": -152,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 116,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 104,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": -135,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 112,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": -146,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": -156,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 120,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-10-13T19:49:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": -110,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Ezekiel Elliott",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Ezekiel Elliott",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 57.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": -110,
+                "point": 57.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 58.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": -110,
+                "point": 58.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

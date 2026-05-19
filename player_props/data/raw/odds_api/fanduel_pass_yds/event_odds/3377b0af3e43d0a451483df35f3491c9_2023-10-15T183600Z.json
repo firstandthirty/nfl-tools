@@ -1,0 +1,40 @@
+{
+  "timestamp": "2023-10-15T18:35:40Z",
+  "previous_timestamp": "2023-10-15T18:30:40Z",
+  "next_timestamp": "2023-10-15T18:40:41Z",
+  "data": {
+    "id": "3377b0af3e43d0a451483df35f3491c9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:06:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-15T18:35:07Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-15T18:31:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 232.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

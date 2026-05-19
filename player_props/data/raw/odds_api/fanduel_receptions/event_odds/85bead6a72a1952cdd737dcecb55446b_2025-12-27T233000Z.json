@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-12-27T23:25:37Z",
+  "previous_timestamp": "2025-12-27T23:20:37Z",
+  "next_timestamp": "2025-12-27T23:30:37Z",
+  "data": {
+    "id": "85bead6a72a1952cdd737dcecb55446b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-28T01:01:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-27T23:25:23Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-27T23:25:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 2.04,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 2.26,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 1.62,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 2.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.47,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Luke Musgrave",
+                "price": 2.4,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Luke Musgrave",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Watson",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Watson",
+                "price": 1.89,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "c885c70be6b073f94096eb0db2a27c3c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 206.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 206.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": 1.91,
+                "point": 192.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": 1.91,
+                "point": 192.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

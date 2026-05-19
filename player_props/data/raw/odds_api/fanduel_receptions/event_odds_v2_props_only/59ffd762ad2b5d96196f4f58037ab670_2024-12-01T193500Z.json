@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-12-01T19:30:38Z",
+  "previous_timestamp": "2024-12-01T19:25:37Z",
+  "next_timestamp": "2024-12-01T19:35:37Z",
+  "data": {
+    "id": "59ffd762ad2b5d96196f4f58037ab670",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-01T21:05:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T19:30:12Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-01T19:30:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Legette",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Legette",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy Tremble",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy Tremble",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Moore",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Moore",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Sterling Shepard",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Sterling Shepard",
+                "price": 1.76,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-12-21T19:50:37Z",
+  "previous_timestamp": "2025-12-21T19:45:37Z",
+  "next_timestamp": "2025-12-21T19:55:37Z",
+  "data": {
+    "id": "47a54fb60f7b79179bc80e18a7c5de81",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T21:25:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T19:50:27Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-21T19:50:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ashton Jeanty",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Ashton Jeanty",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Higgins",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Higgins",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Bowers",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Bowers",
+                "price": 1.69,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jack Bech",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jack Bech",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.83,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.94,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-27T23:45:37Z",
+  "previous_timestamp": "2025-11-27T23:40:38Z",
+  "next_timestamp": "2025-11-27T23:50:37Z",
+  "data": {
+    "id": "883a79a306b312fad75ebf04b441b4da",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-28T01:20:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-27T23:45:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-27T23:45:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 257.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 257.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

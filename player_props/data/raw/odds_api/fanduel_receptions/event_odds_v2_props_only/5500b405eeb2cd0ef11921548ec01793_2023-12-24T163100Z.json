@@ -1,0 +1,88 @@
+{
+  "timestamp": "2023-12-24T16:30:38Z",
+  "previous_timestamp": "2023-12-24T16:25:39Z",
+  "next_timestamp": "2023-12-24T16:35:38Z",
+  "data": {
+    "id": "5500b405eeb2cd0ef11921548ec01793",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-24T16:30:20Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-24T16:29:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Brown",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Brown",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 2.52,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerome Ford",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerome Ford",
+                "price": 2.26,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

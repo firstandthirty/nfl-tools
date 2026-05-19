@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-08T15:25:38Z",
+  "previous_timestamp": "2024-09-08T15:20:38Z",
+  "next_timestamp": "2024-09-08T15:30:38Z",
+  "data": {
+    "id": "b5b9d07cdd5c7bd14e943ccd7973e6a2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-08T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-08T15:25:02Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-08T15:22:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 233.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 233.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

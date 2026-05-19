@@ -1,0 +1,172 @@
+{
+  "timestamp": "2025-10-09T22:40:39Z",
+  "previous_timestamp": "2025-10-09T22:35:39Z",
+  "next_timestamp": "2025-10-09T22:45:39Z",
+  "data": {
+    "id": "e10fe83ee6178a598e7fa84ea0913366",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-10T00:15:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-09T22:40:21Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-09T22:40:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Beaux Collins",
+                "price": 2.04,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Beaux Collins",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 2.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 1.45,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalin Hyatt",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalin Hyatt",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeVonta Smith",
+                "price": 1.86,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeVonta Smith",
+                "price": 1.91,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 2.44,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 1.55,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyrone Tracy Jr.",
+                "price": 2.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.48,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 2.3,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.6,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Theo Johnson",
+                "price": 1.86,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Theo Johnson",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Bellinger",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Bellinger",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Skattebo",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Skattebo",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "AJ Brown",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "AJ Brown",
+                "price": 2.06,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

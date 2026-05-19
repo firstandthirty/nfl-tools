@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-10-27T15:25:37Z",
+  "previous_timestamp": "2024-10-27T15:20:38Z",
+  "next_timestamp": "2024-10-27T15:30:38Z",
+  "data": {
+    "id": "e07e64de78a6095754d2a048255dadac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T15:24:42Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-27T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.87,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.82,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.94,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

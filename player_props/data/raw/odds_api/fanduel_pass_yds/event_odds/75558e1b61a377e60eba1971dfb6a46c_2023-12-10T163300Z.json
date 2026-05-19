@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-10T16:30:39Z",
+  "previous_timestamp": "2023-12-10T16:25:39Z",
+  "next_timestamp": "2023-12-10T16:35:39Z",
+  "data": {
+    "id": "75558e1b61a377e60eba1971dfb6a46c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:03:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-10T16:29:55Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-10T16:26:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Baker Mayfield",
+                "price": 1.91,
+                "point": 228.5
+              },
+              {
+                "name": "Over",
+                "description": "Desmond Ridder",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Desmond Ridder",
+                "price": 1.91,
+                "point": 197.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "timestamp": "2025-11-23T17:25:37Z",
+  "previous_timestamp": "2025-11-23T17:20:37Z",
+  "next_timestamp": "2025-11-23T17:30:37Z",
+  "data": {
+    "id": "1a8f3d70399a5cad83c95196795ed77b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T17:25:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-23T17:26:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Flacco",
+                "price": -112,
+                "point": 243.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Flacco",
+                "price": -112,
+                "point": 243.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -112,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -112,
+                "point": 256.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2025-11-23T17:26:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -102,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -124,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": -112,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": -112,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": -112,
+                "point": 30.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": -112,
+                "point": 30.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": -112,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": -112,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": -112,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": -112,
+                "point": 23.5
+              },
+              {
+                "name": "Over",
+                "description": "Mitchell Tinsley",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Mitchell Tinsley",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": -112,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -112,
+                "point": 23.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": -112,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -112,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": -112,
+                "point": 59.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": -112,
+                "point": 59.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": -112,
+                "point": 35.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": -112,
+                "point": 35.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": -112,
+                "point": 69.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": -112,
+                "point": 69.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -112,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": -112,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": -112,
+                "point": 30.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": -112,
+                "point": 30.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": -112,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": -112,
+                "point": 14.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-23T17:26:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 144,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": -182,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": 126,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": -160,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 130,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": -166,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": -142,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 112,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 104,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -132,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 140,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": -180,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 104,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": -158,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 124,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": -102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": -124,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": -142,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -156,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 122,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": 110,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": -140,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2025-11-23T17:26:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -112,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -112,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": -112,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": -112,
+                "point": 53.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Flacco",
+                "price": 100,
+                "point": 0.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Flacco",
+                "price": -128,
+                "point": 0.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": -112,
+                "point": 55.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": -112,
+                "point": 55.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -112,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -112,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

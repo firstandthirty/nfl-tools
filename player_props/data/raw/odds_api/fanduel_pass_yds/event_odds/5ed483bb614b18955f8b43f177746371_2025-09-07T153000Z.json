@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-07T15:25:38Z",
+  "previous_timestamp": "2025-09-07T15:20:38Z",
+  "next_timestamp": "2025-09-07T15:30:38Z",
+  "data": {
+    "id": "5ed483bb614b18955f8b43f177746371",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-07T17:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-07T15:25:09Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-07T15:25:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.88,
+                "point": 201.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.88,
+                "point": 201.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.88,
+                "point": 173.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.88,
+                "point": 173.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

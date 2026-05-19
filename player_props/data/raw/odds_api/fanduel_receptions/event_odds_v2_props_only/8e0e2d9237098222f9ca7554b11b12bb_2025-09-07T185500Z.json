@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-07T18:50:38Z",
+  "previous_timestamp": "2025-09-07T18:45:38Z",
+  "next_timestamp": "2025-09-07T18:55:38Z",
+  "data": {
+    "id": "8e0e2d9237098222f9ca7554b11b12bb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-07T20:25:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-07T18:50:31Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-07T18:50:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Matthew Golden",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Golden",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 2.46,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.69,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.77,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": 1.69,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.74,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

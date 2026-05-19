@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-27T15:25:37Z",
+  "previous_timestamp": "2024-10-27T15:20:38Z",
+  "next_timestamp": "2024-10-27T15:30:38Z",
+  "data": {
+    "id": "5fd9657af1356ec2a567b07d75a8e6a3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T15:24:42Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-27T15:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mason Rudolph",
+                "price": 1.87,
+                "point": 200.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Rudolph",
+                "price": 1.95,
+                "point": 200.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 237.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 237.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

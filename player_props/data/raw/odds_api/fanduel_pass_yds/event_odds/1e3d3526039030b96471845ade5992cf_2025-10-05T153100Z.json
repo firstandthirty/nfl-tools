@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-05T15:30:37Z",
+  "previous_timestamp": "2025-10-05T15:25:37Z",
+  "next_timestamp": "2025-10-05T15:35:38Z",
+  "data": {
+    "id": "1e3d3526039030b96471845ade5992cf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T17:01:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-05T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Geno Smith",
+                "price": 1.89,
+                "point": 226.5
+              },
+              {
+                "name": "Under",
+                "description": "Geno Smith",
+                "price": 1.89,
+                "point": 226.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 231.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

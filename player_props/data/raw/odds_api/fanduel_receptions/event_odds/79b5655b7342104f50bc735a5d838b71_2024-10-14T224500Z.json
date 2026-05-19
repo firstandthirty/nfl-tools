@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-10-14T22:40:38Z",
+  "previous_timestamp": "2024-10-14T22:35:38Z",
+  "next_timestamp": "2024-10-14T22:45:38Z",
+  "data": {
+    "id": "79b5655b7342104f50bc735a5d838b71",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-14T22:40:18Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-10-14T22:40:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Braelon Allen",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Braelon Allen",
+                "price": 1.76,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 2.36,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 1.56,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Williams",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Williams",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": 1.61,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

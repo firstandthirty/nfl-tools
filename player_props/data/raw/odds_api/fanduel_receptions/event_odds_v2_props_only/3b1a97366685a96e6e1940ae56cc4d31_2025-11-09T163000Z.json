@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-09T16:25:37Z",
+  "previous_timestamp": "2025-11-09T16:20:37Z",
+  "next_timestamp": "2025-11-09T16:30:37Z",
+  "data": {
+    "id": "3b1a97366685a96e6e1940ae56cc4d31",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T16:25:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-09T16:25:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.81,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Colston Loveland",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Colston Loveland",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 2.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Luther Burden III",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Luther Burden III",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Theo Johnson",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Theo Johnson",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Olamide Zaccheaus",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Olamide Zaccheaus",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.86,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.74,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

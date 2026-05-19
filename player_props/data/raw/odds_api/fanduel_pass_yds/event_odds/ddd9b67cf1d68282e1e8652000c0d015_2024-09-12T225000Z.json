@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-12T22:45:39Z",
+  "previous_timestamp": "2024-09-12T22:40:39Z",
+  "next_timestamp": "2024-09-12T22:50:39Z",
+  "data": {
+    "id": "ddd9b67cf1d68282e1e8652000c0d015",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-13T00:20:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-12T22:44:21Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-12T22:45:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 242.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 268.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 268.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

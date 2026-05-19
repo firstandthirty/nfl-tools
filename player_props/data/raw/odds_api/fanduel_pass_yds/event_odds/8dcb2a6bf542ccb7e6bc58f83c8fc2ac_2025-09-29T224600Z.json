@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-29T22:45:39Z",
+  "previous_timestamp": "2025-09-29T22:40:39Z",
+  "next_timestamp": "2025-09-29T22:50:39Z",
+  "data": {
+    "id": "8dcb2a6bf542ccb7e6bc58f83c8fc2ac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-30T00:16:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-29T22:45:18Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-29T22:44:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.89,
+                "point": 221.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.89,
+                "point": 221.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Browning",
+                "price": 1.89,
+                "point": 219.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Browning",
+                "price": 1.89,
+                "point": 219.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

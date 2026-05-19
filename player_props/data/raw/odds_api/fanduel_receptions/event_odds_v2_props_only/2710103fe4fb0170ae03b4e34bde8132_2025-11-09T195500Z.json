@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-09T19:50:37Z",
+  "previous_timestamp": "2025-11-09T19:45:37Z",
+  "next_timestamp": "2025-11-09T19:55:37Z",
+  "data": {
+    "id": "2710103fe4fb0170ae03b4e34bde8132",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T21:25:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T19:50:07Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-09T19:50:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyle Juszczyk",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Juszczyk",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.81,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Terrance Ferguson",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Terrance Ferguson",
+                "price": 1.55,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.79,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.98,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 1.82,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

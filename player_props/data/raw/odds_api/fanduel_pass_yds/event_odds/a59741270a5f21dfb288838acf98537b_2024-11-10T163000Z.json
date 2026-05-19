@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "a59741270a5f21dfb288838acf98537b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T16:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 204.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 241.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

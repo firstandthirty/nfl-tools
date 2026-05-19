@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-01-19T11:55:37Z",
+  "previous_timestamp": "2025-01-19T11:50:37Z",
+  "next_timestamp": "2025-01-19T12:00:38Z",
+  "data": [
+    {
+      "id": "0c95381e5634e6c64aa5ca079e669dea",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Los Angeles Rams"
+    },
+    {
+      "id": "e2845c7119bd64fe725e9f9495032d72",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T23:30:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "efbac15f56fe50a7f1ed3eb0b68e4338",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "1828ad92c570cf68cb77f7754e9c6a5a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "165f895da9df97bac81a9592d3c9181d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "d43eaaa8d1f21ca6d9822bca070a3d30",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills"
+    }
+  ]
+}

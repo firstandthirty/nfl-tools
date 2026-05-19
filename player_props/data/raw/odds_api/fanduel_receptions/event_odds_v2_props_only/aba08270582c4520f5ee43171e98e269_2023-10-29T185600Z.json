@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-10-29T18:55:40Z",
+  "previous_timestamp": "2023-10-29T18:50:39Z",
+  "next_timestamp": "2023-10-29T19:00:40Z",
+  "data": {
+    "id": "aba08270582c4520f5ee43171e98e269",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:26:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T18:54:40Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-29T18:51:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Mixon",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Mixon",
+                "price": 1.65,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.83,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.94,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Boyd",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Boyd",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Irv Smith Jr.",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Irv Smith Jr.",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 2.4,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

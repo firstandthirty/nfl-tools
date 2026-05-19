@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-22T19:55:37Z",
+  "previous_timestamp": "2024-12-22T19:50:38Z",
+  "next_timestamp": "2024-12-22T20:00:38Z",
+  "data": {
+    "id": "d93e285150cc30bb71e930879219d26e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T21:26:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T19:55:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-22T19:55:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Over",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 243.5
+              },
+              {
+                "name": "Under",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 243.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

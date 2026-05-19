@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-11-09T16:25:37Z",
+  "previous_timestamp": "2025-11-09T16:20:37Z",
+  "next_timestamp": "2025-11-09T16:30:37Z",
+  "data": {
+    "id": "844b89333f293f055f8e0c147fb9fec5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T16:25:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-09T16:25:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Isaiah Davis",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Davis",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 1.79,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Taylor",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Taylor",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Quinshon Judkins",
+                "price": 2.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Quinshon Judkins",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cedric Tillman",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cedric Tillman",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Harold Fannin Jr.",
+                "price": 2.34,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Harold Fannin Jr.",
+                "price": 1.58,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Johnson",
+                "price": 2.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Johnson",
+                "price": 1.51,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-01-06T23:45:38Z",
+  "previous_timestamp": "2024-01-06T23:40:38Z",
+  "next_timestamp": "2024-01-06T23:50:38Z",
+  "data": {
+    "id": "2e8d909625844e0aea3dad1beee6712f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T01:16:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-06T23:45:25Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-01-06T23:39:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.6,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.3,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.65,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kylen Granson",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kylen Granson",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.57,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

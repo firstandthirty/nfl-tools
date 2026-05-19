@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-11-19T19:55:40Z",
+  "previous_timestamp": "2023-11-19T19:50:40Z",
+  "next_timestamp": "2023-11-19T20:00:40Z",
+  "data": {
+    "id": "bc7543ec7bf3dddcc6d71b433ef360d0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T21:26:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T19:55:36Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-19T19:53:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 1.6,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": 2.3,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.87,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.9,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Darrell Henderson",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darrell Henderson",
+                "price": 1.65,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

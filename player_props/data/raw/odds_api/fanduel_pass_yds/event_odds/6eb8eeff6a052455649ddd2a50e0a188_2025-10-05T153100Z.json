@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-05T15:30:37Z",
+  "previous_timestamp": "2025-10-05T15:25:37Z",
+  "next_timestamp": "2025-10-05T15:35:38Z",
+  "data": {
+    "id": "6eb8eeff6a052455649ddd2a50e0a188",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T17:01:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-05T15:30:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cooper Rush",
+                "price": 1.89,
+                "point": 183.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Rush",
+                "price": 1.89,
+                "point": 183.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 214.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

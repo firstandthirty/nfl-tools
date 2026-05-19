@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-02T19:30:38Z",
+  "previous_timestamp": "2025-11-02T19:25:39Z",
+  "next_timestamp": "2025-11-02T19:35:38Z",
+  "data": {
+    "id": "b08df670a95f1809707b335dc75081c6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-02T21:05:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-02T19:30:17Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-02T19:30:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 255.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 255.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Shough",
+                "price": 1.89,
+                "point": 194.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Shough",
+                "price": 1.89,
+                "point": 194.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

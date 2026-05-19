@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-12-23T23:30:38Z",
+  "previous_timestamp": "2023-12-23T23:25:38Z",
+  "next_timestamp": "2023-12-23T23:35:38Z",
+  "data": {
+    "id": "cf855efaf0c22025c0ad8d8a605679a1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T01:01:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-23T23:30:35Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-23T23:28:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Guyton",
+                "price": 1.94,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Guyton",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Gabriel Davis",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gabriel Davis",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Ekeler",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Ekeler",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Gerald Everett",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Gerald Everett",
+                "price": 1.96,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Palmer",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Palmer",
+                "price": 1.63,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

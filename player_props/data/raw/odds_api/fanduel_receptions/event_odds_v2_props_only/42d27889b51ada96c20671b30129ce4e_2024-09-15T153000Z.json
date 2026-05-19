@@ -1,0 +1,184 @@
+{
+  "timestamp": "2024-09-15T15:25:37Z",
+  "previous_timestamp": "2024-09-15T15:20:38Z",
+  "next_timestamp": "2024-09-15T15:30:38Z",
+  "data": {
+    "id": "42d27889b51ada96c20671b30129ce4e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-15T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T15:24:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-15T15:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ja'Lynn Polk",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Lynn Polk",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Antonio Gibson",
+                "price": 2.04,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Antonio Gibson",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "K.J. Osborn",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "K.J. Osborn",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 1.87,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Charbonnet",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Charbonnet",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyquan Thornton",
+                "price": 1.6,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyquan Thornton",
+                "price": 2.28,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 1.76,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Lockett",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Lockett",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": 2.12,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

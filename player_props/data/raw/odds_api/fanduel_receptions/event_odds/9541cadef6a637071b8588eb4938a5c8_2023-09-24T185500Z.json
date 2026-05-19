@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-09-24T18:50:40Z",
+  "previous_timestamp": "2023-09-24T18:45:40Z",
+  "next_timestamp": "2023-09-24T18:55:40Z",
+  "data": {
+    "id": "9541cadef6a637071b8588eb4938a5c8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T20:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T18:49:49Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-24T18:46:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rondale Moore",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rondale Moore",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.22,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "James Conner",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Conner",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Gallup",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Gallup",
+                "price": 1.72,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

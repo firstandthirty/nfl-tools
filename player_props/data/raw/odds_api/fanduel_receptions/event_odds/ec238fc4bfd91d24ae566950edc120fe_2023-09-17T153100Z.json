@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-09-17T15:30:40Z",
+  "previous_timestamp": "2023-09-17T15:25:40Z",
+  "next_timestamp": "2023-09-17T15:35:40Z",
+  "data": {
+    "id": "ec238fc4bfd91d24ae566950edc120fe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:01:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T15:29:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-17T15:28:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 2.54,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.5,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 2.06,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 1.74,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.68,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

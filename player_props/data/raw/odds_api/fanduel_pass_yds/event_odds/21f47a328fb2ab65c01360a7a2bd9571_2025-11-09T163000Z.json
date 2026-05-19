@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-09T16:25:37Z",
+  "previous_timestamp": "2025-11-09T16:20:37Z",
+  "next_timestamp": "2025-11-09T16:30:37Z",
+  "data": {
+    "id": "21f47a328fb2ab65c01360a7a2bd9571",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-09T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-09T16:25:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-09T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Shough",
+                "price": 1.89,
+                "point": 179.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Shough",
+                "price": 1.89,
+                "point": 179.5
+              },
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 182.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 182.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

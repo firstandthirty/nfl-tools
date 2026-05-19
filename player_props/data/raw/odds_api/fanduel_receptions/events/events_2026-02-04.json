@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-04T11:55:37Z",
+  "previous_timestamp": "2026-02-04T11:50:37Z",
+  "next_timestamp": "2026-02-04T12:00:37Z",
+  "data": [
+    {
+      "id": "b64e3587d7a4cf01a568e7150a2a1aec",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-02-08T23:30:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "Seattle Seahawks"
+    }
+  ]
+}

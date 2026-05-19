@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-27T16:25:38Z",
+  "previous_timestamp": "2025-11-27T16:20:37Z",
+  "next_timestamp": "2025-11-27T16:30:37Z",
+  "data": {
+    "id": "fe2eb07797580740af78037ab498198e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-27T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-27T16:25:11Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-27T16:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.98,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.81,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Watson",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Watson",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Luke Musgrave",
+                "price": 1.79,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Luke Musgrave",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.74,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Firkser",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Firkser",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaac TeSlaa",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaac TeSlaa",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Dontayvion Wicks",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dontayvion Wicks",
+                "price": 1.86,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

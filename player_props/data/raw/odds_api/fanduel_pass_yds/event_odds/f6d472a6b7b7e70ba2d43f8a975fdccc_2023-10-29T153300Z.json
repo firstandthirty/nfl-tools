@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-29T15:30:40Z",
+  "previous_timestamp": "2023-10-29T15:25:40Z",
+  "next_timestamp": "2023-10-29T15:35:40Z",
+  "data": {
+    "id": "f6d472a6b7b7e70ba2d43f8a975fdccc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:03:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T15:30:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-29T15:26:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Gardner Minshew",
+                "price": 1.91,
+                "point": 222.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 236.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 236.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

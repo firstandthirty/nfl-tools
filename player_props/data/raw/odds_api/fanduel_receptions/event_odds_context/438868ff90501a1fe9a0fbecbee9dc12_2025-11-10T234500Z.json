@@ -1,0 +1,556 @@
+{
+  "timestamp": "2025-11-10T23:40:37Z",
+  "previous_timestamp": "2025-11-10T23:35:37Z",
+  "next_timestamp": "2025-11-10T23:45:37Z",
+  "data": {
+    "id": "438868ff90501a1fe9a0fbecbee9dc12",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-11T01:15:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-11-10T23:39:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:39:50Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:39:50Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 2.02,
+                "point": -1.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.82,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:39:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-11-10T23:39:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.87,
+                "point": 1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-11-10T23:38:53Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:38:53Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": 0.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": 0.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:38:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-11-10T23:39:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": 0.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -0.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-11-10T23:39:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.87,
+                "point": 1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-10T23:40:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:40:14Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.94
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:40:14Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.82,
+                "point": 1.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 2.0,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:40:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-11-10T23:39:40Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:39:40Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": 0.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.95,
+                "point": 0.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:39:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-11-10T23:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:40:16Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": 0.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": 0.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-11-10T23:40:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.94
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.83
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.88,
+                "point": 1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.88,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:40:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-11-10T23:40:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:40:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:40:02Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.87,
+                "point": 1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:40:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-11-10T23:40:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-10T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-10T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": 0.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -0.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-10T23:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

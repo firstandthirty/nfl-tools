@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-12-01T23:45:37Z",
+  "previous_timestamp": "2024-12-01T23:40:37Z",
+  "next_timestamp": "2024-12-01T23:50:37Z",
+  "data": {
+    "id": "31557235498f42eeba725001c12c97ff",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-02T01:20:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T23:44:58Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-01T23:45:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ricky Pearsall",
+                "price": 1.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Ricky Pearsall",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian McCaffrey",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian McCaffrey",
+                "price": 1.76,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Curtis Samuel",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Curtis Samuel",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Kittle",
+                "price": 1.54,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Kittle",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": 1.83,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

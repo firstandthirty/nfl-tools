@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-15T12:00:40Z",
+  "previous_timestamp": "2023-10-15T11:55:40Z",
+  "next_timestamp": "2023-10-15T12:05:41Z",
+  "data": {
+    "id": "0cd8d5597260f1a2c9692f4c54ffb91f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T13:33:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-15T12:00:25Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-15T11:57:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 227.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

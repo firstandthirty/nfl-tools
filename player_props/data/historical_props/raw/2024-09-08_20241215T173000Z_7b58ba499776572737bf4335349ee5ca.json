@@ -1,0 +1,370 @@
+{
+  "timestamp": "2024-12-15T17:25:37Z",
+  "previous_timestamp": "2024-12-15T17:20:38Z",
+  "next_timestamp": "2024-12-15T17:30:37Z",
+  "data": {
+    "id": "7b58ba499776572737bf4335349ee5ca",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T17:24:59Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T17:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": -110,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": -110,
+                "point": 232.5
+              },
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": -110,
+                "point": 200.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": -110,
+                "point": 200.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-15T17:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "Jeremy Ruckert",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Jeremy Ruckert",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Over",
+                "description": "Braelon Allen",
+                "price": -115,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Braelon Allen",
+                "price": -105,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": -108,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": -112,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": -110,
+                "point": 65.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": -110,
+                "point": 59.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": -110,
+                "point": 29.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-15T17:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 136,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": -178,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": -132,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": 136,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": -178,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": -115,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": -113,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": -132,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 102,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jeremy Ruckert",
+                "price": -114,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jeremy Ruckert",
+                "price": -114,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": -160,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 122,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -156,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 120,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Braelon Allen",
+                "price": 150,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Braelon Allen",
+                "price": -198,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -102,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": -128,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-15T17:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Braelon Allen",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Braelon Allen",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Bigsby",
+                "price": -110,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Bigsby",
+                "price": -110,
+                "point": 53.5
+              },
+              {
+                "name": "Over",
+                "description": "Mac Jones",
+                "price": -115,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Mac Jones",
+                "price": -105,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 28.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": -110,
+                "point": 28.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

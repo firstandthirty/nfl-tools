@@ -1,0 +1,394 @@
+{
+  "timestamp": "2024-11-24T17:25:38Z",
+  "previous_timestamp": "2024-11-24T17:20:38Z",
+  "next_timestamp": "2024-11-24T17:30:38Z",
+  "data": {
+    "id": "366a8618003ac848eac5144aebbeace4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-24T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-24T17:23:30Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-24T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": -110,
+                "point": 245.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": -110,
+                "point": 245.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 215.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-11-24T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 15.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 15.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": -110,
+                "point": 35.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": -110,
+                "point": 35.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": -110,
+                "point": 64.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": -110,
+                "point": 64.5
+              },
+              {
+                "name": "Over",
+                "description": "Odell Beckham Jr.",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Odell Beckham Jr.",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 33.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": -110,
+                "point": 35.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": -110,
+                "point": 35.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": -110,
+                "point": 23.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-24T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 118,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": -154,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": -156,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": 120,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -102,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -128,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyreek Hill",
+                "price": 108,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyreek Hill",
+                "price": -140,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": -114,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": -114,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 136,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": -178,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Odell Beckham Jr.",
+                "price": 114,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Odell Beckham Jr.",
+                "price": -148,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": -160,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 122,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": -128,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": -102,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-11-24T17:25:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake Maye",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 100,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": -122,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": -110,
+                "point": 54.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Wright",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Wright",
+                "price": -110,
+                "point": 18.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

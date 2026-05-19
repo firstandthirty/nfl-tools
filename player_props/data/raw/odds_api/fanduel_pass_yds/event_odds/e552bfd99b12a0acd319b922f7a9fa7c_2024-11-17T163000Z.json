@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-17T16:25:38Z",
+  "previous_timestamp": "2024-11-17T16:20:38Z",
+  "next_timestamp": "2024-11-17T16:30:38Z",
+  "data": {
+    "id": "e552bfd99b12a0acd319b922f7a9fa7c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T16:24:49Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-17T16:24:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 176.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 176.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 235.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 235.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

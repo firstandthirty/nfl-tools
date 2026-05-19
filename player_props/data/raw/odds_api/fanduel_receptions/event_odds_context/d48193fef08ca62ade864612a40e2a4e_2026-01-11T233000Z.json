@@ -1,0 +1,582 @@
+{
+  "timestamp": "2026-01-11T23:25:38Z",
+  "previous_timestamp": "2026-01-11T23:20:37Z",
+  "next_timestamp": "2026-01-11T23:30:37Z",
+  "data": {
+    "id": "d48193fef08ca62ade864612a40e2a4e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-12T01:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-01-11T23:25:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.7
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-11T23:25:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.66
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.51
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-01-11T23:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.55
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.49
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:33Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.89,
+                "point": -3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-01-11T23:25:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.61
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-01-11T23:25:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.65
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-01-11T23:25:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.65
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2026-01-11T23:24:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:24:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.62
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.51
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:24:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:24:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-01-11T23:25:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:08Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.65
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:08Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:08Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-01-11T23:25:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:12Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.63
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:12Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2026-01-11T23:25:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.6
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-01-11T23:25:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.65
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.51
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-11T23:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

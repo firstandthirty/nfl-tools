@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-27T23:45:39Z",
+  "previous_timestamp": "2023-11-27T23:40:40Z",
+  "next_timestamp": "2023-11-27T23:50:39Z",
+  "data": {
+    "id": "c1b7e562062eb3bac053a2f5ecf399f9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-28T01:18:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-27T23:44:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-27T23:42:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": 1.91,
+                "point": 197.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

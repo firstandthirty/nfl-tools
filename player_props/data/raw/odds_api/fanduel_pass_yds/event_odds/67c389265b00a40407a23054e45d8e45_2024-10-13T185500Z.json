@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-13T18:50:38Z",
+  "previous_timestamp": "2024-10-13T18:45:38Z",
+  "next_timestamp": "2024-10-13T18:55:38Z",
+  "data": {
+    "id": "67c389265b00a40407a23054e45d8e45",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T20:25:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T18:49:55Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-13T18:49:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Andy Dalton",
+                "price": 1.91,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Andy Dalton",
+                "price": 1.91,
+                "point": 220.5
+              },
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 252.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

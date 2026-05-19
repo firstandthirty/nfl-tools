@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-01-04T19:50:37Z",
+  "previous_timestamp": "2026-01-04T19:45:37Z",
+  "next_timestamp": "2026-01-04T19:55:37Z",
+  "data": {
+    "id": "1a5451b8f0d74f90937c52bec447dc40",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T21:25:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T19:50:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-04T19:50:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Isaac TeSlaa",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaac TeSlaa",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Colston Loveland",
+                "price": 1.75,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Colston Loveland",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 1.63,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": 2.24,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 2.12,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.7,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Luther Burden III",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Luther Burden III",
+                "price": 1.75,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 2.3,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 1.6,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.76,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.04,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

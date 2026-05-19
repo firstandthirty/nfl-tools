@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-12-21T23:45:37Z",
+  "previous_timestamp": "2025-12-21T23:40:37Z",
+  "next_timestamp": "2025-12-21T23:50:37Z",
+  "data": {
+    "id": "a0476b027679a1670f21e8b75a860ab9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-22T01:20:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T23:45:30Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-21T23:44:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.86,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "TreVeyon Henderson",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "TreVeyon Henderson",
+                "price": 1.55,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashod Bateman",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashod Bateman",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 2.34,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.58,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mack Hollins",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mack Hollins",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Derrick Henry",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Derrick Henry",
+                "price": 1.55,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 1.85,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.54,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 2.34,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.58,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.74,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

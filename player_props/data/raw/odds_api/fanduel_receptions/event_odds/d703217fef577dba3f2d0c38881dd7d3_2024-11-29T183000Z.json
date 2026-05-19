@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-11-29T18:25:40Z",
+  "previous_timestamp": "2024-11-29T18:20:39Z",
+  "next_timestamp": "2024-11-29T18:30:39Z",
+  "data": {
+    "id": "d703217fef577dba3f2d0c38881dd7d3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-29T20:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-29T18:24:02Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-29T18:24:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 1.83,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.3,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.59,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 2.44,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 1.53,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Bowers",
+                "price": 1.94,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Bowers",
+                "price": 1.82,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 2.2,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "timestamp": "2024-12-22T19:50:38Z",
+  "previous_timestamp": "2024-12-22T19:45:37Z",
+  "next_timestamp": "2024-12-22T19:55:37Z",
+  "data": {
+    "id": "987be0b1af962f068e2928a9067998c9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T21:25:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T19:50:03Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-22T19:50:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kayshon Boutte",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kayshon Boutte",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Hooper",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Hooper",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeMario Douglas",
+                "price": 2.48,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeMario Douglas",
+                "price": 1.51,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.82,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

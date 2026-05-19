@@ -1,0 +1,190 @@
+{
+  "timestamp": "2025-01-05T20:50:37Z",
+  "previous_timestamp": "2025-01-05T20:45:37Z",
+  "next_timestamp": "2025-01-05T20:55:37Z",
+  "data": {
+    "id": "d0a37e977bf675c070587b2e13a37e17",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-05T21:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-05T20:50:15Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-05T20:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": -110,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": -110,
+                "point": 222.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2025-01-05T20:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Devaughn Vele",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Devaughn Vele",
+                "price": -110,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": -110,
+                "point": 34.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2025-01-05T20:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Devaughn Vele",
+                "price": 128,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devaughn Vele",
+                "price": -168,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": -118,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": -110,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": 142,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": -188,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": -120,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": -108,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2025-01-05T20:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jaleel McLaughlin",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaleel McLaughlin",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Audric Estime",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Audric Estime",
+                "price": -110,
+                "point": 31.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

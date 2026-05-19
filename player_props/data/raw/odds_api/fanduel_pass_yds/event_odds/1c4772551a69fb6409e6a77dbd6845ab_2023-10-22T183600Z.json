@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-22T18:35:41Z",
+  "previous_timestamp": "2023-10-22T18:30:41Z",
+  "next_timestamp": "2023-10-22T18:40:40Z",
+  "data": {
+    "id": "1c4772551a69fb6409e6a77dbd6845ab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:06:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T18:35:19Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-22T18:31:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 260.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 260.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenny Pickett",
+                "price": 1.91,
+                "point": 211.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

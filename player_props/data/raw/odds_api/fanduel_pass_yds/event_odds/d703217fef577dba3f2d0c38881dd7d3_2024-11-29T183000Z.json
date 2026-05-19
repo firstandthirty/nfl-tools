@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-29T18:25:40Z",
+  "previous_timestamp": "2024-11-29T18:20:39Z",
+  "next_timestamp": "2024-11-29T18:30:39Z",
+  "data": {
+    "id": "d703217fef577dba3f2d0c38881dd7d3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-29T20:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-29T18:24:02Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-29T18:26:10Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Under",
+                "description": "Aidan O'Connell",
+                "price": 1.91,
+                "point": 207.5
+              },
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 255.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 255.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

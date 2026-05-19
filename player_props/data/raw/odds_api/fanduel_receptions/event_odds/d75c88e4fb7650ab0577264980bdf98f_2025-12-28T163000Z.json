@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-12-28T16:25:37Z",
+  "previous_timestamp": "2025-12-28T16:20:37Z",
+  "next_timestamp": "2025-12-28T16:30:38Z",
+  "data": {
+    "id": "d75c88e4fb7650ab0577264980bdf98f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-28T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-28T16:25:21Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-28T16:25:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Elic Ayomanor",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Elic Ayomanor",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 1.65,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Gunnar Helm",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gunnar Helm",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chimere Dike",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chimere Dike",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyjae Spears",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyjae Spears",
+                "price": 2.02,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

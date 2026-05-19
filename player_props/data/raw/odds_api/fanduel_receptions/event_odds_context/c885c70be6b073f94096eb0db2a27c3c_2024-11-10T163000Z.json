@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "c885c70be6b073f94096eb0db2a27c3c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-11-10T16:24:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:24:46Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.34
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.35
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:24:46Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:24:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-11-10T16:17:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:17:36Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.34
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.35
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:17:36Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:17:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-11-10T16:25:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.35
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -6.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-11-10T16:25:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.35
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.89,
+                "point": -6.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.01,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-11-10T16:25:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.32
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.37
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-11-10T16:25:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.35
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.89,
+                "point": -6.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.92,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:25:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-11-10T16:24:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:24:30Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.36
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.35
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:24:30Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -6.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:24:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:24:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-11-10T16:25:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.34
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-10T16:25:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

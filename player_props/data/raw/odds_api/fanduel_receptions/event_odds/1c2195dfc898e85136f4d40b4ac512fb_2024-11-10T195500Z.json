@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-11-10T19:50:37Z",
+  "previous_timestamp": "2024-11-10T19:45:37Z",
+  "next_timestamp": "2024-11-10T19:55:37Z",
+  "data": {
+    "id": "1c2195dfc898e85136f4d40b4ac512fb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T21:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T19:50:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-10T19:50:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Harrison Jr.",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 1.61,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 2.25,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 1.76,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "James Conner",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Conner",
+                "price": 1.61,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

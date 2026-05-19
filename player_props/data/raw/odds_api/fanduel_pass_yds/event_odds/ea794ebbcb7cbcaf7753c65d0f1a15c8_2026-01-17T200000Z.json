@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-17T19:55:38Z",
+  "previous_timestamp": "2026-01-17T19:50:43Z",
+  "next_timestamp": "2026-01-17T20:00:51Z",
+  "data": {
+    "id": "ea794ebbcb7cbcaf7753c65d0f1a15c8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-17T21:30:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-17T19:55:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-17T19:55:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.89,
+                "point": 210.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.89,
+                "point": 210.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 211.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

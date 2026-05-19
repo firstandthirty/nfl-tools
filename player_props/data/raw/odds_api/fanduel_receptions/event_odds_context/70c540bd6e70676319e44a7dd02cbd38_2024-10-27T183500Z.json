@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-10-27T18:30:38Z",
+  "previous_timestamp": "2024-10-27T18:25:38Z",
+  "next_timestamp": "2024-10-27T18:35:38Z",
+  "data": {
+    "id": "70c540bd6e70676319e44a7dd02cbd38",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T20:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-10-27T18:30:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.31
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.85,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.98,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-10-27T18:19:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:19:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.29
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:19:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:19:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-10-27T18:30:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T18:30:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.3
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-10-27T18:30:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-10-27T18:30:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.29
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:21Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-10-27T18:30:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.88,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-10-27T18:29:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:29:53Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:29:53Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 2.0,
+                "point": -7.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:29:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-10-27T18:30:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.95,
+                "point": -7.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-10-27T18:30:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.28
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.8,
+                "point": -7.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.05,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-27T18:30:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

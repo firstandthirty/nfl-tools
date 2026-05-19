@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-11T20:00:38Z",
+  "previous_timestamp": "2025-01-11T19:55:38Z",
+  "next_timestamp": "2025-01-11T20:05:38Z",
+  "data": {
+    "id": "03dd880f071a65053e37000d3d826e14",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-11T21:31:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-11T20:00:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-11T20:00:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Herbert",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Herbert",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 231.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

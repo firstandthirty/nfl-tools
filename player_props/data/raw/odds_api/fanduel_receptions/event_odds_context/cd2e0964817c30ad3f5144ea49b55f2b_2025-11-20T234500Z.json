@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-11-20T23:40:38Z",
+  "previous_timestamp": "2025-11-20T23:35:38Z",
+  "next_timestamp": "2025-11-20T23:45:38Z",
+  "data": {
+    "id": "cd2e0964817c30ad3f5144ea49b55f2b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-21T01:15:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-11-20T23:39:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.38
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-11-20T23:39:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:39:51Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.35
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:39:51Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -5.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.93,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:39:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-20T23:40:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.41
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:34Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -5.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-11-20T23:38:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:38:49Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.35
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:38:49Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:38:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-11-20T23:40:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.38
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-11-20T23:40:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.38
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.19
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.88,
+                "point": -4.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 2.02,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-11-20T23:40:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.38
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.23
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-11-20T23:40:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:22Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.35
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:22Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.89,
+                "point": -5.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.88,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-11-20T23:40:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.36
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 2.0,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-11-20T23:40:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.37
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-11-20T23:40:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-11-20T23:40:24Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.36
+              },
+              {
+                "name": "Houston Texans",
+                "price": 3.25
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-11-20T23:40:24Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.87,
+                "point": -5.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 1.95,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-11-20T23:40:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "timestamp": "2025-12-21T19:30:37Z",
+  "previous_timestamp": "2025-12-21T19:25:37Z",
+  "next_timestamp": "2025-12-21T19:35:37Z",
+  "data": {
+    "id": "93c002f0a42d1b57f3bbabdcfe24ab97",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-21T21:05:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-21T19:30:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:05Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.57
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:05Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 2.0,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-12-21T19:29:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:29:25Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.53
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:29:25Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:29:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-21T19:30:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:27Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.56
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.52
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:27Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.98,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:30:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-21T19:28:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:28:52Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.53
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:28:52Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:28:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-21T19:30:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:19Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.55
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:19Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.99,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.92,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:30:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-21T19:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.55
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.59
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.93,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:30:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-21T19:29:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:29:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.56
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:29:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:29:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-21T19:30:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.51
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:06Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.94,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-12-21T19:30:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:30:07Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.56
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:30:07Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:30:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-21T19:29:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:29:53Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.54
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.54
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:29:53Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:29:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-21T19:29:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-21T19:29:52Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.54
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-21T19:29:52Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-21T19:29:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "timestamp": "2024-09-08T16:25:38Z",
+  "previous_timestamp": "2024-09-08T16:20:38Z",
+  "next_timestamp": "2024-09-08T16:30:38Z",
+  "data": {
+    "id": "92665529cce6b8089e793d1e7d5e4b66",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-08T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-08T16:25:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-08T16:24:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": -110,
+                "point": 191.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": -110,
+                "point": 191.5
+              },
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": -110,
+                "point": 243.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": -110,
+                "point": 243.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-09-08T16:24:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": -110,
+                "point": 16.5
+              },
+              {
+                "name": "Over",
+                "description": "Najee Harris",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Najee Harris",
+                "price": -110,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": -110,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": -110,
+                "point": 52.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": -110,
+                "point": 17.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": -110,
+                "point": 63.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": -110,
+                "point": 63.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-08T16:24:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": -192,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 146,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": -184,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 140,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 142,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": -188,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 136,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": -178,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": -115,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": -113,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": -113,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": -130,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": -146,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 112,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-09-08T16:24:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": -105,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": -115,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Najee Harris",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Najee Harris",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Allgeier",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Allgeier",
+                "price": -110,
+                "point": 27.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": -110,
+                "point": 62.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": -110,
+                "point": 62.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Fields",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Fields",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

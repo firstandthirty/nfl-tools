@@ -1,0 +1,184 @@
+{
+  "timestamp": "2024-01-21T22:00:38Z",
+  "previous_timestamp": "2024-01-21T21:55:38Z",
+  "next_timestamp": "2024-01-21T22:05:38Z",
+  "data": {
+    "id": "d06d2bfbdddbf4348e34ca0a396fdcfc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-21T23:35:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-21T22:00:12Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-01-21T21:59:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.8,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 2.06,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 2.06,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 2.72,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.44,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Trent Sherfield",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Trent Sherfield",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 2.1,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 2.0,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Watson",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Watson",
+                "price": 1.88,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Mecole Hardman",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mecole Hardman",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 2.62,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": 1.48,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

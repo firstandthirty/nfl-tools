@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-29T15:25:38Z",
+  "previous_timestamp": "2024-09-29T15:20:38Z",
+  "next_timestamp": "2024-09-29T15:30:38Z",
+  "data": {
+    "id": "e603ee3c4035a8558b9bcb6aded87ff4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-29T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-29T15:24:53Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-29T15:25:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.91,
+                "point": 220.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

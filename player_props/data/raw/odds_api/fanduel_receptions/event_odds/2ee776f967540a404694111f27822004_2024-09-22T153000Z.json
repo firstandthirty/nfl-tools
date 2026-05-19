@@ -1,0 +1,76 @@
+{
+  "timestamp": "2024-09-22T15:25:38Z",
+  "previous_timestamp": "2024-09-22T15:20:38Z",
+  "next_timestamp": "2024-09-22T15:30:38Z",
+  "data": {
+    "id": "2ee776f967540a404694111f27822004",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T15:24:49Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-22T15:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Van Jefferson",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Van Jefferson",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.71,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

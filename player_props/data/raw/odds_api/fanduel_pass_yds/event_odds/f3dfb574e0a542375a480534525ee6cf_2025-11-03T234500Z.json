@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-03T23:40:37Z",
+  "previous_timestamp": "2025-11-03T23:35:37Z",
+  "next_timestamp": "2025-11-03T23:45:38Z",
+  "data": {
+    "id": "f3dfb574e0a542375a480534525ee6cf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-04T01:15:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-03T23:40:28Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-03T23:40:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 238.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacoby Brissett",
+                "price": 1.89,
+                "point": 238.5
+              },
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 267.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 267.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

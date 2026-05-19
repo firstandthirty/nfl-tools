@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-22T16:30:39Z",
+  "previous_timestamp": "2024-12-22T16:25:37Z",
+  "next_timestamp": "2024-12-22T16:35:38Z",
+  "data": {
+    "id": "9c6ae1f00e07b696e2dd19a0efb7be8f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T18:01:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-22T16:29:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drew Lock",
+                "price": 1.91,
+                "point": 201.5
+              },
+              {
+                "name": "Under",
+                "description": "Drew Lock",
+                "price": 1.91,
+                "point": 201.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Penix Jr.",
+                "price": 1.91,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Penix Jr.",
+                "price": 1.91,
+                "point": 220.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

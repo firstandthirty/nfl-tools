@@ -1,0 +1,62 @@
+{
+  "id": "5ad8135dc2b5f27de0b777acd317855a",
+  "sport_key": "americanfootball_nfl",
+  "sport_title": "NFL",
+  "commence_time": "2026-09-15T00:15:00Z",
+  "home_team": "Kansas City Chiefs",
+  "away_team": "Denver Broncos",
+  "bookmakers": [
+    {
+      "key": "fanduel",
+      "title": "FanDuel",
+      "markets": [
+        {
+          "key": "h2h",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Denver Broncos",
+              "price": 120
+            },
+            {
+              "name": "Kansas City Chiefs",
+              "price": -142
+            }
+          ]
+        },
+        {
+          "key": "spreads",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Denver Broncos",
+              "price": -110,
+              "point": 2.5
+            },
+            {
+              "name": "Kansas City Chiefs",
+              "price": -110,
+              "point": -2.5
+            }
+          ]
+        },
+        {
+          "key": "totals",
+          "last_update": "2026-05-13T07:07:17Z",
+          "outcomes": [
+            {
+              "name": "Over",
+              "price": -104,
+              "point": 43.5
+            },
+            {
+              "name": "Under",
+              "price": -118,
+              "point": 43.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

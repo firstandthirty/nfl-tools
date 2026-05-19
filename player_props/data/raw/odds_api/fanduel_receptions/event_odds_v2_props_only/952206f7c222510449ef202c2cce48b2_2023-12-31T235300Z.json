@@ -1,0 +1,100 @@
+{
+  "timestamp": "2023-12-31T23:50:38Z",
+  "previous_timestamp": "2023-12-31T23:45:38Z",
+  "next_timestamp": "2023-12-31T23:55:38Z",
+  "data": {
+    "id": "952206f7c222510449ef202c2cce48b2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-01T01:23:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-31T23:49:59Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-31T23:50:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Romeo Doubs",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Romeo Doubs",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tucker Kraft",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tucker Kraft",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Reed",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Reed",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 2.14,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Ty Chandler",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ty Chandler",
+                "price": 1.63,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T19:30:37Z",
+  "previous_timestamp": "2024-11-10T19:25:37Z",
+  "next_timestamp": "2024-11-10T19:35:37Z",
+  "data": {
+    "id": "6214d50d3a5b442078f670ff8e08945e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T21:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T19:29:18Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T19:30:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Herbert",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Herbert",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 186.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 186.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

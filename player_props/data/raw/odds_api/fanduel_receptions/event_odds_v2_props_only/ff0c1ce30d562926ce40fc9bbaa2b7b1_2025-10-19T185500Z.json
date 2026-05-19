@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-19T18:50:38Z",
+  "previous_timestamp": "2025-10-19T18:45:38Z",
+  "next_timestamp": "2025-10-19T18:55:39Z",
+  "data": {
+    "id": "ff0c1ce30d562926ce40fc9bbaa2b7b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:50:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-19T18:49:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Tolbert",
+                "price": 1.52,
+                "point": 0.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Tolbert",
+                "price": 2.5,
+                "point": 0.5
+              },
+              {
+                "name": "Over",
+                "description": "Jacory Croskey-Merritt",
+                "price": 1.54,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jacory Croskey-Merritt",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Luke McCaffrey",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Luke McCaffrey",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 2.02,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "KaVontae Turpin",
+                "price": 2.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "KaVontae Turpin",
+                "price": 1.48,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Moore",
+                "price": 1.52,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Moore",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylin Lane",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylin Lane",
+                "price": 1.65,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

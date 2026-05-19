@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-05T19:50:38Z",
+  "previous_timestamp": "2025-01-05T19:45:37Z",
+  "next_timestamp": "2025-01-05T19:55:37Z",
+  "data": {
+    "id": "704a4d59f3dd729fbf089bbe0b6ae27d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-05T21:25:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-05T19:49:54Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-05T19:50:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 182.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Huntley",
+                "price": 1.91,
+                "point": 182.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 227.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Rodgers",
+                "price": 1.91,
+                "point": 227.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

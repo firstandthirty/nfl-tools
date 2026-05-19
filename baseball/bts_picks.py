@@ -16,7 +16,6 @@ EMAIL_TO = os.environ["EMAIL_TO"]
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 
-# Example placeholders — replace with the actual keys you use
 SPORT = "baseball_mlb"
 REGIONS = "us"
 BOOKMAKERS = "fanduel"

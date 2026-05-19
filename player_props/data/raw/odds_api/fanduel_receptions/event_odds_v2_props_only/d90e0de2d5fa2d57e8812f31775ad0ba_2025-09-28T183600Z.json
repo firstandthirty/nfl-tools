@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-28T18:35:38Z",
+  "previous_timestamp": "2025-09-28T18:30:38Z",
+  "next_timestamp": "2025-09-28T18:40:38Z",
+  "data": {
+    "id": "d90e0de2d5fa2d57e8812f31775ad0ba",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T20:06:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T18:35:29Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-28T18:35:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 1.94,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 2.28,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.7,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.79,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.98,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.69,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": 1.58,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-12-08T19:50:38Z",
+  "previous_timestamp": "2024-12-08T19:45:37Z",
+  "next_timestamp": "2024-12-08T19:55:37Z",
+  "data": {
+    "id": "5188cb03fd7577d7448874486c26dccb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-08T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T19:50:26Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-08T19:50:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.12,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.61,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.25,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": 1.78,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": 1.61,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

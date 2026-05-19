@@ -1,0 +1,100 @@
+{
+  "timestamp": "2023-12-31T16:30:38Z",
+  "previous_timestamp": "2023-12-31T16:25:38Z",
+  "next_timestamp": "2023-12-31T16:35:38Z",
+  "data": {
+    "id": "14ee1908972456dd89e80d242417c095",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:03:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-31T16:30:35Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-31T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.18,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.67,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Mingo",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Mingo",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Chark Jr.",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Chark Jr.",
+                "price": 1.68,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

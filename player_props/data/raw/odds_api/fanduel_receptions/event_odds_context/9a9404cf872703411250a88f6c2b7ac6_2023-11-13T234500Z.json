@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-11-13T23:40:40Z",
+  "previous_timestamp": "2023-11-13T23:35:40Z",
+  "next_timestamp": "2023-11-13T23:45:40Z",
+  "data": {
+    "id": "9a9404cf872703411250a88f6c2b7ac6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-14T01:15:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-13T23:39:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:49Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:49Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-11-13T23:40:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:40:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:40:09Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -8.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:40:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-11-13T23:39:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-11-13T23:39:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:18Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:18Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.98,
+                "point": -8.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.93,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.78,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 2.12,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-11-13T23:39:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:43Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.2
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:43Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.94,
+                "point": -8.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.88,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-11-13T23:39:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-11-13T23:39:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.25
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-11-13T23:40:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -8.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-11-13T23:39:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-11-13T23:39:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-11-13T23:40:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-11-13T23:39:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-11-13T23:39:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.31
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:39:37Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-11-13T23:40:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:40:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-11-13T23:38:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:38:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.27
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:38:57Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:38:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-11-13T23:40:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-13T23:40:23Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.26
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-13T23:40:23Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.95,
+                "point": -8.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 8.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-13T23:40:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

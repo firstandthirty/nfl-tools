@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T19:50:37Z",
+  "previous_timestamp": "2024-11-10T19:45:37Z",
+  "next_timestamp": "2024-11-10T19:55:37Z",
+  "data": {
+    "id": "776c336fae7523f356cb0cd4a32ba356",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T21:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T19:50:10Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T19:50:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Cooper Rush",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Rush",
+                "price": 1.91,
+                "point": 211.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 216.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 216.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

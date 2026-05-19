@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-11T23:45:39Z",
+  "previous_timestamp": "2023-12-11T23:40:38Z",
+  "next_timestamp": "2023-12-11T23:50:39Z",
+  "data": {
+    "id": "2c4ca7353e2db06d12d583f8a46d38a7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-12T01:16:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-11T23:44:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-11T23:42:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Levis",
+                "price": 1.91,
+                "point": 205.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 284.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 284.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

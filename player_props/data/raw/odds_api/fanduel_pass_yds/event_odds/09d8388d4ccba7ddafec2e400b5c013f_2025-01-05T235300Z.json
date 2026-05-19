@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-01-05T23:50:37Z",
+  "previous_timestamp": "2025-01-05T23:45:37Z",
+  "next_timestamp": "2025-01-05T23:55:37Z",
+  "data": {
+    "id": "09d8388d4ccba7ddafec2e400b5c013f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-01-06T01:23:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-01-05T23:50:23Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-01-05T23:50:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 293.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.91,
+                "point": 293.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 284.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 284.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

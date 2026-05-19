@@ -1,0 +1,322 @@
+{
+  "timestamp": "2024-12-01T20:30:37Z",
+  "previous_timestamp": "2024-12-01T20:25:37Z",
+  "next_timestamp": "2024-12-01T20:35:37Z",
+  "data": {
+    "id": "9dcbd3e2d022d7ed1ef1e0e7f8b08f2b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-01T21:05:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-01T20:30:31Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-01T20:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 261.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 261.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": -110,
+                "point": 223.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": -110,
+                "point": 223.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-01T20:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": -110,
+                "point": 71.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": -110,
+                "point": 71.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -110,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 31.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -110,
+                "point": 39.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": -110,
+                "point": 83.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": -110,
+                "point": 83.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 38.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-01T20:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -102,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -128,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquez Valdes-Scantling",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquez Valdes-Scantling",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": 116,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": -128,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": -102,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": 108,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -140,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 154,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -205,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Foster Moreau",
+                "price": -154,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Foster Moreau",
+                "price": 118,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 102,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": -132,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 116,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -152,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-01T20:30:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 67.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": -110,
+                "point": 67.5
+              },
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 82.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 82.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-12-15T16:25:37Z",
+  "previous_timestamp": "2024-12-15T16:20:37Z",
+  "next_timestamp": "2024-12-15T16:30:37Z",
+  "data": {
+    "id": "5e028b3e2019613c56d3431d4e04e46d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T16:25:14Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-15T16:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Legette",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Legette",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 2.36,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 1.56,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 2.12,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-31T23:50:38Z",
+  "previous_timestamp": "2023-12-31T23:45:38Z",
+  "next_timestamp": "2023-12-31T23:55:38Z",
+  "data": {
+    "id": "952206f7c222510449ef202c2cce48b2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-01T01:23:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-31T23:49:59Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-31T23:50:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Love",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaren Hall",
+                "price": 1.91,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaren Hall",
+                "price": 1.91,
+                "point": 217.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "80899c1a82df27832eff9206d9c2ab1b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-10T16:25:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.71,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 2.08,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.71,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 2.12,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

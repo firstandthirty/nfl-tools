@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-26T16:30:38Z",
+  "previous_timestamp": "2023-11-26T16:25:38Z",
+  "next_timestamp": "2023-11-26T16:35:38Z",
+  "data": {
+    "id": "4a12e8418289ef8d56250b020a9b5c15",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:03:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-26T16:29:52Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-26T16:31:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Desmond Ridder",
+                "price": 1.88,
+                "point": 196.5
+              },
+              {
+                "name": "Under",
+                "description": "Desmond Ridder",
+                "price": 1.88,
+                "point": 196.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": 1.88,
+                "point": 236.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": 1.88,
+                "point": 236.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

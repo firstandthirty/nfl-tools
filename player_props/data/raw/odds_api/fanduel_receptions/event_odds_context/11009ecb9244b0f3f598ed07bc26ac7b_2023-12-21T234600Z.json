@@ -1,0 +1,741 @@
+{
+  "timestamp": "2023-12-21T23:45:38Z",
+  "previous_timestamp": "2023-12-21T23:40:39Z",
+  "next_timestamp": "2023-12-21T23:50:39Z",
+  "data": {
+    "id": "11009ecb9244b0f3f598ed07bc26ac7b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-22T01:16:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-21T23:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.49
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.72
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:48Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -4.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-12-21T23:44:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:43Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.49
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:43Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.83,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.0,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-12-21T23:45:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:16Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:16Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.9,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.92,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.9,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-12-21T23:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:36Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:36Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-12-21T23:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-12-21T23:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.78
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.98,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-12-21T23:45:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.78
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.9,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.92,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-12-21T23:45:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:32Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 2.0,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.83,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-12-21T23:45:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:22Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-12-21T23:44:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:57Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.92,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.89,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-12-21T23:45:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.92,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.89,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-12-21T23:45:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:45:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-12-21T23:45:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:45:23Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:45:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-12-21T23:44:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-12-21T23:44:39Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.47
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.83
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-12-21T23:44:39Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-12-21T23:44:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

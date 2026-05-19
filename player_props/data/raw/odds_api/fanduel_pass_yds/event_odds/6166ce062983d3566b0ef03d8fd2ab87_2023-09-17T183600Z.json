@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-17T18:35:40Z",
+  "previous_timestamp": "2023-09-17T18:30:41Z",
+  "next_timestamp": "2023-09-17T18:40:42Z",
+  "data": {
+    "id": "6166ce062983d3566b0ef03d8fd2ab87",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:06:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-17T18:32:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 178.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 208.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.91,
+                "point": 208.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

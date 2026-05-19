@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-09-23T21:55:39Z",
+  "previous_timestamp": "2024-09-23T21:50:39Z",
+  "next_timestamp": "2024-09-23T22:00:38Z",
+  "data": {
+    "id": "96be3ba73fc562e49a0120b5923c3213",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-23T23:30:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-23T21:54:01Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-23T21:54:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 2.25,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 1.61,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Gabe Davis",
+                "price": 1.51,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gabe Davis",
+                "price": 2.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 1.61,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

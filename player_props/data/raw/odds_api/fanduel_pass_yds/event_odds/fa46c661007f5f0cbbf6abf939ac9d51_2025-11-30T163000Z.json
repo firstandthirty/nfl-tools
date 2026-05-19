@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-30T16:25:37Z",
+  "previous_timestamp": "2025-11-30T16:20:37Z",
+  "next_timestamp": "2025-11-30T16:30:38Z",
+  "data": {
+    "id": "fa46c661007f5f0cbbf6abf939ac9d51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T16:25:22Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-30T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 222.5
+              },
+              {
+                "name": "Under",
+                "description": "Daniel Jones",
+                "price": 1.89,
+                "point": 222.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

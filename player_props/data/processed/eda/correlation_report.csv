@@ -1,0 +1,11 @@
+x,y,status,correlation,n
+pass_attempts,passing_yards,ok,0.8689753912648883,3471
+passing_ypa,passing_yards,ok,0.12065751139403112,3321
+routes,targets,ok,0.7340319959317388,22502
+targets,receptions,ok,0.9030929213245666,22502
+targets,receiving_yards,ok,0.7764041019394463,22502
+routes,receiving_yards,ok,0.5715853918090148,22497
+yprr,receiving_yards,ok,0.40618927949298844,20173
+receiving_adot,receiving_yards,ok,0.2549464799575611,22404
+rush_attempts,rushing_yards,ok,0.8625888246378841,11856
+rushing_ypa,rushing_yards,ok,0.31967056747823125,11507

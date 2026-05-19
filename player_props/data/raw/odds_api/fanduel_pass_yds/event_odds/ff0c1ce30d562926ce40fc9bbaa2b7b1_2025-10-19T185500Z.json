@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-19T18:50:38Z",
+  "previous_timestamp": "2025-10-19T18:45:38Z",
+  "next_timestamp": "2025-10-19T18:55:39Z",
+  "data": {
+    "id": "ff0c1ce30d562926ce40fc9bbaa2b7b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-19T18:50:22Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-19T18:50:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 229.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 229.5
+              },
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 269.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 269.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-10-13T21:40:40Z",
+  "previous_timestamp": "2025-10-13T21:35:39Z",
+  "next_timestamp": "2025-10-13T21:45:39Z",
+  "data": {
+    "id": "33e0adf378d2856ffe5f8452e7d5512d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-13T23:15:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-13T21:40:30Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-13T21:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Keon Coleman",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Keon Coleman",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Casey Washington",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Casey Washington",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Joshua Palmer",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Palmer",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Khalil Shakir",
+                "price": 1.96,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Khalil Shakir",
+                "price": 1.82,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 1.57,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 2.38,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.81,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.64,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

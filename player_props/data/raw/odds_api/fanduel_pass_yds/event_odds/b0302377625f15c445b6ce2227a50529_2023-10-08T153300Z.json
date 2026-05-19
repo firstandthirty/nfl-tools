@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-08T15:30:38Z",
+  "previous_timestamp": "2023-10-08T15:25:39Z",
+  "next_timestamp": "2023-10-08T15:35:38Z",
+  "data": {
+    "id": "b0302377625f15c445b6ce2227a50529",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:03:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-08T15:30:27Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-08T15:30:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Ryan Tannehill",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 214.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

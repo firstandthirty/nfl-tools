@@ -1,0 +1,100 @@
+{
+  "timestamp": "2023-11-05T16:30:41Z",
+  "previous_timestamp": "2023-11-05T16:25:41Z",
+  "next_timestamp": "2023-11-05T16:35:41Z",
+  "data": {
+    "id": "13a6db4b4dcde6ea412927c1668faf65",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:03:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-05T16:29:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-05T16:26:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rondale Moore",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rondale Moore",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey McBride",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey McBride",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.72,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

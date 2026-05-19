@@ -1,0 +1,31 @@
+{
+  "timestamp": "2024-01-15T11:55:39Z",
+  "previous_timestamp": "2024-01-15T11:50:38Z",
+  "next_timestamp": "2024-01-15T12:00:39Z",
+  "data": [
+    {
+      "id": "88c29162853b9f40edcd339da8771fa9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-15T21:35:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Pittsburgh Steelers"
+    },
+    {
+      "id": "628d1c378a60a3a1d743264ac8df8cb8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-16T01:20:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Philadelphia Eagles"
+    },
+    {
+      "id": "bcba70d77b8cd7d1666b6c4179df2071",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-21T01:16:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Green Bay Packers"
+    }
+  ]
+}

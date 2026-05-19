@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-11-26T19:55:38Z",
+  "previous_timestamp": "2023-11-26T19:50:38Z",
+  "next_timestamp": "2023-11-26T20:00:38Z",
+  "data": {
+    "id": "c491f05b066449d95732c4f52ac57e66",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T21:28:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-26T19:54:43Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-26T19:50:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Renfrow",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Renfrow",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Mayer",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Mayer",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 1.8,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashee Rice",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashee Rice",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 2.2,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 1.65,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.88,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

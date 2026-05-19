@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-14T23:45:37Z",
+  "previous_timestamp": "2025-12-14T23:40:37Z",
+  "next_timestamp": "2025-12-14T23:50:37Z",
+  "data": {
+    "id": "3c74ebd1d005a7346c182daf6f7279dd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-15T01:20:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T23:45:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-14T23:45:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 264.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.89,
+                "point": 264.5
+              },
+              {
+                "name": "Over",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 193.5
+              },
+              {
+                "name": "Under",
+                "description": "J.J. McCarthy",
+                "price": 1.89,
+                "point": 193.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

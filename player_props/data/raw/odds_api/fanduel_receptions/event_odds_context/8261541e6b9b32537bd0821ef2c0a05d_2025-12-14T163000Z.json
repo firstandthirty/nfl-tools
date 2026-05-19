@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "8261541e6b9b32537bd0821ef2c0a05d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-14T16:25:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.26
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.93,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.89,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-12-14T16:20:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.26
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.05
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.93,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.88,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:20:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.25
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.93,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.89,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:24:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-14T16:23:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 3.83
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:23:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-14T16:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-14T16:25:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.23
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.85,
+                "point": -7.0
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.92,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-14T16:25:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 3.96
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.93,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.89,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-14T16:25:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 3.96
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.98,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.93,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.9,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.97,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-14T16:25:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.25
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:09Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-12-14T16:24:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 4.0
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-14T16:25:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.27
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 3.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.95,
+                "point": -7.5
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-14T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

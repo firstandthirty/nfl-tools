@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-09-21T22:50:38Z",
+  "previous_timestamp": "2025-09-21T22:45:38Z",
+  "next_timestamp": "2025-09-21T22:55:39Z",
+  "data": {
+    "id": "ee840f13db8bd150fcdd8f6670fa7041",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-22T00:21:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-09-21T22:50:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-09-21T22:50:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:21Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.34
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:21Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-09-21T22:49:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:49:21Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:49:21Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:49:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T22:50:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.83,
+                "point": -5.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.98,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-09-21T22:49:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:49:36Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:49:36Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:49:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-09-21T22:50:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.56
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-09-21T22:50:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:17Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.56
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:17Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.96,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.94,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-09-21T22:50:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.45
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.88,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-09-21T22:50:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:19Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-09-21T22:50:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.33
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-09-21T22:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-09-21T22:50:22Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-09-21T22:50:22Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -6.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 6.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-09-21T22:50:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

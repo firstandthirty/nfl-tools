@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-23T16:25:37Z",
+  "previous_timestamp": "2025-11-23T16:20:37Z",
+  "next_timestamp": "2025-11-23T16:30:37Z",
+  "data": {
+    "id": "7159d60c7a31c7d593167637723d7663",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T16:25:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-23T16:25:54Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "John Metchie III",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "John Metchie III",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Taylor",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Taylor",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.82,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Williams",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Williams",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Justice Hill",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Justice Hill",
+                "price": 2.36,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Derrick Henry",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Derrick Henry",
+                "price": 1.58,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

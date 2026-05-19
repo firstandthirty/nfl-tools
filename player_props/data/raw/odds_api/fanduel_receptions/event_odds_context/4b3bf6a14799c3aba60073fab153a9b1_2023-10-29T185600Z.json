@@ -1,0 +1,863 @@
+{
+  "timestamp": "2023-10-29T18:55:40Z",
+  "previous_timestamp": "2023-10-29T18:50:39Z",
+  "next_timestamp": "2023-10-29T19:00:40Z",
+  "data": {
+    "id": "4b3bf6a14799c3aba60073fab153a9b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:26:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T18:54:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.7
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.85,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.96,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.75
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.85,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.65
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-29T18:54:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.6
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.83,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-29T18:53:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:53:44Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.75
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:53:44Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.02,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:53:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-29T18:54:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.75
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.85,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.98,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-10-29T18:53:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:53:42Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:53:42Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.83,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:53:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.82,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.82,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.82,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.55
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-29T18:54:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.3
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.34
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-29T18:53:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:53:43Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.65
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:53:43Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:53:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.6
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-10-29T18:54:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.7
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-29T18:54:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 3.6
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-29T18:54:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

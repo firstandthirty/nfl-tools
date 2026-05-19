@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-09-24T15:30:40Z",
+  "previous_timestamp": "2023-09-24T15:25:41Z",
+  "next_timestamp": "2023-09-24T15:35:40Z",
+  "data": {
+    "id": "f72ef9b6be34818391c726a0cd690f48",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:01:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-24T15:30:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Donovan Peoples-Jones",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Donovan Peoples-Jones",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Amari Cooper",
+                "price": 1.88,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Treylon Burks",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Treylon Burks",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.64,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": 2.22,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "David Njoku",
+                "price": 2.44,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "David Njoku",
+                "price": 1.54,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Moore",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Moore",
+                "price": 1.83,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

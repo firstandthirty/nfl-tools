@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-01-10T19:55:38Z",
+  "previous_timestamp": "2026-01-10T19:50:39Z",
+  "next_timestamp": "2026-01-10T20:00:51Z",
+  "data": {
+    "id": "c37a03009947c0191ab4e2de9664705a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-10T21:30:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-10T19:55:12Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2026-01-10T19:55:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rico Dowdle",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rico Dowdle",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Higbee",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Higbee",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chuba Hubbard",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Chuba Hubbard",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Puka Nacua",
+                "price": 2.16,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Puka Nacua",
+                "price": 1.68,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Coker",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Coker",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tetairoa McMillan",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tetairoa McMillan",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy Tremble",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy Tremble",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mitchell Evans",
+                "price": 2.18,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Mitchell Evans",
+                "price": 1.67,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

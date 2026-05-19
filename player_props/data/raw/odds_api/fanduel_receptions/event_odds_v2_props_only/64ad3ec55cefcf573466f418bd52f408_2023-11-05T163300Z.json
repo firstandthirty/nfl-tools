@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-11-05T16:30:41Z",
+  "previous_timestamp": "2023-11-05T16:25:41Z",
+  "next_timestamp": "2023-11-05T16:35:41Z",
+  "data": {
+    "id": "64ad3ec55cefcf573466f418bd52f408",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:03:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-05T16:29:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-05T16:29:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Alvin Kamara",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Alvin Kamara",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": 1.8,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": 1.54,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Thomas",
+                "price": 1.87,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Thomas",
+                "price": 1.9,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": 2.32,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": 1.59,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Roschon Johnson",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Roschon Johnson",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 1.94,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

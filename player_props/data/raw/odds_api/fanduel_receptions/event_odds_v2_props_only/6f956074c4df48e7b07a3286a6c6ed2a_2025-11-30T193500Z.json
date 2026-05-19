@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-11-30T19:30:37Z",
+  "previous_timestamp": "2025-11-30T19:25:37Z",
+  "next_timestamp": "2025-11-30T19:35:37Z",
+  "data": {
+    "id": "6f956074c4df48e7b07a3286a6c6ed2a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T21:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T19:30:14Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-30T19:30:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Elijah Arroyo",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Elijah Arroyo",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.82,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.94,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 1.74,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 2.16,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": 1.68,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "AJ Barner",
+                "price": 2.2,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "AJ Barner",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 2.28,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

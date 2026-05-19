@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-05T12:00:38Z",
+  "previous_timestamp": "2025-10-05T11:55:38Z",
+  "next_timestamp": "2025-10-05T12:05:38Z",
+  "data": {
+    "id": "6e206c7bc9379b07d27298a393305384",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T13:31:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T12:00:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-05T12:00:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dillon Gabriel",
+                "price": 1.89,
+                "point": 170.5
+              },
+              {
+                "name": "Under",
+                "description": "Dillon Gabriel",
+                "price": 1.89,
+                "point": 170.5
+              },
+              {
+                "name": "Over",
+                "description": "Carson Wentz",
+                "price": 1.89,
+                "point": 193.5
+              },
+              {
+                "name": "Under",
+                "description": "Carson Wentz",
+                "price": 1.89,
+                "point": 193.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

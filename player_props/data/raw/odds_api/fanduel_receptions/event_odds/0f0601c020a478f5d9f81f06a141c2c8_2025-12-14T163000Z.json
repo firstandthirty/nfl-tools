@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "0f0601c020a478f5d9f81f06a141c2c8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-14T16:26:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "John Metchie III",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "John Metchie III",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Parker Washington",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parker Washington",
+                "price": 1.96,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jeremy Ruckert",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jeremy Ruckert",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.76,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 2.04,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 1.57,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 2.38,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Williams",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Williams",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": 1.93,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Adonai Mitchell",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Adonai Mitchell",
+                "price": 1.81,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

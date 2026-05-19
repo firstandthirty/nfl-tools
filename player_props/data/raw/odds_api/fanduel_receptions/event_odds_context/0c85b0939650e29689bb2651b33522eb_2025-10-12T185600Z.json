@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-12T18:55:39Z",
+  "previous_timestamp": "2025-10-12T18:50:39Z",
+  "next_timestamp": "2025-10-12T19:00:39Z",
+  "data": {
+    "id": "0c85b0939650e29689bb2651b33522eb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-12T20:26:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-12T18:55:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 14.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-12T18:55:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:14Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:14Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-12T18:53:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:53:28Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:53:28Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:53:28Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-12T18:55:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:15Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.3
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:15Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.85,
+                "point": 14.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.96,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-12T18:55:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.69
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.07
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-12T18:55:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.95
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.0,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-12T18:54:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:54:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.95
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:54:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:54:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-12T18:55:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.07
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.87,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:04Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-12T18:55:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:17Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:17Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-12T18:55:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:55:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 9.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:55:34Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 14.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -14.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:55:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-12T18:54:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T18:54:13Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 8.75
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T18:54:13Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.87,
+                "point": 14.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T18:54:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-13T22:45:39Z",
+  "previous_timestamp": "2025-10-13T22:40:39Z",
+  "next_timestamp": "2025-10-13T22:50:39Z",
+  "data": {
+    "id": "38366aa83a3eb6cef71a1134c4fceb2c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-14T00:16:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-13T22:45:20Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-13T22:45:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 218.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Daniels",
+                "price": 1.89,
+                "point": 218.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 228.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 228.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

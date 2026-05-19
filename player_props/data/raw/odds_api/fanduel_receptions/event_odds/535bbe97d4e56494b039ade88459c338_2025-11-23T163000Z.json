@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-11-23T16:25:37Z",
+  "previous_timestamp": "2025-11-23T16:20:37Z",
+  "next_timestamp": "2025-11-23T16:30:37Z",
+  "data": {
+    "id": "535bbe97d4e56494b039ade88459c338",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-23T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-23T16:25:22Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-23T16:25:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.38,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyrone Tracy Jr.",
+                "price": 1.86,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.79,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "David Montgomery",
+                "price": 2.12,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "David Montgomery",
+                "price": 1.7,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 2.26,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.62,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Jameson Williams",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameson Williams",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Theo Johnson",
+                "price": 2.4,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Theo Johnson",
+                "price": 1.56,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Hodgins",
+                "price": 1.52,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Hodgins",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Wan'Dale Robinson",
+                "price": 2.02,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Wan'Dale Robinson",
+                "price": 1.77,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Kalif Raymond",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kalif Raymond",
+                "price": 1.65,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

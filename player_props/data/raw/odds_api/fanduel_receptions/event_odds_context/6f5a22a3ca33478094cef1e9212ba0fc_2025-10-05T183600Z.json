@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-05T18:35:37Z",
+  "previous_timestamp": "2025-10-05T18:30:37Z",
+  "next_timestamp": "2025-10-05T18:40:38Z",
+  "data": {
+    "id": "6f5a22a3ca33478094cef1e9212ba0fc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T20:06:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-05T18:34:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.56
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-05T18:35:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:07Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.63
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:07Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-05T18:35:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:30Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.51
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:30Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T18:35:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.52
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.62
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-05T18:33:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:33:39Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.52
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.57
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:33:39Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.87,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:33:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-05T18:35:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:32Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:32Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.0,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-05T18:33:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:33:29Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:33:29Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:33:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-05T18:34:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.49
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.88,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.88,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-05T18:35:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -4.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.87,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:18Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-05T18:35:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:35:14Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.55
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:35:14Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:35:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-05T18:34:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.53
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-05T18:34:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

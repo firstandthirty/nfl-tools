@@ -1,0 +1,358 @@
+{
+  "timestamp": "2024-09-22T19:50:37Z",
+  "previous_timestamp": "2024-09-22T19:45:38Z",
+  "next_timestamp": "2024-09-22T19:55:38Z",
+  "data": {
+    "id": "f89d2da2d1b692de14ddf77e186cc5c7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-22T20:27:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-22T19:49:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-22T19:50:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 220.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": -110,
+                "point": 220.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": -110,
+                "point": 230.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-09-22T19:50:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 10.5
+              },
+              {
+                "name": "Over",
+                "description": "Eric Saubert",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Under",
+                "description": "Eric Saubert",
+                "price": -110,
+                "point": 20.5
+              },
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": -110,
+                "point": 21.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": -110,
+                "point": 41.5
+              },
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": -110,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Johnson",
+                "price": -110,
+                "point": 36.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Johnson",
+                "price": -110,
+                "point": 36.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Whittington",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Whittington",
+                "price": -110,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": -110,
+                "point": 76.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Juszczyk",
+                "price": -110,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Juszczyk",
+                "price": -110,
+                "point": 18.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-22T19:50:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Demarcus Robinson",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Demarcus Robinson",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Eric Saubert",
+                "price": 126,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Eric Saubert",
+                "price": -165,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Whittington",
+                "price": 100,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Whittington",
+                "price": -130,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tutu Atwell",
+                "price": 136,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tutu Atwell",
+                "price": -178,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Colby Parkinson",
+                "price": 102,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Colby Parkinson",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jauan Jennings",
+                "price": 102,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jauan Jennings",
+                "price": -132,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Johnson",
+                "price": 112,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Johnson",
+                "price": -146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": -168,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": 128,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandon Aiyuk",
+                "price": -102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandon Aiyuk",
+                "price": -128,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-09-22T19:50:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": -105,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": -115,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyren Williams",
+                "price": -110,
+                "point": 61.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 94.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": -110,
+                "point": 94.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

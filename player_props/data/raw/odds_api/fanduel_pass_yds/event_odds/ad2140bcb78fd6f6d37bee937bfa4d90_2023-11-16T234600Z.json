@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-16T23:45:42Z",
+  "previous_timestamp": "2023-11-16T23:40:42Z",
+  "next_timestamp": "2023-11-16T23:50:42Z",
+  "data": {
+    "id": "ad2140bcb78fd6f6d37bee937bfa4d90",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-17T01:16:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-16T23:44:54Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-16T23:45:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.88,
+                "point": 225.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.88,
+                "point": 225.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.88,
+                "point": 252.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.88,
+                "point": 252.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

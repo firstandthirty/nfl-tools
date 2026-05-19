@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-10-01T15:30:40Z",
+  "previous_timestamp": "2023-10-01T15:25:40Z",
+  "next_timestamp": "2023-10-01T15:35:40Z",
+  "data": {
+    "id": "24264c7ce10b65e575310ae99c25fb7f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T15:30:05Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-01T15:30:11Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 2.1,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dameon Pierce",
+                "price": 2.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dameon Pierce",
+                "price": 1.44,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Robinson II",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Robinson II",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "George Pickens",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "George Pickens",
+                "price": 1.63,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Austin III",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Austin III",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 2.1,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

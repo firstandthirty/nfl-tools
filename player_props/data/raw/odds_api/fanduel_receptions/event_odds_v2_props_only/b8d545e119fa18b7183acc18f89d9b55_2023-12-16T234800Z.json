@@ -1,0 +1,100 @@
+{
+  "timestamp": "2023-12-16T23:45:38Z",
+  "previous_timestamp": "2023-12-16T23:40:38Z",
+  "next_timestamp": "2023-12-16T23:50:38Z",
+  "data": {
+    "id": "b8d545e119fa18b7183acc18f89d9b55",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T01:18:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-16T23:44:56Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-16T23:43:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.96,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Amon-Ra St. Brown",
+                "price": 1.82,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam LaPorta",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam LaPorta",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Javonte Williams",
+                "price": 2.36,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Javonte Williams",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jerry Jeudy",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jerry Jeudy",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahmyr Gibbs",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahmyr Gibbs",
+                "price": 2.06,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

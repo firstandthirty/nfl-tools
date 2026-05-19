@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-01-06T11:55:38Z",
+  "previous_timestamp": "2025-01-06T11:50:38Z",
+  "next_timestamp": "2025-01-06T12:00:38Z",
+  "data": [
+    {
+      "id": "03dd880f071a65053e37000d3d826e14",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-11T21:31:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "Los Angeles Chargers"
+    },
+    {
+      "id": "08e2147df0b21744fdef99cbcdf3edb7",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-12T01:01:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Pittsburgh Steelers"
+    },
+    {
+      "id": "4290cfcaa959dc5b452481cfff521b45",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-12T18:01:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Denver Broncos"
+    },
+    {
+      "id": "edbc8c5b53a7705b9caa5e1908109e19",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-12T21:31:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Green Bay Packers"
+    },
+    {
+      "id": "afde2a86c73e9809e147d457d4d40f62",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-13T01:01:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "a190a79160476a82ba6004f69be5729d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-14T01:00:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Minnesota Vikings"
+    }
+  ]
+}

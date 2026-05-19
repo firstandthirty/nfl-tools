@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-11T23:40:37Z",
+  "previous_timestamp": "2024-11-11T23:35:37Z",
+  "next_timestamp": "2024-11-11T23:45:37Z",
+  "data": {
+    "id": "d6eab9011bd146fdbb2639f6e8c07056",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-12T01:15:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-11T23:40:03Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-11T23:40:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 253.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 253.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 247.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 247.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

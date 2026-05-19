@@ -1,0 +1,148 @@
+{
+  "timestamp": "2024-11-17T23:40:37Z",
+  "previous_timestamp": "2024-11-17T23:35:38Z",
+  "next_timestamp": "2024-11-17T23:45:38Z",
+  "data": {
+    "id": "a2b3fd60eede2230285512b8c3b4eed3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-18T01:15:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T23:40:16Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-11-17T23:40:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Will Dissly",
+                "price": 2.16,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Dissly",
+                "price": 1.66,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 2.34,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 2.14,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "J.K. Dobbins",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "J.K. Dobbins",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Joshua Palmer",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Palmer",
+                "price": 1.56,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.78,
+                "point": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

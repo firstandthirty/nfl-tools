@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-03T19:30:38Z",
+  "previous_timestamp": "2024-11-03T19:25:37Z",
+  "next_timestamp": "2024-11-03T19:35:38Z",
+  "data": {
+    "id": "ef026bf62bfb6cda42ee983680eda2d4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-03T21:05:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-03T19:30:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-03T19:30:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 219.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 219.5
+              },
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 215.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 215.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

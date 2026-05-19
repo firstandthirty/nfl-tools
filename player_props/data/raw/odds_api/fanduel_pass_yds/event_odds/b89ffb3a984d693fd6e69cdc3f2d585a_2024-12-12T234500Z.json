@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-12T23:40:38Z",
+  "previous_timestamp": "2024-12-12T23:35:38Z",
+  "next_timestamp": "2024-12-12T23:45:40Z",
+  "data": {
+    "id": "b89ffb3a984d693fd6e69cdc3f2d585a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-13T01:15:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-12T23:40:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-12T23:40:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 246.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.91,
+                "point": 246.5
+              },
+              {
+                "name": "Over",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 258.5
+              },
+              {
+                "name": "Under",
+                "description": "Brock Purdy",
+                "price": 1.91,
+                "point": 258.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-28T12:00:38Z",
+  "previous_timestamp": "2025-09-28T11:55:38Z",
+  "next_timestamp": "2025-09-28T12:05:38Z",
+  "data": {
+    "id": "4dd631102a977fd398f7ea594ed208f2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-28T13:31:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-28T12:00:29Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-28T12:01:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 2.1,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 1.71,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 1.7,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 2.12,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 2.02,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": 1.63,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": 2.24,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Gainwell",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Gainwell",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DK Metcalf",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DK Metcalf",
+                "price": 2.28,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Warren",
+                "price": 2.04,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Warren",
+                "price": 1.76,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Austin III",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Austin III",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Pat Freiermuth",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Pat Freiermuth",
+                "price": 1.89,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

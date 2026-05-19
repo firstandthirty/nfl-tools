@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-09-24T15:30:40Z",
+  "previous_timestamp": "2023-09-24T15:25:41Z",
+  "next_timestamp": "2023-09-24T15:35:40Z",
+  "data": {
+    "id": "c6aa32a2bdcc85e5d8b8ae2e570607e6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:04:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-24T15:29:50Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-24T15:28:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Travis Etienne",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tank Dell",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Calvin Ridley",
+                "price": 1.94,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Calvin Ridley",
+                "price": 1.83,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 2.18,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.67,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Robert Woods",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Robert Woods",
+                "price": 1.8,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 1.68,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 2.14,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

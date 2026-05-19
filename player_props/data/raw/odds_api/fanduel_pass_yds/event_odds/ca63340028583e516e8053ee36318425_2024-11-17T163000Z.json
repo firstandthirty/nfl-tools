@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-17T16:25:38Z",
+  "previous_timestamp": "2024-11-17T16:20:38Z",
+  "next_timestamp": "2024-11-17T16:30:38Z",
+  "data": {
+    "id": "ca63340028583e516e8053ee36318425",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-17T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-17T16:24:49Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-17T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jameis Winston",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Under",
+                "description": "Jameis Winston",
+                "price": 1.91,
+                "point": 239.5
+              },
+              {
+                "name": "Over",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 213.5
+              },
+              {
+                "name": "Under",
+                "description": "Derek Carr",
+                "price": 1.91,
+                "point": 213.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

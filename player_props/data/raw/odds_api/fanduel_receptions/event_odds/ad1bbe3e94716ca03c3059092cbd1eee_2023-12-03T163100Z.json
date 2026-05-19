@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-12-03T16:30:38Z",
+  "previous_timestamp": "2023-12-03T16:25:38Z",
+  "next_timestamp": "2023-12-03T16:35:38Z",
+  "data": {
+    "id": "ad1bbe3e94716ca03c3059092cbd1eee",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:01:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-03T16:30:12Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-03T16:29:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Quentin Johnston",
+                "price": 2.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Quentin Johnston",
+                "price": 1.5,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Devante Parker",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devante Parker",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Guyton",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Guyton",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": 2.18,
+                "point": 8.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 1.67,
+                "point": 8.5
+              },
+              {
+                "name": "Over",
+                "description": "Austin Ekeler",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Austin Ekeler",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Gerald Everett",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Gerald Everett",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyquan Thornton",
+                "price": 2.54,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyquan Thornton",
+                "price": 1.5,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

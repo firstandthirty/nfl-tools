@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-14T15:25:38Z",
+  "previous_timestamp": "2025-09-14T15:20:38Z",
+  "next_timestamp": "2025-09-14T15:30:38Z",
+  "data": {
+    "id": "ec75e45d75691f810f347e0c5ff25d6e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-14T17:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-14T15:25:09Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-14T15:23:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 245.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.89,
+                "point": 245.5
+              },
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 269.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 269.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

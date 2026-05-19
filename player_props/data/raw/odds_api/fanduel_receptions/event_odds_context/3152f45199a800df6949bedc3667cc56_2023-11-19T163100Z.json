@@ -1,0 +1,810 @@
+{
+  "timestamp": "2023-11-19T16:30:41Z",
+  "previous_timestamp": "2023-11-19T16:25:41Z",
+  "next_timestamp": "2023-11-19T16:35:41Z",
+  "data": {
+    "id": "3152f45199a800df6949bedc3667cc56",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:01:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-19T16:28:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:28:58Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:28:58Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:28:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 33.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 33.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-11-19T16:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-11-19T16:30:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:13Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:13Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-11-19T16:30:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-11-19T16:30:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.81,
+                "point": -1.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.12,
+                "point": 1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-11-19T16:30:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:02Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:02Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2023-11-19T16:29:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:31Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-11-19T16:29:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.76
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-11-19T16:29:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:57Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.76
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:57Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-11-19T16:29:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:47Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.76
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:47Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-11-19T16:29:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:55Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:55Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-11-19T16:30:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.15
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-11-19T16:29:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:29:39Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:29:39Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:29:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-11-19T16:30:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:33Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.77
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:33Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -1.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.95,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-11-19T16:30:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.74
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.17
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-11-19T16:30:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 34.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 34.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

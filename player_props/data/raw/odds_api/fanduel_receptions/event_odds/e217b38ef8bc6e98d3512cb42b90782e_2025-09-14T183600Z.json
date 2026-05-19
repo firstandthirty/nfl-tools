@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-14T18:35:38Z",
+  "previous_timestamp": "2025-09-14T18:30:38Z",
+  "next_timestamp": "2025-09-14T18:40:38Z",
+  "data": {
+    "id": "e217b38ef8bc6e98d3512cb42b90782e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-14T20:06:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-14T18:35:06Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-14T18:35:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 2.0,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Evan Engram",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Evan Engram",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Courtland Sutton",
+                "price": 2.1,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Courtland Sutton",
+                "price": 1.71,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.81,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "J.K. Dobbins",
+                "price": 1.66,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "J.K. Dobbins",
+                "price": 2.2,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Troy Franklin",
+                "price": 1.66,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Troy Franklin",
+                "price": 2.2,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marvin Mims Jr.",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Marvin Mims Jr.",
+                "price": 1.98,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

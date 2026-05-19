@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-10-15T18:35:40Z",
+  "previous_timestamp": "2023-10-15T18:30:40Z",
+  "next_timestamp": "2023-10-15T18:40:41Z",
+  "data": {
+    "id": "3377b0af3e43d0a451483df35f3491c9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:06:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-15T18:35:07Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-15T18:31:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Jacobs",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Jacobs",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Devante Parker",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devante Parker",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 1.9,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Davante Adams",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Davante Adams",
+                "price": 1.88,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Henry",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Henry",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Hunter Renfrow",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Hunter Renfrow",
+                "price": 1.78,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

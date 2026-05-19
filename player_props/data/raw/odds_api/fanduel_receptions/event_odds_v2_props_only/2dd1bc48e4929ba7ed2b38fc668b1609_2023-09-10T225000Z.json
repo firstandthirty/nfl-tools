@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-09-10T22:45:40Z",
+  "previous_timestamp": "2023-09-10T22:40:41Z",
+  "next_timestamp": "2023-09-10T22:50:41Z",
+  "data": {
+    "id": "2dd1bc48e4929ba7ed2b38fc668b1609",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-11T00:20:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-10T22:45:09Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-10T22:45:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Paris Campbell",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Paris Campbell",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tony Pollard",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Tony Pollard",
+                "price": 2.1,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Brandin Cooks",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Brandin Cooks",
+                "price": 2.06,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Gallup",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Gallup",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jake Ferguson",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jake Ferguson",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.88,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "CeeDee Lamb",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "CeeDee Lamb",
+                "price": 2.14,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Hodgins",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Hodgins",
+                "price": 1.94,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-12-07T16:25:37Z",
+  "previous_timestamp": "2025-12-07T16:20:37Z",
+  "next_timestamp": "2025-12-07T16:30:39Z",
+  "data": {
+    "id": "c67c327076a98a3a1c4a5eb32e5a80c2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-07T18:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-07T16:25:31Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-12-07T16:26:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 250.5
+              },
+              {
+                "name": "Under",
+                "description": "Joe Burrow",
+                "price": 1.89,
+                "point": 250.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 231.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.89,
+                "point": 231.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-22T15:30:40Z",
+  "previous_timestamp": "2023-10-22T15:25:40Z",
+  "next_timestamp": "2023-10-22T15:35:40Z",
+  "data": {
+    "id": "2decc44ccdfb309756fa93d864f5773f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:01:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T15:30:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-22T15:27:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brian Hoyer",
+                "price": 1.91,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Hoyer",
+                "price": 1.91,
+                "point": 217.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyson Bagent",
+                "price": 1.91,
+                "point": 182.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyson Bagent",
+                "price": 1.91,
+                "point": 182.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

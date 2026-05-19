@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-14T18:30:38Z",
+  "previous_timestamp": "2025-09-14T18:25:38Z",
+  "next_timestamp": "2025-09-14T18:35:38Z",
+  "data": {
+    "id": "7e2ad5ef04493526707e0868f7b70c47",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-14T20:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-14T18:29:31Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-14T18:30:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 203.5
+              },
+              {
+                "name": "Under",
+                "description": "Bryce Young",
+                "price": 1.89,
+                "point": 203.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.89,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.89,
+                "point": 217.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

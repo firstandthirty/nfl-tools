@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-12-08T23:45:37Z",
+  "previous_timestamp": "2024-12-08T23:40:37Z",
+  "next_timestamp": "2024-12-08T23:50:37Z",
+  "data": {
+    "id": "c70e1ecbef22c98419d4707199d050af",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-09T01:20:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-08T23:45:19Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-08T23:45:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Will Dissly",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Will Dissly",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Kelce",
+                "price": 1.64,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Kelce",
+                "price": 2.2,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Kareem Hunt",
+                "price": 1.98,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Kareem Hunt",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.69,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 2.1,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Gray",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Gray",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Worthy",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Worthy",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Ladd McConkey",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Ladd McConkey",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.93,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "JuJu Smith-Schuster",
+                "price": 1.83,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Isiah Pacheco",
+                "price": 1.77,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Isiah Pacheco",
+                "price": 2.0,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

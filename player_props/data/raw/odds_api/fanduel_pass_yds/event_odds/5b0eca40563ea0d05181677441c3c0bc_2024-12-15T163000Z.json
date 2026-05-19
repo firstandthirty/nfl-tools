@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-15T16:25:37Z",
+  "previous_timestamp": "2024-12-15T16:20:37Z",
+  "next_timestamp": "2024-12-15T16:30:37Z",
+  "data": {
+    "id": "5b0eca40563ea0d05181677441c3c0bc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T18:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T16:25:14Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 217.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 217.5
+              },
+              {
+                "name": "Over",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 176.5
+              },
+              {
+                "name": "Under",
+                "description": "Tommy DeVito",
+                "price": 1.91,
+                "point": 176.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

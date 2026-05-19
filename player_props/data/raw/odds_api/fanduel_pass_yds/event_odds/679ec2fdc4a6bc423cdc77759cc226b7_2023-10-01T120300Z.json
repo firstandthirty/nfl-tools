@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-01T12:00:40Z",
+  "previous_timestamp": "2023-10-01T11:55:40Z",
+  "next_timestamp": "2023-10-01T12:05:40Z",
+  "data": {
+    "id": "679ec2fdc4a6bc423cdc77759cc226b7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T13:33:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T11:59:24Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-01T11:57:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Trevor Lawrence",
+                "price": 1.91,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Desmond Ridder",
+                "price": 1.91,
+                "point": 185.5
+              },
+              {
+                "name": "Under",
+                "description": "Desmond Ridder",
+                "price": 1.91,
+                "point": 185.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

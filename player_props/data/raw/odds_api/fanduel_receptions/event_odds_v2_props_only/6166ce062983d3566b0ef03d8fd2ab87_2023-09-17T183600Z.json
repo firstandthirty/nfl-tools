@@ -1,0 +1,136 @@
+{
+  "timestamp": "2023-09-17T18:35:40Z",
+  "previous_timestamp": "2023-09-17T18:30:41Z",
+  "next_timestamp": "2023-09-17T18:40:42Z",
+  "data": {
+    "id": "6166ce062983d3566b0ef03d8fd2ab87",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:06:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-17T18:35:21Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-09-17T18:32:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Michael Wilson",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Wilson",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "James Conner",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Conner",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rondale Moore",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rondale Moore",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Marquise Brown",
+                "price": 2.36,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Marquise Brown",
+                "price": 1.57,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Parris Campbell",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Parris Campbell",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Hodgins",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Hodgins",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": 2.14,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "timestamp": "2023-11-26T16:30:38Z",
+  "previous_timestamp": "2023-11-26T16:25:38Z",
+  "next_timestamp": "2023-11-26T16:35:38Z",
+  "data": {
+    "id": "a721e155795f890bffe4c51c3dc0a472",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:03:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-26T16:29:52Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-11-26T16:29:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kylen Granson",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kylen Granson",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Godwin",
+                "price": 1.65,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Godwin",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.63,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 2.24,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cade Otton",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Cade Otton",
+                "price": 1.8,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 2.08,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 1.72,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Trey Palmer",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Trey Palmer",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.57,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

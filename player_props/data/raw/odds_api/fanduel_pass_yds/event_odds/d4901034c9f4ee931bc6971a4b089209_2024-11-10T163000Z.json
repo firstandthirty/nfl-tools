@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-11-10T16:25:37Z",
+  "previous_timestamp": "2024-11-10T16:20:37Z",
+  "next_timestamp": "2024-11-10T16:30:37Z",
+  "data": {
+    "id": "d4901034c9f4ee931bc6971a4b089209",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-10T18:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-10T16:24:47Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-11-10T16:25:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.91,
+                "point": 230.5
+              },
+              {
+                "name": "Over",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 199.5
+              },
+              {
+                "name": "Under",
+                "description": "Bo Nix",
+                "price": 1.91,
+                "point": 199.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

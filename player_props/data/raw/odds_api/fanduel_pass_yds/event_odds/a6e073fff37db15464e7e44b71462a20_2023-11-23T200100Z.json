@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-11-23T20:00:39Z",
+  "previous_timestamp": "2023-11-23T19:55:40Z",
+  "next_timestamp": "2023-11-23T20:05:40Z",
+  "data": {
+    "id": "a6e073fff37db15464e7e44b71462a20",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-23T21:31:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-11-23T19:58:45Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-11-23T19:58:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Dak Prescott",
+                "price": 1.88,
+                "point": 275.5
+              },
+              {
+                "name": "Under",
+                "description": "Dak Prescott",
+                "price": 1.88,
+                "point": 275.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam Howell",
+                "price": 1.88,
+                "point": 251.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Howell",
+                "price": 1.88,
+                "point": 251.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

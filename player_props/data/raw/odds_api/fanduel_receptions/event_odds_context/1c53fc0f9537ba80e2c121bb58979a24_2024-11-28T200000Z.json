@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-11-28T19:55:40Z",
+  "previous_timestamp": "2024-11-28T19:50:39Z",
+  "next_timestamp": "2024-11-28T20:00:39Z",
+  "data": {
+    "id": "1c53fc0f9537ba80e2c121bb58979a24",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-11-28T21:30:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-11-28T19:55:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.44
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-11-28T19:48:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:48:59Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.44
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:48:59Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.83,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.0,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:48:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-11-28T19:55:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.87,
+                "point": -3.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-11-28T19:55:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.49
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.72
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.87,
+                "point": -3.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-11-28T19:55:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.47
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.84
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.92,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.99,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.96,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-11-28T19:55:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.47
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.84
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.88,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.94,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-11-28T19:54:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:54:00Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.46
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.74
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:54:00Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:54:00Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-11-28T19:55:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.47
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.92,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.89,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-11-28T19:55:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.46
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.84
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.87,
+                "point": -4.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-11-28T19:55:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.87,
+                "point": -3.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-11-28T19:55:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 37.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 37.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

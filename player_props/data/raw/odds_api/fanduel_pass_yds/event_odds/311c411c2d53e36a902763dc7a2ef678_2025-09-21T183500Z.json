@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-21T18:30:39Z",
+  "previous_timestamp": "2025-09-21T18:25:38Z",
+  "next_timestamp": "2025-09-21T18:35:38Z",
+  "data": {
+    "id": "311c411c2d53e36a902763dc7a2ef678",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T18:30:08Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-21T18:30:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 216.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": 1.89,
+                "point": 216.5
+              },
+              {
+                "name": "Over",
+                "description": "Spencer Rattler",
+                "price": 1.89,
+                "point": 204.5
+              },
+              {
+                "name": "Under",
+                "description": "Spencer Rattler",
+                "price": 1.89,
+                "point": 204.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

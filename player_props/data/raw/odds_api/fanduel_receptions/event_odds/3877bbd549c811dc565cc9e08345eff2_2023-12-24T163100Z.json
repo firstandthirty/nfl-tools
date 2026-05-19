@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-12-24T16:30:38Z",
+  "previous_timestamp": "2023-12-24T16:25:39Z",
+  "next_timestamp": "2023-12-24T16:35:38Z",
+  "data": {
+    "id": "3877bbd549c811dc565cc9e08345eff2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:01:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-24T16:30:20Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-12-24T16:28:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.8,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.77,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.67,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 2.18,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 2.26,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.62,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.6,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 2.3,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 1.77,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-10-05T15:30:37Z",
+  "previous_timestamp": "2025-10-05T15:25:37Z",
+  "next_timestamp": "2025-10-05T15:35:38Z",
+  "data": {
+    "id": "1e3d3526039030b96471845ade5992cf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-05T17:01:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-05T15:30:23Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-10-05T15:29:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jakobi Meyers",
+                "price": 1.98,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Jakobi Meyers",
+                "price": 1.81,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Ashton Jeanty",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ashton Jeanty",
+                "price": 2.28,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dont'e Thornton Jr.",
+                "price": 2.44,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dont'e Thornton Jr.",
+                "price": 1.55,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.57,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.38,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.79,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tre Tucker",
+                "price": 2.02,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tre Tucker",
+                "price": 1.77,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 2.22,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

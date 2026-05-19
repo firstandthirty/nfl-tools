@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-10-12T22:45:39Z",
+  "previous_timestamp": "2025-10-12T22:40:39Z",
+  "next_timestamp": "2025-10-12T22:50:39Z",
+  "data": {
+    "id": "82e432d5d8bc0b5a6cbe0c324de90de3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-13T00:20:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-12T22:45:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:24Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.2
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:24Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:24Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-12T22:45:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.18
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-10-12T22:43:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:43:23Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.26
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:43:23Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:43:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-12T22:45:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.28
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.66
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-12T22:45:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:15Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.21
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:15Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-12T22:44:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:44:47Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.25
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:44:47Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:44:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-12T22:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:07Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.25
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:07Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.88,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-12T22:45:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.25
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-12T22:45:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.18
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-12T22:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:44:59Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.3
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.67
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:44:59Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.0,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:44:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 52.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 52.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-10-12T22:45:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 2.2
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.69
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": 2.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-12T22:45:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 51.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 51.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

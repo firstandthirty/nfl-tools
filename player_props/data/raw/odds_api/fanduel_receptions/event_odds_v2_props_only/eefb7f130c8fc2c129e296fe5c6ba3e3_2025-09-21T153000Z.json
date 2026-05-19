@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-09-21T15:25:38Z",
+  "previous_timestamp": "2025-09-21T15:20:39Z",
+  "next_timestamp": "2025-09-21T15:30:38Z",
+  "data": {
+    "id": "eefb7f130c8fc2c129e296fe5c6ba3e3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T15:25:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-21T15:25:39Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.67,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 2.18,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Noah Fant",
+                "price": 2.26,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Noah Fant",
+                "price": 1.62,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Mason",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Mason",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 1.82,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 1.74,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 2.08,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": 1.64,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 2.22,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Tee Higgins",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Tee Higgins",
+                "price": 1.85,
+                "point": 4.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

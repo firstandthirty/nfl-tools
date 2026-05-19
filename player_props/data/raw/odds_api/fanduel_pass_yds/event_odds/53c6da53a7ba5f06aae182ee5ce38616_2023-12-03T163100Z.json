@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-12-03T16:30:38Z",
+  "previous_timestamp": "2023-12-03T16:25:38Z",
+  "next_timestamp": "2023-12-03T16:35:38Z",
+  "data": {
+    "id": "53c6da53a7ba5f06aae182ee5ce38616",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:01:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Denver Broncos",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-12-03T16:30:12Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-12-03T16:26:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 266.5
+              },
+              {
+                "name": "Under",
+                "description": "C.J. Stroud",
+                "price": 1.91,
+                "point": 266.5
+              },
+              {
+                "name": "Over",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 223.5
+              },
+              {
+                "name": "Under",
+                "description": "Russell Wilson",
+                "price": 1.91,
+                "point": 223.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

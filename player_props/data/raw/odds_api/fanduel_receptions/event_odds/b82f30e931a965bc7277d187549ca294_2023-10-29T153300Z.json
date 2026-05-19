@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-10-29T15:30:40Z",
+  "previous_timestamp": "2023-10-29T15:25:40Z",
+  "next_timestamp": "2023-10-29T15:35:40Z",
+  "data": {
+    "id": "b82f30e931a965bc7277d187549ca294",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:03:00Z",
+    "home_team": "New York Giants",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T15:30:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-29T15:29:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darius Slayton",
+                "price": 2.24,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darius Slayton",
+                "price": 1.63,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Breece Hall",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Breece Hall",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Garrett Wilson",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Garrett Wilson",
+                "price": 2.22,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Conklin",
+                "price": 2.32,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Conklin",
+                "price": 1.59,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Allen Lazard",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Allen Lazard",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

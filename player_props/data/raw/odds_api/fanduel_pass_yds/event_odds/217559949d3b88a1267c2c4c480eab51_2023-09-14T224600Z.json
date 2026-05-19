@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-09-14T22:45:42Z",
+  "previous_timestamp": "2023-09-14T22:40:43Z",
+  "next_timestamp": "2023-09-14T22:50:43Z",
+  "data": {
+    "id": "217559949d3b88a1267c2c4c480eab51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-15T00:16:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-09-14T22:45:32Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-09-14T22:45:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 262.5
+              },
+              {
+                "name": "Under",
+                "description": "Kirk Cousins",
+                "price": 1.91,
+                "point": 262.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 248.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.91,
+                "point": 248.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

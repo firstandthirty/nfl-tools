@@ -1,0 +1,124 @@
+{
+  "timestamp": "2024-12-29T16:25:38Z",
+  "previous_timestamp": "2024-12-29T16:20:38Z",
+  "next_timestamp": "2024-12-29T16:30:38Z",
+  "data": {
+    "id": "cb4060acc9d027ca0069619ef9983415",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-29T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-29T16:25:25Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-29T16:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Adam Thielen",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Adam Thielen",
+                "price": 1.66,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Bucky Irving",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Bucky Irving",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Payne Durham",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Payne Durham",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Coker",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Coker",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Xavier Legette",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Xavier Legette",
+                "price": 2.32,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen McMillan",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen McMillan",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rachaad White",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rachaad White",
+                "price": 1.83,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Evans",
+                "price": 1.78,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Evans",
+                "price": 1.98,
+                "point": 5.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

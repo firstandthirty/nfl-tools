@@ -1,0 +1,358 @@
+{
+  "timestamp": "2024-12-17T00:25:38Z",
+  "previous_timestamp": "2024-12-17T00:20:38Z",
+  "next_timestamp": "2024-12-17T00:30:37Z",
+  "data": {
+    "id": "307cc09543c511d894a76fef99e429bb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-17T01:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-17T00:24:55Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-17T00:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": -110,
+                "point": 253.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": -110,
+                "point": 253.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": -110,
+                "point": 224.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": -110,
+                "point": 224.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2024-12-17T00:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": -110,
+                "point": 13.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": -110,
+                "point": 56.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": -110,
+                "point": 56.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Nailor",
+                "price": 100,
+                "point": 9.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Nailor",
+                "price": -122,
+                "point": 9.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": -110,
+                "point": 50.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": -110,
+                "point": 55.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": -110,
+                "point": 55.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": -110,
+                "point": 14.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": -110,
+                "point": 81.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": -110,
+                "point": 81.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2024-12-17T00:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Keenan Allen",
+                "price": -146,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Keenan Allen",
+                "price": 112,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Justin Jefferson",
+                "price": -146,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Justin Jefferson",
+                "price": 112,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": 130,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": -170,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Jordan Addison",
+                "price": 136,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Jordan Addison",
+                "price": -178,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DJ Moore",
+                "price": -102,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DJ Moore",
+                "price": -128,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "T.J. Hockenson",
+                "price": -192,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "T.J. Hockenson",
+                "price": 146,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": 108,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": -140,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rome Odunze",
+                "price": -140,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Rome Odunze",
+                "price": 108,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Cole Kmet",
+                "price": -152,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cole Kmet",
+                "price": 116,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2024-12-17T00:25:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": -110,
+                "point": 26.5
+              },
+              {
+                "name": "Over",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Under",
+                "description": "Cam Akers",
+                "price": -110,
+                "point": 24.5
+              },
+              {
+                "name": "Over",
+                "description": "D'Andre Swift",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Under",
+                "description": "D'Andre Swift",
+                "price": -110,
+                "point": 49.5
+              },
+              {
+                "name": "Over",
+                "description": "Sam Darnold",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Sam Darnold",
+                "price": -110,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Aaron Jones",
+                "price": -110,
+                "point": 66.5
+              },
+              {
+                "name": "Under",
+                "description": "Aaron Jones",
+                "price": -110,
+                "point": 66.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

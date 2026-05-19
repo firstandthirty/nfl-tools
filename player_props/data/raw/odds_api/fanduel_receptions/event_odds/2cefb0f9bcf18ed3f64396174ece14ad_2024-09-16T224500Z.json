@@ -1,0 +1,136 @@
+{
+  "timestamp": "2024-09-16T22:40:39Z",
+  "previous_timestamp": "2024-09-16T22:35:39Z",
+  "next_timestamp": "2024-09-16T22:45:39Z",
+  "data": {
+    "id": "2cefb0f9bcf18ed3f64396174ece14ad",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-17T00:15:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-16T22:39:24Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2024-09-16T22:40:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darnell Mooney",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Darnell Mooney",
+                "price": 1.66,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Saquon Barkley",
+                "price": 1.71,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Saquon Barkley",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 1.64,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 2.2,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "DeVonta Smith",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "DeVonta Smith",
+                "price": 2.12,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Ray-Ray McCloud III",
+                "price": 1.61,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Ray-Ray McCloud III",
+                "price": 2.25,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dallas Goedert",
+                "price": 2.04,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Dallas Goedert",
+                "price": 1.74,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.98,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 1.78,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Jahan Dotson",
+                "price": 1.88,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jahan Dotson",
+                "price": 1.88,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

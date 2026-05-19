@@ -1,0 +1,582 @@
+{
+  "timestamp": "2026-01-04T16:25:37Z",
+  "previous_timestamp": "2026-01-04T16:20:37Z",
+  "next_timestamp": "2026-01-04T16:30:39Z",
+  "data": {
+    "id": "7906052ca20e6daddf755c7fe3932887",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-04T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-01-04T16:25:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.49
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.7
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.83,
+                "point": -3.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.0,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-04T16:25:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.76
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.85,
+                "point": -3.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.96,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-01-04T16:25:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.47
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.71
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:02Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-01-04T16:24:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.49
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.63
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:24:50Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.88,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.89,
+                "point": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-01-04T16:25:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:14Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:14Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.93,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.98,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-01-04T16:23:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:23:33Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:23:33Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.88,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.93,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:23:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-01-04T16:24:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:24:49Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-01-04T16:24:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:24:36Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:24:36Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.87,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:24:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2026-01-04T16:23:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:23:36Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.72
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:23:36Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.89,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.92,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:23:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2026-01-04T16:25:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:27Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.48
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:27Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.91,
+                "point": -4.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 4.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:27Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-01-04T16:25:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-01-04T16:25:01Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.54
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 2.6
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2026-01-04T16:25:01Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.95,
+                "point": -3.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.87,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2026-01-04T16:25:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

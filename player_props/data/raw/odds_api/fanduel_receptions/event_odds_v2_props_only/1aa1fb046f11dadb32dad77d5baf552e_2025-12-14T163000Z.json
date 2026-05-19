@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-14T16:25:37Z",
+  "previous_timestamp": "2025-12-14T16:20:37Z",
+  "next_timestamp": "2025-12-14T16:30:37Z",
+  "data": {
+    "id": "1aa1fb046f11dadb32dad77d5baf552e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T16:24:53Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-14T16:25:30Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Ja'Marr Chase",
+                "price": 1.98,
+                "point": 7.5
+              },
+              {
+                "name": "Under",
+                "description": "Ja'Marr Chase",
+                "price": 1.81,
+                "point": 7.5
+              },
+              {
+                "name": "Over",
+                "description": "Zay Flowers",
+                "price": 2.08,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Zay Flowers",
+                "price": 1.72,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Derrick Henry",
+                "price": 2.5,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Derrick Henry",
+                "price": 1.51,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Andrei Iosivas",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Andrei Iosivas",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mitchell Tinsley",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mitchell Tinsley",
+                "price": 1.85,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Chase Brown",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Chase Brown",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mike Gesicki",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mike Gesicki",
+                "price": 2.02,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Rasheen Ali",
+                "price": 2.4,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Rasheen Ali",
+                "price": 1.56,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Isaiah Likely",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Isaiah Likely",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Mark Andrews",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Mark Andrews",
+                "price": 1.89,
+                "point": 3.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

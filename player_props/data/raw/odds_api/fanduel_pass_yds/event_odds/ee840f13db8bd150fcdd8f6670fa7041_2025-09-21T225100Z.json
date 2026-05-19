@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-21T22:50:38Z",
+  "previous_timestamp": "2025-09-21T22:45:38Z",
+  "next_timestamp": "2025-09-21T22:55:39Z",
+  "data": {
+    "id": "ee840f13db8bd150fcdd8f6670fa7041",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-22T00:21:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T22:50:19Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-09-21T22:50:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.89,
+                "point": 234.5
+              },
+              {
+                "name": "Over",
+                "description": "Russell Wilson",
+                "price": 1.89,
+                "point": 224.5
+              },
+              {
+                "name": "Under",
+                "description": "Russell Wilson",
+                "price": 1.89,
+                "point": 224.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

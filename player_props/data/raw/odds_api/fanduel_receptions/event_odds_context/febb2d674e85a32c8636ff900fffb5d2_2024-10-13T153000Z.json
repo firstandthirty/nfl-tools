@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-10-13T15:25:38Z",
+  "previous_timestamp": "2024-10-13T15:20:38Z",
+  "next_timestamp": "2024-10-13T15:30:38Z",
+  "data": {
+    "id": "febb2d674e85a32c8636ff900fffb5d2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-13T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.34
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.35
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-10-13T15:24:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:24:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-10-13T15:25:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.53
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.0,
+                "point": -7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.83,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-13T15:25:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.32
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:33Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 38.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 38.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.31
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.48
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.0,
+                "point": -7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.83,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-10-13T15:24:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.09,
+                "point": -7.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.83,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:24:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.94,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.94,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-10-13T15:25:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.88,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.93,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.32
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.94,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.4
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-10-13T15:25:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.33
+              },
+              {
+                "name": "New England Patriots",
+                "price": 3.5
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.83,
+                "point": -6.5
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.0,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-10-13T15:25:32Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 38.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 38.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

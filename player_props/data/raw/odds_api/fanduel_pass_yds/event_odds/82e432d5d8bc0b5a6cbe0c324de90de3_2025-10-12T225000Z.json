@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-12T22:45:39Z",
+  "previous_timestamp": "2025-10-12T22:40:39Z",
+  "next_timestamp": "2025-10-12T22:50:39Z",
+  "data": {
+    "id": "82e432d5d8bc0b5a6cbe0c324de90de3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-13T00:20:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-12T22:45:33Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-12T22:45:50Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Patrick Mahomes",
+                "price": 1.89,
+                "point": 262.5
+              },
+              {
+                "name": "Under",
+                "description": "Patrick Mahomes",
+                "price": 1.89,
+                "point": 262.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.89,
+                "point": 241.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.89,
+                "point": 241.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

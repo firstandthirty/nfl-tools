@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-10-27T15:25:37Z",
+  "previous_timestamp": "2024-10-27T15:20:38Z",
+  "next_timestamp": "2024-10-27T15:30:38Z",
+  "data": {
+    "id": "2883af924ad72a75da65e3257b9284e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-10-27T17:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-10-27T15:24:42Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-10-27T15:25:14Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 251.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": 1.91,
+                "point": 251.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 203.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyler Murray",
+                "price": 1.91,
+                "point": 203.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

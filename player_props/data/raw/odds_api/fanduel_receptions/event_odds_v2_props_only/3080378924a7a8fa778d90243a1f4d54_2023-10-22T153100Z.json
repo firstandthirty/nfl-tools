@@ -1,0 +1,124 @@
+{
+  "timestamp": "2023-10-22T15:30:40Z",
+  "previous_timestamp": "2023-10-22T15:25:40Z",
+  "next_timestamp": "2023-10-22T15:35:40Z",
+  "data": {
+    "id": "3080378924a7a8fa778d90243a1f4d54",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:01:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-22T15:30:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-22T15:29:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Kendrick Bourne",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kendrick Bourne",
+                "price": 2.14,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "James Cook",
+                "price": 2.36,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "James Cook",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Devante Parker",
+                "price": 2.14,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Devante Parker",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Stefon Diggs",
+                "price": 1.68,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Stefon Diggs",
+                "price": 2.16,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Gabriel Davis",
+                "price": 2.44,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Gabriel Davis",
+                "price": 1.54,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Dawson Knox",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dawson Knox",
+                "price": 1.72,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Kincaid",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Kincaid",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Rhamondre Stevenson",
+                "price": 1.78,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rhamondre Stevenson",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

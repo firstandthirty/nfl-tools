@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-09-21T15:25:38Z",
+  "previous_timestamp": "2025-09-21T15:20:39Z",
+  "next_timestamp": "2025-09-21T15:30:38Z",
+  "data": {
+    "id": "97de7672b61dbddbce982711c121e76d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-09-21T17:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-09-21T15:25:10Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-09-21T15:25:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Brian Thomas Jr",
+                "price": 2.34,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Brian Thomas Jr",
+                "price": 1.58,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Nico Collins",
+                "price": 2.16,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Nico Collins",
+                "price": 1.68,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Christian Kirk",
+                "price": 1.98,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Christian Kirk",
+                "price": 1.81,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Etienne Jr.",
+                "price": 2.16,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Etienne Jr.",
+                "price": 1.68,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Dyami Brown",
+                "price": 2.3,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dyami Brown",
+                "price": 1.6,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Travis Hunter",
+                "price": 2.26,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Travis Hunter",
+                "price": 1.62,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Dalton Schultz",
+                "price": 2.28,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Dalton Schultz",
+                "price": 1.61,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Chubb",
+                "price": 2.44,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Chubb",
+                "price": 1.55,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jayden Higgins",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Jayden Higgins",
+                "price": 1.78,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Brenton Strange",
+                "price": 1.58,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Brenton Strange",
+                "price": 2.34,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

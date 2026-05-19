@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-01-15T11:55:38Z",
+  "previous_timestamp": "2025-01-15T11:50:38Z",
+  "next_timestamp": "2025-01-15T12:00:38Z",
+  "data": [
+    {
+      "id": "8e69ba9c62b475e7c9dda2260f7e5a87",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-18T21:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Houston Texans"
+    },
+    {
+      "id": "f86739438df6c6481fdec0d16c189023",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T01:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "0c95381e5634e6c64aa5ca079e669dea",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Los Angeles Rams"
+    },
+    {
+      "id": "e2845c7119bd64fe725e9f9495032d72",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T23:30:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "a71edc36539a782d96fd5c5332ebeabb",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Los Angeles Rams"
+    },
+    {
+      "id": "f4ed30484e7eb10d8276a44dd7046f87",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Philadelphia Eagles"
+    },
+    {
+      "id": "efbac15f56fe50a7f1ed3eb0b68e4338",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "1828ad92c570cf68cb77f7754e9c6a5a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Washington Commanders"
+    },
+    {
+      "id": "22818189fc5a3166e04ce2be6e94cfa2",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Houston Texans"
+    },
+    {
+      "id": "165f895da9df97bac81a9592d3c9181d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Baltimore Ravens"
+    },
+    {
+      "id": "6bd7375e75e2df1cf3c1db1a3600f3ff",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Houston Texans"
+    },
+    {
+      "id": "d43eaaa8d1f21ca6d9822bca070a3d30",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills"
+    }
+  ]
+}

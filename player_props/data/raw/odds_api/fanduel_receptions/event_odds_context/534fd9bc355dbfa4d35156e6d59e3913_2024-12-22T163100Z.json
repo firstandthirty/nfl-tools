@@ -1,0 +1,545 @@
+{
+  "timestamp": "2024-12-22T16:30:39Z",
+  "previous_timestamp": "2024-12-22T16:25:37Z",
+  "next_timestamp": "2024-12-22T16:35:38Z",
+  "data": {
+    "id": "534fd9bc355dbfa4d35156e6d59e3913",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-22T18:01:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-12-22T16:29:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.7
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": 7.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-12-22T16:29:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.78
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.28
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.0,
+                "point": 6.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.83,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:29:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.7
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.96,
+                "point": 6.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.85,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-12-22T16:30:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.65
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-12-22T16:30:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.8
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-12-22T16:29:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:29:34Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.7
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.31
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:29:34Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.03,
+                "point": 6.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.88,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:29:34Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-12-22T16:30:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:36Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.6
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.3
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:36Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.93,
+                "point": 6.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.88,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-12-22T16:29:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:29:56Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.8
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:29:56Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.83,
+                "point": 7.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 2.0,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:29:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.75
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": 7.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.95,
+                "point": -7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-12-22T16:30:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 3.7
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.29
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 2.05,
+                "point": 6.5
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 1.8,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2024-12-22T16:30:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

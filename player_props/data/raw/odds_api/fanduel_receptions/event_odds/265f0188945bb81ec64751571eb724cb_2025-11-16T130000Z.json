@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-11-16T12:55:37Z",
+  "previous_timestamp": "2025-11-16T12:50:38Z",
+  "next_timestamp": "2025-11-16T13:00:37Z",
+  "data": {
+    "id": "265f0188945bb81ec64751571eb724cb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-16T14:30:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-16T12:55:28Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-16T12:55:53Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": 1.85,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Robbie Chosen",
+                "price": 2.48,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Robbie Chosen",
+                "price": 1.53,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Deebo Samuel Sr.",
+                "price": 1.85,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Deebo Samuel Sr.",
+                "price": 1.93,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "John Bates",
+                "price": 2.34,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "John Bates",
+                "price": 1.58,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Washington",
+                "price": 1.83,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Washington",
+                "price": 1.94,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Greg Dulcich",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dulcich",
+                "price": 1.79,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Zach Ertz",
+                "price": 1.57,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Zach Ertz",
+                "price": 2.38,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylin Lane",
+                "price": 2.7,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylin Lane",
+                "price": 1.45,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 1.98,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": 1.81,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.86,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.91,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

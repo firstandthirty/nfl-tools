@@ -1,0 +1,382 @@
+{
+  "timestamp": "2025-11-30T17:25:37Z",
+  "previous_timestamp": "2025-11-30T17:20:37Z",
+  "next_timestamp": "2025-11-30T17:30:37Z",
+  "data": {
+    "id": "e3c9bfba57bbe784481d881ea3b4519d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-11-30T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-11-30T17:25:16Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-11-30T17:25:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyler Shough",
+                "price": -112,
+                "point": 209.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Shough",
+                "price": -112,
+                "point": 209.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": -112,
+                "point": 214.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": -112,
+                "point": 214.5
+              }
+            ]
+          },
+          {
+            "key": "player_reception_yds",
+            "last_update": "2025-11-30T17:25:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": -112,
+                "point": 25.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": -112,
+                "point": 25.5
+              },
+              {
+                "name": "Over",
+                "description": "Greg Dulcich",
+                "price": -112,
+                "point": 11.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dulcich",
+                "price": -112,
+                "point": 11.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": -112,
+                "point": 64.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": -112,
+                "point": 64.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Tipton",
+                "price": -112,
+                "point": 17.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Tipton",
+                "price": -112,
+                "point": 17.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": -112,
+                "point": 70.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": -112,
+                "point": 70.5
+              },
+              {
+                "name": "Over",
+                "description": "Devaughn Vele",
+                "price": -112,
+                "point": 29.5
+              },
+              {
+                "name": "Under",
+                "description": "Devaughn Vele",
+                "price": -112,
+                "point": 29.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -112,
+                "point": 34.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -112,
+                "point": 34.5
+              },
+              {
+                "name": "Over",
+                "description": "Devin Neal",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Devin Neal",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Washington",
+                "price": -112,
+                "point": 22.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Washington",
+                "price": -112,
+                "point": 22.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": -112,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -112,
+                "point": 41.5
+              }
+            ]
+          },
+          {
+            "key": "player_receptions",
+            "last_update": "2025-11-30T17:25:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Greg Dulcich",
+                "price": 122,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Greg Dulcich",
+                "price": -156,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Washington",
+                "price": 118,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Washington",
+                "price": -150,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Chris Olave",
+                "price": -122,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Chris Olave",
+                "price": -106,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Darren Waller",
+                "price": 112,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Darren Waller",
+                "price": -142,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Mason Tipton",
+                "price": 152,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Mason Tipton",
+                "price": -196,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": 116,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -148,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaylen Waddle",
+                "price": 116,
+                "point": 5.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaylen Waddle",
+                "price": -148,
+                "point": 5.5
+              },
+              {
+                "name": "Over",
+                "description": "Devaughn Vele",
+                "price": 152,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Devaughn Vele",
+                "price": -196,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Juwan Johnson",
+                "price": 128,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Juwan Johnson",
+                "price": -164,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Devin Neal",
+                "price": 116,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Devin Neal",
+                "price": -148,
+                "point": 3.5
+              }
+            ]
+          },
+          {
+            "key": "player_rush_yds",
+            "last_update": "2025-11-30T17:25:43Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Taysom Hill",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Under",
+                "description": "Taysom Hill",
+                "price": -112,
+                "point": 19.5
+              },
+              {
+                "name": "Over",
+                "description": "Tua Tagovailoa",
+                "price": -102,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Tua Tagovailoa",
+                "price": -124,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Shough",
+                "price": -112,
+                "point": 12.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Shough",
+                "price": -112,
+                "point": 12.5
+              },
+              {
+                "name": "Over",
+                "description": "Ollie Gordon II",
+                "price": -112,
+                "point": 18.5
+              },
+              {
+                "name": "Under",
+                "description": "Ollie Gordon II",
+                "price": -112,
+                "point": 18.5
+              },
+              {
+                "name": "Over",
+                "description": "De'Von Achane",
+                "price": -112,
+                "point": 81.5
+              },
+              {
+                "name": "Under",
+                "description": "De'Von Achane",
+                "price": -112,
+                "point": 81.5
+              },
+              {
+                "name": "Over",
+                "description": "Devin Neal",
+                "price": -112,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "description": "Devin Neal",
+                "price": -112,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

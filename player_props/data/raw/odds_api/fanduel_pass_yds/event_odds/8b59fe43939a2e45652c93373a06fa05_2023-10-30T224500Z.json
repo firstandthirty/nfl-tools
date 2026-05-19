@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-30T22:40:42Z",
+  "previous_timestamp": "2023-10-30T22:35:42Z",
+  "next_timestamp": "2023-10-30T22:45:42Z",
+  "data": {
+    "id": "8b59fe43939a2e45652c93373a06fa05",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-31T00:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-30T22:40:00Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-30T22:36:38Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 253.5
+              },
+              {
+                "name": "Under",
+                "description": "Jimmy Garoppolo",
+                "price": 1.91,
+                "point": 253.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 262.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 262.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

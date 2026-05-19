@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-01-18T21:55:37Z",
+  "previous_timestamp": "2026-01-18T21:50:38Z",
+  "next_timestamp": "2026-01-18T22:00:40Z",
+  "data": {
+    "id": "3cb03f5ff8d371b94e8b55c7e58b7a34",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2026-01-18T23:30:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-01-18T21:55:08Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-01-18T21:55:20Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 263.5
+              },
+              {
+                "name": "Under",
+                "description": "Matthew Stafford",
+                "price": 1.89,
+                "point": 263.5
+              },
+              {
+                "name": "Over",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 212.5
+              },
+              {
+                "name": "Under",
+                "description": "Caleb Williams",
+                "price": 1.89,
+                "point": 212.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "timestamp": "2023-10-29T15:30:40Z",
+  "previous_timestamp": "2023-10-29T15:25:40Z",
+  "next_timestamp": "2023-10-29T15:35:40Z",
+  "data": {
+    "id": "97819f71c474956d24e436f0465f1591",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:03:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T15:30:32Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2023-10-29T15:27:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Drake London",
+                "price": 2.08,
+                "point": 4.5
+              },
+              {
+                "name": "Under",
+                "description": "Drake London",
+                "price": 1.72,
+                "point": 4.5
+              },
+              {
+                "name": "Over",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.98,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Chigoziem Okonkwo",
+                "price": 1.8,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Kyle Pitts",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Kyle Pitts",
+                "price": 1.72,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Bijan Robinson",
+                "price": 1.78,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Bijan Robinson",
+                "price": 2.0,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "DeAndre Hopkins",
+                "price": 1.56,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "DeAndre Hopkins",
+                "price": 2.4,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 1.64,
+                "point": 1.5
+              },
+              {
+                "name": "Under",
+                "description": "Nick Westbrook-Ikhine",
+                "price": 2.22,
+                "point": 1.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonnu Smith",
+                "price": 1.57,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonnu Smith",
+                "price": 2.36,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

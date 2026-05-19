@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-10-09T22:40:39Z",
+  "previous_timestamp": "2025-10-09T22:35:39Z",
+  "next_timestamp": "2025-10-09T22:45:39Z",
+  "data": {
+    "id": "e10fe83ee6178a598e7fa84ea0913366",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-10T00:15:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-09T22:40:21Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2025-10-09T22:40:51Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Jaxson Dart",
+                "price": 1.89,
+                "point": 178.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxson Dart",
+                "price": 1.89,
+                "point": 178.5
+              },
+              {
+                "name": "Over",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 196.5
+              },
+              {
+                "name": "Under",
+                "description": "Jalen Hurts",
+                "price": 1.89,
+                "point": 196.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

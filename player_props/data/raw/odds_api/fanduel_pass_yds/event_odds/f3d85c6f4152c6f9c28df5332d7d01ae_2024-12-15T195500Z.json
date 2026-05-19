@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-12-15T19:50:37Z",
+  "previous_timestamp": "2024-12-15T19:45:37Z",
+  "next_timestamp": "2024-12-15T19:55:37Z",
+  "data": {
+    "id": "f3d85c6f4152c6f9c28df5332d7d01ae",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-12-15T21:25:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-12-15T19:50:36Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-12-15T19:50:03Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Allen",
+                "price": 1.91,
+                "point": 256.5
+              },
+              {
+                "name": "Over",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 257.5
+              },
+              {
+                "name": "Under",
+                "description": "Jared Goff",
+                "price": 1.91,
+                "point": 257.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

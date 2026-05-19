@@ -1,0 +1,598 @@
+{
+  "timestamp": "2025-12-01T23:40:38Z",
+  "previous_timestamp": "2025-12-01T23:35:37Z",
+  "next_timestamp": "2025-12-01T23:45:37Z",
+  "data": {
+    "id": "3e65786eddd4c7aee9e7f2504f6fdedc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-02T01:15:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-12-01T23:40:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.85,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.98,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2025-12-01T23:40:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:15Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:15Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.92,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:15Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-01T23:40:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.28
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.9
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.0,
+                "point": -7.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.82,
+                "point": 7.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:29Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-12-01T23:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:38:59Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.26
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.95
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:38:59Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-12-01T23:40:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.29
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-12-01T23:40:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.92
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.96,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.94,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:12Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-12-01T23:39:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:39:56Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.27
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.92
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:39:56Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:39:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-12-01T23:39:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.25
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.85
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:39:44Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-12-01T23:39:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:39:45Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.29
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.8
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:39:45Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.0,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:39:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanatics",
+        "title": "Fanatics",
+        "last_update": "2025-12-01T23:40:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:40:13Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.3
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.65
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:40:13Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:40:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-12-01T23:39:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2025-12-01T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.29
+              },
+              {
+                "name": "New York Giants",
+                "price": 3.75
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2025-12-01T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-12-01T23:39:47Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 47.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 47.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

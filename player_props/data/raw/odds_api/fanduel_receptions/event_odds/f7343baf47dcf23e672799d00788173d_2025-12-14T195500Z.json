@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-12-14T19:50:37Z",
+  "previous_timestamp": "2025-12-14T19:45:37Z",
+  "next_timestamp": "2025-12-14T19:55:37Z",
+  "data": {
+    "id": "f7343baf47dcf23e672799d00788173d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-12-14T21:25:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-12-14T19:50:13Z",
+        "markets": [
+          {
+            "key": "player_receptions",
+            "last_update": "2025-12-14T19:50:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Rashid Shaheed",
+                "price": 2.04,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Rashid Shaheed",
+                "price": 1.76,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "AJ Barner",
+                "price": 2.08,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "AJ Barner",
+                "price": 1.74,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Under",
+                "description": "Jaxon Smith-Njigba",
+                "price": 1.89,
+                "point": 6.5
+              },
+              {
+                "name": "Over",
+                "description": "Jonathan Taylor",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Jonathan Taylor",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Alec Pierce",
+                "price": 2.02,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Alec Pierce",
+                "price": 1.77,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Cooper Kupp",
+                "price": 1.75,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Cooper Kupp",
+                "price": 2.06,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Josh Downs",
+                "price": 1.74,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Josh Downs",
+                "price": 2.08,
+                "point": 2.5
+              },
+              {
+                "name": "Over",
+                "description": "Tyler Warren",
+                "price": 1.63,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyler Warren",
+                "price": 2.24,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Michael Pittman Jr.",
+                "price": 1.68,
+                "point": 3.5
+              },
+              {
+                "name": "Under",
+                "description": "Michael Pittman Jr.",
+                "price": 2.16,
+                "point": 3.5
+              },
+              {
+                "name": "Over",
+                "description": "Kenneth Walker III",
+                "price": 2.56,
+                "point": 2.5
+              },
+              {
+                "name": "Under",
+                "description": "Kenneth Walker III",
+                "price": 1.49,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2024-09-15T15:25:37Z",
+  "previous_timestamp": "2024-09-15T15:20:38Z",
+  "next_timestamp": "2024-09-15T15:30:38Z",
+  "data": {
+    "id": "c4e5642a8746f3e8fbb09d59a611ffe4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-09-15T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-09-15T15:24:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-09-15T15:25:52Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Under",
+                "description": "Anthony Richardson",
+                "price": 1.91,
+                "point": 197.5
+              },
+              {
+                "name": "Over",
+                "description": "Malik Willis",
+                "price": 1.91,
+                "point": 167.5
+              },
+              {
+                "name": "Under",
+                "description": "Malik Willis",
+                "price": 1.91,
+                "point": 167.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

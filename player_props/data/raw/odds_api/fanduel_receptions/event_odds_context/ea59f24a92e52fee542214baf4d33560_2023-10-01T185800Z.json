@@ -1,0 +1,810 @@
+{
+  "timestamp": "2023-10-01T18:55:39Z",
+  "previous_timestamp": "2023-10-01T18:50:40Z",
+  "next_timestamp": "2023-10-01T19:00:40Z",
+  "data": {
+    "id": "ea59f24a92e52fee542214baf4d33560",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T20:28:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2023-10-01T18:54:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2023-10-01T18:54:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 15.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -15.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2023-10-01T18:54:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.94,
+                "point": 15.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.97,
+                "point": -15.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-10-01T18:54:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 15.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -15.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2023-10-01T18:54:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.08
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:58Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2023-10-01T18:54:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 7.25
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "William Hill (US)",
+        "last_update": "2023-10-01T18:53:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_us",
+        "title": "Unibet",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pointsbetus",
+        "title": "PointsBet (US)",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 7.75
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 15.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -15.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2023-10-01T18:53:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.09
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:53:40Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "barstool",
+        "title": "Barstool Sportsbook",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 8.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.1
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.87,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "twinspires",
+        "title": "TwinSpires",
+        "last_update": "2023-10-01T18:54:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 7.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.11
+              }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 14.5
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -14.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2023-10-01T18:54:57Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

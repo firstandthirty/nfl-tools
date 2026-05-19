@@ -1,0 +1,40 @@
+{
+  "timestamp": "2024-01-07T19:55:38Z",
+  "previous_timestamp": "2024-01-07T19:50:38Z",
+  "next_timestamp": "2024-01-07T20:00:38Z",
+  "data": {
+    "id": "66c7e39643ecae341addae9fff981d0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T21:26:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-01-07T19:55:13Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2024-01-07T19:53:07Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Tyrod Taylor",
+                "price": 1.91,
+                "point": 209.5
+              },
+              {
+                "name": "Under",
+                "description": "Tyrod Taylor",
+                "price": 1.91,
+                "point": 209.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

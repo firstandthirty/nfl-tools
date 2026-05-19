@@ -1,0 +1,52 @@
+{
+  "timestamp": "2023-10-29T18:55:40Z",
+  "previous_timestamp": "2023-10-29T18:50:39Z",
+  "next_timestamp": "2023-10-29T19:00:40Z",
+  "data": {
+    "id": "ada6e4fa41270f4b036701448503cea6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:26:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2023-10-29T18:54:40Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2023-10-29T18:55:13Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Under",
+                "description": "Lamar Jackson",
+                "price": 1.91,
+                "point": 232.5
+              },
+              {
+                "name": "Over",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 192.6
+              },
+              {
+                "name": "Under",
+                "description": "Joshua Dobbs",
+                "price": 1.91,
+                "point": 192.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

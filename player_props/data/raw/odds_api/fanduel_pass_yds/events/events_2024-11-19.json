@@ -1,0 +1,111 @@
+{
+  "timestamp": "2024-11-19T11:55:38Z",
+  "previous_timestamp": "2024-11-19T11:50:38Z",
+  "next_timestamp": "2024-11-19T12:00:38Z",
+  "data": [
+    {
+      "id": "3544bdfabe61cc6d4389984a5ca83955",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-22T01:15:00Z",
+      "home_team": "Cleveland Browns",
+      "away_team": "Pittsburgh Steelers"
+    },
+    {
+      "id": "2c895731f7e3bd3effe4e87779fbdcc2",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Carolina Panthers",
+      "away_team": "Kansas City Chiefs"
+    },
+    {
+      "id": "bc6d508d57f822879df4dbc3c4465226",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Chicago Bears",
+      "away_team": "Minnesota Vikings"
+    },
+    {
+      "id": "3c833a498591fa8934c84aa7f3215b7f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Dallas Cowboys"
+    },
+    {
+      "id": "2f2541411e68f807dc47d527f5dd4cba",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Indianapolis Colts",
+      "away_team": "Detroit Lions"
+    },
+    {
+      "id": "56f4bfb8e21ec6003f31a080be045fc3",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "Tennessee Titans"
+    },
+    {
+      "id": "366a8618003ac848eac5144aebbeace4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "Miami Dolphins",
+      "away_team": "New England Patriots"
+    },
+    {
+      "id": "28c6ab7cb99a26666b9c7d649bbd46f3",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T18:00:00Z",
+      "home_team": "New York Giants",
+      "away_team": "Tampa Bay Buccaneers"
+    },
+    {
+      "id": "19d5cf9ece71b4671440a3b9e03942c4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T21:05:00Z",
+      "home_team": "Las Vegas Raiders",
+      "away_team": "Denver Broncos"
+    },
+    {
+      "id": "d9a2e1ead2367a3b0f46d247ed5b2906",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T21:25:00Z",
+      "home_team": "Seattle Seahawks",
+      "away_team": "Arizona Cardinals"
+    },
+    {
+      "id": "b26e961510947a770532c902ceb27e75",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-24T21:25:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "San Francisco 49ers"
+    },
+    {
+      "id": "40c0ee76eb698fbd5d42139045c27c3e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-25T01:20:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Philadelphia Eagles"
+    },
+    {
+      "id": "887b10368f0b3f33a8c47e955736da89",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-11-26T01:15:00Z",
+      "home_team": "Los Angeles Chargers",
+      "away_team": "Baltimore Ravens"
+    }
+  ]
+}
