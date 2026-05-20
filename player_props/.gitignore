@@ -1,4 +1,69 @@
+# ==========================
+# ENV / PYTHON
+# ==========================
+
 .env
+.env.*
+
 props_env/
+venv/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.python-version
+
+# ==========================
+# JUPYTER / NOTEBOOKS
+# ==========================
+
+.ipynb_checkpoints/
+
+# ==========================
+# OS / EDITOR
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ==========================
+# GENERATED DATA
+# Keep folder structure, ignore contents
+# ==========================
+
+# Raw API pulls
+data/raw/
+data/odds_snapshots/
+data/historical_props/
+
+# Temporary processed outputs
+data/processed/archive/
+data/processed/eda/
+data/processed/eda_filtered/
+data/processed/eda_plots/
+
+# Generated plots
+data/analysis/plots/
+
+# Optional: raw odds-api event dumps
+data/raw/odds_api/
+
+# ==========================
+# LARGE / TEMP FILES
+# ==========================
+
+*.log
+*.tmp
+*.bak
+
+# ==========================
+# KEEP IMPORTANT CSV OUTPUTS
+# (comment out if desired)
+# ==========================
+
+# !data/analysis/*.csv
+# !data/processed/*.csv
