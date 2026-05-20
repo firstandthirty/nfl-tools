@@ -1023,7 +1023,7 @@ def main():
             except Exception as e:
                 print(f"[receptions][error] position+favorite+total ROI failed: {e}")
 
-            # ROI by position + line bucket + favorite + total bucket
+            # ROI by position + line + favorite + total bucket
             try:
                 if have_spread and have_total:
                     roi_pos_line_fav_total = (
@@ -1068,6 +1068,54 @@ def main():
                 print(
                     f"[receptions][error] "
                     f"position+line+favorite+total ROI failed: {e}"
+                )
+
+            # WR underdog high-total line buckets by juice
+            try:
+                if have_spread and have_total:
+
+                    wr_shootout_dogs = df[
+                        (df["position"] == "WR")
+                        & (df["is_favorite"] == False)
+                        & (df["total_bucket"] == "high_total_47_plus")
+                    ].copy()
+
+                    roi_wr_dog_high_total_juice = (
+                        wr_shootout_dogs.groupby(
+                            ["line_bucket", "juice_bucket"],
+                            dropna=False,
+                        )
+                        .apply(roi_agg)
+                        .reset_index()
+                    )
+
+                    wr_dog_high_total_juice_file = (
+                        out_dir /
+                        "receptions_roi_wr_underdog_high_total_by_juice.csv"
+                    )
+
+                    roi_wr_dog_high_total_juice.to_csv(
+                        wr_dog_high_total_juice_file,
+                        index=False,
+                    )
+
+                    print(
+                        "[output] wr underdog high-total by juice: "
+                        f"{wr_dog_high_total_juice_file}"
+                    )
+
+                    print(
+                        "\n===== WR UNDERDOG HIGH TOTAL "
+                        "(47+) BY LINE + JUICE ====="
+                    )
+                    print(
+                        roi_wr_dog_high_total_juice.to_string(index=False)
+                    )
+
+            except Exception as e:
+                print(
+                    "[receptions][error] wr underdog "
+                    f"high-total juice split failed: {e}"
                 )
 
             # ROI by position + line bucket + favorite status

@@ -9,9 +9,9 @@ API_KEY = os.getenv("FANTASYPROS_API_KEY")
 headers = {"x-api-key": API_KEY}
 
 urls = [
-    "https://api.fantasypros.com/v2/json/nfl/news",
-    "https://api.fantasypros.com/v2/json/nfl/players",
-    "https://api.fantasypros.com/v2/json/nfl/2025/projections",
+    "https://api.fantasypros.com/public/v2/json/nfl/news",
+    "https://api.fantasypros.com/public/v2/json/nfl/players",
+    "https://api.fantasypros.com/public/v2/json/nfl/2025/projections",
 ]
 
 for url in urls:
