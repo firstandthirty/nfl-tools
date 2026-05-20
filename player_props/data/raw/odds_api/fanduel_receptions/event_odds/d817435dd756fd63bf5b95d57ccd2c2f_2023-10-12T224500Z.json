@@ -1,4 +1,0 @@
-{
-  "status": 404,
-  "body": "{\"message\":\"Event not found. The event may have expired or the event id is invalid.\",\"error_code\":\"EVENT_NOT_FOUND\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#event-not-found\"}\n"
-}

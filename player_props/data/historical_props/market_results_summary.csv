@@ -1,5 +1,0 @@
-market_key,rows,over_rate,under_rate,push_rate,avg_line,avg_actual,avg_actual_minus_line,avg_over_price,avg_under_price,blind_over_roi,blind_under_roi
-player_pass_yds,433,0.4827,0.5173,0.0,223.53,225.1501,1.6201,-110.0115,-109.9885,-0.0785,-0.0123
-player_reception_yds,2362,0.4865,0.5135,0.0,32.1554,36.2705,4.1152,-108.9623,-109.0351,-0.0711,-0.0196
-player_receptions,1332,0.4827,0.5173,0.0,3.4257,3.5893,0.1637,-57.0766,-67.1667,-0.091,-0.0322
-player_rush_yds,1075,0.4828,0.5172,0.0,36.9977,40.3553,3.3577,-107.2577,-109.453,-0.078,-0.0136
