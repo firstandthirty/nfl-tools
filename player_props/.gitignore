@@ -52,6 +52,18 @@ data/analysis/plots/
 # Optional: raw odds-api event dumps
 data/raw/odds_api/
 
+# Generated analysis outputs
+player_props/data/analysis/backtests/*.csv
+player_props/data/analysis/backtests/*.parquet
+
+# Large generated model outputs
+player_props/data/analysis/*model_bets.csv
+
+# Temporary parity validation artifacts
+player_props/data/analysis/backtests/parity_*
+player_props/data/analysis/backtests/validation_*
+
+
 # ==========================
 # LARGE / TEMP FILES
 # ==========================
