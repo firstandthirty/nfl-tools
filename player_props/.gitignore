@@ -63,6 +63,12 @@ player_props/data/analysis/*model_bets.csv
 player_props/data/analysis/backtests/parity_*
 player_props/data/analysis/backtests/validation_*
 
+# Generated model/backtest outputs
+data/analysis/*model_bets.csv
+data/analysis/backtests/*.csv
+data/analysis/backtests/parity_*
+data/analysis/backtests/validation_*
+
 
 # ==========================
 # LARGE / TEMP FILES
