@@ -1,0 +1,2 @@
+rows,seasons,players,games,avg_line,median_line,std_line,avg_actual,avg_actual_minus_line,median_actual_minus_line,std_actual_minus_line,skew_actual_minus_line,kurt_actual_minus_line,over_hit_rate,under_hit_rate,push_rate,avg_market_hold,median_market_hold
+2333,1,292,222,32.5728675525075,28.5,19.173125807312072,37.901843120445776,5.328975567938277,0.5,28.018806178691428,1.0490545902043058,2.562829978536605,0.5057865409344192,0.4942134590655808,0.0,0.04763829951354088,0.04761904761904767

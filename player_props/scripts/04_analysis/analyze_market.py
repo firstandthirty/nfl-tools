@@ -40,11 +40,73 @@ MARKET_CONFIG = {
         "display_name": "RECEPTIONS",
         "actual_col_candidates": ["actual_receptions", "receptions"],
         "stat_col_candidates": ["receptions"],
-        "input_file": "data/processed/fanduel_receptions_history.csv",
+        "input_file": "data/processed/fanduel_{output_slug}_history.csv",
         "line_bins": [0, 2.5, 3.5, 4.5, 5.5, 6.5, 100],
         "line_labels": ["<=2.5", "3.5", "4.5", "5.5", "6.5", "7+"],
         "max_actual": 50,
         "clean_filter": {},
+    },
+    "player_reception_yds": {
+        "display_name": "RECEIVING YARDS",
+        "actual_col_candidates": [
+            "actual_receiving_yards",
+            "actual_reception_yards",
+            "receiving_yards",
+            "reception_yards",
+            "rec_yds",
+        ],
+        "stat_col_candidates": [
+            "receiving_yards",
+            "reception_yards",
+            "rec_yds",
+        ],
+        "input_file": "data/historical_props/historical_closing_props.csv",
+        "primary_actuals_file": Path("data/processed/pff/pff_player_weekly_master.csv"),
+        "fallback_actuals_file": None,
+        "line_bins": [-math.inf, 20, 30, 40, 50, 60, 75, math.inf],
+        "line_labels": ["<20", "20-30", "30-40", "40-50", "50-60", "60-75", "75+"],
+        "max_actual": 250,
+        "clean_filter": {
+            "residual_min": -100,
+            "residual_max": 150,
+        },
+    },
+    "player_rush_yds": {
+        "label": "Rushing Yards",
+        "display_name": "RUSHING YARDS",
+        "bookmaker": "fanduel",
+        "actual_col": "rushing_yards",
+        "actual_col_candidates": [
+            "actual_rushing_yards",
+            "actual_rush_yds",
+            "rushing_yards",
+            "rush_yds",
+            "rush_yards",
+        ],
+        "stat_col_candidates": [
+            "rushing_yards",
+            "rush_yds",
+            "rush_yards",
+        ],
+        "projection_col": "projected_rush_yds",
+        "distribution": "normal",
+        "primary_actuals_file": Path("data/processed/pff/pff_player_weekly_master.csv"),
+        "fallback_actuals_file": None,
+        "history_file": Path("data/historical_props/merged_props_with_context.csv"),
+        "input_file": "data/historical_props/merged_props_with_context.csv",
+        "analysis_rows_file": Path("data/analysis/rush_yds_market_analysis_rows.csv"),
+        "output_slug": "rush_yds",
+        "positions": ["QB", "HB", "FB", "RB"],
+        "line_bins": [-math.inf, 20, 40, 60, 80, math.inf],
+        "line_labels": ["<20", "20-40", "40-60", "60-80", "80+"],
+        "max_actual": 250,
+        "default_clean_filter": {
+            "min_actual": 0,
+            "residual_min": -100,
+            "residual_max": 150,
+        },
+        "known_sigma": None,
+        "min_line": 5,
     },
 }
 
@@ -88,6 +150,7 @@ NFL_TEAM_ABBR_TO_FULL = {
     "WSH": "Washington Commanders",
 }
 
+CONTEXT_MARKETS = {"player_receptions", "player_reception_yds", "player_rush_yds"}
 
 def spread_bucket(v):
     if pd.isna(v):
@@ -334,6 +397,61 @@ def dedup_actuals(df: pd.DataFrame, key_cols, actual_col):
     return df.drop_duplicates(subset=key_cols, keep="first")
 
 
+def derive_season_week_from_commence(df: pd.DataFrame) -> pd.DataFrame:
+    if "commence_time" not in df.columns:
+        return df
+
+    dates = pd.to_datetime(df["commence_time"], errors="coerce", utc=True)
+
+    if "season_guess" not in df.columns:
+        df["season_guess"] = pd.NA
+    if "week_guess" not in df.columns:
+        df["week_guess"] = pd.NA
+
+    season_missing = df["season_guess"].isna()
+    if season_missing.any():
+        season_year = dates.dt.year.where(dates.dt.month >= 9, dates.dt.year - 1)
+        df.loc[season_missing, "season_guess"] = season_year.loc[season_missing].astype("Int64")
+        print("[derive] created season_guess from commence_time")
+
+    week_missing = df["week_guess"].isna()
+    if week_missing.any():
+        week_starts = [
+            ("2024-09-05", 1),
+            ("2024-09-12", 2),
+            ("2024-09-19", 3),
+            ("2024-09-26", 4),
+            ("2024-10-03", 5),
+            ("2024-10-10", 6),
+            ("2024-10-17", 7),
+            ("2024-10-24", 8),
+            ("2024-10-31", 9),
+            ("2024-11-07", 10),
+            ("2024-11-14", 11),
+            ("2024-11-21", 12),
+            ("2024-11-28", 13),
+            ("2024-12-05", 14),
+            ("2024-12-12", 15),
+            ("2024-12-19", 16),
+            ("2024-12-25", 17),
+            ("2025-01-02", 18),
+        ]
+        week_guess = pd.Series(index=df.index, dtype="float64")
+        date_only = dates.dt.normalize()
+        for week_start, week in week_starts:
+            start_dt = pd.Timestamp(week_start, tz="UTC")
+            week_guess = week_guess.where(date_only < start_dt, week)
+        df.loc[week_missing, "week_guess"] = week_guess.loc[week_missing].astype("Int64")
+        print("[derive] created week_guess from commence_time")
+
+    if "season_guess" in df.columns and "week_guess" in df.columns:
+        season_count = df["season_guess"].dropna().nunique()
+        week_count = df["week_guess"].dropna().nunique()
+        print(f"[derive] distinct season_guess count={season_count:,}, week_guess count={week_count:,}")
+
+    return df
+
+
 def join_on_keys(odds_df: pd.DataFrame, source_df: pd.DataFrame, key_cols, actual_col):
     source_cols = [*key_cols, actual_col]
 
@@ -417,6 +535,7 @@ def main():
     cfg = load_market_config_safe(args.market) or {}
 
     # Built-in market definitions
+    print("[debug] MARKET_CONFIG keys:", list(MARKET_CONFIG.keys()))
     market_local_cfg = MARKET_CONFIG.get(args.market)
     if market_local_cfg is None:
         raise RuntimeError(f"Unknown market: {args.market}. Available: {list(MARKET_CONFIG.keys())}")
@@ -461,6 +580,16 @@ def main():
     plot_dir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_file)
+
+    if "market_key" in df.columns:
+        before_market_filter = len(df)
+        df = df[df["market_key"] == args.market].copy()
+        print(
+            f"[market filter] {args.market}: "
+            f"{before_market_filter:,} -> {len(df):,}"
+        )
+
+    df = derive_season_week_from_commence(df)
 
     required = [
         "season_guess",
@@ -812,7 +941,7 @@ def main():
     created_pos_line_fav_total = False
 
     # Detect spread/total columns and create buckets for player_receptions
-    if args.market == "player_receptions":
+    if args.market in CONTEXT_MARKETS:
         spread_cols = [
             "spread",
             "point_spread",
@@ -843,7 +972,7 @@ def main():
         print(f"column={total_col}")
 
         if not have_spread:
-            print("[receptions][warn] no spread column found")
+            print("[context][warn] no spread column found")
         else:
             # coerce numeric
             df[spread_col] = pd.to_numeric(df[spread_col], errors="coerce")
@@ -871,7 +1000,7 @@ def main():
             df["spread_bucket"] = df[spread_col].apply(spread_bucket_fn)
 
         if not have_total:
-            print("[receptions][warn] no total column found")
+            print("[context][warn] no total column found")
         else:
             df[total_col] = pd.to_numeric(df[total_col], errors="coerce")
             df["total_bucket"] = pd.cut(
@@ -932,6 +1061,15 @@ def main():
     roi_position = None
     roi_position_file = out_dir / f"{output_slug}_roi_by_position.csv"
     roi_position_line_file = out_dir / f"{output_slug}_roi_by_position_line_bucket.csv"
+
+    # Contextual ROI output paths (use output_slug for filenames)
+    roi_pos_fav_file = out_dir / f"{output_slug}_roi_by_position_favorite_status.csv"
+    roi_pos_spread_file = out_dir / f"{output_slug}_roi_by_position_spread_bucket.csv"
+    roi_pos_total_file = out_dir / f"{output_slug}_roi_by_position_total_bucket.csv"
+    roi_pos_fav_total_file = out_dir / f"{output_slug}_roi_by_position_favorite_total_bucket.csv"
+    roi_pos_line_fav_file = out_dir / f"{output_slug}_roi_by_position_line_bucket_favorite_status.csv"
+    roi_pos_line_fav_total_file = out_dir / f"{output_slug}_roi_by_position_line_bucket_favorite_total_bucket.csv"
+    wr_dog_high_total_juice_file = out_dir / f"{output_slug}_roi_wr_underdog_high_total_by_juice.csv"
     if "position" in df.columns:
         df["position"] = df["position"].fillna("UNKNOWN")
         roi_position = df.groupby("position").apply(roi_agg).reset_index()
@@ -959,8 +1097,8 @@ def main():
         print(roi_pos_line.to_string(index=False))
 
         # Additional receptions ROI splits by game/script buckets
-        if args.market == "player_receptions":
-            print("[receptions] computing additional ROI splits for receptions (if data available)")
+        if args.market in CONTEXT_MARKETS:
+            print("[context] computing additional ROI splits (if data available)")
             # Ensure position is filled
             df["position"] = df["position"].fillna("UNKNOWN")
 
@@ -968,37 +1106,37 @@ def main():
             try:
                 if have_spread:
                     roi_pos_fav = df.groupby(["position", "is_favorite"], dropna=False).apply(roi_agg).reset_index()
-                    roi_pos_fav.to_csv(out_dir / "receptions_roi_by_position_favorite_status.csv", index=False)
+                    roi_pos_fav.to_csv(roi_pos_fav_file, index=False)
+                    print(f"[output] roi by position+favorite: {roi_pos_fav_file}")
                     created_pos_fav = True
-                    print(f"[output] receptions roi by position+favorite: {out_dir / 'receptions_roi_by_position_favorite_status.csv'}")
                 else:
-                    print("[receptions][warning] cannot compute position+favorite ROI (spread data missing)")
+                    print("[context][warning] cannot compute position+favorite ROI (spread data missing)")
             except Exception as e:
-                print(f"[receptions][error] position+favorite ROI failed: {e}")
+                print(f"[context][error] position+favorite ROI failed: {e}")
 
             # ROI by position + spread bucket
             try:
                 if have_spread:
                     roi_pos_spread = df.groupby(["position", "spread_bucket"], dropna=False).apply(roi_agg).reset_index()
-                    roi_pos_spread.to_csv(out_dir / "receptions_roi_by_position_spread_bucket.csv", index=False)
+                    roi_pos_spread.to_csv(roi_pos_spread_file, index=False)
                     created_pos_spread = True
-                    print(f"[output] receptions roi by position+spread: {out_dir / 'receptions_roi_by_position_spread_bucket.csv'}")
+                    print(f"[output] roi by position+spread: {roi_pos_spread_file}")
                 else:
-                    print("[receptions][warning] cannot compute position+spread ROI (spread data missing)")
+                    print("[context][warning] cannot compute position+spread ROI (spread data missing)")
             except Exception as e:
-                print(f"[receptions][error] position+spread ROI failed: {e}")
+                print(f"[context][error] position+spread ROI failed: {e}")
 
             # ROI by position + total bucket
             try:
                 if have_total:
                     roi_pos_total = df.groupby(["position", "total_bucket"], dropna=False).apply(roi_agg).reset_index()
-                    roi_pos_total.to_csv(out_dir / "receptions_roi_by_position_total_bucket.csv", index=False)
+                    roi_pos_total.to_csv(roi_pos_total_file, index=False)
                     created_pos_total = True
-                    print(f"[output] receptions roi by position+total: {out_dir / 'receptions_roi_by_position_total_bucket.csv'}")
+                    print(f"[output] roi by position+total: {roi_pos_total_file}")
                 else:
-                    print("[receptions][warning] cannot compute position+total ROI (total data missing)")
+                    print("[context][warning] cannot compute position+total ROI (total data missing)")
             except Exception as e:
-                print(f"[receptions][error] position+total ROI failed: {e}")
+                print(f"[context][error] position+total ROI failed: {e}")
 
             # ROI by position + favorite status + total bucket
             try:
@@ -1009,19 +1147,18 @@ def main():
                         .reset_index()
                     )
 
-                    roi_pos_fav_total_file = out_dir / "receptions_roi_by_position_favorite_total_bucket.csv"
                     roi_pos_fav_total.to_csv(roi_pos_fav_total_file, index=False)
 
                     created_pos_fav_total = True
 
-                    print(f"[output] receptions roi by position+favorite+total: {roi_pos_fav_total_file}")
+                    print(f"[output] roi by position+favorite+total: {roi_pos_fav_total_file}")
 
                     print("\n===== ROI BY POSITION + FAVORITE + TOTAL BUCKET =====")
                     print(roi_pos_fav_total.to_string(index=False))
                 else:
-                    print("[receptions][warning] cannot compute position+favorite+total ROI (spread or total data missing)")
+                    print("[context][warning] cannot compute position+favorite+total ROI (spread or total data missing)")
             except Exception as e:
-                print(f"[receptions][error] position+favorite+total ROI failed: {e}")
+                print(f"[context][error] position+favorite+total ROI failed: {e}")
 
             # ROI by position + line + favorite + total bucket
             try:
@@ -1035,10 +1172,6 @@ def main():
                         .reset_index()
                     )
 
-                    roi_pos_line_fav_total_file = (
-                        out_dir / "receptions_roi_by_position_line_bucket_favorite_total_bucket.csv"
-                    )
-
                     roi_pos_line_fav_total.to_csv(
                         roi_pos_line_fav_total_file,
                         index=False,
@@ -1047,8 +1180,7 @@ def main():
                     created_pos_line_fav_total = True
 
                     print(
-                        "[output] receptions roi by "
-                        f"position+line+favorite+total: "
+                        "[output] roi by position+line+favorite+total: "
                         f"{roi_pos_line_fav_total_file}"
                     )
 
@@ -1059,7 +1191,7 @@ def main():
 
                 else:
                     print(
-                        "[receptions][warning] cannot compute "
+                        "[context][warning] cannot compute "
                         "position+line+favorite+total ROI "
                         "(spread or total data missing)"
                     )
@@ -1089,11 +1221,6 @@ def main():
                         .reset_index()
                     )
 
-                    wr_dog_high_total_juice_file = (
-                        out_dir /
-                        "receptions_roi_wr_underdog_high_total_by_juice.csv"
-                    )
-
                     roi_wr_dog_high_total_juice.to_csv(
                         wr_dog_high_total_juice_file,
                         index=False,
@@ -1114,7 +1241,7 @@ def main():
 
             except Exception as e:
                 print(
-                    "[receptions][error] wr underdog "
+                    "[context][error] wr underdog "
                     f"high-total juice split failed: {e}"
                 )
 
@@ -1122,13 +1249,13 @@ def main():
             try:
                 if have_spread:
                     roi_pos_line_fav = df.groupby(["position", "line_bucket", "is_favorite"], dropna=False).apply(roi_agg).reset_index()
-                    roi_pos_line_fav.to_csv(out_dir / "receptions_roi_by_position_line_bucket_favorite_status.csv", index=False)
+                    roi_pos_line_fav.to_csv(roi_pos_line_fav_file, index=False)
                     created_pos_line_fav = True
-                    print(f"[output] receptions roi by position+line+favorite: {out_dir / 'receptions_roi_by_position_line_bucket_favorite_status.csv'}")
+                    print(f"[output] roi by position+line+favorite: {roi_pos_line_fav_file}")
                 else:
-                    print("[receptions][warning] cannot compute position+line+favorite ROI (spread data missing)")
+                    print("[context][warning] cannot compute position+line+favorite ROI (spread data missing)")
             except Exception as e:
-                print(f"[receptions][error] position+line+favorite ROI failed: {e}")
+                print(f"[context][error] position+line+favorite ROI failed: {e}")
 
     # Residual distribution
     residual_summary = pd.DataFrame([residual_distribution_stats(residual)])
@@ -1274,38 +1401,38 @@ def main():
         print("[warning] position-based ROI files were not created (position column missing)")
 
     if created_pos_fav_total:
-        print(f"receptions roi by position+favorite+total: {out_dir / 'receptions_roi_by_position_favorite_total_bucket.csv'}")
+        print(f"[output] roi by position+favorite+total: {roi_pos_fav_total_file}")
     else:
-        print("receptions roi by position+favorite+total: skipped - spread or total data missing")
+        print("[output] roi by position+favorite+total: skipped - spread or total data missing")
 
-    if args.market == "player_receptions":
+    if args.market in CONTEXT_MARKETS:
         if created_pos_fav:
-            print(f"receptions roi by position+favorite: {out_dir / 'receptions_roi_by_position_favorite_status.csv'}")
+            print(f"[output] roi by position+favorite: {roi_pos_fav_file}")
         else:
-            print("receptions roi by position+favorite: skipped - spread data missing")
+            print("[output] roi by position+favorite: skipped - spread data missing")
 
         if created_pos_spread:
-            print(f"receptions roi by position+spread: {out_dir / 'receptions_roi_by_position_spread_bucket.csv'}")
+            print(f"[output] roi by position+spread: {roi_pos_spread_file}")
         else:
-            print("receptions roi by position+spread: skipped - spread data missing")
+            print("[output] roi by position+spread: skipped - spread data missing")
 
         if created_pos_total:
-            print(f"receptions roi by position+total: {out_dir / 'receptions_roi_by_position_total_bucket.csv'}")
+            print(f"[output] roi by position+total: {roi_pos_total_file}")
         else:
-            print("receptions roi by position+total: skipped - total data missing")
+            print("[output] roi by position+total: skipped - total data missing")
 
         if created_pos_line_fav:
-            print(f"receptions roi by position+line+favorite: {out_dir / 'receptions_roi_by_position_line_bucket_favorite_status.csv'}")
+            print(f"[output] roi by position+line+favorite: {roi_pos_line_fav_file}")
         else:
-            print("receptions roi by position+line+favorite: skipped - spread data missing")
+            print("[output] roi by position+line+favorite: skipped - spread data missing")
         if created_pos_line_fav_total:
             print(
-                f"receptions roi by position+line+favorite+total: "
-                f"{out_dir / 'receptions_roi_by_position_line_bucket_favorite_total_bucket.csv'}"
+                f"[output] roi by position+line+favorite+total: "
+                f"{roi_pos_line_fav_total_file}"
             )
         else:
             print(
-                "receptions roi by position+line+favorite+total: "
+                "[output] roi by position+line+favorite+total: "
                 "skipped - spread or total data missing"
             )
 
