@@ -195,6 +195,10 @@ MARKET_CONFIG = {
         "known_sigma": None,
         "min_line": 15,
         "line_col": "line",
+        "recommendation_filters": {
+            "exclude_high_line_favorite_wr_overs": True,
+            "favorite_wr_over_min_line": 50,
+        },
         "projection_engine": {
             "projections_file": Path("data/processed/fantasypros_weekly_projections_api.csv"),
             "markets_file": Path("data/historical_props/merged_props_with_context.csv"),

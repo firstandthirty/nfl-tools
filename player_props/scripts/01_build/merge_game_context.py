@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 import pandas as pd
 import numpy as np
 
@@ -17,9 +18,9 @@ TEMPLATE_PATH = Path("data/historical_props/game_context_TEMPLATE.csv")
 
 
 TEAM_ALIASES = {
-    "ARI": "ARI", "ATL": "ATL", "BAL": "BAL", "BUF": "BUF", "CAR": "CAR",
-    "CHI": "CHI", "CIN": "CIN", "CLE": "CLE", "DAL": "DAL", "DEN": "DEN",
-    "DET": "DET", "GB": "GB", "HOU": "HOU", "IND": "IND", "JAX": "JAX",
+    "ARI": "ARI", "ARZ": "ARI", "ATL": "ATL", "BAL": "BAL", "BLT": "BAL", "BUF": "BUF", "CAR": "CAR",
+    "CHI": "CHI", "CIN": "CIN", "CLE": "CLE", "CLV": "CLE", "DAL": "DAL", "DEN": "DEN",
+    "DET": "DET", "GB": "GB", "HOU": "HOU", "HST": "HOU", "IND": "IND", "JAX": "JAX",
     "KC": "KC", "LA": "LAR", "LAR": "LAR", "LAC": "LAC", "LV": "LV",
     "MIA": "MIA", "MIN": "MIN", "NE": "NE", "NO": "NO", "NYG": "NYG",
     "NYJ": "NYJ", "PHI": "PHI", "PIT": "PIT", "SEA": "SEA", "SF": "SF",
@@ -34,7 +35,18 @@ def norm_team(x):
     return TEAM_ALIASES.get(x, x)
 
 
-def find_context_file():
+def parse_args():
+    parser = argparse.ArgumentParser(description="Attach game-level context to historical prop actuals.")
+    parser.add_argument("--input", type=Path, default=PROPS_PATH)
+    parser.add_argument("--context", type=Path, default=None)
+    parser.add_argument("--output", type=Path, default=OUT_PATH)
+    parser.add_argument("--projections", type=Path, default=None, help="Optional projections file used for join QA only.")
+    return parser.parse_args()
+
+
+def find_context_file(explicit_path=None):
+    if explicit_path is not None:
+        return explicit_path if explicit_path.exists() else None
     for p in CONTEXT_PATHS:
         if p.exists():
             return p
@@ -181,11 +193,65 @@ def add_team_context(df):
     return df
 
 
-def main():
-    if not PROPS_PATH.exists():
-        raise FileNotFoundError(f"Missing props file: {PROPS_PATH}")
+def normalize_name(series):
+    return (
+        series.astype(str)
+        .str.lower()
+        .str.strip()
+        .str.replace(".", "", regex=False)
+        .str.replace("'", "", regex=False)
+        .str.replace("-", " ", regex=False)
+        .str.replace(r"\b(jr|sr|ii|iii|iv|v)\b", "", regex=True)
+        .str.replace(r"\s+", " ", regex=True)
+        .str.strip()
+    )
 
-    props = pd.read_csv(PROPS_PATH)
+
+def print_projection_qa(merged, projections_path):
+    if projections_path is None:
+        print("[projection QA] not requested; provide --projections to check projection coverage.")
+        return
+    if not projections_path.exists():
+        print(f"[projection QA] missing projections file: {projections_path}")
+        return
+
+    projections = pd.read_csv(projections_path, low_memory=False)
+    player_col = "player" if "player" in projections.columns else "player_clean"
+    required = {"season", "week", player_col, "fp_receiving_yds"}
+    missing = required.difference(projections.columns)
+    if missing:
+        print(f"[projection QA] skipped; missing columns: {sorted(missing)}")
+        return
+
+    candidate = merged.copy()
+    candidate["player_norm"] = normalize_name(candidate["player"])
+    projections["player_norm"] = normalize_name(projections[player_col])
+    projection_cols = ["season", "week", "player_norm", "fp_receiving_yds"]
+    if "team" in projections.columns:
+        projections["projection_team"] = projections["team"].apply(norm_team)
+        projection_cols.append("projection_team")
+    projections = projections[projection_cols].drop_duplicates(
+        ["season", "week", "player_norm"]
+    )
+    checked = candidate.merge(projections, on=["season", "week", "player_norm"], how="left")
+    missing_projection = checked["fp_receiving_yds"].isna().sum()
+    print(f"[projection QA] rows={len(checked):,} matched={len(checked) - missing_projection:,} missing={missing_projection:,}")
+    if "projection_team" in checked.columns and "recent_team" in checked.columns:
+        compared = checked.loc[
+            checked["fp_receiving_yds"].notna()
+            & checked["recent_team"].notna()
+            & checked["projection_team"].notna()
+        ].copy()
+        mismatch = compared["recent_team"].ne(compared["projection_team"])
+        print(f"[projection QA] matched rows with team mismatch={mismatch.sum():,} of {len(compared):,} comparable rows")
+
+
+def main():
+    args = parse_args()
+    if not args.input.exists():
+        raise FileNotFoundError(f"Missing props file: {args.input}")
+
+    props = pd.read_csv(args.input)
     props.columns = [c.strip() for c in props.columns]
 
     for c in ["season", "week"]:
@@ -195,12 +261,14 @@ def main():
     props["away_team_abbr"] = props["away_team_abbr"].apply(norm_team)
     props["recent_team"] = props["recent_team"].apply(norm_team)
 
-    context_path = find_context_file()
+    context_path = find_context_file(args.context)
 
     if context_path is None:
+        if args.context is not None:
+            raise FileNotFoundError(f"Missing game context file: {args.context}")
         create_template_from_props(props)
 
-    print(f"[load] props: {PROPS_PATH} rows={len(props):,}")
+    print(f"[load] props: {args.input} rows={len(props):,}")
     print(f"[load] context: {context_path}")
 
     ctx = pd.read_csv(context_path)
@@ -223,6 +291,14 @@ def main():
     print(f"[merge] rows={before:,}")
     print(f"[merge] matched context={matched:,}")
     print(f"[merge] missing context={missing:,}")
+    print(f"[team context QA] missing team_spread={merged['team_spread'].isna().sum():,}")
+    print("\n===== Rows by Season / Week / Market =====")
+    print(merged.groupby(["season", "week", "market_key"]).size().rename("rows").reset_index().to_string(index=False))
+    print("\n===== Unique Games by Week =====")
+    print(merged.groupby(["season", "week"])["event_id"].nunique().rename("unique_games").reset_index().to_string(index=False))
+    duplicate_cols = ["season", "week", "event_id", "market_key", "player", "line"]
+    print(f"[duplicate QA] duplicate player/game/market/line rows={merged.duplicated(duplicate_cols, keep=False).sum():,}")
+    print_projection_qa(merged, args.projections)
 
     if missing:
         missing_games = (
@@ -232,7 +308,7 @@ def main():
             .sort_values(["season", "week", "away_team_abbr", "home_team_abbr"])
         )
 
-        miss_path = Path("data/historical_props/missing_game_context.csv")
+        miss_path = args.output.with_name(f"{args.output.stem}_missing_game_context.csv")
         missing_games.to_csv(miss_path, index=False)
         print(f"[warn] missing games saved to: {miss_path}")
 
@@ -243,7 +319,7 @@ def main():
     ]
 
     if len(bad_team_match):
-        bad_path = Path("data/historical_props/bad_recent_team_matches.csv")
+        bad_path = args.output.with_name(f"{args.output.stem}_bad_recent_team_matches.csv")
         (
             bad_team_match[
                 [
@@ -261,10 +337,10 @@ def main():
         print(f"[warn] player team did not match home/away for {len(bad_team_match):,} rows")
         print(f"[warn] saved to: {bad_path}")
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    merged.to_csv(OUT_PATH, index=False)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    merged.to_csv(args.output, index=False)
 
-    print(f"[saved] {OUT_PATH}")
+    print(f"[saved] {args.output}")
 
     print("\n[columns added]")
     for c in [

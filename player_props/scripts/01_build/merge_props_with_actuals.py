@@ -1,10 +1,17 @@
+import argparse
 import pandas as pd
-import nfl_data_py as nfl
 from pathlib import Path
 
 
 PROPS_PATH = Path("data/historical_props/historical_closing_props.csv")
 OUT_PATH = Path("data/historical_props/merged_props_actuals.csv")
+PFF_PATH = Path("data/processed/pff/pff_player_weekly_master.csv")
+
+REGULAR_SEASON_START_DATES = {
+    2023: "2023-09-07",
+    2024: "2024-09-05",
+    2025: "2025-09-04",
+}
 
 TEAM_NAME_TO_ABBR = {
     "Arizona Cardinals": "ARI",
@@ -62,17 +69,64 @@ def normalize_name(series):
         .str.strip()
     )
 
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Merge historical prop lines with settled player actuals.")
+    parser.add_argument("--season", type=int, default=2024)
+    parser.add_argument("--market", default=None, help="Optional market_key filter.")
+    parser.add_argument("--input", type=Path, default=PROPS_PATH)
+    parser.add_argument("--actuals", type=Path, default=PFF_PATH)
+    parser.add_argument("--output", type=Path, default=None)
+    return parser.parse_args()
+
+
+def default_output_path(season):
+    if season == 2024:
+        return OUT_PATH
+    return Path(f"data/processed/merged_props_with_actuals_{season}.csv")
+
+
+def assign_regular_season_week(props, season):
+    if season not in REGULAR_SEASON_START_DATES:
+        raise ValueError(
+            f"No regular-season start date configured for season={season}. "
+            f"Available: {sorted(REGULAR_SEASON_START_DATES)}"
+        )
+
+    start = pd.Timestamp(REGULAR_SEASON_START_DATES[season])
+    local_dates = props["commence_time"].dt.tz_convert("America/New_York").dt.tz_localize(None).dt.normalize()
+    week = ((local_dates - start).dt.days // 7 + 1).astype("Int64")
+    props = props.loc[week.between(1, 18)].copy()
+    props["season"] = season
+    props["week"] = week.loc[props.index]
+    props["game_date"] = local_dates.loc[props.index].dt.date
+    return props
+
+
+def odds_format_sanity(props):
+    values = pd.concat(
+        [
+            pd.to_numeric(props["over_price"], errors="coerce"),
+            pd.to_numeric(props["under_price"], errors="coerce"),
+        ],
+        ignore_index=True,
+    ).dropna()
+    if values.empty:
+        return "unknown"
+    decimal_count = values.between(1.0, 10.0).sum()
+    american_count = (~values.between(1.0, 10.0)).sum()
+    return "decimal" if decimal_count > american_count else "american"
+
+
 def main():
-    props = pd.read_csv(PROPS_PATH)
+    args = parse_args()
+    output_path = args.output or default_output_path(args.season)
+    props = pd.read_csv(args.input)
 
     print(f"[props] rows={len(props):,}")
 
     props["commence_time"] = pd.to_datetime(props["commence_time"], utc=True)
-    props["game_date"] = (
-        props["commence_time"]
-        .dt.tz_convert("America/New_York")
-        .dt.date
-    )
+    props = assign_regular_season_week(props, args.season)
     props["home_team_abbr"] = props["home_team"].map(TEAM_NAME_TO_ABBR)
     props["away_team_abbr"] = props["away_team"].map(TEAM_NAME_TO_ABBR)
 
@@ -86,11 +140,12 @@ def main():
     if len(missing_away):
         print("[team map] missing away team mappings:")
         print(missing_away.to_string(index=False))
-    props = props.loc[props["commence_time"].dt.year == 2024].copy()
-
     props = props.loc[
         props["market_key"].isin(MARKET_TO_ACTUAL_COL.keys())
     ].copy()
+
+    if args.market:
+        props = props.loc[props["market_key"].eq(args.market)].copy()
 
     print("[props before dedupe] rows:", len(props))
 
@@ -113,30 +168,25 @@ def main():
     print(f"[props] supported market rows={len(props):,}")
     print(props["market_key"].value_counts().to_string())
 
-    seasons = sorted(props["commence_time"].dt.year.unique().tolist())
+    print("\n===== Raw Rows by Season / Week / Market =====")
+    print(props.groupby(["season", "week", "market_key"]).size().rename("rows").reset_index().to_string(index=False))
+    print("\n===== Unique Games by Week =====")
+    print(props.groupby(["season", "week"])["event_id"].nunique().rename("unique_games").reset_index().to_string(index=False))
+    print(f"\n[odds QA] inferred odds format={odds_format_sanity(props)}")
 
-    print(f"[nflverse] loading seasons={seasons}")
+    dup_cols = ["season", "week", "event_id", "market_key", "player", "line"]
+    duplicate_rows = props.duplicated(dup_cols, keep=False).sum()
+    print(f"[duplicate QA] duplicate player/game/market/line rows={duplicate_rows:,}")
 
-    available_actual_seasons = [s for s in seasons if s <= 2024]
-
-    if not available_actual_seasons:
-        raise RuntimeError(
-            f"No actual nflverse weekly data available for seasons={seasons}. "
-            "This is expected if your historical props are from future 2025 games. "
-            "Use 2024 historical props for testing, or wait until 2025 actuals are published."
-        )
-
-    weekly = nfl.import_weekly_data(available_actual_seasons)
-    schedule = nfl.import_schedules(seasons)
-
-    print(f"[weekly] rows={len(weekly):,}")
-    print(f"[schedule] rows={len(schedule):,}")
+    weekly = pd.read_csv(args.actuals, low_memory=False)
+    weekly = weekly.loc[pd.to_numeric(weekly["season"], errors="coerce").eq(args.season)].copy()
+    print(f"[actuals] source={args.actuals} season={args.season} rows={len(weekly):,}")
 
     weekly = weekly[[
-        "player_display_name",
+        "player",
         "season",
         "week",
-        "recent_team",
+        "team_name",
         "position",
         "passing_yards",
         "rushing_yards",
@@ -144,6 +194,7 @@ def main():
         "receptions",
     ]].copy()
 
+    weekly = weekly.rename(columns={"player": "player_display_name", "team_name": "recent_team"})
     weekly["player_norm"] = normalize_name(weekly["player_display_name"])
 
     weekly = weekly.sort_values(
@@ -158,63 +209,6 @@ def main():
     print("[weekly deduped] rows=", len(weekly))
 
     props["player_norm"] = normalize_name(props["player"])
-
-    schedule["gameday"] = pd.to_datetime(schedule["gameday"])
-    schedule["game_date"] = schedule["gameday"].dt.date
-
-    schedule_home = schedule[[
-        "season",
-        "week",
-        "game_date",
-        "home_team",
-        "away_team",
-    ]].copy()
-
-    schedule_home = schedule_home.rename(columns={
-        "home_team": "home_team_abbr",
-        "away_team": "away_team_abbr",
-    })
-
-    props = props.merge(
-        schedule_home,
-        on=["home_team_abbr", "away_team_abbr", "game_date"],
-        how="left",
-    )
-
-    print(
-        "[schedule merge] missing season/week:",
-        props["season"].isna().sum(),
-    )
-    
-    missing_schedule = props.loc[
-        props["season"].isna(),
-        [
-            "player",
-            "home_team",
-            "away_team",
-            "home_team_abbr",
-            "away_team_abbr",
-            "game_date",
-            "commence_time",
-        ]
-    ]
-
-    if len(missing_schedule):
-        print()
-        print("===== Missing Schedule Matches =====")
-        print(missing_schedule.drop_duplicates(
-            ["home_team", "away_team", "game_date"]
-        ).to_string(index=False))
-
-        print()
-        print("===== Schedule Debug Table =====")
-        min_date = props["game_date"].min()
-        max_date = props["game_date"].max()
-        debug_sched = schedule.loc[
-            (schedule["gameday"].dt.date >= min_date) & (schedule["gameday"].dt.date <= max_date),
-            ["season", "week", "gameday", "away_team", "home_team"]
-        ]
-        print(debug_sched.to_string(index=False))
 
     merged = props.merge(
         weekly,
@@ -307,11 +301,11 @@ def main():
         print("===== Missing Actuals Sample =====")
         print(missing.head(25).to_string(index=False))
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    merged.to_csv(OUT_PATH, index=False)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    merged.to_csv(output_path, index=False)
 
     print()
-    print(f"[saved] {OUT_PATH}")
+    print(f"[saved] {output_path}")
 
 
 if __name__ == "__main__":

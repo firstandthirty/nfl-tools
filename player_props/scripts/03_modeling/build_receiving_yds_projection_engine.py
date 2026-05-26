@@ -693,6 +693,30 @@ def main():
             "Check filtered markets and merge logic."
         )
 
+    # Configured production exclusion; simulation and EV calculations above are unchanged.
+    recommendation_filters = config.get("recommendation_filters", {})
+    if (
+        not bets.empty
+        and recommendation_filters.get("exclude_high_line_favorite_wr_overs", False)
+    ):
+        favorite_wr_over_min_line = recommendation_filters["favorite_wr_over_min_line"]
+        favorite = bets["is_favorite"].fillna(False)
+        if not pd.api.types.is_bool_dtype(favorite):
+            favorite = favorite.astype(str).str.lower().isin({"true", "1", "yes"})
+        suppression_mask = (
+            bets["market_key"].eq(MARKET)
+            & bets["recommended_side"].eq("over")
+            & bets["position"].astype(str).str.upper().eq("WR")
+            & favorite
+            & bets["line"].ge(favorite_wr_over_min_line)
+        )
+        suppressed_rows = int(suppression_mask.sum())
+        bets = bets.loc[~suppression_mask].copy()
+        print(
+            f"[production exclusion] suppressed {MARKET} favorite WR overs "
+            f"with line >= {favorite_wr_over_min_line}: rows={suppressed_rows:,}"
+        )
+
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     bets.to_csv(output_path, index=False)

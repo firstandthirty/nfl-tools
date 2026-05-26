@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 import json
 import urllib.request
 
@@ -26,6 +27,13 @@ def norm_team(x):
         return np.nan
     x = str(x).strip().upper()
     return TEAM_ALIASES.get(x, x)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Build game-level spread and total context for prepared props.")
+    parser.add_argument("--input", type=Path, default=PROPS_PATH)
+    parser.add_argument("--output", type=Path, default=OUT_PATH)
+    return parser.parse_args()
 
 
 def get_schedules_asset_url():
@@ -58,10 +66,11 @@ def get_schedules_asset_url():
 
 
 def main():
-    if not PROPS_PATH.exists():
-        raise FileNotFoundError(f"Missing props file: {PROPS_PATH}")
+    args = parse_args()
+    if not args.input.exists():
+        raise FileNotFoundError(f"Missing props file: {args.input}")
 
-    props = pd.read_csv(PROPS_PATH)
+    props = pd.read_csv(args.input)
     props.columns = [c.strip() for c in props.columns]
 
     seasons = sorted(
@@ -168,7 +177,7 @@ def main():
     print(f"[match] missing games: {len(missing_games):,}")
 
     if len(missing_games):
-        miss_path = Path("data/historical_props/game_context_missing_from_nflverse.csv")
+        miss_path = args.output.with_name(f"{args.output.stem}_missing_from_nflverse.csv")
         missing_games[
             ["season", "week", "game_date", "away_team_abbr", "home_team_abbr"]
         ].drop_duplicates().to_csv(miss_path, index=False)
@@ -189,10 +198,10 @@ def main():
     extra_cols = [c for c in final.columns if c not in games_needed.columns and c not in base_cols]
     final = final[base_cols + extra_cols].drop_duplicates()
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    final.to_csv(OUT_PATH, index=False)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    final.to_csv(args.output, index=False)
 
-    print(f"[saved] {OUT_PATH}")
+    print(f"[saved] {args.output}")
     print(f"[rows] {len(final):,}")
     print("\n[sample]")
     print(final.head(10).to_string(index=False))

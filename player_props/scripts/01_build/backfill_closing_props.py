@@ -26,10 +26,26 @@ SNAPSHOT_MINUTES_BEFORE_KICKOFF = 30
 SLEEP_SECONDS = 0.35
 
 
+def load_dotenv_value(name):
+    env_path = Path(__file__).resolve().parents[2] / ".env"
+    if not env_path.exists():
+        return None
+
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        if key.strip() == name:
+            return value.strip().strip('"').strip("'")
+
+    return None
+
+
 def get_api_key():
-    key = os.getenv("ODDS_API_KEY")
+    key = os.getenv("ODDS_API_KEY") or load_dotenv_value("ODDS_API_KEY")
     if not key:
-        raise RuntimeError("Missing ODDS_API_KEY environment variable.")
+        raise RuntimeError("Missing ODDS_API_KEY environment variable or .env entry.")
     return key.strip().strip('"').strip("'")
 
 

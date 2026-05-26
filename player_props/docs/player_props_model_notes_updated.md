@@ -19,7 +19,7 @@
 | Market          | Projection engine | Backtest / historical validation | Current status                                        |
 | --------------- | ----------------: | -------------------------------: | ----------------------------------------------------- |
 | Passing yards   |         Validated |                        Validated | V1 complete                                           |
-| Receiving yards |         Validated |                        Validated | Promising; active                                     |
+| Receiving yards |         Validated |                        Validated | V1 complete                                    |
 | Rushing yards   |         Validated |                        Validated | Tested; paused                                        |
 | Receptions      |         Validated |            Blocked intentionally | Projection V1 complete; backtest requires stable keys |
 
@@ -118,6 +118,64 @@ Validation:
   * Wins: `334`
   * ROI: `-3.2327%`
   * Profit units: `-21.303511`
+
+### Receiving Yards Improvement
+
+Added one receiving-only suppression rule after diagnostic and holdout testing:
+
+Suppress `player_reception_yds` recommendations when:
+
+- side = over
+- position = WR
+- team is favorite
+- line >= 50
+
+Rationale: historical diagnostics showed consistent overconfidence and projection inflation on high-line favorite WR overs. This segment was the clearest structural failure and survived chronological 2024 holdout checks.
+
+Before / after:
+
+| Metric | Before | After |
+|---|---:|---:|
+| Bets | 659 | 568 |
+| Wins | 334 | 299 |
+| Hit Rate | 50.68% | 52.64% |
+| Profit Units | -21.30 | +2.88 |
+| ROI | -3.23% | +0.51% |
+
+No variance, STD inflation, EV threshold, totals, edge bucket, generalized workflow, or backtest logic was changed.
+
+### 2023 Receiving Yards Validation Status
+
+Attempted to expand receiving-yards validation to 2023.
+
+Prep-layer work completed:
+- 2023 historical props can be assigned season/week.
+- 2023 receiving props can join to PFF actuals.
+- 2023 game context can be built and merged.
+- Season-scoped outputs prevent overwriting validated 2024 files.
+- Projection source audit script added.
+
+Current blocker:
+- No valid local 2023 `fp_receiving_yds` projection source exists.
+- Existing FantasyPros receiving files are hindsight-contaminated with later roster assignments.
+  - Example: Derrick Henry listed as BAL in 2023 Week 1.
+  - Saquon Barkley listed as PHI in 2023 Week 1.
+  - Davante Adams listed as LAR in 2023 Week 1.
+- Therefore, a clean 2023 receiving-yards model validation cannot be run yet.
+
+Usable 2023 components:
+- Historical receiving props
+- Actual receiving yards
+- Game context
+- Team/favorite context for most rows
+
+Not usable yet:
+- 2023 FantasyPros receiving-yard projections
+
+Decision:
+- Do not generate 2023 receiving model picks from contaminated projections.
+- Keep 2023 prep/audit infrastructure.
+- Future path requires true point-in-time 2023 receiving-yard projections or another validated projection source.
 
 ### Rushing yards
 
@@ -643,9 +701,47 @@ Validated generalized backtest:
 
 Interpretation:
 
-* Receiving yards remains promising but not solved.
-* Some edge buckets looked better than others.
-* Needs further calibration and filtering before being trusted live.
+* Baseline receiving-yards model was near breakeven but structurally overconfident in specific segments.
+* Diagnostic + holdout analysis identified high-line favorite WR overs as the clearest failure pocket.
+* A receiving-only suppression rule was added behind config:
+
+  * side = over
+  * position = WR
+  * favorite
+  * line >= 50
+
+Post-filter validated backtest:
+
+* Bets: `568`
+* Wins: `299`
+* ROI: `+0.51%`
+* Profit units: `+2.88`
+
+Interpretation:
+
+* Improvement appears driven by reducing projection inflation and overconfidence on high-line favorite WR overs.
+* Rule survived multiple chronological holdout splits in 2024.
+* Treated as an experimental but explainable production filter pending additional seasons.
+
+## Experimental production filters
+
+### Receiving yards
+
+Enabled (config controlled):
+
+Exclude:
+
+* `player_reception_yds`
+* `recommended_side = over`
+* `position = WR`
+* `favorite`
+* `line >= 50`
+
+Status:
+
+* Chronological holdout improvement observed in all 2024 splits.
+* Still awaiting multi-season validation.
+* Can be disabled via config.
 
 ## Rushing yards model
 
@@ -867,18 +963,20 @@ The generalized workflow should centralize orchestration and config, not pretend
 
 ### Immediate
 
-1. Commit the generalized workflow migration.
-2. Keep legacy scripts as references.
-3. Ignore/delete invalid old receptions backtest artifacts if they exist.
-4. Update README or project docs to point to the generalized commands.
+1. Commit receiving-yards V1 improvements.
+2. Preserve suppression audit outputs for future validation.
+3. Keep legacy scripts as references.
+4. Ignore/delete invalid receptions backtest artifacts.
+5. Update README/project docs for generalized workflow..
 
 ### Near-term
 
-1. Build a backtest-safe receptions projection output.
+1. Build backtest-safe receptions projection output.
 2. Validate receptions ROI properly.
-3. Add more robust current-market ingestion for all supported markets.
-4. Continue improving receiving yards filters/calibration.
-5. Deprioritize rushing yards unless better workload/context features are added.
+3. Add suppression audit outputs for receiving-yards experiments.
+4. Add robust current-market ingestion for all supported markets.
+5. Explore alt-line pricing support, starting with passing yards.
+6. Pause receiving-yards tuning until a valid historical projection source exists.
 
 ### Medium-term
 
