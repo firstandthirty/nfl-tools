@@ -69,6 +69,24 @@ data/analysis/backtests/*.csv
 data/analysis/backtests/parity_*
 data/analysis/backtests/validation_*
 
+# generated diagnostics
+data/analysis/diagnostics/*.csv
+
+# parity / migration artifacts
+data/analysis/backtests/parity_*
+data/analysis/backtests/validation_*
+
+# generated model outputs
+data/analysis/*model_bets.csv
+
+# season-scoped prep outputs
+data/processed/merged_props_with_actuals_*.csv
+data/processed/merged_props_with_context_*.csv
+data/processed/game_context_*.csv
+
+# archive
+data/archive/
+
 
 # ==========================
 # LARGE / TEMP FILES

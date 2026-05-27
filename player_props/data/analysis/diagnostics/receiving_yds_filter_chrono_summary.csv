@@ -1,4 +1,0 @@
-policy_name,filter_definition,train_splits_improved_vs_baseline,test_splits_improved_vs_baseline,test_splits_worse_vs_baseline,avg_test_roi_improvement_vs_baseline,min_test_roi_improvement_vs_baseline,train_improves_but_test_fails_any_split,test_roi_improves_across_multiple_splits
-2_exclude_high_line_favorite_wr_overs,"Exclude overs where position == WR, team is favorite, and line >= 50.",3,3,0,0.05216421708089999,0.03984717544248394,False,True
-3_exclude_mid_total_overs,Exclude overs where 42 <= game_total < 47.,3,2,1,0.0002083601887113371,-0.013294985340515986,True,True
-4_combined,Exclude high-line favorite WR overs and overs where 42 <= game_total < 47.,3,3,0,0.07060230726906815,0.05987176087859295,False,True
