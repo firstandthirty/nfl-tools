@@ -129,11 +129,17 @@ MARKET_CONFIG = {
             "passes_min_line": False,
         },
         "backtest": {
-            "picks_file": Path("data/analysis/receptions_model_bets.csv"),
+            # Receptions outputs:
+            # - data/analysis/receptions_model_bets.csv is legacy/parity-preserving.
+            # - data/analysis/receptions_model_bets_backtest_safe.csv is preferred for future backtests.
+            # Stable backtest keys are season/week/game_id/player_norm/line.
+            # The missing-actuals audit confirmed the 27 ungraded rows were players absent
+            # from actuals for those games, not merge failures.
+            "picks_file": Path("data/analysis/receptions_model_bets_backtest_safe.csv"),
             "history_file": Path("data/analysis/receptions_market_analysis_rows.csv"),
             "output_dir": Path("data/analysis/backtests"),
-            "merge_keys": ["season", "week", "player_norm", "line"],
-            "required_pick_keys": ["season", "week", "player_norm", "line"],
+            "merge_keys": ["season", "week", "game_id", "player_norm", "line"],
+            "required_pick_keys": ["season", "week", "game_id", "player_norm", "line"],
             "blocked_reason": (
                 "The parity-preserving receptions projection output omits season/week. "
                 "A player_norm/line merge is many-to-many across historical games, "
@@ -225,9 +231,11 @@ MARKET_CONFIG = {
             "max_sim_value": 350,
         },
         "backtest": {
-            "picks_file": Path("data/analysis/test_reception_yds_model_bets_api.csv"),
+            "picks_file": Path("data/analysis/reception_yds_model_bets_backtest_safe.csv"),
             "history_file": Path("data/analysis/reception_yds_market_analysis_rows.csv"),
             "output_dir": Path("data/analysis/backtests"),
+            "merge_keys": ["season", "week", "game_id", "player_norm", "line"],
+            "required_pick_keys": ["season", "week", "game_id", "player_norm", "line"],
             "odds_format": "american",
             "side_filter": None,
             "min_ev_percent": 2,
@@ -300,9 +308,11 @@ MARKET_CONFIG = {
             "max_sim_value": 350,
         },
         "backtest": {
-            "picks_file": Path("data/analysis/rush_yds_model_bets.csv"),
+            "picks_file": Path("data/analysis/rush_yds_model_bets_backtest_safe.csv"),
             "history_file": Path("data/analysis/rush_yds_market_analysis_rows.csv"),
             "output_dir": Path("data/analysis/backtests"),
+            "merge_keys": ["season", "week", "game_id", "player_norm", "line"],
+            "required_pick_keys": ["season", "week", "game_id", "player_norm", "line"],
             "odds_format": "american",
             "side_filter": "under",
             "min_ev_percent": 0,

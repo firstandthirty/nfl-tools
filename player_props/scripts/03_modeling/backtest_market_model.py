@@ -1,5 +1,6 @@
 from pathlib import Path
 import argparse
+import difflib
 import sys
 
 import numpy as np
@@ -47,6 +48,26 @@ def detect_odds_format(picks, backtest_config):
     return "decimal" if (prices > 0).all() and (prices < 20).all() else "american"
 
 
+def ensure_canonical_time_keys(df):
+    df = df.copy()
+    if "season" not in df.columns:
+        for candidate in ["season_guess", "season_str"]:
+            if candidate in df.columns:
+                df["season"] = pd.to_numeric(df[candidate], errors="coerce")
+                break
+    if "week" not in df.columns:
+        for candidate in ["week_guess_numeric", "week_guess", "week_str"]:
+            if candidate in df.columns:
+                df["week"] = pd.to_numeric(df[candidate], errors="coerce")
+                break
+    if "game_id" not in df.columns:
+        for candidate in ["event_id", "event_id_str"]:
+            if candidate in df.columns:
+                df["game_id"] = df[candidate]
+                break
+    return df
+
+
 def profit_1u(odds, win, odds_format):
     odds = float(odds)
     if not win:
@@ -58,6 +79,116 @@ def profit_1u(odds, win, odds_format):
             return odds / 100.0
         return 100.0 / abs(odds)
     raise RuntimeError(f"Unknown odds_format={odds_format!r}; expected 'decimal' or 'american'.")
+
+
+def build_missing_actuals_audit(missing, picks, hist_full, merge_keys, output_path):
+    if missing.empty:
+        return None
+
+    hist = hist_full.copy()
+    if "player_norm" not in hist.columns and "player" in hist.columns:
+        hist["player_norm"] = hist["player"].apply(norm_player)
+    if "line" in hist.columns:
+        hist["line"] = pd.to_numeric(hist["line"], errors="coerce")
+
+    pick_dupes = picks.duplicated(merge_keys, keep=False) if set(merge_keys).issubset(picks.columns) else pd.Series(False, index=picks.index)
+    pick_dup_keys = set(
+        map(tuple, picks.loc[pick_dupes, merge_keys].itertuples(index=False, name=None))
+    ) if pick_dupes.any() else set()
+
+    hist_dup_keys = set()
+    if set(merge_keys).issubset(hist.columns):
+        hist_dupes = hist.duplicated(merge_keys, keep=False)
+        if hist_dupes.any():
+            hist_dup_keys = set(map(tuple, hist.loc[hist_dupes, merge_keys].itertuples(index=False, name=None)))
+
+    audit_rows = []
+    for _, row in missing.iterrows():
+        season = row.get("season")
+        week = row.get("week")
+        player_norm = row.get("player_norm")
+        game_id = row.get("game_id")
+        line = row.get("line")
+
+        week_hist = hist[(hist.get("season") == season) & (hist.get("week") == week)].copy()
+        same_player_week = week_hist[week_hist.get("player_norm") == player_norm].copy()
+        same_game_week = week_hist[week_hist.get("game_id") == game_id].copy() if "game_id" in week_hist.columns else week_hist.iloc[0:0].copy()
+        same_game_player = same_game_week[same_game_week.get("player_norm") == player_norm].copy()
+
+        same_player_exists = len(same_player_week) > 0
+        same_game_exists = len(same_game_week) > 0
+        same_game_player_exists = len(same_game_player) > 0
+        same_player_line_exists = bool(same_player_week["line"].eq(line).any()) if "line" in same_player_week.columns else False
+
+        candidate_names = []
+        best_name_score = 0.0
+        if "player" in same_game_week.columns:
+            names = same_game_week["player"].dropna().astype(str).drop_duplicates().tolist()
+            candidate_names = difflib.get_close_matches(str(row.get("player", "")), names, n=5, cutoff=0.45)
+            if not candidate_names:
+                candidate_names = names[:5]
+            if candidate_names:
+                best_name_score = max(
+                    difflib.SequenceMatcher(None, str(row.get("player", "")).lower(), name.lower()).ratio()
+                    for name in candidate_names
+                )
+
+        exact_key = tuple(row.get(key) for key in merge_keys)
+        if exact_key in pick_dup_keys or exact_key in hist_dup_keys:
+            reason_guess = "duplicate_or_ambiguous_odds_rows"
+        elif same_game_player_exists and same_game_player.get("actual", pd.Series(dtype=float)).isna().all():
+            reason_guess = "missing_actual_stats"
+        elif same_game_player_exists and not same_player_line_exists:
+            reason_guess = "line_mismatch"
+        elif same_player_exists and not same_game_player_exists:
+            reason_guess = "game_id_mismatch"
+        elif same_game_exists and not same_game_player_exists and best_name_score >= 0.85:
+            reason_guess = "player_name_normalization_mismatch_or_not_listed"
+        elif same_game_exists and not same_player_exists:
+            reason_guess = "player_absent_from_actuals_game_inactive_or_zero_stat"
+        else:
+            reason_guess = "missing_game_or_week_context"
+
+        audit_rows.append({
+            "player": row.get("player"),
+            "player_norm": player_norm,
+            "season": season,
+            "week": week,
+            "team": row.get("team"),
+            "opponent": row.get("opponent"),
+            "game_id": game_id,
+            "line": line,
+            "projection": row.get("projection"),
+            "recommended_side": row.get("recommended_side"),
+            "market_key": row.get("market_key"),
+            "over_price": row.get("over_price"),
+            "under_price": row.get("under_price"),
+            "recommended_prob": row.get("recommended_prob"),
+            "recommended_ev_percent": row.get("recommended_ev_percent"),
+            "recommendation": row.get("recommendation"),
+            "same_player_norm_exists_in_actuals_week": same_player_exists,
+            "same_game_id_exists_in_actuals_week": same_game_exists,
+            "same_game_player_exists": same_game_player_exists,
+            "same_player_line_exists": same_player_line_exists,
+            "closest_actual_player_name_candidates": "; ".join(candidate_names),
+            "closest_actual_player_name_score": best_name_score,
+            "actual_game_home_team": same_game_week.get("home_team", pd.Series(dtype=str)).dropna().astype(str).head(1).squeeze() if len(same_game_week) else pd.NA,
+            "actual_game_away_team": same_game_week.get("away_team", pd.Series(dtype=str)).dropna().astype(str).head(1).squeeze() if len(same_game_week) else pd.NA,
+            "matching_player_week_game_ids": "; ".join(
+                same_player_week.get("game_id", pd.Series(dtype=str)).dropna().astype(str).drop_duplicates().head(5).tolist()
+            ),
+            "matching_game_player_lines": "; ".join(
+                same_game_player.get("line", pd.Series(dtype=str)).dropna().astype(str).drop_duplicates().head(5).map(str).tolist()
+            ),
+            "pick_duplicate_key": exact_key in pick_dup_keys,
+            "history_duplicate_key": exact_key in hist_dup_keys,
+            "reason_guess": reason_guess,
+        })
+
+    audit = pd.DataFrame(audit_rows)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    audit.to_csv(output_path, index=False)
+    return audit
 
 
 def parse_args():
@@ -131,6 +262,8 @@ def main():
     if picks_line_col != "line":
         merge_picks = merge_picks.rename(columns={picks_line_col: "line"})
     hist = hist.rename(columns={line_col: "line", actual_col: "actual"})
+    hist = ensure_canonical_time_keys(hist)
+    hist_for_audit = hist.copy()
     merge_keys = backtest_config.get("merge_keys", ["season", "week", "player_norm", "line"])
     required_pick_keys = backtest_config.get("required_pick_keys", merge_keys)
     missing_pick_keys = [key for key in required_pick_keys if key not in merge_picks.columns]
@@ -154,6 +287,42 @@ def main():
     print(f"[merge] rows={len(df):,}")
     print(f"[merge] actual matched={df['actual'].notna().sum():,}")
     print(f"[merge] actual missing={df['actual'].isna().sum():,}")
+    missing_actuals = df[df["actual"].isna()].copy()
+    audit_path = out_dir / f"{output_slug}_missing_actuals_audit.csv"
+    if args.market == "player_receptions":
+        audit_path = out_dir / "receptions_missing_actuals_audit.csv"
+    audit = build_missing_actuals_audit(missing_actuals, merge_picks, hist_for_audit, merge_keys, audit_path)
+    if audit is not None:
+        print(f"\n[missing actuals audit] saved={audit_path}")
+        print(f"[missing actuals audit] total missing={len(audit):,}")
+        print("[missing actuals audit] missing by week:")
+        print(audit.groupby(["season", "week"]).size().sort_index().to_string())
+        print("[missing actuals audit] reason_guess counts:")
+        print(audit["reason_guess"].value_counts(dropna=False).to_string())
+        sample_cols = [
+            "player",
+            "player_norm",
+            "season",
+            "week",
+            "team",
+            "opponent",
+            "game_id",
+            "line",
+            "projection",
+            "recommended_side",
+            "same_player_norm_exists_in_actuals_week",
+            "same_game_id_exists_in_actuals_week",
+            "closest_actual_player_name_candidates",
+            "reason_guess",
+        ]
+        print("[missing actuals audit] sample 20:")
+        print(audit[[col for col in sample_cols if col in audit.columns]].head(20).to_string(index=False))
+    print(
+        f"\n[grading] matched graded bets={df['actual'].notna().sum():,}; "
+        f"missing/ungraded bets={len(missing_actuals):,}"
+    )
+    if len(missing_actuals) > 0:
+        print(f"[grading] missing actuals are excluded from graded bets; audit_csv={audit_path}")
     df = df.dropna(subset=["actual"]).copy()
 
     model_projection_col = projection_col if projection_col in df.columns else "projection"

@@ -9,6 +9,7 @@ import pandas as pd
 
 HISTORY_FILE = Path("data/processed/fanduel_receptions_history.csv")
 OUT_FILE = Path("data/analysis/receptions_model_bets.csv")
+BACKTEST_SAFE_OUT_FILE = Path("data/analysis/receptions_model_bets_backtest_safe.csv")
 
 MARKET = "player_receptions"
 N_SIMS_DEFAULT = 20_000
@@ -304,7 +305,14 @@ def simulate_negative_binomial(mean, variance, n_sims, rng):
     return sims
 
 
-def load_projection_file(path):
+def first_existing_col(df, candidates):
+    for col in candidates:
+        if col in df.columns:
+            return col
+    return None
+
+
+def load_projection_file(path, include_stable_keys=False):
     df = pd.read_csv(path)
 
     player_col = find_col(df, PLAYER_COL_CANDIDATES, label="projection player column")
@@ -334,10 +342,26 @@ def load_projection_file(path):
     ]
     keep += [c for c in extra_keep if c in out.columns]
 
+    if include_stable_keys:
+        for col in ["season", "week"]:
+            if col in out.columns:
+                out[col] = pd.to_numeric(out[col], errors="coerce")
+                keep.append(col)
+
+        player_id_col = first_existing_col(out, ["player_id", "fpid", "mflid", "gsis_id", "pfr_id"])
+        if player_id_col is not None:
+            out["player_id"] = out[player_id_col]
+            keep.append("player_id")
+        else:
+            print(
+                "[debug] projections missing player_id: no source column found among "
+                "player_id/fpid/mflid/gsis_id/pfr_id."
+            )
+
     return out[keep].dropna(subset=["player_norm", "projection"])
 
 
-def load_market_file(path):
+def load_market_file(path, include_stable_keys=False):
     df = pd.read_csv(path)
 
     player_col = find_col(df, PLAYER_COL_CANDIDATES, label="market player column")
@@ -381,7 +405,336 @@ def load_market_file(path):
     ]
     keep += [c for c in extra_keep if c in out.columns]
 
+    if include_stable_keys:
+        season_source = first_existing_col(out, ["season", "season_guess", "season_str"])
+        week_source = first_existing_col(out, ["week", "week_guess_numeric", "week_guess", "week_str"])
+        game_id_source = first_existing_col(out, ["game_id", "event_id", "event_id_str"])
+
+        if season_source is not None:
+            out["season"] = pd.to_numeric(out[season_source], errors="coerce")
+            keep.append("season")
+        else:
+            print(
+                "[debug] markets missing season: no source column found among "
+                "season/season_guess/season_str."
+            )
+
+        if week_source is not None:
+            out["week"] = pd.to_numeric(out[week_source], errors="coerce")
+            keep.append("week")
+        else:
+            print(
+                "[debug] markets missing week: no source column found among "
+                "week/week_guess_numeric/week_guess/week_str."
+            )
+
+        if game_id_source is not None:
+            out["game_id"] = out[game_id_source]
+            keep.append("game_id")
+        else:
+            print(
+                "[debug] markets missing game_id: no source column found among "
+                "game_id/event_id/event_id_str."
+            )
+
+        if "market_key" in out.columns:
+            keep.append("market_key")
+        else:
+            out["market_key"] = MARKET
+            keep.append("market_key")
+
     return out[keep].dropna(subset=["player_norm", "line", "over_price", "under_price"])
+
+
+def merge_projection_market(markets, projections, merge_keys=None, require_stable_keys=False):
+    if merge_keys is None:
+        merge_keys = ["player_norm"]
+
+    missing_market_keys = [key for key in merge_keys if key not in markets.columns]
+    missing_projection_keys = [key for key in merge_keys if key not in projections.columns]
+    if missing_market_keys or missing_projection_keys:
+        message = (
+            f"Cannot merge projections and markets on {merge_keys}: "
+            f"markets missing {missing_market_keys}, projections missing {missing_projection_keys}."
+        )
+        if require_stable_keys:
+            raise RuntimeError(message)
+        print(f"[debug] {message} Falling back to player_norm merge.")
+        merge_keys = ["player_norm"]
+
+    df = markets.merge(
+        projections.drop(columns=["player"], errors="ignore"),
+        on=merge_keys,
+        how="inner",
+        suffixes=("", "_proj"),
+    )
+
+    market_merge = markets.merge(
+        projections.drop(columns=["player"], errors="ignore"),
+        on=merge_keys,
+        how="left",
+        indicator=True,
+    )
+    projection_merge = projections.merge(
+        markets.drop(columns=["player"], errors="ignore"),
+        on=merge_keys,
+        how="left",
+        indicator=True,
+    )
+
+    merged_rows = len(df)
+    unmatched_market_rows = int((market_merge["_merge"] == "left_only").sum())
+    unmatched_projection_rows = int((projection_merge["_merge"] == "left_only").sum())
+    merge_rate = merged_rows / max(1, len(markets))
+
+    print(f"[merge] keys={merge_keys}")
+    print(f"[merge] market rows={len(markets):,}")
+    print(f"[merge] projection rows={len(projections):,}")
+    print(f"[merge] merged rows={merged_rows:,}")
+    print(f"[merge] merge rate={merge_rate:.4f}")
+    print(f"[merge] unmatched market rows={unmatched_market_rows:,}")
+    print(f"[merge] unmatched projection rows={unmatched_projection_rows:,}")
+    if "player_norm" in df.columns:
+        print(f"[merge] unique players={df['player_norm'].nunique():,}")
+    if {"season", "week"}.issubset(df.columns):
+        print("[merge] season/week distribution:")
+        print(df.groupby(["season", "week"]).size().sort_index().to_string())
+
+    return df
+
+
+def simulate_bets(df, history, variance_table, args):
+    if "position_market" in df.columns:
+        df["position"] = df["position_market"].fillna(df.get("position", "UNKNOWN"))
+    df["position"] = df["position"].fillna("UNKNOWN").astype(str)
+
+    df = add_line_bucket(df, "line")
+
+    # Attach variance parameters.
+    df = df.merge(
+        variance_table[
+            [
+                "position",
+                "line_bucket",
+                "rows",
+                "hist_mean_actual",
+                "std_for_sim",
+                "var_for_sim",
+            ]
+        ],
+        on=["position", "line_bucket"],
+        how="left",
+    )
+
+    # Fallback if missing because of unknown positions.
+    global_var = float(history["actual"].var())
+    global_std = float(history["actual"].std())
+    df["var_for_sim"] = df["var_for_sim"].fillna(global_var)
+    df["std_for_sim"] = df["std_for_sim"].fillna(global_std)
+
+    odds_format = detect_odds_format(pd.concat([df["over_price"], df["under_price"]]))
+    print(f"\n[odds] detected odds format={odds_format}")
+
+    rng = np.random.default_rng(args.seed)
+    results = []
+
+    for _, row in df.iterrows():
+        projection = float(row["projection"])
+        line = float(row["line"])
+
+        # Simulation variance should never be lower than mean + a tiny amount.
+        variance = max(float(row["var_for_sim"]), projection + 0.01)
+
+        sims = simulate_negative_binomial(
+            mean=projection,
+            variance=variance,
+            n_sims=args.n_sims,
+            rng=rng,
+        )
+
+        p_over = float(np.mean(sims > line))
+        p_under = float(np.mean(sims < line))
+        p_push = float(np.mean(sims == line))
+
+        over_dec = price_to_decimal(row["over_price"], odds_format)
+        under_dec = price_to_decimal(row["under_price"], odds_format)
+
+        ev_over = ev_per_1_staked(p_over, over_dec)
+        ev_under = ev_per_1_staked(p_under, under_dec)
+
+        fair_over_price = prob_to_american(p_over)
+        fair_under_price = prob_to_american(p_under)
+
+        projection_minus_line = projection - line
+
+        if ev_over >= ev_under:
+            recommended_side = "over"
+            recommended_ev = ev_over
+            recommended_prob = p_over
+        else:
+            recommended_side = "under"
+            recommended_ev = ev_under
+            recommended_prob = p_under
+
+        if pd.isna(recommended_ev) or recommended_ev < args.min_ev or recommended_prob < args.min_prob:
+            recommendation = "pass"
+        else:
+            recommendation = recommended_side
+
+        out = row.to_dict()
+        out.update(
+            {
+                "projection": projection,
+                "projection_minus_line": projection_minus_line,
+                "edge": projection_minus_line,
+                "p_over": p_over,
+                "p_under": p_under,
+                "p_push": p_push,
+                "fair_over_price": fair_over_price,
+                "fair_under_price": fair_under_price,
+                "over_price_decimal": over_dec,
+                "under_price_decimal": under_dec,
+                "ev_over": ev_over,
+                "ev_under": ev_under,
+                "ev_over_percent": ev_over * 100.0 if not pd.isna(ev_over) else math.nan,
+                "ev_under_percent": ev_under * 100.0 if not pd.isna(ev_under) else math.nan,
+                "recommended_side": recommended_side,
+                "recommended_prob": recommended_prob,
+                "recommended_ev": recommended_ev,
+                "recommended_ev_percent": recommended_ev * 100.0 if not pd.isna(recommended_ev) else math.nan,
+                "recommendation": recommendation,
+                "n_sims": args.n_sims,
+            }
+        )
+        results.append(out)
+
+    bets = pd.DataFrame(results)
+    if bets.empty:
+        print("[warning] no projection/market rows matched.")
+    else:
+        bets = bets.sort_values("recommended_ev", ascending=False)
+    return bets
+
+
+def write_backtest_safe_output(args, history, variance_table):
+    print("\n===== BACKTEST-SAFE RECEPTIONS OUTPUT =====")
+    projections = load_projection_file(Path(args.projections), include_stable_keys=True)
+    markets = load_market_file(Path(args.markets), include_stable_keys=True)
+
+    for label, frame in [("projections", projections), ("markets", markets)]:
+        print(f"[safe keys] {label} rows={len(frame):,}")
+        for key in ["player_id", "season", "week", "game_id"]:
+            if key in frame.columns:
+                print(f"[safe keys] {label}.{key} non-null={frame[key].notna().sum():,}")
+            elif key in {"player_id", "game_id"}:
+                print(f"[debug] {label}.{key} unavailable at output stage; source did not provide it.")
+
+    stable_keys = ["season", "week", "player_norm"]
+    df = merge_projection_market(markets, projections, stable_keys, require_stable_keys=True)
+    bets = simulate_bets(df, history, variance_table, args)
+
+    if "market_key" not in bets.columns:
+        bets["market_key"] = MARKET
+    if "team" not in bets.columns and "team_name" in bets.columns:
+        bets["team"] = bets["team_name"]
+    if "opponent" not in bets.columns:
+        bets["opponent"] = pd.NA
+    if "player_id" not in bets.columns:
+        bets["player_id"] = pd.NA
+    if "game_id" not in bets.columns:
+        bets["game_id"] = pd.NA
+
+    if {"team", "opponent"}.issubset(history.columns):
+        context = history.copy()
+        if "game_id" not in context.columns:
+            game_id_source = first_existing_col(context, ["event_id", "event_id_str"])
+            if game_id_source is not None:
+                context["game_id"] = context[game_id_source]
+        if "player_norm" not in context.columns:
+            context["player_norm"] = context["player"].apply(normalize_text)
+        context["line"] = pd.to_numeric(context["line"], errors="coerce")
+
+        context_keys = ["game_id", "player_norm", "line"]
+        if set(context_keys).issubset(context.columns):
+            context = (
+                context[context_keys + ["team", "opponent"]]
+                .dropna(subset=context_keys)
+                .drop_duplicates(context_keys)
+            )
+            before_team = int(bets["team"].notna().sum())
+            bets = bets.merge(
+                context,
+                on=context_keys,
+                how="left",
+                suffixes=("", "_history"),
+            )
+            bets["team"] = bets["team"].combine_first(bets.pop("team_history"))
+            bets["opponent"] = bets["opponent"].combine_first(bets.pop("opponent_history"))
+            print(
+                "[safe keys] team/opponent filled from history="
+                f"{int(bets['team'].notna().sum()) - before_team:,}"
+            )
+        else:
+            print(
+                "[debug] team/opponent context unavailable: history lacks "
+                "game_id/event_id, player_norm/player, or line."
+            )
+    else:
+        print("[debug] team/opponent context unavailable: history lacks team/opponent columns.")
+
+    safe_cols = [
+        "player",
+        "player_id",
+        "team",
+        "opponent",
+        "season",
+        "week",
+        "game_id",
+        "market_key",
+        "line",
+        "over_price",
+        "under_price",
+        "projection",
+        "projection_minus_line",
+        "edge",
+        "recommended_side",
+        "recommended_prob",
+        "recommended_ev_percent",
+        "recommendation",
+        "player_norm",
+    ]
+    safe = bets[[col for col in safe_cols if col in bets.columns]].copy()
+
+    for col in ["season", "week"]:
+        if col in safe.columns:
+            safe[col] = pd.to_numeric(safe[col], errors="coerce").astype("Int64")
+
+    output_path = Path(args.backtest_safe_output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    safe.to_csv(output_path, index=False)
+
+    print(f"[output] {output_path}")
+    print(f"[rows] {len(safe):,}")
+    for key in ["player_id", "season", "week", "game_id"]:
+        if key in safe.columns:
+            print(f"[safe keys] output.{key} non-null={safe[key].notna().sum():,}")
+
+    sample_cols = [
+        "player",
+        "season",
+        "week",
+        "team",
+        "opponent",
+        "player_id",
+        "game_id",
+        "line",
+        "projection",
+    ]
+    print("\n===== BACKTEST-SAFE SAMPLE =====")
+    if safe.empty:
+        print("No rows.")
+    else:
+        print(safe[[col for col in sample_cols if col in safe.columns]].head(10).to_string(index=False))
 
 
 def main():
@@ -405,6 +758,11 @@ def main():
         "--output",
         default=str(OUT_FILE),
         help="Output CSV path.",
+    )
+    parser.add_argument(
+        "--backtest-safe-output",
+        default=str(BACKTEST_SAFE_OUT_FILE),
+        help="Separate CSV path with stable season/week/player/game keys for receptions backtests.",
     )
     parser.add_argument("--n-sims", type=int, default=N_SIMS_DEFAULT)
     parser.add_argument("--seed", type=int, default=RANDOM_SEED_DEFAULT)
@@ -622,7 +980,11 @@ def main():
                 "recommended_prob",
                 "recommended_ev_percent",
             ]
-            print(recs[[c for c in rec_cols if c in recs.columns]].to_string(index=False))
+            print(recs.head(50)[[c for c in rec_cols if c in recs.columns]].to_string(index=False))
+            if len(recs) > 50:
+                print(f"... {len(recs) - 50:,} additional recommendations omitted from console output.")
+
+    write_backtest_safe_output(args, history, variance_table)
 
 
 if __name__ == "__main__":

@@ -16,6 +16,7 @@ from market_config import MARKET_CONFIG
 
 HISTORY_FILE = Path("data/analysis/rush_yds_market_analysis_rows.csv")
 OUT_FILE = Path("data/analysis/rush_yds_model_bets.csv")
+BACKTEST_SAFE_OUT_FILE = Path("data/analysis/rush_yds_model_bets_backtest_safe.csv")
 
 MARKET = "player_rush_yds"
 N_SIMS_DEFAULT = 20_000
@@ -134,6 +135,13 @@ def find_col(df, candidates, required=True, label="column"):
             f"Could not find {label}. Looked for: {candidates}\n"
             f"Available columns: {list(df.columns)}"
         )
+    return None
+
+
+def first_existing_col(df, candidates):
+    for col in candidates:
+        if col in df.columns:
+            return col
     return None
 
 
@@ -414,6 +422,131 @@ def load_market_file(path):
     return out[keep].dropna(subset=["player_norm", "line", "over_price", "under_price"])
 
 
+def write_backtest_safe_output(bets, projections_path, markets_path, output_path):
+    print("\n===== BACKTEST-SAFE RUSHING YARDS OUTPUT =====")
+    safe = bets.copy()
+
+    projections = pd.read_csv(projections_path)
+    projection_player_col = find_col(
+        projections,
+        PLAYER_COL_CANDIDATES,
+        required=False,
+        label="projection player column",
+    )
+    if projection_player_col is not None:
+        projections["player_norm"] = projections[projection_player_col].apply(normalize_text)
+    player_id_col = first_existing_col(projections, ["player_id", "fpid", "mflid", "gsis_id", "pfr_id"])
+    projection_lookup_cols = ["season", "week", "player_norm"]
+    if player_id_col is not None and set(projection_lookup_cols).issubset(projections.columns):
+        player_lookup = (
+            projections[projection_lookup_cols + [player_id_col]]
+            .rename(columns={player_id_col: "player_id"})
+            .dropna(subset=projection_lookup_cols)
+            .drop_duplicates(projection_lookup_cols)
+        )
+        safe = safe.merge(player_lookup, on=projection_lookup_cols, how="left")
+    else:
+        safe["player_id"] = pd.NA
+        print(
+            "[debug] projections missing player_id: no usable source column found among "
+            "player_id/fpid/mflid/gsis_id/pfr_id with season/week/player_norm."
+        )
+
+    markets = pd.read_csv(markets_path)
+    market_player_col = find_col(
+        markets,
+        PLAYER_COL_CANDIDATES,
+        required=False,
+        label="market player column",
+    )
+    if market_player_col is not None:
+        markets["player_norm"] = markets[market_player_col].apply(normalize_text)
+    if "line" in markets.columns:
+        markets["line"] = pd.to_numeric(markets["line"], errors="coerce")
+    game_id_col = first_existing_col(markets, ["game_id", "event_id", "event_id_str"])
+    market_lookup_cols = ["season", "week", "player_norm", "line"]
+    if game_id_col is not None and set(market_lookup_cols).issubset(markets.columns):
+        context_cols = [game_id_col]
+        context_cols += [col for col in ["team", "opponent", "home_team", "away_team"] if col in markets.columns]
+        market_lookup = (
+            markets[market_lookup_cols + context_cols]
+            .rename(columns={game_id_col: "game_id"})
+            .dropna(subset=market_lookup_cols)
+            .drop_duplicates(market_lookup_cols)
+        )
+        safe = safe.merge(market_lookup, on=market_lookup_cols, how="left", suffixes=("", "_market"))
+        for col in ["team", "opponent"]:
+            market_col = f"{col}_market"
+            if market_col in safe.columns:
+                safe[col] = safe[col].combine_first(safe.pop(market_col)) if col in safe.columns else safe.pop(market_col)
+    else:
+        safe["game_id"] = pd.NA
+        print(
+            "[debug] markets missing game_id: no usable source column found among "
+            "game_id/event_id/event_id_str with season/week/player_norm/line."
+        )
+
+    if "game_id" not in safe.columns:
+        safe["game_id"] = pd.NA
+    if "team" not in safe.columns:
+        safe["team"] = pd.NA
+    if "opponent" not in safe.columns:
+        safe["opponent"] = pd.NA
+    if safe["opponent"].isna().any() and {"team", "home_team", "away_team"}.issubset(safe.columns):
+        team_full = safe["team"].map(NFL_TEAM_ABBR_TO_FULL).fillna(safe["team"])
+        safe["opponent"] = safe["opponent"].combine_first(
+            pd.Series(
+                np.where(team_full.eq(safe["home_team"]), safe["away_team"], pd.NA),
+                index=safe.index,
+            )
+        )
+        safe["opponent"] = safe["opponent"].combine_first(
+            pd.Series(
+                np.where(team_full.eq(safe["away_team"]), safe["home_team"], pd.NA),
+                index=safe.index,
+            )
+        )
+    if "edge" not in safe.columns and "projection_minus_line" in safe.columns:
+        safe["edge"] = safe["projection_minus_line"]
+
+    for col in ["season", "week"]:
+        if col in safe.columns:
+            safe[col] = pd.to_numeric(safe[col], errors="coerce").astype("Int64")
+
+    safe_cols = [
+        "player",
+        "player_norm",
+        "player_id",
+        "season",
+        "week",
+        "team",
+        "opponent",
+        "game_id",
+        "market_key",
+        "line",
+        "over_price",
+        "under_price",
+        "projection",
+        "projection_minus_line",
+        "edge",
+        "recommended_side",
+        "recommended_prob",
+        "recommended_ev_percent",
+        "recommendation",
+    ]
+    safe = safe[[col for col in safe_cols if col in safe.columns]].copy()
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    safe.to_csv(output_path, index=False)
+
+    print(f"[output] {output_path}")
+    print(f"[rows] {len(safe):,}")
+    for key in ["player_id", "game_id", "season", "week", "team", "opponent"]:
+        if key in safe.columns:
+            print(f"[safe keys] output.{key} non-null={safe[key].notna().sum():,}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -435,6 +568,11 @@ def main():
         "--output",
         default=str(OUT_FILE),
         help="Output CSV path.",
+    )
+    parser.add_argument(
+        "--backtest-safe-output",
+        default=str(BACKTEST_SAFE_OUT_FILE),
+        help="Separate CSV path with stable season/week/game/player keys for rushing yards backtests.",
     )
     parser.add_argument("--n-sims", type=int, default=N_SIMS_DEFAULT)
     parser.add_argument("--seed", type=int, default=RANDOM_SEED_DEFAULT)
@@ -701,6 +839,13 @@ def main():
 
     print(f"\n[output] {output_path}")
     print(f"[rows] {len(bets):,}")
+
+    write_backtest_safe_output(
+        bets=bets,
+        projections_path=Path(args.projections),
+        markets_path=Path(args.markets),
+        output_path=Path(args.backtest_safe_output),
+    )
 
     # Summary statistics from historical rows
     try:

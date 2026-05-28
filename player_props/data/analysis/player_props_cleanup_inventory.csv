@@ -1,0 +1,306 @@
+file_path,file_type,category,reason,imports_or_called_by,git_tracked,last_modified,safe_to_delete_now
+data/analysis/actuals_source_audit.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.784940004,no
+data/analysis/backtests/override_min_line_60.csv,csv,keep_reference,backtest output artifact; useful for comparison/history,,yes,2026-05-26T14:01:03.694719553,no
+data/analysis/backtests/parity_general_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:53:43.609498978,no
+data/analysis/backtests/parity_general_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:53:43.613015413,no
+data/analysis/backtests/parity_general_backtest/reception_yds_backtest_by_side.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:53:43.614019394,no
+data/analysis/backtests/parity_general_backtest/reception_yds_backtest_rows.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:53:43.604451895,no
+data/analysis/backtests/parity_general_backtest/reception_yds_backtest_summary.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:53:43.607481718,no
+data/analysis/backtests/parity_general_pass_backtest/pass_yds_sim_results.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:50:37.528218745,no
+data/analysis/backtests/parity_general_rush_backtest/rush_yds_backtest_by_edge_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.640185595,no
+data/analysis/backtests/parity_general_rush_backtest/rush_yds_backtest_by_ev_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.642720461,no
+data/analysis/backtests/parity_general_rush_backtest/rush_yds_backtest_by_side.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.646835566,no
+data/analysis/backtests/parity_general_rush_backtest/rush_yds_backtest_rows.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.634541750,no
+data/analysis/backtests/parity_general_rush_backtest/rush_yds_backtest_summary.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.636651278,no
+data/analysis/backtests/parity_receiving_after_rush_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:10:46.146821737,no
+data/analysis/backtests/parity_receiving_after_rush_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:10:46.148144245,no
+data/analysis/backtests/parity_receiving_after_rush_backtest/reception_yds_backtest_by_side.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:10:46.151235104,no
+data/analysis/backtests/parity_receiving_after_rush_backtest/reception_yds_backtest_rows.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:10:46.142058849,no
+data/analysis/backtests/parity_receiving_after_rush_backtest/reception_yds_backtest_summary.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:10:46.145372152,no
+data/analysis/backtests/parity_reference_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:52:58.269547939,no
+data/analysis/backtests/parity_reference_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:52:58.272131681,no
+data/analysis/backtests/parity_reference_backtest/reception_yds_backtest_by_side.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:52:58.273600578,no
+data/analysis/backtests/parity_reference_backtest/reception_yds_backtest_rows.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:52:58.257394314,no
+data/analysis/backtests/parity_reference_backtest/reception_yds_backtest_summary.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T13:52:58.262014389,no
+data/analysis/backtests/parity_reference_pass_backtest/pass_yds_sim_results.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:50:37.531282901,no
+data/analysis/backtests/parity_reference_rush_backtest/rush_yds_backtest_by_edge_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.615111828,no
+data/analysis/backtests/parity_reference_rush_backtest/rush_yds_backtest_by_ev_bucket.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.617334366,no
+data/analysis/backtests/parity_reference_rush_backtest/rush_yds_backtest_by_side.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.620354414,no
+data/analysis/backtests/parity_reference_rush_backtest/rush_yds_backtest_rows.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.607680798,no
+data/analysis/backtests/parity_reference_rush_backtest/rush_yds_backtest_summary.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-26T14:09:38.610480547,no
+data/analysis/backtests/pass_yds_safe_sidecar_validation.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T16:44:06.724917650,no
+data/analysis/backtests/pass_yds_source_lineage_audit.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T16:42:19.865131855,no
+data/analysis/backtests/receiving_config_filter_general_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:19:59.405050755,no
+data/analysis/backtests/receiving_config_filter_general_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:19:59.406050682,no
+data/analysis/backtests/receiving_config_filter_general_backtest/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:19:59.407232523,no
+data/analysis/backtests/receiving_config_filter_general_backtest/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:19:59.401047707,no
+data/analysis/backtests/receiving_config_filter_general_backtest/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:19:59.403049707,no
+data/analysis/backtests/receiving_config_filter_general_projection.csv,csv,keep_reference,backtest output artifact; useful for comparison/history,,no,2026-05-26T18:19:41.768431425,no
+data/analysis/backtests/receiving_config_filter_reference_projection.csv,csv,keep_reference,backtest output artifact; useful for comparison/history,,no,2026-05-26T18:19:41.751212835,no
+data/analysis/backtests/receiving_production_experiment_before/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T13:58:14.948606014,no
+data/analysis/backtests/receiving_production_experiment_before/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T13:58:14.950629711,no
+data/analysis/backtests/receiving_production_experiment_before/test_reception_yds_model_bets_api.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-21T19:52:48.653598070,no
+data/analysis/backtests/receiving_production_experiment_general_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.158636093,no
+data/analysis/backtests/receiving_production_experiment_general_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.159914494,no
+data/analysis/backtests/receiving_production_experiment_general_backtest/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.162354708,no
+data/analysis/backtests/receiving_production_experiment_general_backtest/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.155540705,no
+data/analysis/backtests/receiving_production_experiment_general_backtest/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.157631874,no
+data/analysis/backtests/receiving_production_experiment_general_projection.csv,csv,keep_reference,backtest output artifact; useful for comparison/history,,no,2026-05-26T18:12:25.603321791,no
+data/analysis/backtests/receiving_production_experiment_reference_backtest/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.154541016,no
+data/analysis/backtests/receiving_production_experiment_reference_backtest/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.155540705,no
+data/analysis/backtests/receiving_production_experiment_reference_backtest/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.156572580,no
+data/analysis/backtests/receiving_production_experiment_reference_backtest/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.150539875,no
+data/analysis/backtests/receiving_production_experiment_reference_backtest/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T18:12:54.152545214,no
+data/analysis/backtests/receiving_production_experiment_reference_projection.csv,csv,keep_reference,backtest output artifact; useful for comparison/history,,no,2026-05-26T18:12:25.605325460,no
+data/analysis/backtests/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:46.941564083,no
+data/analysis/backtests/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:46.943719625,no
+data/analysis/backtests/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:46.945728540,no
+data/analysis/backtests/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:46.939923763,no
+data/analysis/backtests/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:46.941564083,no
+data/analysis/backtests/reception_yds_missing_actuals_audit.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T17:41:46.909023046,no
+data/analysis/backtests/receptions_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-28T17:41:42.946399689,no
+data/analysis/backtests/receptions_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-28T17:41:42.946399689,no
+data/analysis/backtests/receptions_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-28T17:41:42.946399689,no
+data/analysis/backtests/receptions_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-28T17:41:42.946399689,no
+data/analysis/backtests/receptions_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-28T17:41:42.946399689,no
+data/analysis/backtests/receptions_missing_actuals_audit.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T17:41:42.910909176,no
+data/analysis/backtests/rush_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:50.520374537,no
+data/analysis/backtests/rush_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:50.521373987,no
+data/analysis/backtests/rush_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:50.521373987,no
+data/analysis/backtests/rush_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:50.518374443,no
+data/analysis/backtests/rush_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-28T17:41:50.519374609,no
+data/analysis/backtests/safe_output_validation_summary.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T15:58:10.289235592,no
+data/analysis/backtests/safe_output_validation_summary_with_pass_inspection.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T16:38:14.266073942,no
+data/analysis/backtests/validation_after_pass_migration/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:13.004798651,no
+data/analysis/backtests/validation_after_pass_migration/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:13.008819342,no
+data/analysis/backtests/validation_after_pass_migration/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:13.014658451,no
+data/analysis/backtests/validation_after_pass_migration/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.995542288,no
+data/analysis/backtests/validation_after_pass_migration/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.999702215,no
+data/analysis/backtests/validation_after_pass_migration/rush_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.876796007,no
+data/analysis/backtests/validation_after_pass_migration/rush_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.883639097,no
+data/analysis/backtests/validation_after_pass_migration/rush_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.887274027,no
+data/analysis/backtests/validation_after_pass_migration/rush_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.865783691,no
+data/analysis/backtests/validation_after_pass_migration/rush_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:51:12.871887445,no
+data/analysis/backtests/validation_after_receptions_block/reception_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:29.020303249,no
+data/analysis/backtests/validation_after_receptions_block/reception_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:29.024529696,no
+data/analysis/backtests/validation_after_receptions_block/reception_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:29.027068853,no
+data/analysis/backtests/validation_after_receptions_block/reception_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:29.012278318,no
+data/analysis/backtests/validation_after_receptions_block/reception_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:29.015275240,no
+data/analysis/backtests/validation_after_receptions_block/rush_yds_backtest_by_edge_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:28.936794281,no
+data/analysis/backtests/validation_after_receptions_block/rush_yds_backtest_by_ev_bucket.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:28.940145254,no
+data/analysis/backtests/validation_after_receptions_block/rush_yds_backtest_by_side.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:28.943332911,no
+data/analysis/backtests/validation_after_receptions_block/rush_yds_backtest_rows.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:28.923355818,no
+data/analysis/backtests/validation_after_receptions_block/rush_yds_backtest_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T14:44:28.925869465,no
+data/analysis/diagnostics/player_props_cleanup_inventory.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T19:52:01.149863958,no
+data/analysis/diagnostics/projection_source_inventory.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T19:31:38.173606396,no
+data/analysis/diagnostics/receiving_yds_best_interactions_min30.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:51:29.282232761,no
+data/analysis/diagnostics/receiving_yds_by_edge_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.571568966,no
+data/analysis/diagnostics/receiving_yds_by_ev_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.572998762,no
+data/analysis/diagnostics/receiving_yds_by_fav_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.574048519,no
+data/analysis/diagnostics/receiving_yds_by_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.570339441,no
+data/analysis/diagnostics/receiving_yds_by_line_size_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.578119755,no
+data/analysis/diagnostics/receiving_yds_by_position.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.570339441,no
+data/analysis/diagnostics/receiving_yds_by_side.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.568329334,no
+data/analysis/diagnostics/receiving_yds_by_spread_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.575559139,no
+data/analysis/diagnostics/receiving_yds_by_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.576684952,no
+data/analysis/diagnostics/receiving_yds_diagnostic_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.567156315,no
+data/analysis/diagnostics/receiving_yds_filter_chrono_split.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:59:36.202975273,no
+data/analysis/diagnostics/receiving_yds_filter_chrono_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:59:36.204481602,no
+data/analysis/diagnostics/receiving_yds_filter_experiments.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:34:19.554189920,no
+data/analysis/diagnostics/receiving_yds_filter_validation_by_season.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:54:30.603812218,no
+data/analysis/diagnostics/receiving_yds_filter_validation_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:54:30.605814219,no
+data/analysis/diagnostics/receiving_yds_high_confidence_interactions_min50.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:51:29.284890890,no
+data/analysis/diagnostics/receiving_yds_interaction_diagnostics.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:51:29.275104284,no
+data/analysis/diagnostics/receiving_yds_interactions.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:30:08.581567287,no
+data/analysis/diagnostics/receiving_yds_worst_interactions_min30.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-26T17:51:29.278688669,no
+data/analysis/ffa_pass_yds_calibration_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.784940004,no
+data/analysis/fp_pass_yds_calibration_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.784940004,no
+data/analysis/pass_yds_distribution_calibration.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.788893938,no
+data/analysis/pass_yds_distribution_fit_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.788893938,no
+data/analysis/pass_yds_distribution_probability_bins.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.788893938,no
+data/analysis/pass_yds_ev_thresholds.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.788893938,no
+data/analysis/pass_yds_juice_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.792013168,no
+data/analysis/pass_yds_line_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.792013168,no
+data/analysis/pass_yds_market_analysis_rows.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:30.796472073,no
+data/analysis/pass_yds_market_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.798476934,no
+data/analysis/pass_yds_model_bets_backtest_safe.csv,csv,keep_active,"safe-output, audit, or validation artifact from current workflow",,no,2026-05-28T16:44:06.724917650,no
+data/analysis/pass_yds_projection_error_penalty.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.799478769,no
+data/analysis/pass_yds_residuals.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.800473928,no
+data/analysis/pass_yds_residuals_clean.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.801477909,no
+data/analysis/pass_yds_roi_by_juice_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.802477121,no
+data/analysis/pass_yds_roi_by_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.802477121,no
+data/analysis/player_props_cleanup_inventory.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,no,2026-05-28T17:41:30.400791407,no
+data/analysis/plots/pass_yds_actual_minus_line_boxplot.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.803475857,no
+data/analysis/plots/pass_yds_actual_minus_line_hist.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.804473639,no
+data/analysis/plots/pass_yds_line_vs_actual_scatter.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.806477308,no
+data/analysis/plots/pass_yds_projection_delta_to_p_over.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.808104277,no
+data/analysis/plots/pass_yds_residual_distribution_fit.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.809141636,no
+data/analysis/plots/pass_yds_residual_qq_normal.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.810809851,no
+data/analysis/plots/reception_yds_actual_minus_line_boxplot.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T15:26:44.091790915,no
+data/analysis/plots/reception_yds_actual_minus_line_hist.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T15:26:43.940823555,no
+data/analysis/plots/reception_yds_line_vs_actual_scatter.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T15:26:44.267103195,no
+data/analysis/plots/receptions_actual_minus_line_boxplot.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.811972618,no
+data/analysis/plots/receptions_actual_minus_line_hist.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.813974857,no
+data/analysis/plots/receptions_line_vs_actual_scatter.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:30.814973593,no
+data/analysis/plots/rush_yds_actual_minus_line_boxplot.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-21T17:35:15.803616285,no
+data/analysis/plots/rush_yds_actual_minus_line_hist.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-21T17:35:15.678969383,no
+data/analysis/plots/rush_yds_line_vs_actual_scatter.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-21T17:35:15.957944393,no
+data/analysis/projection_ensemble_thresholds.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.815969944,no
+data/analysis/reception_yds_juice_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.253212928,no
+data/analysis/reception_yds_line_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.245697975,no
+data/analysis/reception_yds_market_analysis_rows.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T15:26:43.647387505,no
+data/analysis/reception_yds_market_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.241158724,no
+data/analysis/reception_yds_model_bets.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T15:12:34.242227077,no
+data/analysis/reception_yds_model_bets_backtest_safe.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T15:12:34.387943506,no
+data/analysis/reception_yds_residuals.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T15:26:43.563156366,no
+data/analysis/reception_yds_residuals_clean.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T15:26:43.570832729,no
+data/analysis/reception_yds_roi_by_juice_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.315609217,no
+data/analysis/reception_yds_roi_by_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.307424784,no
+data/analysis/reception_yds_roi_by_position.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.320658684,no
+data/analysis/reception_yds_roi_by_position_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.363664150,no
+data/analysis/reception_yds_roi_by_position_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.440755367,no
+data/analysis/reception_yds_roi_by_position_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.341180086,no
+data/analysis/reception_yds_roi_by_position_line_bucket_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.557708263,no
+data/analysis/reception_yds_roi_by_position_line_bucket_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.504106521,no
+data/analysis/reception_yds_roi_by_position_spread_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.379974127,no
+data/analysis/reception_yds_roi_by_position_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.393201351,no
+data/analysis/reception_yds_roi_wr_underdog_high_total_by_juice.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:26:43.529506206,no
+data/analysis/receptions_juice_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.816970587,no
+data/analysis/receptions_line_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.816970587,no
+data/analysis/receptions_market_analysis_rows.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:30.828767776,no
+data/analysis/receptions_market_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.828767776,no
+data/analysis/receptions_model_bets.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T14:29:58.068209887,no
+data/analysis/receptions_model_bets_backtest_safe.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T14:30:01.746162415,no
+data/analysis/receptions_residuals.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.828767776,no
+data/analysis/receptions_residuals_clean.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:30.828767776,no
+data/analysis/receptions_roi_by_juice_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.832262039,no
+data/analysis/receptions_roi_by_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.832262039,no
+data/analysis/receptions_roi_by_position.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.832262039,no
+data/analysis/receptions_roi_by_position_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.832262039,no
+data/analysis/receptions_roi_by_position_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.578939199,no
+data/analysis/receptions_roi_by_position_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T13:28:30.832262039,no
+data/analysis/receptions_roi_by_position_line_bucket_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.728981733,no
+data/analysis/receptions_roi_by_position_line_bucket_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.667204142,no
+data/analysis/receptions_roi_by_position_spread_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.492781162,no
+data/analysis/receptions_roi_by_position_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.512942790,no
+data/analysis/receptions_roi_wr_underdog_high_total_by_juice.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:13:25.694440126,no
+data/analysis/rush_yds_juice_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.163438320,no
+data/analysis/rush_yds_line_buckets.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.155891180,no
+data/analysis/rush_yds_market_analysis_rows.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-21T17:35:14.413412094,no
+data/analysis/rush_yds_market_summary.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.151820183,no
+data/analysis/rush_yds_model_bets.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T15:54:19.745139122,no
+data/analysis/rush_yds_model_bets_backtest_safe.csv,csv,keep_active,referenced by MARKET_CONFIG,,no,2026-05-28T15:54:19.857455730,no
+data/analysis/rush_yds_residuals.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-21T17:35:14.375098467,no
+data/analysis/rush_yds_residuals_clean.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-21T17:35:14.377776384,no
+data/analysis/rush_yds_roi_by_juice_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.198736191,no
+data/analysis/rush_yds_roi_by_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.194285870,no
+data/analysis/rush_yds_roi_by_position.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.206366301,no
+data/analysis/rush_yds_roi_by_position_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.235947132,no
+data/analysis/rush_yds_roi_by_position_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.303695679,no
+data/analysis/rush_yds_roi_by_position_line_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.215260029,no
+data/analysis/rush_yds_roi_by_position_line_bucket_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.372575283,no
+data/analysis/rush_yds_roi_by_position_line_bucket_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.341358900,no
+data/analysis/rush_yds_roi_by_position_spread_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.239365578,no
+data/analysis/rush_yds_roi_by_position_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.259810448,no
+data/analysis/rush_yds_roi_wr_underdog_high_total_by_juice.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-21T17:35:14.353583574,no
+data/analysis/week_pass_yds_ensemble_bets.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-26T14:50:56.020921469,no
+data/analysis/{output_slug}_roi_by_position_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:48.001428604,no
+data/analysis/{output_slug}_roi_by_position_line_bucket_favorite_status.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:48.110212564,no
+data/analysis/{output_slug}_roi_by_position_line_bucket_favorite_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:48.059613705,no
+data/analysis/{output_slug}_roi_by_position_spread_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:47.948204756,no
+data/analysis/{output_slug}_roi_by_position_total_bucket.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:47.958240986,no
+data/analysis/{output_slug}_roi_wr_underdog_high_total_by_juice.csv,csv,unknown_review_needed,analysis CSV not directly classified; review usage before archiving,,yes,2026-05-20T15:17:48.080851078,no
+data/processed/archive/fanduel_pass_yds_history_2023_2024_2025_v1.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,no,2026-05-20T13:28:31.331666708,no
+data/processed/archive/fanduel_pass_yds_history_2024_v1.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,no,2026-05-20T13:28:31.331666708,no
+data/processed/archive/fanduel_receptions_history_2023_2024_2025_v1.csv,csv,keep_reference,reference/baseline/parity/archive artifact,,no,2026-05-20T13:28:31.339739799,no
+data/processed/eda/archetype_summary.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.339739799,no
+data/processed/eda/correlation_report.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.342686892,no
+data/processed/eda/duplicate_check.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.342686892,no
+data/processed/eda/missingness_report.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.344402552,no
+data/processed/eda/player_volatility.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.346881866,no
+data/processed/eda/stat_summary_by_position.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.347879887,no
+data/processed/eda/stat_summary_overall.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-20T13:28:31.348879337,no
+data/processed/eda_filtered/filtered_stat_summary.csv,csv,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,no,2026-05-20T13:28:31.349879503,no
+data/processed/eda_plots/QB_pass_attempts_gte_20_passing_yards.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.350958347,no
+data/processed/eda_plots/QB_rush_attempts_gte_5_rushing_yards.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.354193211,no
+data/processed/eda_plots/RB_rush_attempts_gte_8_rushing_yards.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.355193615,no
+data/processed/eda_plots/WR_TE_routes_gte_15_receiving_yards.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.356192112,no
+data/processed/eda_plots/WR_TE_targets_gte_7_receiving_yards.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.358560085,no
+data/processed/eda_plots/boxplot_distribution_comparison.png,png,archive_candidate,generated plot/image output; likely archival analysis artifact,,no,2026-05-20T13:28:31.359558582,no
+data/processed/fanduel_pass_yds_history.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:31.361062288,no
+data/processed/fanduel_receptions_history.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:31.367679596,no
+data/processed/fantasypros_qb_weekly_projections.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.369765282,no
+data/processed/fantasypros_weekly_projections_api.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-21T13:58:02.872024536,no
+data/processed/ffa_weekly_projections.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.402807236,no
+data/processed/game_context.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.402807236,no
+data/processed/game_context_2023.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-26T19:22:12.186776161,no
+data/processed/merged_props_with_actuals_2023.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-26T19:21:11.287853479,no
+data/processed/merged_props_with_context.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.411092281,no
+data/processed/merged_props_with_context_2023.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,no,2026-05-26T19:23:52.983718395,no
+data/processed/merged_props_with_rolling.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.414474964,no
+data/processed/pass_yds_dataset.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.414474964,no
+data/processed/pass_yds_dataset_fp.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.422154903,no
+data/processed/pass_yds_dataset_fp_debiased.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.422154903,no
+data/processed/pass_yds_dataset_sigma.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.428878307,no
+data/processed/pass_yds_sim_probs.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.430414915,no
+data/processed/pff/pff_passing_weekly.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:31.436050177,no
+data/processed/pff/pff_player_weekly_master.csv,csv,keep_active,referenced by MARKET_CONFIG,,yes,2026-05-20T13:28:31.470771551,no
+data/processed/pff/pff_receiving_weekly.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.488423824,no
+data/processed/pff/pff_rushing_weekly.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+data/processed/projections/2025/week_01/QB_ESPN_CBS.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+data/processed/projections/2025/week_01/QB_FantasyPros.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+data/processed/projections/2025/week_01/QB_NFL_FFToday.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+data/processed/projections/2025/week_01/qb_projection_ensemble.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+data/processed/projections/2025/week_01/qb_projection_sources_long.csv,csv,unknown_review_needed,processed dataset may be upstream input; review lineage before archiving,,yes,2026-05-20T13:28:31.498050690,no
+scripts/00_config/__pycache__/market_config.cpython-311.pyc,pyc,delete_candidate,generated cache/temp artifact,,no,2026-05-28T17:55:15.298253059,yes
+scripts/00_config/market_config.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/03_modeling/backtest_market_model.py; scripts/03_modeling/build_market_projection_engine.py; scripts/03_modeling/build_receiving_yds_projection_engine.py; scripts/03_modeling/build_rush_yds_projection_engine.py; scripts/04_analysis/analyze_market.py; scripts/04_analysis/audit_pass_yds_source_lineage.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-28T15:54:13.195030689,no
+scripts/01_build/archive_odds_snapshot.py,py,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-20T13:28:36.895329475,no
+scripts/01_build/backfill_closing_props.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-26T18:56:01.690369129,no
+scripts/01_build/backfill_fanduel_pass_yds_history.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.896788597,no
+scripts/01_build/backfill_fanduel_rec_yds_history.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T14:58:42.723180056,no
+scripts/01_build/backfill_fanduel_receptions_history.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.896788597,no
+scripts/01_build/build_game_context_from_nflverse.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-26T19:22:57.808819771,no
+scripts/01_build/build_pass_yds_dataset.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.896788597,no
+scripts/01_build/build_pass_yds_dataset_fp.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.900785208,no
+scripts/01_build/fp_api_test.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T18:01:38.636840820,no
+scripts/01_build/ingest_fantasypros_projections.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.900785208,no
+scripts/01_build/ingest_fantasypros_qb_web.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.900785208,no
+scripts/01_build/ingest_fantasypros_receiving_web.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T15:56:04.108030796,no
+scripts/01_build/ingest_fantasypros_weekly_projections_api.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-20T18:19:39.209650278,no
+scripts/01_build/ingest_ffa_projections.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.900785208,no
+scripts/01_build/ingest_pff.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-20T13:28:36.900785208,no
+scripts/01_build/merge_game_context.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-26T19:23:43.405107021,no
+scripts/01_build/merge_props_with_actuals.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-26T19:20:40.098096848,no
+scripts/03_modeling/backtest_market_model.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-28T15:01:47.991466284,no
+scripts/03_modeling/backtest_receiving_yds_model.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-22T17:09:50.528730869,no
+scripts/03_modeling/backtest_rush_yds_model.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-22T16:42:47.455394506,no
+scripts/03_modeling/build_fp_debiased_projection.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:37.344524860,no
+scripts/03_modeling/build_market_projection_engine.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-26T14:50:10.087377548,no
+scripts/03_modeling/build_pass_yds_baseline.py,py,keep_active,imported or referenced by another script,scripts/04_analysis/audit_pass_yds_source_lineage.py,yes,2026-05-20T13:28:36.912574530,no
+scripts/03_modeling/build_pass_yds_residual_model.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/03_modeling/build_pass_yds_sigma_model.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:37.347001076,no
+scripts/03_modeling/build_projection_ensemble_engine.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/03_modeling/build_market_projection_engine.py; scripts/04_analysis/audit_pass_yds_source_lineage.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-20T13:28:37.348154306,no
+scripts/03_modeling/build_receiving_yds_projection_engine.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/03_modeling/build_market_projection_engine.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-28T15:12:26.184897661,no
+scripts/03_modeling/build_receptions_projection_engine.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/03_modeling/build_market_projection_engine.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-28T14:31:08.160432339,no
+scripts/03_modeling/build_rush_yds_projection_engine.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/03_modeling/build_market_projection_engine.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py,yes,2026-05-28T15:54:06.918115139,no
+scripts/03_modeling/simulate_pass_yds.py,py,keep_active,imported or referenced by another script,scripts/03_modeling/backtest_market_model.py; scripts/04_analysis/audit_pass_yds_source_lineage.py; scripts/04_analysis/build_cleanup_inventory.py; scripts/04_analysis/inventory_player_props_cleanup.py; scripts/04_analysis/validate_safe_outputs.py,yes,2026-05-20T13:28:36.912574530,no
+scripts/03_modeling/simulate_pass_yds_probs.py,py,keep_reference,reference/baseline/parity/archive artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/analyze_fp_pass_yds_calibration.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/analyze_market.py,py,keep_active,imported or referenced by another script,scripts/03_modeling/build_market_projection_engine.py; scripts/03_modeling/build_receiving_yds_projection_engine.py; scripts/03_modeling/build_receptions_projection_engine.py; scripts/03_modeling/build_rush_yds_projection_engine.py,yes,2026-05-21T17:35:00.561801672,no
+scripts/04_analysis/analyze_market_results.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/analyze_pass_yards_context.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/audit_actuals_sources.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/audit_pass_yds_source_lineage.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/04_analysis/build_cleanup_inventory.py,no,2026-05-28T16:42:12.795907974,no
+scripts/04_analysis/audit_projection_sources.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T19:30:50.827329874,no
+scripts/04_analysis/build_cleanup_inventory.py,py,keep_active,explicitly active in cleanup instructions/current workflow,,no,2026-05-28T17:29:29.981086254,no
+scripts/04_analysis/build_pass_yds_backtest_safe_sidecar.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/04_analysis/build_cleanup_inventory.py,no,2026-05-28T16:44:01.406220436,no
+scripts/04_analysis/diagnose_receiving_yds_interactions.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T17:51:22.854990244,no
+scripts/04_analysis/diagnose_receiving_yds_model.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T17:29:58.716524601,no
+scripts/04_analysis/eda_filtered.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/eda_pff.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/eda_plots.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-20T13:28:36.912574530,no
+scripts/04_analysis/inventory_player_props_cleanup.py,py,unknown_review_needed,script not detected as active; review manually before archiving,,yes,2026-05-26T19:51:49.463877678,no
+scripts/04_analysis/test_receiving_yds_filters.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T17:34:11.113691330,no
+scripts/04_analysis/validate_receiving_yds_filters_by_season.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T17:54:24.462578535,no
+scripts/04_analysis/validate_receiving_yds_filters_chrono_split.py,py,archive_candidate,diagnostic/audit/validation/calibration-style artifact,,yes,2026-05-26T17:59:30.010531187,no
+scripts/04_analysis/validate_safe_outputs.py,py,keep_active,explicitly active in cleanup instructions/current workflow,scripts/04_analysis/build_cleanup_inventory.py,no,2026-05-28T16:38:07.940731525,no
