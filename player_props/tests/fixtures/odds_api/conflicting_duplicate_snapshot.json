@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-01T17:00:00Z",
+  "data": {
+    "id": "event_conflict",
+    "sport_key": "americanfootball_nfl",
+    "commence_time": "2026-09-06T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-09-01T16:59:30Z",
+        "markets": [
+          {
+            "key": "player_pass_yds",
+            "last_update": "2026-09-01T16:59:31Z",
+            "outcomes": [
+              {"name": "Over", "description": "Jared Goff", "price": -110, "point": 247.5},
+              {"name": "Over", "description": "Jared Goff", "price": -120, "point": 247.5},
+              {"name": "Under", "description": "Jared Goff", "price": -110, "point": 247.5}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

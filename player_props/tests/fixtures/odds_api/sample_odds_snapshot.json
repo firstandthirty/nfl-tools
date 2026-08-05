@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-01T17:00:00Z",
+  "previous_timestamp": "2026-09-01T16:55:00Z",
+  "next_timestamp": "2026-09-01T17:05:00Z",
+  "data": [
+    {
+      "id": "event_det_gb",
+      "sport_key": "americanfootball_nfl",
+      "commence_time": "2026-09-06T17:00:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "Detroit Lions",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-09-01T16:59:30Z",
+          "markets": [
+            {
+              "key": "player_pass_yds",
+              "last_update": "2026-09-01T16:59:31Z",
+              "outcomes": [
+                {"name": "Over", "description": "Jared Goff", "price": -110, "point": 247.5},
+                {"name": "Under", "description": "Jared Goff", "price": -110, "point": 247.5}
+              ]
+            },
+            {
+              "key": "player_pass_yds_alternate",
+              "last_update": "2026-09-01T16:59:32Z",
+              "outcomes": [
+                {"name": "Over", "description": "Jared Goff", "price": -155, "point": 224.5},
+                {"name": "Under", "description": "Jared Goff", "price": 125, "point": 224.5},
+                {"name": "Over", "description": "Jared Goff", "price": 135, "point": 274.5},
+                {"name": "Under", "description": "Jared Goff", "price": -170, "point": 274.5}
+              ]
+            },
+            {
+              "key": "player_rush_yds",
+              "last_update": "2026-09-01T16:59:33Z",
+              "outcomes": [
+                {"name": "Over", "description": "Jahmyr Gibbs", "price": -105, "point": 68.5},
+                {"name": "Under", "description": "Jahmyr Gibbs", "price": -115, "point": 68.5},
+                {"name": "Push", "description": "Jahmyr Gibbs", "price": -110, "point": 68.5}
+              ]
+            },
+            {
+              "key": "unmapped_player_sacks",
+              "last_update": "2026-09-01T16:59:34Z",
+              "outcomes": [
+                {"name": "Over", "description": "Aidan Hutchinson", "price": -120, "point": 0.5}
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-09-01T16:59:35Z",
+          "markets": [
+            {
+              "key": "player_pass_yds",
+              "last_update": "2026-09-01T16:59:35Z",
+              "outcomes": [
+                {"name": "Over", "description": "Jared Goff", "price": -108, "point": 247.5},
+                {"name": "Under", "description": "Jared Goff", "price": -112, "point": 247.5}
+              ]
+            },
+            {
+              "key": "player_pass_yds_alternate",
+              "last_update": "2026-09-01T16:59:36Z",
+              "outcomes": [
+                {"name": "Over", "description": "Jared Goff", "price": -150, "point": 224.5},
+                {"name": "Under", "description": "Jared Goff", "price": 120, "point": 224.5}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "event_kc_lv",
+      "sport_key": "americanfootball_nfl",
+      "commence_time": "2026-09-07T00:20:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Las Vegas Raiders",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-09-01T16:59:40Z",
+          "markets": [
+            {
+              "key": "player_reception_yds",
+              "last_update": "2026-09-01T16:59:41Z",
+              "outcomes": [
+                {"name": "Over", "description": "Rashee Rice", "price": 100, "point": 54.5},
+                {"name": "Under", "description": "Rashee Rice", "price": -122, "point": 54.5}
+              ]
+            },
+            {
+              "key": "player_receptions",
+              "last_update": "2026-09-01T16:59:42Z",
+              "outcomes": [
+                {"name": "Over", "description": "Rashee Rice", "price": -130, "point": 4.5},
+                {"name": "Under", "description": "Rashee Rice", "price": 104, "point": 4.5},
+                {"name": "Over", "description": "", "price": -110, "point": 1.5},
+                {"name": "Under", "description": "Malformed Price", "price": "EVEN", "point": 1.5},
+                {"name": "Over", "description": "Malformed Line", "price": -110, "point": "many"}
+              ]
+            },
+            {
+              "key": "player_reception_yds_alternate",
+              "last_update": "2026-09-01T16:59:43Z",
+              "outcomes": [
+                {"name": "Over", "description": "Rashee Rice", "price": -180, "point": 39.5},
+                {"name": "Under", "description": "Rashee Rice", "price": 145, "point": 39.5},
+                {"name": "Over", "description": "Rashee Rice", "price": 165, "point": 69.5},
+                {"name": "Under", "description": "Rashee Rice", "price": -210, "point": 69.5}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
