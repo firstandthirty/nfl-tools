@@ -180,7 +180,7 @@ class ProjectionRegistryTests(unittest.TestCase):
         self.assertEqual(int(row["canonical_rows"]), 1286)
 
     def test_raw_input_and_processed_snapshot_files_remain_unchanged(self) -> None:
-        raw_path = ROOT / "data" / "raw" / "projections" / "pff" / "2026" / "week_01" / "snapshots" / "08_04_26_1100projections.csv"
+        raw_path = ROOT / "data" / "raw" / "projections" / "pff" / "2026" / "week_01" / "snapshots" / "08_04_26_1100_projections.csv"
         processed_long_path = ROOT / "data" / "processed" / "projections" / "pff" / "2026" / "week_1" / "08_04_26_1100_projections_long.csv"
         before_raw = hashlib.sha256(raw_path.read_bytes()).hexdigest()
         before_long = hashlib.sha256(processed_long_path.read_bytes()).hexdigest()

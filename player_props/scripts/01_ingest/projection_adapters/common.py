@@ -130,7 +130,9 @@ def build_output_paths(output_root: Path | str, *, source: str, season: int | st
     output_dir = output_root / "data" / "processed" / "projections" / source / str(season) / f"week_{int(week)}"
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = raw_file.stem
-    if stem.endswith("projections"):
+    if stem.endswith("_projections"):
+        stem = stem
+    elif stem.endswith("projections"):
         stem = stem[:-len("projections")] + "_projections"
     long_path = output_dir / f"{stem}_long.csv"
     validation_path = output_dir / f"{stem}_validation.csv"

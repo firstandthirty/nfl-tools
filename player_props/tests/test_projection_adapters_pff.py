@@ -22,7 +22,7 @@ from ingest_projection_snapshots import ingest_snapshot_file
 
 class PFFProjectionAdapterTests(unittest.TestCase):
     def setUp(self) -> None:
-        self.raw_file = ROOT / "data" / "raw" / "projections" / "pff" / "2026" / "week_01" / "snapshots" / "08_04_26_1100projections.csv"
+        self.raw_file = ROOT / "data" / "raw" / "projections" / "pff" / "2026" / "week_01" / "snapshots" / "08_04_26_1100_projections.csv"
         self.metadata = parse_snapshot_metadata(self.raw_file, source="pff", season=2026, week=1)
 
     def test_parse_current_snapshot_timestamp_in_america_new_york(self) -> None:
