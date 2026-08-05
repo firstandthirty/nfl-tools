@@ -1,0 +1,5 @@
+market,selected_sources,total_consensus_players,one_source_players,two_source_players,three_plus_source_players,eligible_players,projection_count_mean,projection_count_median,mean_projection_std,median_projection_std,mean_projection_range,players_with_name_conflicts,players_with_team_conflicts,players_with_position_conflicts
+player_pass_yds,pff,65,65,0,0,0,1.0,1.0,,,0.0,0,0,0
+player_reception_yds,pff,475,475,0,0,0,1.0,1.0,,,0.0,0,0,0
+player_receptions,pff,475,475,0,0,0,1.0,1.0,,,0.0,0,0,0
+player_rush_yds,pff,271,271,0,0,0,1.0,1.0,,,0.0,0,0,0

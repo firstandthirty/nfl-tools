@@ -1,0 +1,17 @@
+signal,rule,threshold,discovery_bets,discovery_roi,discovery_profit_units,validation_bets,validation_roi,validation_profit_units,discovery_retention_pct,validation_retention_pct,roi_direction_agrees,hit_rate_direction_agrees,evidence_class
+absolute_projection_edge,absolute_projection_edge >= 0.25,0.25,304,-0.05483552631578945,-16.669999999999995,89,-0.13640449438202248,-12.14,0.6333333333333333,0.6953125,True,True,weak holdout-consistent loss reduction
+absolute_projection_edge,absolute_projection_edge >= 0.35,0.35,235,-0.08565957446808511,-20.130000000000003,67,-0.1370149253731343,-9.179999999999998,0.4895833333333333,0.5234375,True,True,weak holdout-consistent loss reduction
+absolute_projection_edge,absolute_projection_edge >= 0.5,0.5,147,-0.11857142857142859,-17.430000000000003,49,-0.2802040816326531,-13.730000000000002,0.30625,0.3828125,False,False,does not generalize
+absolute_projection_edge,absolute_projection_edge >= 0.75,0.75,53,-0.0837735849056604,-4.440000000000001,16,-0.0024999999999999745,-0.03999999999999959,0.11041666666666666,0.125,True,True,insufficient sample
+absolute_projection_edge,absolute_projection_edge >= 1,1.0,7,0.11428571428571425,0.7999999999999998,5,0.302,1.51,0.014583333333333334,0.0390625,True,True,insufficient sample
+recommended_ev_percent_value,recommended_ev_percent_value >= 2,2.0,480,-0.14975,-71.88,128,-0.17375,-22.24,1.0,1.0,True,True,weak exploratory signal
+recommended_ev_percent_value,recommended_ev_percent_value >= 3,3.0,400,-0.13015000000000002,-52.06,109,-0.2428440366972477,-26.47,0.8333333333333334,0.8515625,False,False,does not generalize
+recommended_ev_percent_value,recommended_ev_percent_value >= 5,5.0,259,-0.09467181467181465,-24.519999999999996,78,-0.23051282051282046,-17.979999999999997,0.5395833333333333,0.609375,False,False,does not generalize
+recommended_ev_percent_value,recommended_ev_percent_value >= 7.5,7.5,120,-0.1125,-13.5,43,-0.12395348837209302,-5.33,0.25,0.3359375,True,True,weak holdout-consistent loss reduction
+recommended_probability,recommended_probability >= 0.5,0.5,376,-0.12327127659574466,-46.349999999999994,105,-0.15771428571428567,-16.559999999999995,0.7833333333333333,0.8203125,True,True,weak holdout-consistent loss reduction
+recommended_probability,recommended_probability >= 0.525,0.525,323,-0.14071207430340557,-45.449999999999996,88,-0.18295454545454548,-16.1,0.6729166666666667,0.6875,False,True,weak exploratory signal
+recommended_probability,recommended_probability >= 0.55,0.55,268,-0.16936567164179106,-45.39,73,-0.17493150684931508,-12.770000000000001,0.5583333333333333,0.5703125,True,True,weak exploratory signal
+recommended_probability,recommended_probability >= 0.575,0.575,227,-0.1592511013215859,-36.15,61,-0.13622950819672133,-8.31,0.47291666666666665,0.4765625,False,True,weak exploratory signal
+recommended_probability,recommended_probability >= 0.6,0.6,176,-0.08761363636363638,-15.420000000000002,51,-0.10607843137254902,-5.41,0.36666666666666664,0.3984375,True,True,weak holdout-consistent loss reduction
+recommended_probability,recommended_probability >= 0.625,0.625,128,-0.08179687499999999,-10.469999999999999,39,-0.09282051282051282,-3.6199999999999997,0.26666666666666666,0.3046875,True,True,weak holdout-consistent loss reduction
+recommended_probability,recommended_probability >= 0.65,0.65,71,-0.06901408450704223,-4.899999999999999,22,-0.14318181818181816,-3.1499999999999995,0.14791666666666667,0.171875,True,True,insufficient sample

@@ -1,0 +1,6 @@
+reason,source,season,week,captured_at,raw_file,market_source_key,outcome_name,outcome_description,point_raw,price_raw,source_event_index,source_market_index,source_outcome_index
+unrecognized_side,odds_api,2026,1,2026-09-01T13:00:00-04:00,data/raw/odds/odds_api/2026/week_01/snapshots/20260901T130000_sample_odds_snapshot.json,player_rush_yds,Push,Jahmyr Gibbs,68.5,-110,0,2,2
+missing_market_mapping,odds_api,2026,1,2026-09-01T13:00:00-04:00,data/raw/odds/odds_api/2026/week_01/snapshots/20260901T130000_sample_odds_snapshot.json,unmapped_player_sacks,Over,Aidan Hutchinson,0.5,-120,0,3,0
+missing_player_name,odds_api,2026,1,2026-09-01T13:00:00-04:00,data/raw/odds/odds_api/2026/week_01/snapshots/20260901T130000_sample_odds_snapshot.json,player_receptions,Over,,1.5,-110,1,1,2
+missing_or_invalid_price,odds_api,2026,1,2026-09-01T13:00:00-04:00,data/raw/odds/odds_api/2026/week_01/snapshots/20260901T130000_sample_odds_snapshot.json,player_receptions,Under,Malformed Price,1.5,EVEN,1,1,3
+missing_or_nonnumeric_line,odds_api,2026,1,2026-09-01T13:00:00-04:00,data/raw/odds/odds_api/2026/week_01/snapshots/20260901T130000_sample_odds_snapshot.json,player_receptions,Over,Malformed Line,many,-110,1,1,4

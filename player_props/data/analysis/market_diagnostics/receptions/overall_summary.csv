@@ -1,0 +1,2 @@
+market,bets,wins,losses,pushes,win_rate,profit_units,roi,avg_line,avg_projection,avg_projection_minus_line,avg_recommended_probability,avg_recommended_ev_percent,avg_bet_odds,avg_raw_edge,avg_projection_edge,avg_absolute_projection_edge,roi_ci_95_low,roi_ci_95_high
+player_receptions,608,278,330,0,0.45723684210526316,-94.12,-0.1548026315789474,3.3815789473684212,3.5244736842105264,0.14289473684210527,0.5688833881578947,5.605749013157895,1.8882072368421052,0.14289473684210527,0.14289473684210527,0.39065789473684204,-0.22755263157894737,-0.08172121710526319

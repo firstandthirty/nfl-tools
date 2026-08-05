@@ -1,0 +1,2 @@
+run_timestamp,requested_as_of,season,week,requested_sources,selected_sources,unavailable_sources,min_sources,max_projection_std,max_projection_range,max_snapshot_age_hours,max_source_time_gap_hours,selected_snapshot_count,selected_projection_rows,consensus_rows,eligible_consensus_rows,markets_covered,warnings,schema_version
+2026-08-04T13:31:49.791810-04:00,2026-08-04T13:30:00-04:00,2026,1,pff,pff,,3,,,,,1,1286,1286,0,player_pass_yds|player_reception_yds|player_receptions|player_rush_yds,,projection_consensus_v1

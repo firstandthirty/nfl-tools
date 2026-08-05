@@ -1,0 +1,2 @@
+"""Reusable market backtest diagnostics."""
+

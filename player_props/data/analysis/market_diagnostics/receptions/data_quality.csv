@@ -1,0 +1,33 @@
+check,value
+input_rows,608
+input_columns,28
+graded_rows,608
+ungraded_rows,0
+duplicate_full_rows,0
+column_actual,actual
+column_ev_percent,recommended_ev_percent
+column_line,line
+column_market,market_key
+column_odds,bet_odds
+column_opponent,opponent
+column_player,player
+column_predicted_probability,recommended_prob
+column_profit,profit_1u
+column_projection,projection
+column_season,season
+column_side,recommended_side
+column_team,team
+column_week,week
+missing_side,0
+missing_line_value,0
+missing_projection_value,0
+missing_predicted_probability,0
+missing_recommended_ev_percent_value,0
+missing_profit_units,0
+missing_won,0
+missing_pushed,0
+bucket_line,"receptions line | -inf, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, inf"
+bucket_projection_edge,"receptions, signed projection-minus-line | -inf, -1, -0.5, -0.25, 0, 0.25, 0.5, 1, inf"
+bucket_recommended_probability,"decimal probability | -inf, 0.45, 0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.7, inf"
+bucket_recommended_ev_percent,"percentage points | -inf, 0, 2, 5, 10, 15, 20, inf"
+bucket_absolute_projection_edge,"receptions, absolute projection-minus-line | 0, 0.5, 1, 1.5, 2, 3, 4, inf"

@@ -1766,6 +1766,15 @@ def render_team_html(
         departures_df = moves_df[departures_mask].copy()
         other_df = moves_df[~(additions_mask | retentions_mask | departures_mask)].copy()
 
+        if not additions_df.empty and "Type" in additions_df.columns:
+            additions_df["_addition_sort"] = additions_df["Type"].astype(str).str.lower().ne("trade in").astype(int)
+            additions_df = (
+                additions_df
+                .sort_values(["_addition_sort", "Pos", "Player"])
+                .drop(columns=["_addition_sort"])
+                .reset_index(drop=True)
+            )
+
         additions_n = len(additions_df)
         retentions_n = len(retentions_df)
         departures_n = len(departures_df)

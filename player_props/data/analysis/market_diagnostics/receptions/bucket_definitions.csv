@@ -1,0 +1,9 @@
+field,source_column,output_column,interpreted_unit,bucket_boundaries,bucket_labels,verified
+line,line,line_bucket,receptions line,"-inf, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, inf","<1.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5+",
+projection_edge,projection_minus_line,projection_minus_line_bucket,"receptions, signed projection-minus-line","-inf, -1, -0.5, -0.25, 0, 0.25, 0.5, 1, inf","<-1, -1--0.5, -0.5--0.25, -0.25-0, 0-0.25, 0.25-0.5, 0.5-1, 1+",
+recommended_probability,recommended_prob,probability_bucket,decimal probability,"-inf, 0.45, 0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.7, inf","<45%, 45-50%, 50-52.5%, 52.5-55%, 55-57.5%, 57.5-60%, 60-62.5%, 62.5-65%, 65-70%, 70%+",
+recommended_ev_percent,recommended_ev_percent,ev_bucket,percentage points,"-inf, 0, 2, 5, 10, 15, 20, inf","<0, 0-2, 2-5, 5-10, 10-15, 15-20, 20+",
+absolute_projection_edge,edge_receptions,verified_edge_bucket,"receptions, absolute projection-minus-line","0, 0.5, 1, 1.5, 2, 3, 4, inf","0-0.5, 0.5-1, 1-1.5, 1.5-2, 2-3, 3-4, 4+",
+raw_edge_signed,edge,,"receptions, signed; equals projection_minus_line when present",,,True
+projection_edge,projection_minus_line,,"receptions, signed projection-minus-line",,,True
+absolute_projection_edge,edge_receptions,,"receptions, absolute projection-minus-line",,,True

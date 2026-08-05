@@ -1,0 +1,1 @@
+source,season,week,captured_at,market,rows,unique_players,unique_teams,positions_covered,projection_mean,projection_median,projection_std,projection_min,projection_max,rejected_rows_for_snapshot,snapshot_hash
