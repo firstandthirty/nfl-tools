@@ -1,0 +1,35 @@
+name: NFL Spread Line Shop
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  line-shop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run NFL spread line shop
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python line_shop/nfl_line_shop.py
+
+      - name: Upload line shop CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-spread-lines
+          path: line_shop/line_shop_output.csv
+          if-no-files-found: error
