@@ -591,39 +591,18 @@ def build_email_html(rows, usage):
             )
 
             if row["all_same"]:
+                status = (
+                    '<strong style="color:#256029; font-size:11px;">'
+                    'ALL SAME'
+                    '</strong>'
+                )
 
-                status = """
-                <span style="
-                    display:inline-block;
-                    background:#e8f5e9;
-                    color:#256029;
-                    padding:3px 7px;
-                    border-radius:4px;
-                    font-size:11px;
-                    font-weight:bold;
-                ">
-                    ALL SAME
-                </span>
-                """
-
-            elif (
-                row["best_spread"]
-                == row["worst_spread"]
-            ):
-
-                status = """
-                <span style="
-                    display:inline-block;
-                    background:#fff4e5;
-                    color:#8a4b08;
-                    padding:3px 7px;
-                    border-radius:4px;
-                    font-size:11px;
-                    font-weight:bold;
-                ">
-                    SAME SPREAD
-                </span>
-                """
+            elif row["best_spread"] == row["worst_spread"]:
+                status = (
+                    '<strong style="color:#8a4b08; font-size:11px;">'
+                    'SAME SPREAD'
+                    '</strong>'
+                )
 
             else:
                 status = ""
