@@ -7,7 +7,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -133,10 +133,12 @@ def get_credentials():
 
 def fetch_odds(api_key):
     """
-    Fetch current NFL spread markets.
-
-    The response is later filtered to the six Massachusetts sportsbooks.
+    Fetch current NFL spread markets for games starting
+    between now and 7 days from now.
     """
+
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(days=7)
 
     params = {
         "apiKey": api_key,
@@ -144,6 +146,8 @@ def fetch_odds(api_key):
         "markets": MARKET,
         "oddsFormat": ODDS_FORMAT,
         "dateFormat": "iso",
+        "commenceTimeFrom": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "commenceTimeTo": cutoff.strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
     url = f"{API_URL}?{urllib.parse.urlencode(params)}"
@@ -200,7 +204,6 @@ def fetch_odds(api_key):
         raise RuntimeError(
             f"Could not reach The Odds API: {exc.reason}"
         ) from None
-
 
 # ============================================================================
 # LINE SHOPPING
@@ -556,6 +559,13 @@ def build_email_html(rows, usage):
         EASTERN
     ).strftime("%B %d, %Y at %I:%M %p ET")
 
+    window_start = datetime.now(EASTERN)
+    window_end = window_start + timedelta(days=7)
+
+    games_through = window_end.strftime(
+        "%B %d, %Y at %I:%M %p ET"
+    )
+
     games = {}
 
     for row in rows:
@@ -810,6 +820,8 @@ def build_email_html(rows, usage):
                     Massachusetts Sportsbooks Only
                     <br>
                     Generated {generated}
+                    <br>
+                    Games through {games_through}
                 </div>
 
                 {''.join(game_sections)}
