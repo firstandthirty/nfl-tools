@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -8,10 +9,12 @@ from typing import Any
 import pandas as pd
 from pandas.errors import EmptyDataError
 
-from projection_adapters.common import build_output_paths, parse_snapshot_metadata
+from projection_adapters.common import SnapshotMetadata, build_output_paths, parse_snapshot_metadata
+from projection_adapters.fantasypros import ADAPTER_VERSION as FANTASYPROS_ADAPTER_VERSION
+from projection_adapters.fantasypros import identify_source_file_type, _api_projection_items
 from utils.name_utils import TEAM_ALIASES
 
-from .hashing import hash_file
+from .hashing import hash_file, hash_files
 
 DEFAULT_MARKETS = [
     "player_pass_yds",
@@ -60,11 +63,23 @@ def _list_field(values: list[str] | set[str] | None) -> str:
     return "|".join(sorted({str(value) for value in values if str(value).strip()}))
 
 
+def _timestamp_stem(path: Path) -> str:
+    parts = path.stem.split("_")
+    if len(parts) < 4:
+        raise ValueError(f"FantasyPros filename does not start with MM_DD_YY_HHMM timestamp: {path}")
+    return "_".join(parts[:4])
+
+
 def _get_column(frame: pd.DataFrame, *names: str) -> pd.Series:
     for name in names:
         if name in frame.columns:
             return frame[name]
     return pd.Series(["" for _ in range(len(frame))], index=frame.index)
+
+
+def _nonempty_nunique(series: pd.Series) -> int:
+    cleaned = series.dropna().astype(str).str.strip()
+    return int(cleaned[cleaned.ne("")].nunique())
 
 
 def _warning_count_from_validation(validation_df: pd.DataFrame | None) -> tuple[int, str]:
@@ -176,7 +191,8 @@ def _validation_status(warnings: list[str]) -> str:
     return "passed_with_warnings"
 
 
-def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path, metadata, long_df: pd.DataFrame, rejected_df: pd.DataFrame | None, validation_df: pd.DataFrame | None, registry_updated_at: datetime) -> dict[str, Any]:
+def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path, metadata, long_df: pd.DataFrame, rejected_df: pd.DataFrame | None, validation_df: pd.DataFrame | None, registry_updated_at: datetime, component_raw_files: list[Path] | None = None) -> dict[str, Any]:
+    component_raw_files = component_raw_files or [raw_path]
     output_paths = build_output_paths(output_root, source=metadata.source, season=metadata.season, week=metadata.week, raw_file=raw_path)
     long_path = output_paths["long_path"]
     rejected_path = output_paths["rejected_path"]
@@ -184,33 +200,62 @@ def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path
 
     warnings, warning_count, warning_text = _quality_checks(long_df, rejected_df, validation_df)
     validation_status = _validation_status(warnings)
-    adapter_version = "pff_adapter_v1" if metadata.source == "pff" else "adapter_v1"
+    adapter_version = "pff_adapter_v1" if metadata.source == "pff" else FANTASYPROS_ADAPTER_VERSION if metadata.source == "fantasypros" else "adapter_v1"
+    component_hashes = [hash_file(path) for path in component_raw_files]
+    logical_hash = hash_files(component_raw_files)
+    raw_rows = 0
+    for component in component_raw_files:
+        if not component.exists():
+            continue
+        if component.suffix.lower() == ".json":
+            payload = json.loads(component.read_text(encoding="utf-8"))
+            raw_rows += len(_api_projection_items(payload))
+        else:
+            raw_rows += int(len(pd.read_csv(component)))
+    source_format = "api" if raw_path.suffix.lower() == ".json" else "csv"
+    sidecar = raw_path.with_suffix(raw_path.suffix + ".metadata.json")
+    sidecar_payload: dict[str, Any] = {}
+    if sidecar.exists():
+        try:
+            sidecar_payload = json.loads(sidecar.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            sidecar_payload = {}
 
     return {
         "source": metadata.source,
         "season": int(metadata.season),
         "week": int(metadata.week),
+        "source_format": source_format,
         "captured_at": metadata.captured_at.isoformat(),
         "captured_at_source": metadata.captured_at_source,
+        "endpoint_path": sidecar_payload.get("endpoint_path", ""),
+        "response_status": sidecar_payload.get("status_code", ""),
+        "rate_limit_limit": sidecar_payload.get("rate_limit_headers", {}).get("x-ratelimit-limit", ""),
+        "rate_limit_remaining": sidecar_payload.get("rate_limit_headers", {}).get("x-ratelimit-remaining", ""),
+        "rate_limit_reset": sidecar_payload.get("rate_limit_headers", {}).get("x-ratelimit-reset", ""),
         "raw_file": _to_repo_relative(raw_path, project_root=project_root),
         "raw_file_name": raw_path.name,
-        "raw_file_sha256": hash_file(raw_path),
-        "raw_file_size_bytes": int(raw_path.stat().st_size),
+        "raw_file_sha256": logical_hash if len(component_raw_files) > 1 else component_hashes[0],
+        "raw_file_size_bytes": int(sum(path.stat().st_size for path in component_raw_files)),
+        "component_raw_files": _list_field([_to_repo_relative(path, project_root=project_root) for path in component_raw_files]),
+        "component_raw_file_names": _list_field([path.name for path in component_raw_files]),
+        "component_raw_file_sha256": _list_field(component_hashes),
+        "logical_snapshot_hash": logical_hash,
         "processed_long_file": _to_repo_relative(long_path, project_root=project_root),
         "processed_rejected_file": _to_repo_relative(rejected_path, project_root=project_root) if rejected_path.exists() else "",
         "processed_validation_file": _to_repo_relative(validation_path, project_root=project_root) if validation_path.exists() else "",
         "processed_file_sha256": hash_file(long_path),
         "ingested_at": registry_updated_at.isoformat(),
         "registry_updated_at": registry_updated_at.isoformat(),
-        "raw_rows": int(len(pd.read_csv(raw_path)) if raw_path.exists() else 0),
+        "raw_rows": raw_rows,
         "canonical_rows": int(len(long_df)),
-        "unique_players": int(long_df["player_normalized"].dropna().astype(str).str.strip().ne("").nunique() if not long_df.empty else 0),
-        "unique_teams": int(long_df["team"].dropna().astype(str).str.strip().ne("").nunique() if not long_df.empty else 0),
+        "unique_players": _nonempty_nunique(long_df["player_normalized"]) if not long_df.empty else 0,
+        "unique_teams": _nonempty_nunique(long_df["team"]) if not long_df.empty else 0,
         "positions_covered": _list_field([str(position).upper() for position in long_df["position"].dropna().astype(str).str.strip().tolist()] if not long_df.empty else []),
         "markets_covered": _list_field([str(market) for market in long_df["market"].dropna().astype(str).str.strip().tolist()] if not long_df.empty else []),
         "market_count": int(long_df["market"].dropna().astype(str).str.strip().nunique() if not long_df.empty else 0),
         "rejected_rows": int(len(rejected_df) if rejected_df is not None else 0),
-        "rejection_rate": round((len(rejected_df) / max(1, len(pd.read_csv(raw_path))) if rejected_df is not None and raw_path.exists() else 0.0), 6),
+        "rejection_rate": round((len(rejected_df) / max(1, raw_rows) if rejected_df is not None else 0.0), 6),
         "duplicate_canonical_keys": int(long_df.duplicated(subset=["player_normalized", "market"]).sum() if not long_df.empty else 0),
         "validation_status": validation_status,
         "warning_count": warning_count,
@@ -248,7 +293,51 @@ def _discover_raw_files(project_root: Path, *, source: str | None = None, season
                 snapshots_dir = week_dir / "snapshots"
                 if snapshots_dir.exists():
                     candidates.extend(sorted(path for path in snapshots_dir.glob("*.csv") if path.is_file()))
+                    if source_dir.name == "fantasypros":
+                        candidates.extend(sorted(path for path in snapshots_dir.glob("*.json") if path.is_file() and not path.name.endswith(".metadata.json")))
     return sorted(candidates)
+
+
+def _discover_logical_snapshots(project_root: Path, *, source: str | None = None, season: int | str | None = None, week: int | str | None = None) -> list[dict[str, Any]]:
+    raw_files = _discover_raw_files(project_root, source=source, season=season, week=week)
+    if source is not None and source != "fantasypros":
+        return [{"raw_path": path, "component_raw_files": [path]} for path in raw_files]
+
+    groups: dict[tuple[str, str, str], dict[str, Path]] = {}
+    logical_snapshots: list[dict[str, Any]] = []
+    for path in raw_files:
+        try:
+            source_token = path.resolve().parents[3].name
+        except IndexError:
+            source_token = ""
+        if source_token != "fantasypros":
+            logical_snapshots.append({"raw_path": path, "component_raw_files": [path]})
+            continue
+        if path.suffix.lower() == ".json":
+            logical_snapshots.append({"raw_path": path, "component_raw_files": [path]})
+            continue
+        resolved = path.resolve()
+        week_token = resolved.parents[1].name
+        season_token = resolved.parents[2].name
+        timestamp = _timestamp_stem(path)
+        file_type = identify_source_file_type(path)
+        key = (season_token, week_token, timestamp)
+        if file_type in groups.setdefault(key, {}):
+            raise ValueError(f"Duplicate FantasyPros {file_type} component for timestamp {timestamp}")
+        groups[key][file_type] = path
+
+    for (_, _, timestamp), components in sorted(groups.items()):
+        missing = sorted({"qb", "flex"} - set(components))
+        if missing:
+            raise ValueError(f"Incomplete FantasyPros logical snapshot {timestamp}; missing components: {', '.join(missing)}")
+        qb_path = components["qb"]
+        logical_snapshots.append(
+            {
+                "raw_path": qb_path.with_name(f"{timestamp}_projections.csv"),
+                "component_raw_files": [components["qb"], components["flex"]],
+            }
+        )
+    return logical_snapshots
 
 
 def _resolve_snapshot_metadata(raw_path: Path, *, source: str | None, season: int | str | None, week: int | str | None) -> Any:
@@ -276,6 +365,22 @@ def _resolve_snapshot_metadata(raw_path: Path, *, source: str | None, season: in
         inferred_season = 2026
     if inferred_week is None:
         inferred_week = 1
+    if Path(raw_path).suffix.lower() == ".json":
+        sidecar = raw_path.with_suffix(raw_path.suffix + ".metadata.json")
+        if sidecar.exists():
+            try:
+                payload = json.loads(sidecar.read_text(encoding="utf-8"))
+                captured_at = datetime.fromisoformat(str(payload["captured_at"]))
+                return SnapshotMetadata(
+                    source=str(payload.get("source") or inferred_source or "fantasypros"),
+                    season=int(payload.get("season") or inferred_season),
+                    week=int(payload.get("week") or inferred_week),
+                    raw_file=raw_path,
+                    captured_at=captured_at,
+                    captured_at_source=str(payload.get("captured_at_source") or "api_request"),
+                )
+            except (KeyError, ValueError, json.JSONDecodeError):
+                pass
     return parse_snapshot_metadata(raw_path, source=inferred_source, season=inferred_season, week=inferred_week)
 
 
@@ -288,8 +393,8 @@ def _build_coverage_rows(long_df: pd.DataFrame, rejected_df: pd.DataFrame | None
             "entity": market,
             "market": market,
             "rows": int(len(market_rows)),
-            "unique_players": int(market_rows["player_normalized"].dropna().astype(str).str.strip().ne("").nunique() if not market_rows.empty else 0),
-            "unique_teams": int(market_rows["team"].dropna().astype(str).str.strip().ne("").nunique() if not market_rows.empty else 0),
+            "unique_players": _nonempty_nunique(market_rows["player_normalized"]) if not market_rows.empty else 0,
+            "unique_teams": _nonempty_nunique(market_rows["team"]) if not market_rows.empty else 0,
             "positions_represented": _list_field([str(position).upper() for position in market_rows["position"].dropna().astype(str).str.strip().tolist()] if not market_rows.empty else []),
             "null_projection_count": int(market_rows["projection"].isna().sum() if not market_rows.empty else 0),
             "zero_projection_count": int(market_rows["projection"].eq(0).sum() if not market_rows.empty else 0),
@@ -310,7 +415,7 @@ def _build_coverage_rows(long_df: pd.DataFrame, rejected_df: pd.DataFrame | None
                 "report_section": "position_coverage",
                 "entity": position,
                 "position": position,
-                "unique_players": int(position_rows["player_normalized"].dropna().astype(str).str.strip().ne("").nunique()),
+                "unique_players": _nonempty_nunique(position_rows["player_normalized"]),
                 "canonical_rows": int(len(position_rows)),
                 "markets_represented": _list_field([str(market) for market in position_rows["market"].dropna().astype(str).str.strip().tolist()]),
                 "teams_represented": _list_field([str(team) for team in position_rows["team"].dropna().astype(str).str.strip().tolist()]),
@@ -322,7 +427,7 @@ def _build_coverage_rows(long_df: pd.DataFrame, rejected_df: pd.DataFrame | None
                 "report_section": "team_coverage",
                 "entity": team,
                 "team": team,
-                "unique_players": int(team_rows["player_normalized"].dropna().astype(str).str.strip().ne("").nunique()),
+                "unique_players": _nonempty_nunique(team_rows["player_normalized"]),
                 "canonical_rows": int(len(team_rows)),
                 "positions_represented": _list_field([str(position).upper() for position in team_rows["position"].dropna().astype(str).str.strip().tolist()]),
                 "markets_represented": _list_field([str(market) for market in team_rows["market"].dropna().astype(str).str.strip().tolist()]),
@@ -383,8 +488,8 @@ def build_weekly_coverage(long_dfs: list[pd.DataFrame] | pd.DataFrame, *, source
                 "captured_at": captured_at,
                 "market": market,
                 "rows": int(len(market_rows)),
-                "unique_players": int(market_rows["player_normalized"].dropna().astype(str).str.strip().ne("").nunique()),
-                "unique_teams": int(market_rows["team"].dropna().astype(str).str.strip().ne("").nunique()),
+                "unique_players": _nonempty_nunique(market_rows["player_normalized"]),
+                "unique_teams": _nonempty_nunique(market_rows["team"]),
                 "positions_covered": _list_field([str(position).upper() for position in market_rows["position"].dropna().astype(str).str.strip().tolist()]),
                 "projection_mean": float(market_rows["projection"].mean()) if market_rows["projection"].notna().any() else None,
                 "projection_median": float(market_rows["projection"].median()) if market_rows["projection"].notna().any() else None,
@@ -459,8 +564,10 @@ def build_projection_registry(project_root: Path | str, output_root: Path | str 
     coverage_root.mkdir(parents=True, exist_ok=True)
 
     registry_df = pd.DataFrame(columns=[
-        "source", "season", "week", "captured_at", "captured_at_source", "raw_file", "raw_file_name", "raw_file_sha256",
-        "raw_file_size_bytes", "processed_long_file", "processed_rejected_file", "processed_validation_file", "processed_file_sha256",
+        "source", "season", "week", "source_format", "captured_at", "captured_at_source", "endpoint_path", "response_status",
+        "rate_limit_limit", "rate_limit_remaining", "rate_limit_reset", "raw_file", "raw_file_name", "raw_file_sha256",
+        "raw_file_size_bytes", "component_raw_files", "component_raw_file_names", "component_raw_file_sha256", "logical_snapshot_hash",
+        "processed_long_file", "processed_rejected_file", "processed_validation_file", "processed_file_sha256",
         "ingested_at", "registry_updated_at", "raw_rows", "canonical_rows", "unique_players", "unique_teams", "positions_covered",
         "markets_covered", "market_count", "rejected_rows", "rejection_rate", "duplicate_canonical_keys", "validation_status",
         "warning_count", "warnings", "adapter_version", "schema_version", "days_before_week_start", "snapshot_stage"
@@ -475,17 +582,30 @@ def build_projection_registry(project_root: Path | str, output_root: Path | str 
     discovered_snapshots: list[Path] = []
     weekly_rows: list[dict[str, Any]] = []
     change_rows: list[dict[str, Any]] = []
+    discovery_warnings: list[str] = []
 
-    raw_files = _discover_raw_files(project_root, source=source, season=season, week=week)
-    for raw_path in raw_files:
+    for snapshot in _discover_logical_snapshots(project_root, source=source, season=season, week=week):
+        raw_path = snapshot["raw_path"]
+        component_raw_files = snapshot["component_raw_files"]
         metadata = _resolve_snapshot_metadata(raw_path, source=source, season=season, week=week)
+        if metadata.source == "fantasypros":
+            metadata = SnapshotMetadata(
+                source=metadata.source,
+                season=metadata.season,
+                week=metadata.week,
+                raw_file=raw_path,
+                captured_at=metadata.captured_at,
+                captured_at_source=metadata.captured_at_source,
+            )
         discovered_snapshots.append(raw_path)
         output_paths = build_output_paths(output_root, source=metadata.source, season=metadata.season, week=metadata.week, raw_file=raw_path)
         long_path = output_paths["long_path"]
         if not long_path.exists():
+            if source is None and metadata.source == "fantasypros":
+                discovery_warnings.append(f"unprocessed_fantasypros_snapshot_skipped={_to_repo_relative(raw_path, project_root=project_root)}")
+                continue
             raise ValueError(f"Missing required long-format file for snapshot: {raw_path}")
 
-        raw_df = pd.read_csv(raw_path)
         long_df = pd.read_csv(long_path)
         rejected_path = output_paths["rejected_path"]
         validation_path = output_paths["validation_path"]
@@ -498,7 +618,7 @@ def build_projection_registry(project_root: Path | str, output_root: Path | str 
         except EmptyDataError:
             validation_df = pd.DataFrame()
 
-        row = _build_registry_row(raw_path, project_root=project_root, output_root=output_root, metadata=metadata, long_df=long_df, rejected_df=rejected_df, validation_df=validation_df, registry_updated_at=datetime.now(timezone.utc))
+        row = _build_registry_row(raw_path, project_root=project_root, output_root=output_root, metadata=metadata, long_df=long_df, rejected_df=rejected_df, validation_df=validation_df, registry_updated_at=datetime.now(timezone.utc), component_raw_files=component_raw_files)
         row_hash = row["raw_file_sha256"]
 
         existing_match = registry_df.loc[registry_df["raw_file_sha256"] == row_hash] if not registry_df.empty else pd.DataFrame()
@@ -545,8 +665,10 @@ def build_projection_registry(project_root: Path | str, output_root: Path | str 
 
     if not rebuild and registry_df.empty:
         registry_df = pd.DataFrame(columns=[
-            "source", "season", "week", "captured_at", "captured_at_source", "raw_file", "raw_file_name", "raw_file_sha256",
-            "raw_file_size_bytes", "processed_long_file", "processed_rejected_file", "processed_validation_file", "processed_file_sha256",
+            "source", "season", "week", "source_format", "captured_at", "captured_at_source", "endpoint_path", "response_status",
+            "rate_limit_limit", "rate_limit_remaining", "rate_limit_reset", "raw_file", "raw_file_name", "raw_file_sha256",
+            "raw_file_size_bytes", "component_raw_files", "component_raw_file_names", "component_raw_file_sha256", "logical_snapshot_hash",
+            "processed_long_file", "processed_rejected_file", "processed_validation_file", "processed_file_sha256",
             "ingested_at", "registry_updated_at", "raw_rows", "canonical_rows", "unique_players", "unique_teams", "positions_covered",
             "markets_covered", "market_count", "rejected_rows", "rejection_rate", "duplicate_canonical_keys", "validation_status",
             "warning_count", "warnings", "adapter_version", "schema_version", "days_before_week_start", "snapshot_stage"
@@ -607,5 +729,5 @@ def build_projection_registry(project_root: Path | str, output_root: Path | str 
             "weekly_coverage": str(coverage_root / "weekly_coverage.csv"),
             "snapshot_changes": str(coverage_root / "snapshot_changes.csv"),
         },
-        "warnings": [row["warnings"] for row in registry_df.to_dict(orient="records") if row.get("warnings")],
+        "warnings": [*discovery_warnings, *[row["warnings"] for row in registry_df.to_dict(orient="records") if row.get("warnings")]],
     }
