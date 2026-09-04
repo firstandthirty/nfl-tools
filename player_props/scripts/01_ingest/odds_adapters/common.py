@@ -43,6 +43,11 @@ CANONICAL_ODDS_COLUMNS = [
     "market_last_update",
     "point_raw",
     "price_raw",
+    "contributing_market_source_keys",
+    "contributing_price_raws",
+    "contributing_is_alternate",
+    "contributing_source_locations",
+    "consolidated_duplicate_count",
 ]
 
 ODDS_IDENTITY_COLUMNS = [
@@ -123,8 +128,17 @@ def discover_snapshot_files(root: Path | str, *, source: str, season: int | str,
     for week_dir in candidates:
         snapshots_dir = base / "data" / "raw" / "odds" / source / str(season) / week_dir / "snapshots"
         if snapshots_dir.exists():
-            found.extend(sorted(path for path in snapshots_dir.rglob("*.json") if path.is_file()))
+            found.extend(sorted(path for path in snapshots_dir.rglob("*.json") if path.is_file() and is_ingestable_odds_snapshot(path)))
     return sorted(set(found))
+
+
+def is_ingestable_odds_snapshot(path: Path | str) -> bool:
+    name = Path(path).name
+    if name.endswith("_events.json") or name.endswith("_manifest.json"):
+        return False
+    if "_event_" in name and name.endswith("_odds.json"):
+        return False
+    return True
 
 
 def build_output_paths(output_root: Path | str, *, source: str, season: int | str, week: int | str, raw_file: Path) -> dict[str, Path]:
@@ -206,4 +220,3 @@ def append_unique_rows(path: Path | str, new_rows: list[dict], *, conflict_path:
     if conflict_path is not None:
         conflict_df.to_csv(conflict_path, index=False)
     return output, conflict_df
-

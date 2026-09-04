@@ -5,8 +5,9 @@ from pathlib import Path
 from typing import Any
 
 import pandas as pd
+from pandas.errors import EmptyDataError
 
-from odds_adapters.common import build_output_paths, parse_snapshot_metadata, to_repo_relative
+from odds_adapters.common import build_output_paths, is_ingestable_odds_snapshot, parse_snapshot_metadata, to_repo_relative
 
 from .hashing import hash_file
 
@@ -35,7 +36,7 @@ def _discover_raw_files(project_root: Path, *, source: str | None = None, season
                     continue
                 snapshot_dir = week_dir / "snapshots"
                 if snapshot_dir.exists():
-                    files.extend(sorted(path for path in snapshot_dir.rglob("*.json") if path.is_file()))
+                    files.extend(sorted(path for path in snapshot_dir.rglob("*.json") if path.is_file() and is_ingestable_odds_snapshot(path)))
     return files
 
 
@@ -50,6 +51,15 @@ def _metric(validation_df: pd.DataFrame, name: str) -> Any:
 
 def _list_field(values: list[str]) -> str:
     return "|".join(sorted({str(value) for value in values if str(value).strip()}))
+
+
+def _read_csv_if_present(path: Path) -> pd.DataFrame:
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except EmptyDataError:
+        return pd.DataFrame()
 
 
 def build_odds_registry(project_root: Path | str, output_root: Path | str | None = None, *, source: str | None = None, season: int | str | None = None, week: int | str | None = None, rebuild: bool = False) -> dict[str, Any]:
@@ -93,9 +103,9 @@ def build_odds_registry(project_root: Path | str, output_root: Path | str | None
         paths = build_output_paths(output_root, source=metadata.source, season=metadata.season, week=metadata.week, raw_file=raw_file)
         if not paths["long_path"].exists():
             raise ValueError(f"Missing required odds long file for snapshot: {raw_file}")
-        long_df = pd.read_csv(paths["long_path"]) if paths["long_path"].stat().st_size > 0 else pd.DataFrame()
-        rejected_df = pd.read_csv(paths["rejected_path"]) if paths["rejected_path"].exists() and paths["rejected_path"].stat().st_size > 0 else pd.DataFrame()
-        validation_df = pd.read_csv(paths["validation_path"]) if paths["validation_path"].exists() and paths["validation_path"].stat().st_size > 0 else pd.DataFrame()
+        long_df = _read_csv_if_present(paths["long_path"])
+        rejected_df = _read_csv_if_present(paths["rejected_path"])
+        validation_df = _read_csv_if_present(paths["validation_path"])
         warnings = str(_metric(validation_df, "warnings") or "")
         raw_hash = hash_file(raw_file)
         row = {

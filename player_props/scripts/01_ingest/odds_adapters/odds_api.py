@@ -72,12 +72,61 @@ def _reject(rejections: list[dict], *, reason: str, metadata: OddsSnapshotMetada
     })
 
 
+def _source_location(row: dict) -> str:
+    return (
+        f"event={row.get('source_event_index', '')};"
+        f"market={row.get('source_market_index', '')};"
+        f"outcome={row.get('source_outcome_index', '')}"
+    )
+
+
+def _lineage_from_row(row: dict) -> dict[str, str | int]:
+    keys = str(row.get("contributing_market_source_keys") or row.get("market_source_key") or "")
+    prices = str(row.get("contributing_price_raws") or row.get("price_raw") or "")
+    alternates = str(row.get("contributing_is_alternate") or row.get("is_alternate") or "")
+    locations = str(row.get("contributing_source_locations") or _source_location(row))
+    count = row.get("consolidated_duplicate_count", 0)
+    try:
+        duplicate_count = int(count)
+    except (TypeError, ValueError):
+        duplicate_count = 0
+    return {
+        "contributing_market_source_keys": keys,
+        "contributing_price_raws": prices,
+        "contributing_is_alternate": alternates,
+        "contributing_source_locations": locations,
+        "consolidated_duplicate_count": duplicate_count,
+    }
+
+
+def _merge_lineage(existing: dict, candidate: dict) -> dict[str, str | int]:
+    prior = _lineage_from_row(existing)
+    current = _lineage_from_row(candidate)
+    return {
+        "contributing_market_source_keys": f"{prior['contributing_market_source_keys']}|{current['contributing_market_source_keys']}",
+        "contributing_price_raws": f"{prior['contributing_price_raws']}|{current['contributing_price_raws']}",
+        "contributing_is_alternate": f"{prior['contributing_is_alternate']}|{current['contributing_is_alternate']}",
+        "contributing_source_locations": f"{prior['contributing_source_locations']}|{current['contributing_source_locations']}",
+        "consolidated_duplicate_count": int(prior["consolidated_duplicate_count"]) + int(current["consolidated_duplicate_count"]) + 1,
+    }
+
+
+def _candidate_is_better(candidate: dict, existing: dict) -> bool:
+    candidate_price = int(candidate["price"])
+    existing_price = int(existing["price"])
+    if candidate_price != existing_price:
+        return candidate_price > existing_price
+    if bool(existing.get("is_alternate")) and not bool(candidate.get("is_alternate")):
+        return True
+    return False
+
+
 def transform_odds_api_snapshot(payload: Any, *, metadata: OddsSnapshotMetadata, sportsbook_filter: str | None = None, market_filter: str | None = None, project_root: Path | None = None) -> tuple[list[dict], list[dict], list[dict]]:
     project_root = project_root or Path.cwd()
     rows: list[dict] = []
     rejected: list[dict] = []
     conflicts: list[dict] = []
-    seen: dict[tuple, dict] = {}
+    seen: dict[tuple, int] = {}
     raw_file = to_repo_relative(metadata.raw_file, project_root=project_root)
     captured_at = isoformat_with_offset(metadata.captured_at)
 
@@ -152,15 +201,40 @@ def transform_odds_api_snapshot(payload: Any, *, metadata: OddsSnapshotMetadata,
                         "market_last_update": market.get("last_update", ""),
                         "point_raw": outcome.get("point", ""),
                         "price_raw": outcome.get("price", ""),
+                        "contributing_market_source_keys": market_key,
+                        "contributing_price_raws": str(outcome.get("price", "")),
+                        "contributing_is_alternate": str(bool(is_alternate)),
+                        "contributing_source_locations": "",
+                        "consolidated_duplicate_count": 0,
                     }
+                    row["contributing_source_locations"] = _source_location(row)
                     identity = tuple(row.get(col) for col in ODDS_IDENTITY_COLUMNS)
-                    prior = seen.get(identity)
-                    if prior is not None:
-                        if prior.get("price") != row.get("price") or prior.get("market_source_key") != row.get("market_source_key"):
-                            conflicts.append({"reason": "conflicting_duplicate_price", "identity": "|".join(map(str, identity)), "existing_price": prior.get("price"), "new_price": row.get("price")})
-                            _reject(rejected, reason="conflicting_duplicate_price", metadata=metadata, event_index=event_index, market_index=market_index, outcome_index=outcome_index, raw_file=raw_file, market_key=market_key, outcome=outcome)
+                    prior_index = seen.get(identity)
+                    if prior_index is not None:
+                        prior = rows[prior_index]
+                        merged_lineage = _merge_lineage(prior, row)
+                        if _candidate_is_better(row, prior):
+                            replacement = row
+                            replacement.update(merged_lineage)
+                            rows[prior_index] = replacement
+                            retained_price = row.get("price")
+                            discarded_price = prior.get("price")
+                        else:
+                            prior.update(merged_lineage)
+                            retained_price = prior.get("price")
+                            discarded_price = row.get("price")
+                        conflicts.append({
+                            "reason": "consolidated_duplicate_price",
+                            "identity": "|".join(map(str, identity)),
+                            "existing_price": prior.get("price"),
+                            "new_price": row.get("price"),
+                            "retained_price": retained_price,
+                            "discarded_price": discarded_price,
+                            "existing_market_source_key": prior.get("market_source_key"),
+                            "new_market_source_key": row.get("market_source_key"),
+                        })
                         continue
-                    seen[identity] = row
+                    seen[identity] = len(rows)
                     rows.append(row)
     return rows, rejected, conflicts
 
@@ -184,7 +258,8 @@ def build_validation_report(payload: Any, rows: list[dict], rejected: list[dict]
         {"metric": "unique_lines", "value": df["line"].nunique() if not df.empty else 0},
         {"metric": "main_line_rows", "value": int((df["is_alternate"] == False).sum()) if not df.empty else 0},
         {"metric": "alternate_line_rows", "value": int((df["is_alternate"] == True).sum()) if not df.empty else 0},
-        {"metric": "duplicate_canonical_keys", "value": len(conflicts)},
+        {"metric": "duplicate_canonical_keys", "value": 0},
+        {"metric": "consolidated_duplicate_prices", "value": len(conflicts)},
         {"metric": "missing_player_names", "value": int((rejected_df["reason"] == "missing_player_name").sum()) if not rejected_df.empty else 0},
         {"metric": "missing_market_mappings", "value": int((rejected_df["reason"] == "missing_market_mapping").sum()) if not rejected_df.empty else 0},
         {"metric": "missing_or_nonnumeric_lines", "value": int((rejected_df["reason"] == "missing_or_nonnumeric_line").sum()) if not rejected_df.empty else 0},

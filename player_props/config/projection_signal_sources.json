@@ -1,0 +1,60 @@
+{
+  "season": 2026,
+  "required_source_count": 5,
+  "minimum_agreement_count": 4,
+  "active_sources": [
+    "pff",
+    "fantasypros"
+  ],
+  "market_policy": {
+    "player_pass_yds": {
+      "green_light_enabled": true
+    },
+    "player_rush_yds": {
+      "green_light_enabled": true
+    },
+    "player_reception_yds": {
+      "green_light_enabled": true
+    },
+    "player_receptions": {
+      "green_light_enabled": true
+    }
+  },
+  "sportsbook_policy": {
+    "actionable_sportsbooks": [
+      "draftkings",
+      "fanduel",
+      "betmgm",
+      "williamhill_us",
+      "fanatics",
+      "espnbet"
+    ],
+    "sportsbook_display_names": {
+      "draftkings": "DraftKings",
+      "fanduel": "FanDuel",
+      "betmgm": "BetMGM",
+      "williamhill_us": "Caesars",
+      "fanatics": "Fanatics",
+      "espnbet": "theScore"
+    }
+  },
+  "staleness_policy": {
+    "enabled": true,
+    "maximum_projection_age_hours": 72,
+    "stale_sources_invalidate_green_light": true
+  },
+  "public_candidate_policy": {
+    "allow_alternate_public_candidates": true,
+    "price_policy_enabled": true,
+    "min_american_odds": -150,
+    "max_american_odds": 200
+  },
+  "edge_policy": {
+    "minimum_consensus_edge_abs": null,
+    "minimum_consensus_edge_pct": null
+  },
+  "dispersion_policy": {
+    "maximum_projection_stddev": null,
+    "maximum_projection_range": null
+  }
+}

@@ -258,22 +258,34 @@ def build_consensus_rows(*, registry: pd.DataFrame, project_root: Path | str, se
     sources = sorted({str(source) for source in selection_df.loc[selection_df["selection_status"] == "selected", "source"].dropna().astype(str).tolist()}) if not selection_df.empty else []
     for index_a, source_a in enumerate(sources):
         for source_b in sources[index_a + 1:]:
-            a_players = set(selected_source_df.loc[selected_source_df["source"].astype(str) == source_a, ["player_normalized", "market"]].apply(tuple, axis=1).tolist())
-            b_players = set(selected_source_df.loc[selected_source_df["source"].astype(str) == source_b, ["player_normalized", "market"]].apply(tuple, axis=1).tolist())
-            shared = a_players & b_players
-            overlap_rows.append({
-                "source_a": source_a,
-                "source_b": source_b,
-                "market": "all",
-                "players_source_a": int(len(a_players)),
-                "players_source_b": int(len(b_players)),
-                "shared_players": int(len(shared)),
-                "only_source_a": int(len(a_players - b_players)),
-                "only_source_b": int(len(b_players - a_players)),
-                "overlap_rate_a": (len(shared) / len(a_players)) if a_players else np.nan,
-                "overlap_rate_b": (len(shared) / len(b_players)) if b_players else np.nan,
-                "jaccard_similarity": (len(shared) / max(len(a_players), len(b_players))) if max(len(a_players), len(b_players)) else np.nan,
-            })
+            a_rows_all = selected_source_df.loc[selected_source_df["source"].astype(str) == source_a]
+            b_rows_all = selected_source_df.loc[selected_source_df["source"].astype(str) == source_b]
+            markets = ["all", *sorted(set(a_rows_all["market"].astype(str).tolist()) | set(b_rows_all["market"].astype(str).tolist()))]
+            for market in markets:
+                if market == "all":
+                    a_rows = a_rows_all
+                    b_rows = b_rows_all
+                    a_players = set(a_rows[["player_normalized", "market"]].apply(tuple, axis=1).tolist())
+                    b_players = set(b_rows[["player_normalized", "market"]].apply(tuple, axis=1).tolist())
+                else:
+                    a_rows = a_rows_all.loc[a_rows_all["market"].astype(str) == market]
+                    b_rows = b_rows_all.loc[b_rows_all["market"].astype(str) == market]
+                    a_players = set(a_rows["player_normalized"].astype(str).tolist())
+                    b_players = set(b_rows["player_normalized"].astype(str).tolist())
+                shared = a_players & b_players
+                overlap_rows.append({
+                    "source_a": source_a,
+                    "source_b": source_b,
+                    "market": market,
+                    "players_source_a": int(len(a_players)),
+                    "players_source_b": int(len(b_players)),
+                    "shared_players": int(len(shared)),
+                    "only_source_a": int(len(a_players - b_players)),
+                    "only_source_b": int(len(b_players - a_players)),
+                    "overlap_rate_a": (len(shared) / len(a_players)) if a_players else np.nan,
+                    "overlap_rate_b": (len(shared) / len(b_players)) if b_players else np.nan,
+                    "jaccard_similarity": (len(shared) / max(len(a_players), len(b_players))) if max(len(a_players), len(b_players)) else np.nan,
+                })
     overlap_df = pd.DataFrame(overlap_rows)
     if overlap_df.empty:
         overlap_df = pd.DataFrame(columns=["source_a", "source_b", "market", "players_source_a", "players_source_b", "shared_players", "only_source_a", "only_source_b", "overlap_rate_a", "overlap_rate_b", "jaccard_similarity"])

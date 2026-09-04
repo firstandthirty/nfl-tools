@@ -171,8 +171,8 @@ class ProjectionRegistryTests(unittest.TestCase):
 
     def test_existing_pff_snapshot_creates_one_valid_registry_row(self) -> None:
         result = build_projection_registry(project_root=ROOT)
-        self.assertEqual(len(result["registry_rows"]), 1)
-        self.assertEqual(result["registry_rows"][0]["source"], "pff")
+        pff_rows = [row for row in result["registry_rows"] if row["source"] == "pff"]
+        self.assertEqual(len(pff_rows), 1)
 
     def test_current_pff_snapshot_reports_1286_canonical_rows(self) -> None:
         result = build_projection_registry(project_root=ROOT)

@@ -66,7 +66,10 @@ def discover_snapshot_files(root: Path | str, *, source: str, season: int | str,
     for week_dir in week_candidates:
         snapshots_dir = base / "data" / "raw" / "projections" / source / str(season) / week_dir / "snapshots"
         if snapshots_dir.exists():
-            candidates = sorted(snapshots_dir.rglob("*.csv"))
+            patterns = ["*.csv", "*.json"] if source == "fantasypros" else ["*.csv"]
+            candidates = []
+            for pattern in patterns:
+                candidates.extend(sorted(snapshots_dir.rglob(pattern)))
             return [path for path in candidates if path.is_file()]
     return []
 
@@ -127,7 +130,8 @@ def validate_required_columns(frame: pd.DataFrame, required_columns: Iterable[st
 
 def build_output_paths(output_root: Path | str, *, source: str, season: int | str, week: int | str, raw_file: Path) -> dict[str, Path]:
     output_root = Path(output_root)
-    output_dir = output_root / "data" / "processed" / "projections" / source / str(season) / f"week_{int(week)}"
+    week_token = f"week_{int(week):02d}" if source == "fantasypros" else f"week_{int(week)}"
+    output_dir = output_root / "data" / "processed" / "projections" / source / str(season) / week_token
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = raw_file.stem
     if stem.endswith("_projections"):
@@ -159,7 +163,7 @@ def build_output_row(row: dict, *, metadata: SnapshotMetadata, source: str) -> d
         "projection": row["projection"],
         "captured_at": isoformat_with_offset(metadata.captured_at),
         "captured_at_source": metadata.captured_at_source,
-        "raw_file": str(metadata.raw_file),
+        "raw_file": str(row.get("raw_file", metadata.raw_file)),
         "source_player_id": row.get("source_player_id"),
         "source_row_number": row.get("source_row_number"),
         "source_column": row.get("source_column"),
@@ -170,7 +174,13 @@ def append_weekly_rows(weekly_output_path: Path | str, new_rows: list[dict], *, 
     weekly_output_path = Path(weekly_output_path)
     weekly_output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    columns = [*REQUIRED_OUTPUT_COLUMNS, "team_raw", "source_player_id", "source_row_number", "source_column"]
+    extra_columns = []
+    for row in new_rows:
+        for column in row:
+            if column not in REQUIRED_OUTPUT_COLUMNS and column not in extra_columns:
+                extra_columns.append(column)
+    base_extras = ["team_raw", "source_player_id", "source_row_number", "source_column"]
+    columns = [*REQUIRED_OUTPUT_COLUMNS, *base_extras, *[column for column in extra_columns if column not in base_extras]]
     if weekly_output_path.exists() and weekly_output_path.stat().st_size > 0:
         existing_df = pd.read_csv(weekly_output_path)
         existing_records = existing_df.to_dict(orient="records") if not existing_df.empty else []

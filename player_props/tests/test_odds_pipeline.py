@@ -112,14 +112,18 @@ class OddsPipelineTests(unittest.TestCase):
         self.assertIn("missing_or_invalid_price", reasons)
         self.assertIn("missing_or_nonnumeric_line", reasons)
 
-    def test_canonical_keys_are_unique_and_duplicate_conflicting_prices_are_audited(self) -> None:
+    def test_canonical_keys_are_unique_and_duplicate_prices_are_consolidated(self) -> None:
         rows, _, _ = self._rows()
         keys = [(row["source"], row["sportsbook"], row["season"], row["week"], row["captured_at"], row["event_id"], row["player_normalized"], row["market"], row["line"], row["side"]) for row in rows]
         self.assertEqual(len(keys), len(set(keys)))
-        conflict_rows, rejected, conflicts = transform_odds_api_snapshot(load_json_payload(CONFLICT_FIXTURE), metadata=self._metadata(CONFLICT_FIXTURE), project_root=ROOT)
-        self.assertEqual(len(conflict_rows), 2)
+        consolidated_rows, rejected, conflicts = transform_odds_api_snapshot(load_json_payload(CONFLICT_FIXTURE), metadata=self._metadata(CONFLICT_FIXTURE), project_root=ROOT)
+        self.assertEqual(len(consolidated_rows), 2)
         self.assertTrue(conflicts)
-        self.assertIn("conflicting_duplicate_price", {row["reason"] for row in rejected})
+        self.assertEqual(rejected, [])
+        self.assertEqual({row["reason"] for row in conflicts}, {"consolidated_duplicate_price"})
+        goff_over = [row for row in consolidated_rows if row["player_normalized"] == "jared goff" and row["side"] == "over"][0]
+        self.assertEqual(goff_over["price"], -110)
+        self.assertEqual(goff_over["consolidated_duplicate_count"], 1)
 
     def test_reingesting_a_snapshot_is_duplicate_safe(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
