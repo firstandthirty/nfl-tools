@@ -142,7 +142,7 @@ def validate_required_columns(frame: pd.DataFrame, required_columns: Iterable[st
 
 def build_output_paths(output_root: Path | str, *, source: str, season: int | str, week: int | str, raw_file: Path) -> dict[str, Path]:
     output_root = Path(output_root)
-    week_token = f"week_{int(week):02d}" if source in {"fantasypros", "ftn"} else f"week_{int(week)}"
+    week_token = f"week_{int(week):02d}" if source in {"fantasypros", "ftn", "4for4"} else f"week_{int(week)}"
     output_dir = output_root / "data" / "processed" / "projections" / source / str(season) / week_token
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = raw_file.stem

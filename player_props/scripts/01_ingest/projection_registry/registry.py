@@ -14,6 +14,7 @@ from projection_adapters.fantasypros import ADAPTER_VERSION as FANTASYPROS_ADAPT
 from projection_adapters.fantasypros import identify_source_file_type, _api_projection_items
 from projection_adapters.ftn import ADAPTER_VERSION as FTN_ADAPTER_VERSION
 from projection_adapters.ftn import identify_source_file_type as identify_ftn_source_file_type
+from projection_adapters.fourforfour import ADAPTER_VERSION as FOURFORFOUR_ADAPTER_VERSION
 from utils.name_utils import TEAM_ALIASES
 
 from .hashing import hash_file, hash_files
@@ -209,6 +210,8 @@ def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path
         if metadata.source == "fantasypros"
         else FTN_ADAPTER_VERSION
         if metadata.source == "ftn"
+        else FOURFORFOUR_ADAPTER_VERSION
+        if metadata.source == "4for4"
         else "adapter_v1"
     )
     component_hashes = [hash_file(path) for path in component_raw_files]

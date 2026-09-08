@@ -274,7 +274,7 @@ class FTNProjectionAdapterTests(unittest.TestCase):
 
     def test_signal_config_has_ftn_but_keeps_five_required_four_agreement(self) -> None:
         policy = load_policy(ROOT / "config" / "projection_signal_sources.json")
-        self.assertEqual(policy.active_sources, ("pff", "fantasypros", "ftn"))
+        self.assertEqual(policy.active_sources, ("pff", "fantasypros", "ftn", "4for4"))
         self.assertEqual(policy.required_source_count, 5)
         self.assertEqual(policy.minimum_agreement_count, 4)
 

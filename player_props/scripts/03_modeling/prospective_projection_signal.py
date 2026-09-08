@@ -23,7 +23,7 @@ DEFAULT_POLICY = {
     "season": 2026,
     "required_source_count": 5,
     "minimum_agreement_count": 4,
-    "active_sources": ["pff", "fantasypros", "ftn"],
+    "active_sources": ["pff", "fantasypros", "ftn", "4for4"],
     "market_policy": {market: {"green_light_enabled": True} for market in SUPPORTED_MARKETS},
     "sportsbook_policy": {
         "actionable_sportsbooks": [
