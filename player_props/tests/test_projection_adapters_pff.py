@@ -17,7 +17,7 @@ from projection_adapters.common import (
     parse_snapshot_metadata,
 )
 from projection_adapters.pff import transform_pff_snapshot
-from ingest_projection_snapshots import ingest_snapshot_file
+from ingest_projection_snapshots import _manifest_has_snapshot, ingest_snapshot_file
 
 
 class PFFProjectionAdapterTests(unittest.TestCase):
@@ -102,6 +102,29 @@ class PFFProjectionAdapterTests(unittest.TestCase):
             self.assertTrue(weekly_path.exists())
             weekly_df = pd.read_csv(weekly_path)
             self.assertEqual(len(weekly_df), result_1["rows_written"])
+
+    def test_manifest_skip_falls_back_to_snapshot_identity_when_raw_path_drifted(self) -> None:
+        manifest = pd.DataFrame(
+            [
+                {
+                    "raw_file": "data/raw/projections/pff/2026/week_01/snapshots/08_04_26_1100projections.csv",
+                    "source": "pff",
+                    "season": 2026,
+                    "week": 1,
+                    "captured_at": "2026-08-04T11:00:00-04:00",
+                }
+            ]
+        )
+        self.assertTrue(
+            _manifest_has_snapshot(
+                manifest,
+                raw_file_key="data/raw/projections/pff/2026/week_01/snapshots/08_04_26_1100_projections.csv",
+                source="pff",
+                season=2026,
+                week=1,
+                captured_at="2026-08-04T11:00:00-04:00",
+            )
+        )
 
     def test_raw_input_file_remains_unchanged(self) -> None:
         before = self.raw_file.read_bytes()

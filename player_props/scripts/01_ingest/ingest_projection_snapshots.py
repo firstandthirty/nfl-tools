@@ -44,6 +44,23 @@ from projection_adapters.pff import build_validation_report, transform_pff_snaps
 from projection_registry.registry import build_projection_registry
 
 
+def _manifest_has_snapshot(manifest_df: pd.DataFrame, *, raw_file_key: str, source: str, season: int | str, week: int | str, captured_at: str) -> bool:
+    if manifest_df.empty:
+        return False
+    if raw_file_key in manifest_df.get("raw_file", pd.Series(dtype=str)).astype(str).tolist():
+        return True
+    required = {"source", "season", "week", "captured_at"}.issubset(manifest_df.columns)
+    if not required:
+        return False
+    matches = manifest_df.loc[
+        (manifest_df["source"].astype(str) == str(source))
+        & (manifest_df["season"].astype(str) == str(season))
+        & (manifest_df["week"].astype(str) == str(week))
+        & (manifest_df["captured_at"].astype(str) == captured_at)
+    ]
+    return not matches.empty
+
+
 def ingest_snapshot_file(raw_file: Path | str, *, source: str, season: int | str, week: int | str, output_root: Path | str, manifest_path: Path | str | None = None, weekly_output_path: Path | str | None = None, skip_registry_update: bool = False) -> dict:
     raw_path = Path(raw_file)
     metadata = parse_snapshot_metadata(raw_path, source=source, season=season, week=week)
@@ -55,7 +72,14 @@ def ingest_snapshot_file(raw_file: Path | str, *, source: str, season: int | str
     if manifest_path.exists() and manifest_path.stat().st_size > 0:
         manifest_df = pd.read_csv(manifest_path)
     raw_file_key = str(raw_path.resolve())
-    if raw_file_key in manifest_df["raw_file"].astype(str).tolist() if not manifest_df.empty else False:
+    if _manifest_has_snapshot(
+        manifest_df,
+        raw_file_key=raw_file_key,
+        source=source,
+        season=season,
+        week=week,
+        captured_at=isoformat_with_offset(metadata.captured_at),
+    ):
         raw_df = pd.read_csv(raw_path)
         rows, rejected = transform_pff_snapshot(raw_df, metadata=metadata, source=source)
         return {"skipped": True, "rows_written": len(rows), "output_paths": {"long": str(output_paths["long_path"]), "validation": str(output_paths["validation_path"]), "rejected": str(output_paths["rejected_path"])} }
