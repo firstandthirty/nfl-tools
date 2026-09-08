@@ -12,6 +12,8 @@ from pandas.errors import EmptyDataError
 from projection_adapters.common import SnapshotMetadata, build_output_paths, parse_snapshot_metadata
 from projection_adapters.fantasypros import ADAPTER_VERSION as FANTASYPROS_ADAPTER_VERSION
 from projection_adapters.fantasypros import identify_source_file_type, _api_projection_items
+from projection_adapters.ftn import ADAPTER_VERSION as FTN_ADAPTER_VERSION
+from projection_adapters.ftn import identify_source_file_type as identify_ftn_source_file_type
 from utils.name_utils import TEAM_ALIASES
 
 from .hashing import hash_file, hash_files
@@ -30,7 +32,7 @@ MARKET_THRESHOLDS = {
     "player_receptions": 20.0,
 }
 
-RECOGNIZED_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DST"}
+RECOGNIZED_POSITIONS = {"QB", "RB", "WR", "TE", "FB", "K", "DST"}
 RECOGNIZED_TEAMS = set(TEAM_ALIASES.values())
 
 
@@ -200,7 +202,15 @@ def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path
 
     warnings, warning_count, warning_text = _quality_checks(long_df, rejected_df, validation_df)
     validation_status = _validation_status(warnings)
-    adapter_version = "pff_adapter_v1" if metadata.source == "pff" else FANTASYPROS_ADAPTER_VERSION if metadata.source == "fantasypros" else "adapter_v1"
+    adapter_version = (
+        "pff_adapter_v1"
+        if metadata.source == "pff"
+        else FANTASYPROS_ADAPTER_VERSION
+        if metadata.source == "fantasypros"
+        else FTN_ADAPTER_VERSION
+        if metadata.source == "ftn"
+        else "adapter_v1"
+    )
     component_hashes = [hash_file(path) for path in component_raw_files]
     logical_hash = hash_files(component_raw_files)
     raw_rows = 0
@@ -210,6 +220,8 @@ def _build_registry_row(raw_path: Path, *, project_root: Path, output_root: Path
         if component.suffix.lower() == ".json":
             payload = json.loads(component.read_text(encoding="utf-8"))
             raw_rows += len(_api_projection_items(payload))
+        elif metadata.source == "ftn":
+            raw_rows += int(len(pd.read_csv(component, header=1)))
         else:
             raw_rows += int(len(pd.read_csv(component)))
     source_format = "api" if raw_path.suffix.lower() == ".json" else "csv"
@@ -282,6 +294,13 @@ def _discover_raw_files(project_root: Path, *, source: str | None = None, season
                 continue
             if season is not None and str(season_dir.name) != str(season):
                 continue
+            if source_dir.name == "ftn":
+                season_snapshots_dir = season_dir / "snapshots"
+                if season_snapshots_dir.exists():
+                    season_snapshot_files = sorted(path for path in season_snapshots_dir.glob("*.csv") if path.is_file())
+                    if season_snapshot_files:
+                        candidates.extend(season_snapshot_files)
+                        continue
             for week_dir in sorted(season_dir.iterdir()):
                 if not week_dir.is_dir():
                     continue
@@ -295,21 +314,49 @@ def _discover_raw_files(project_root: Path, *, source: str | None = None, season
                     candidates.extend(sorted(path for path in snapshots_dir.glob("*.csv") if path.is_file()))
                     if source_dir.name == "fantasypros":
                         candidates.extend(sorted(path for path in snapshots_dir.glob("*.json") if path.is_file() and not path.name.endswith(".metadata.json")))
+                elif source_dir.name == "ftn":
+                    candidates.extend(sorted(path for path in week_dir.glob("*.csv") if path.is_file()))
     return sorted(candidates)
 
 
 def _discover_logical_snapshots(project_root: Path, *, source: str | None = None, season: int | str | None = None, week: int | str | None = None) -> list[dict[str, Any]]:
     raw_files = _discover_raw_files(project_root, source=source, season=season, week=week)
-    if source is not None and source != "fantasypros":
+    if source is not None and source not in {"fantasypros", "ftn"}:
         return [{"raw_path": path, "component_raw_files": [path]} for path in raw_files]
 
     groups: dict[tuple[str, str, str], dict[str, Path]] = {}
+    ftn_groups: dict[tuple[str, str, str], dict[str, Path]] = {}
     logical_snapshots: list[dict[str, Any]] = []
     for path in raw_files:
         try:
             source_token = path.resolve().parents[3].name
         except IndexError:
             source_token = ""
+        if source_token not in {"fantasypros", "ftn"}:
+            parts = path.resolve().parts
+            if "fantasypros" in parts:
+                source_token = "fantasypros"
+            elif "ftn" in parts:
+                source_token = "ftn"
+        if source_token == "ftn":
+            resolved = path.resolve()
+            parts = list(resolved.parts)
+            try:
+                source_index = parts.index("ftn")
+                season_token = parts[source_index + 1]
+            except (ValueError, IndexError):
+                season_token = str(season or "")
+            if week is not None:
+                week_token = f"week_{int(week):02d}"
+            else:
+                week_token = next((part for part in parts if re.match(r"^week_\d{1,2}$", part)), "week_01")
+            timestamp = _timestamp_stem(path)
+            file_type = identify_ftn_source_file_type(path)
+            key = (season_token, week_token, timestamp)
+            if file_type in ftn_groups.setdefault(key, {}):
+                raise ValueError(f"Duplicate FTN {file_type} component for timestamp {timestamp}")
+            ftn_groups[key][file_type] = path
+            continue
         if source_token != "fantasypros":
             logical_snapshots.append({"raw_path": path, "component_raw_files": [path]})
             continue
@@ -330,6 +377,17 @@ def _discover_logical_snapshots(project_root: Path, *, source: str | None = None
         missing = sorted({"qb", "flex"} - set(components))
         if missing:
             raise ValueError(f"Incomplete FantasyPros logical snapshot {timestamp}; missing components: {', '.join(missing)}")
+        qb_path = components["qb"]
+        logical_snapshots.append(
+            {
+                "raw_path": qb_path.with_name(f"{timestamp}_projections.csv"),
+                "component_raw_files": [components["qb"], components["flex"]],
+            }
+        )
+    for (_, _, timestamp), components in sorted(ftn_groups.items()):
+        missing = sorted({"qb", "flex"} - set(components))
+        if missing:
+            raise ValueError(f"Incomplete FTN logical snapshot {timestamp}; missing components: {', '.join(missing)}")
         qb_path = components["qb"]
         logical_snapshots.append(
             {

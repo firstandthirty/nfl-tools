@@ -28,6 +28,13 @@ from projection_adapters.fantasypros import (
     transform_fantasypros_api_snapshot,
     transform_fantasypros_snapshot,
 )
+from projection_adapters.ftn import (
+    build_sanity_warnings as build_ftn_sanity_warnings,
+    build_validation_report as build_ftn_validation_report,
+    identify_source_file_type as identify_ftn_source_file_type,
+    read_ftn_csv,
+    transform_ftn_snapshot,
+)
 from projection_adapters.pff import build_validation_report, transform_pff_snapshot
 from projection_registry.registry import build_projection_registry
 
@@ -118,6 +125,24 @@ def _group_fantasypros_files(raw_files: list[Path]) -> list[list[Path]]:
         missing = sorted({"qb", "flex"} - set(components))
         if missing:
             raise ValueError(f"Incomplete FantasyPros logical snapshot {timestamp}; missing components: {', '.join(missing)}")
+        logical_snapshots.append([components["qb"], components["flex"]])
+    return logical_snapshots
+
+
+def _group_ftn_files(raw_files: list[Path]) -> list[list[Path]]:
+    groups: dict[str, dict[str, Path]] = {}
+    for raw_file in raw_files:
+        file_type = identify_ftn_source_file_type(raw_file)
+        timestamp = _timestamp_stem(raw_file)
+        if file_type in groups.setdefault(timestamp, {}):
+            raise ValueError(f"Duplicate FTN {file_type} component for timestamp {timestamp}")
+        groups[timestamp][file_type] = raw_file
+
+    logical_snapshots: list[list[Path]] = []
+    for timestamp, components in sorted(groups.items()):
+        missing = sorted({"qb", "flex"} - set(components))
+        if missing:
+            raise ValueError(f"Incomplete FTN logical snapshot {timestamp}; missing components: {', '.join(missing)}")
         logical_snapshots.append([components["qb"], components["flex"]])
     return logical_snapshots
 
@@ -230,6 +255,130 @@ def ingest_fantasypros_snapshot(
     if not skip_registry_update:
         try:
             registry_result = build_projection_registry(project_root=COMMON_PROJECT_ROOT, output_root=COMMON_PROJECT_ROOT, source="fantasypros", season=season, week=week)
+        except Exception as exc:
+            registry_result = {"registry_error": str(exc)}
+
+    return {
+        "skipped": False,
+        "rows_written": len(rows),
+        "output_paths": {
+            "long": str(output_paths["long_path"]),
+            "validation": str(output_paths["validation_path"]),
+            "rejected": str(output_paths["rejected_path"]),
+            "weekly": str(weekly_output_path),
+        },
+        "warnings": warnings,
+        "registry_result": registry_result,
+    }
+
+
+def ingest_ftn_snapshot(
+    raw_files: list[Path | str],
+    *,
+    season: int | str,
+    week: int | str,
+    output_root: Path | str,
+    manifest_path: Path | str | None = None,
+    weekly_output_path: Path | str | None = None,
+    skip_registry_update: bool = False,
+) -> dict:
+    raw_paths = [Path(path) for path in raw_files]
+    if len(raw_paths) != 2:
+        raise ValueError("FTN logical snapshots require exactly two files: QB and FLEX")
+    components = {identify_ftn_source_file_type(path): path for path in raw_paths}
+    missing = sorted({"qb", "flex"} - set(components))
+    if missing:
+        raise ValueError(f"Incomplete FTN logical snapshot; missing components: {', '.join(missing)}")
+    if _timestamp_stem(components["qb"]) != _timestamp_stem(components["flex"]):
+        raise ValueError("FTN QB and FLEX files must share the same timestamp prefix")
+
+    timestamp = _timestamp_stem(components["qb"])
+    synthetic_raw_file = components["qb"].with_name(f"{timestamp}_projections.csv")
+    metadata = parse_snapshot_metadata(synthetic_raw_file, source="ftn", season=season, week=week)
+    metadata = SnapshotMetadata(
+        source="ftn",
+        season=metadata.season,
+        week=metadata.week,
+        raw_file=synthetic_raw_file,
+        captured_at=metadata.captured_at,
+        captured_at_source=metadata.captured_at_source,
+    )
+    output_paths = build_output_paths(output_root, source="ftn", season=season, week=week, raw_file=synthetic_raw_file)
+
+    manifest_path = Path(manifest_path) if manifest_path is not None else output_paths["output_dir"] / "ingested_snapshots.csv"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_columns = ["source", "season", "week", "raw_file", "component_raw_files", "captured_at", "captured_at_source"]
+    manifest_df = pd.DataFrame(columns=manifest_columns)
+    if manifest_path.exists() and manifest_path.stat().st_size > 0:
+        manifest_df = pd.read_csv(manifest_path)
+    component_key = "|".join(str(components[k].resolve()) for k in ["qb", "flex"])
+    if not manifest_df.empty and component_key in manifest_df.get("component_raw_files", pd.Series(dtype=str)).astype(str).tolist():
+        raw_frames = {}
+        for file_type, path in components.items():
+            frame = read_ftn_csv(path)
+            raw_frames[file_type] = frame
+        rows, _ = transform_ftn_snapshot(raw_frames, metadata=metadata)
+        return {"skipped": True, "rows_written": len(rows), "output_paths": {"long": str(output_paths["long_path"]), "validation": str(output_paths["validation_path"]), "rejected": str(output_paths["rejected_path"])}}
+
+    raw_frames = {}
+    for file_type, path in components.items():
+        frame = read_ftn_csv(path)
+        raw_frames[file_type] = frame
+    rows, rejected = transform_ftn_snapshot(raw_frames, metadata=metadata)
+    warnings = build_ftn_sanity_warnings(rows)
+    if metadata.captured_at_source != "filename":
+        warnings.append(f"capture_time_fallback={metadata.captured_at_source}")
+
+    columns = [
+        "player", "player_normalized", "team", "team_raw", "opponent", "opponent_raw", "position", "season", "week",
+        "source", "market", "projection", "captured_at", "captured_at_source", "raw_file", "source_format",
+        "source_file_type", "source_player_id", "source_row_number", "source_column",
+    ]
+    rejected_columns = ["source_file_type", "raw_file", "source_row_number", "player", "position", "market", "source_column", "reason", "value"]
+    long_df = pd.DataFrame(rows)
+    for column in columns:
+        if column not in long_df.columns:
+            long_df[column] = pd.NA
+    validation_df = build_ftn_validation_report(raw_frames, rows, rejected, metadata, warnings)
+
+    output_paths["long_path"].parent.mkdir(parents=True, exist_ok=True)
+    long_df[columns].to_csv(output_paths["long_path"], index=False)
+    validation_df.to_csv(output_paths["validation_path"], index=False)
+    pd.DataFrame(rejected, columns=rejected_columns).to_csv(output_paths["rejected_path"], index=False)
+
+    weekly_output_path = Path(weekly_output_path) if weekly_output_path is not None else output_paths["output_dir"] / "projections_long.csv"
+    appended = append_weekly_rows(
+        weekly_output_path,
+        rows,
+        identity_columns=["source", "season", "week", "captured_at", "player_normalized", "market"],
+    )
+    appended.to_csv(weekly_output_path, index=False)
+
+    manifest_df = pd.concat(
+        [
+            manifest_df,
+            pd.DataFrame(
+                [
+                    {
+                        "source": "ftn",
+                        "season": season,
+                        "week": week,
+                        "raw_file": str(synthetic_raw_file),
+                        "component_raw_files": component_key,
+                        "captured_at": isoformat_with_offset(metadata.captured_at),
+                        "captured_at_source": metadata.captured_at_source,
+                    }
+                ]
+            ),
+        ],
+        ignore_index=True,
+    )
+    manifest_df.to_csv(manifest_path, index=False)
+
+    registry_result = {}
+    if not skip_registry_update:
+        try:
+            registry_result = build_projection_registry(project_root=COMMON_PROJECT_ROOT, output_root=COMMON_PROJECT_ROOT, source="ftn", season=season, week=week)
         except Exception as exc:
             registry_result = {"registry_error": str(exc)}
 
@@ -402,6 +551,19 @@ def main() -> None:
         logical_snapshots = _group_fantasypros_files(csv_files)
         for logical_files in logical_snapshots:
             result = ingest_fantasypros_snapshot(logical_files, season=season, week=week, output_root=COMMON_PROJECT_ROOT, skip_registry_update=args.skip_registry_update)
+            if result.get("skipped"):
+                skipped.extend(str(path) for path in logical_files)
+            else:
+                ingested.extend(str(path) for path in logical_files)
+            rows_written += result.get("rows_written", 0)
+            warnings.extend(result.get("warnings", []))
+            registry_result = result.get("registry_result", {})
+            if registry_result.get("registry_error"):
+                registry_errors.append(registry_result["registry_error"])
+    elif source == "ftn":
+        logical_snapshots = _group_ftn_files(raw_files)
+        for logical_files in logical_snapshots:
+            result = ingest_ftn_snapshot(logical_files, season=season, week=week, output_root=COMMON_PROJECT_ROOT, skip_registry_update=args.skip_registry_update)
             if result.get("skipped"):
                 skipped.extend(str(path) for path in logical_files)
             else:

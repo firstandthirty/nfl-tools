@@ -4,7 +4,8 @@
   "minimum_agreement_count": 4,
   "active_sources": [
     "pff",
-    "fantasypros"
+    "fantasypros",
+    "ftn"
   ],
   "market_policy": {
     "player_pass_yds": {

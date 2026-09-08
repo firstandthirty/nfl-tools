@@ -460,7 +460,7 @@ class ProspectiveProjectionSignalTests(unittest.TestCase):
     def test_config_file_loads(self) -> None:
         policy = load_policy(ROOT / "config" / "projection_signal_sources.json")
         self.assertEqual(policy.required_source_count, 5)
-        self.assertEqual(list(policy.active_sources), ["pff", "fantasypros"])
+        self.assertEqual(list(policy.active_sources), ["pff", "fantasypros", "ftn"])
         self.assertEqual(policy.public_candidate_policy["min_american_odds"], -150)
         self.assertEqual(policy.public_candidate_policy["max_american_odds"], 200)
         self.assertEqual(policy.staleness_policy["maximum_projection_age_hours"], 72)

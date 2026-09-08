@@ -16,6 +16,7 @@ TEAM_ALIASES = {
     # Arizona Cardinals
     "ARI": "ARI",
     "ARZ": "ARI",
+    "ARIZONA CARDINALS": "ARI",
 
     # Atlanta Falcons
     "ATL": "ATL",
@@ -103,6 +104,7 @@ TEAM_ALIASES = {
 
     # New York Giants
     "NYG": "NYG",
+    "NEW YORK GIANTS": "NYG",
 
     # New York Jets
     "NYJ": "NYJ",

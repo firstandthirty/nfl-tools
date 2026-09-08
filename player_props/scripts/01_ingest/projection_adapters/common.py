@@ -63,6 +63,12 @@ def discover_snapshot_files(root: Path | str, *, source: str, season: int | str,
     base = Path(root)
     week_value = int(week)
     week_candidates = [f"week_{week_value}", f"week_{week_value:02d}"]
+    if source == "ftn":
+        season_snapshots_dir = base / "data" / "raw" / "projections" / source / str(season) / "snapshots"
+        if season_snapshots_dir.exists():
+            candidates = sorted(season_snapshots_dir.glob("*.csv"))
+            if candidates:
+                return [path for path in candidates if path.is_file()]
     for week_dir in week_candidates:
         snapshots_dir = base / "data" / "raw" / "projections" / source / str(season) / week_dir / "snapshots"
         if snapshots_dir.exists():
@@ -71,6 +77,12 @@ def discover_snapshot_files(root: Path | str, *, source: str, season: int | str,
             for pattern in patterns:
                 candidates.extend(sorted(snapshots_dir.rglob(pattern)))
             return [path for path in candidates if path.is_file()]
+        if source == "ftn":
+            week_root = base / "data" / "raw" / "projections" / source / str(season) / week_dir
+            if week_root.exists():
+                candidates = sorted(path for path in week_root.glob("*.csv") if path.is_file())
+                if candidates:
+                    return candidates
     return []
 
 
@@ -130,7 +142,7 @@ def validate_required_columns(frame: pd.DataFrame, required_columns: Iterable[st
 
 def build_output_paths(output_root: Path | str, *, source: str, season: int | str, week: int | str, raw_file: Path) -> dict[str, Path]:
     output_root = Path(output_root)
-    week_token = f"week_{int(week):02d}" if source == "fantasypros" else f"week_{int(week)}"
+    week_token = f"week_{int(week):02d}" if source in {"fantasypros", "ftn"} else f"week_{int(week)}"
     output_dir = output_root / "data" / "processed" / "projections" / source / str(season) / week_token
     output_dir.mkdir(parents=True, exist_ok=True)
     stem = raw_file.stem
