@@ -69,6 +69,7 @@ def run(args: argparse.Namespace) -> dict:
         week=args.week,
         as_of=as_of,
         sportsbooks=args.sportsbooks,
+        allow_stale_sportsbook_backfill=args.allow_stale_sportsbook_backfill,
     )
 
     signal_result = build_projection_signal_rows(
@@ -134,6 +135,7 @@ def main() -> None:
     parser.add_argument("--as-of", required=True)
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--sportsbooks", nargs="*")
+    parser.add_argument("--allow-stale-sportsbook-backfill", action="store_true", help="Opt in to legacy per-sportsbook odds backfill from older snapshots.")
     parser.add_argument("--projection-registry", type=Path, default=PROJECT_ROOT / "data" / "processed" / "projections" / "snapshot_registry.csv")
     parser.add_argument("--odds-registry", type=Path, default=PROJECT_ROOT / "data" / "processed" / "odds" / "snapshot_registry.csv")
     parser.add_argument("--output-root", type=Path, default=PROJECT_ROOT)

@@ -25,11 +25,11 @@ def write_odds_asof_outputs(result: dict[str, Any], *, output_dir: Path | str, o
         "",
         f"- As-of: {result['as_of'].isoformat()}",
         f"- Sportsbooks requested: {'|'.join(result.get('requested_sportsbooks', []))}",
+        f"- Selection mode: {result.get('selection_mode', '')}",
         f"- Selected snapshots: {int((result['selected_snapshots']['selection_status'] == 'selected').sum()) if not result['selected_snapshots'].empty else 0}",
         f"- Selected odds rows: {len(result['selected_odds'])}",
         "",
-        "Odds are selected independently by sportsbook. No averaging across snapshots or books is performed.",
+        "Default odds selection uses one coherent snapshot bundle. Explicit stale sportsbook backfill can combine older sportsbook rows from different bundles.",
     ]
     outputs["report"].write_text("\n".join(report), encoding="utf-8")
     return {key: str(value) for key, value in outputs.items()}
-

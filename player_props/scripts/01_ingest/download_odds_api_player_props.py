@@ -220,8 +220,8 @@ def write_manifest(
     manifest_file.write_text(json.dumps(manifest, indent=2, sort_keys=False), encoding="utf-8")
 
 
-def market_return_counts(bundle_payload: list[dict]) -> dict[str, int]:
-    counts = {market: 0 for market in MARKETS}
+def market_return_counts(bundle_payload: list[dict], markets: list[str]) -> dict[str, int]:
+    counts = {market: 0 for market in markets}
     for event in bundle_payload:
         for book in event.get("bookmakers", []) or []:
             for market in book.get("markets", []) or []:
@@ -325,7 +325,8 @@ def run_live_download(args: argparse.Namespace) -> dict[str, Any]:
     request_headers: list[dict[str, Any]] = []
     credit_total = 0
     unsupported_errors: list[str] = []
-    market_param = ",".join(MARKETS)
+    requested_markets = args.markets or MARKETS
+    market_param = ",".join(requested_markets)
     for index, event in enumerate(selected_events, start=1):
         event_id = str(event["id"])
         odds_file = snapshot_dir / f"{slug}_event_{index:02d}_{event_id}_odds.json"
@@ -374,7 +375,7 @@ def run_live_download(args: argparse.Namespace) -> dict[str, Any]:
         event_odds_files=event_odds_files,
         events_returned=len(events),
         events_selected=len(selected_events),
-        markets=MARKETS,
+        markets=requested_markets,
         event_calls=len(event_odds_files),
         credit_total=credit_total,
         request_headers=request_headers,
@@ -404,7 +405,7 @@ def run_live_download(args: argparse.Namespace) -> dict[str, Any]:
     odds_asof_dir = PROJECT_ROOT / "data" / "processed" / "odds_asof" / str(args.season) / f"week_{args.week:02d}" / f"asof_{_safe_slug(captured_at.isoformat())}"
     asof_outputs = write_odds_asof_outputs(asof_result, output_dir=odds_asof_dir, overwrite=args.overwrite)
     join_smoke = write_join_smoke(PROJECT_ROOT, args.season, args.week, odds_asof_dir)
-    returned_market_counts = market_return_counts(bundle_payload)
+    returned_market_counts = market_return_counts(bundle_payload, requested_markets)
     zero_markets = [market for market, count in returned_market_counts.items() if count == 0]
     selected_odds = asof_result["selected_odds"]
     rows_by_market = selected_odds.groupby("market").size().to_dict() if not selected_odds.empty else {}
@@ -425,7 +426,7 @@ def run_live_download(args: argparse.Namespace) -> dict[str, Any]:
         "registry_conflicts": registry_result["conflicts"],
         "asof_outputs": asof_outputs,
         "join_smoke": join_smoke,
-        "requested_markets": MARKETS,
+        "requested_markets": requested_markets,
         "requested_books": "regions=us (all available US books)",
         "books_returned": books_returned,
         "canonical_rows": ingest_result.get("rows_written", 0),
@@ -474,6 +475,7 @@ def main() -> None:
     parser.add_argument("--week", type=int, required=True)
     parser.add_argument("--execute-live-request", action="store_true", help="Required before any HTTP request is made")
     parser.add_argument("--request-sleep-seconds", type=float, default=0.35)
+    parser.add_argument("--markets", nargs="+", default=None)
     parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
 
@@ -482,7 +484,7 @@ def main() -> None:
         print(f"[sport] {SPORT}")
         print(f"[event_endpoint] /sports/{SPORT}/events")
         print(f"[event_odds_endpoint] /sports/{SPORT}/events/{{event_id}}/odds")
-        print(f"[markets] {MARKETS}")
+        print(f"[markets] {args.markets or MARKETS}")
         print(f"[books] regions={REGION}; no bookmaker filter")
         print(f"[week_window] {week_window(args.season, args.week)[0].isoformat()} to {week_window(args.season, args.week)[1].isoformat()}")
         discovered = discover_snapshot_files(PROJECT_ROOT, source=SOURCE, season=args.season, week=args.week)

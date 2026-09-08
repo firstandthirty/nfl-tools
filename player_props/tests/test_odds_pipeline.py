@@ -162,21 +162,51 @@ class OddsPipelineTests(unittest.TestCase):
             self.assertEqual(exact["selected_snapshots"].iloc[0]["selection_status"], "selected")
             self.assertGreater(len(exact["selected_odds"]), 0)
 
-    def test_latest_eligible_snapshot_is_selected_independently_per_sportsbook(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            fd_path = root / "fd.csv"
-            dk_path = root / "dk.csv"
-            pd.DataFrame([{"sportsbook":"fanduel","season":2026,"week":1,"event_id":"a","player_normalized":"x","market":"player_pass_yds","is_alternate":False}]).to_csv(fd_path, index=False)
-            pd.DataFrame([{"sportsbook":"draftkings","season":2026,"week":1,"event_id":"b","player_normalized":"x","market":"player_pass_yds","is_alternate":False}]).to_csv(dk_path, index=False)
+    def test_default_asof_selects_one_coherent_bundle_without_sportsbook_backfill(self) -> None:
+        root = ROOT / ".tmp_odds_asof_selection_tests"
+        if root.exists():
+            shutil.rmtree(root)
+        root.mkdir(parents=True)
+        try:
+            old_path = root / "old.csv"
+            new_path = root / "new.csv"
+            pd.DataFrame(
+                [
+                    {"sportsbook":"draftkings","season":2026,"week":1,"event_id":"old","player_normalized":"x","market":"player_pass_yds","line":10.5,"side":"over","is_alternate":False},
+                    {"sportsbook":"fanduel","season":2026,"week":1,"event_id":"old","player_normalized":"x","market":"player_pass_yds","line":10.5,"side":"over","is_alternate":False},
+                    {"sportsbook":"williamhill_us","season":2026,"week":1,"event_id":"old","player_normalized":"x","market":"player_pass_yds","line":9.5,"side":"over","is_alternate":True},
+                ]
+            ).to_csv(old_path, index=False)
+            pd.DataFrame(
+                [
+                    {"sportsbook":"draftkings","season":2026,"week":1,"event_id":"new","player_normalized":"x","market":"player_pass_yds","line":10.5,"side":"over","is_alternate":False},
+                    {"sportsbook":"fanduel","season":2026,"week":1,"event_id":"new","player_normalized":"x","market":"player_pass_yds","line":10.5,"side":"over","is_alternate":False},
+                ]
+            ).to_csv(new_path, index=False)
             registry = pd.DataFrame([
-                {"source":"odds_api","season":2026,"week":1,"captured_at":"2026-09-01T12:00:00-04:00","captured_at_dt":pd.Timestamp("2026-09-01T12:00:00-04:00"),"sportsbooks":"fanduel","markets_covered":"player_pass_yds","raw_file_repo":"old.json","processed_long_file_repo":"fd.csv","processed_long_file":fd_path,"raw_file_sha256":"a"},
-                {"source":"odds_api","season":2026,"week":1,"captured_at":"2026-09-01T13:00:00-04:00","captured_at_dt":pd.Timestamp("2026-09-01T13:00:00-04:00"),"sportsbooks":"draftkings","markets_covered":"player_pass_yds","raw_file_repo":"dk.json","processed_long_file_repo":"dk.csv","processed_long_file":dk_path,"raw_file_sha256":"b"},
+                {"source":"odds_api","season":2026,"week":1,"captured_at":"2026-09-01T12:00:00-04:00","captured_at_dt":pd.Timestamp("2026-09-01T12:00:00-04:00"),"sportsbooks":"draftkings|fanduel|williamhill_us","markets_covered":"player_pass_yds","raw_file_repo":"old.json","processed_long_file_repo":"old.csv","processed_long_file":old_path,"raw_file_sha256":"a"},
+                {"source":"odds_api","season":2026,"week":1,"captured_at":"2026-09-01T13:00:00-04:00","captured_at_dt":pd.Timestamp("2026-09-01T13:00:00-04:00"),"sportsbooks":"draftkings|fanduel","markets_covered":"player_pass_yds","raw_file_repo":"new.json","processed_long_file_repo":"new.csv","processed_long_file":new_path,"raw_file_sha256":"b"},
             ])
-            result = select_odds_asof(registry=registry, project_root=root, season=2026, week=1, as_of="2026-09-01T13:30:00-04:00", sportsbooks=["fanduel", "draftkings"])
-            statuses = dict(zip(result["selected_snapshots"]["sportsbook"], result["selected_snapshots"]["selected_captured_at"]))
-            self.assertEqual(statuses["fanduel"], "2026-09-01T12:00:00-04:00")
-            self.assertEqual(statuses["draftkings"], "2026-09-01T13:00:00-04:00")
+            result = select_odds_asof(registry=registry, project_root=root, season=2026, week=1, as_of="2026-09-01T13:30:00-04:00")
+            self.assertEqual(result["selection_mode"], "coherent_snapshot")
+            self.assertEqual(set(result["selected_odds"]["sportsbook"]), {"draftkings", "fanduel"})
+            self.assertNotIn("williamhill_us", set(result["selected_odds"]["sportsbook"]))
+            self.assertEqual(int((result["selected_odds"]["is_alternate"] == True).sum()), 0)
+
+            historical = select_odds_asof(registry=registry, project_root=root, season=2026, week=1, as_of="2026-09-01T12:30:00-04:00")
+            self.assertEqual(set(historical["selected_odds"]["sportsbook"]), {"draftkings", "fanduel", "williamhill_us"})
+            self.assertEqual(int((historical["selected_odds"]["is_alternate"] == True).sum()), 1)
+
+            no_lookahead = select_odds_asof(registry=registry, project_root=root, season=2026, week=1, as_of="2026-09-01T11:30:00-04:00")
+            self.assertTrue(no_lookahead["selected_odds"].empty)
+
+            backfill = select_odds_asof(registry=registry, project_root=root, season=2026, week=1, as_of="2026-09-01T13:30:00-04:00", allow_stale_sportsbook_backfill=True)
+            self.assertEqual(backfill["selection_mode"], "stale_sportsbook_backfill")
+            self.assertIn("williamhill_us", set(backfill["selected_odds"]["sportsbook"]))
+            self.assertEqual(int((backfill["selected_odds"]["is_alternate"] == True).sum()), 1)
+        finally:
+            if root.exists():
+                shutil.rmtree(root)
 
     def test_odds_math_functions(self) -> None:
         self.assertAlmostEqual(american_to_decimal(-110), 1.9090909)
