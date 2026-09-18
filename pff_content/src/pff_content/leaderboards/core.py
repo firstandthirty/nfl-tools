@@ -103,11 +103,11 @@ def _pass_rush_population(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
     return pass_rush_win_rate_vs_pressure_rate_dataframe(data["pass_rush"], min_pass_rush_snaps=15)
 
 
-def leaderboard_definitions() -> list[LeaderboardDefinition]:
+def leaderboard_definitions(period_label: str = "Week 1") -> list[LeaderboardDefinition]:
     return [
         LeaderboardDefinition(
             id="target_earners",
-            title="Week 1 Target Earners",
+            title=f"{period_label} Target Earners",
             subtitle="WR/TE with 15+ routes",
             dataset="receiving",
             qualifier="WR/TE with 15+ routes",
@@ -125,7 +125,7 @@ def leaderboard_definitions() -> list[LeaderboardDefinition]:
         ),
         LeaderboardDefinition(
             id="yprr_leaders",
-            title="Week 1 Yards Per Route Run Leaders",
+            title=f"{period_label} Yards Per Route Run Leaders",
             subtitle="WR/TE with 15+ routes",
             dataset="receiving",
             qualifier="WR/TE with 15+ routes",
@@ -143,7 +143,7 @@ def leaderboard_definitions() -> list[LeaderboardDefinition]:
         ),
         LeaderboardDefinition(
             id="yac_per_attempt_leaders",
-            title="Week 1 Yards After Contact Leaders",
+            title=f"{period_label} Yards After Contact Leaders",
             subtitle="RBs with 8+ rushing attempts",
             dataset="rushing",
             qualifier="RB/HB/FB with 8+ rushing attempts",
@@ -161,7 +161,7 @@ def leaderboard_definitions() -> list[LeaderboardDefinition]:
         ),
         LeaderboardDefinition(
             id="pressure_leaders",
-            title="Week 1 Pressure Leaders",
+            title=f"{period_label} Pressure Leaders",
             subtitle="Defenders with 15+ pass-rush snaps",
             dataset="pass_rush",
             qualifier="Defenders with 15+ pass-rush snaps",
@@ -179,7 +179,7 @@ def leaderboard_definitions() -> list[LeaderboardDefinition]:
         ),
         LeaderboardDefinition(
             id="pass_rush_win_rate_leaders",
-            title="Week 1 Pass-Rush Win Rate Leaders",
+            title=f"{period_label} Pass-Rush Win Rate Leaders",
             subtitle="Defenders with 15+ pass-rush snaps",
             dataset="pass_rush",
             qualifier="Defenders with 15+ pass-rush snaps",
@@ -210,7 +210,9 @@ def render_leaderboard_png(
     season: int,
     week: int,
     use_bars: bool = True,
+    period_label: str | None = None,
 ) -> Path:
+    label = period_label or f"{season} Week {week}"
     apply_theme()
     fig = plt.figure(figsize=(12, 6.75), constrained_layout=False)
     fig.patch.set_facecolor(DEFAULT_STYLE.background)
@@ -258,7 +260,7 @@ def render_leaderboard_png(
         ax.text(0.64, y, definition.primary_metric.formatter(row[definition.primary_metric.key]), fontsize=16.5, color=DEFAULT_STYLE.text, fontweight="bold", ha="left", va="center")
         ax.text(0.78, y, _context_text(definition, row), fontsize=11.5, color=DEFAULT_STYLE.muted_text, ha="left", va="center")
 
-    ax.text(0.07, 0.04, f"First & Thirty | PFF data | {season} Week {week}", fontsize=10.5, color=DEFAULT_STYLE.muted_text, ha="left", va="bottom")
+    ax.text(0.07, 0.04, f"First & Thirty | PFF data | {label}", fontsize=10.5, color=DEFAULT_STYLE.muted_text, ha="left", va="bottom")
     save_png(fig, output_path)
     return output_path
 
@@ -279,6 +281,7 @@ def build_leaderboard(
     season: int,
     week: int,
     use_bars: bool = True,
+    period_label: str | None = None,
 ) -> LeaderboardResult:
     population = definition.data_builder(data)
     rows = select_top_n(definition, population)
@@ -286,7 +289,7 @@ def build_leaderboard(
     csv_path = output_dir / f"{definition.output_filename}.csv"
     png_path = output_dir / f"{definition.output_filename}.png"
     rows[leaderboard_csv_columns(definition)].to_csv(csv_path, index=False)
-    render_leaderboard_png(definition, rows, png_path, season=season, week=week, use_bars=use_bars)
+    render_leaderboard_png(definition, rows, png_path, season=season, week=week, use_bars=use_bars, period_label=period_label)
     return LeaderboardResult(definition=definition, rows=rows, png_path=png_path, csv_path=csv_path)
 
 
@@ -360,8 +363,10 @@ def build_all_leaderboards(
     season: int,
     week: int,
     use_bars: bool = True,
+    period_label: str | None = None,
 ) -> list[LeaderboardResult]:
-    results = [build_leaderboard(definition, data, output_dir, season=season, week=week, use_bars=use_bars) for definition in leaderboard_definitions()]
+    definitions = leaderboard_definitions((period_label or f"Week {week}").replace(f"{season} ", ""))
+    results = [build_leaderboard(definition, data, output_dir, season=season, week=week, use_bars=use_bars, period_label=period_label) for definition in definitions]
     write_manifest(results, output_dir / "manifest.json")
     write_content_ideas(results, output_dir / "content_ideas.md")
     return results

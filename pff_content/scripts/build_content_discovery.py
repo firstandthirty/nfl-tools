@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import json
@@ -10,14 +10,14 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from pff_content.leaderboards import build_all_leaderboards
-from pff_content.paths import period_leaderboard_dir, period_output_dir
+from pff_content.content_discovery import build_content_discovery
+from pff_content.paths import period_output_dir, period_content_dir
 from pff_content.periods import Period, period_from_args
 from pff_content.week_status import assert_finalized_week
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build social-ready period-aware leaderboard graphics from analysis CSVs.")
+    parser = argparse.ArgumentParser(description="Build period-aware PFF content discovery report.")
     parser.add_argument("--season", type=int, required=True)
     parser.add_argument("--week", type=int)
     parser.add_argument("--through-week", type=int)
@@ -26,11 +26,28 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def read_analysis_csv(base: Path, name: str) -> pd.DataFrame:
-    path = base / f"{name}.csv"
-    if not path.exists():
-        raise RuntimeError(f"Missing analysis {name} file at {path}. Run scripts/build_weekly_analysis.py first.")
-    return pd.read_csv(path)
+def read_available_csvs(base: Path) -> dict[str, pd.DataFrame]:
+    names = [
+        "games",
+        "passing",
+        "qbs",
+        "receiving",
+        "rushing",
+        "pass_blocking",
+        "pass_rush",
+        "run_defense",
+        "coverage",
+        "coverage_scheme",
+        "time_in_pocket",
+        "team_defense",
+        "rookies",
+    ]
+    data: dict[str, pd.DataFrame] = {}
+    for name in names:
+        path = base / f"{name}.csv"
+        if path.exists():
+            data[name] = pd.read_csv(path)
+    return data
 
 
 def main() -> None:
@@ -48,16 +65,18 @@ def main() -> None:
 
 
 def build_period(period: Period, args: argparse.Namespace) -> None:
-    for week in period.weeks:
-        assert_finalized_week(period.season, week, allow_incomplete=args.allow_incomplete)
+    statuses = [assert_finalized_week(period.season, week, allow_incomplete=args.allow_incomplete) for week in period.weeks]
+    week_complete = all(status.is_complete for status in statuses)
     base = period_output_dir(period)
-    data = {
-        "receiving": read_analysis_csv(base, "receiving"),
-        "rushing": read_analysis_csv(base, "rushing"),
-        "pass_rush": read_analysis_csv(base, "pass_rush"),
-    }
-    out = period_leaderboard_dir(period)
-    results = build_all_leaderboards(data, out, season=period.season, week=period.end_week, use_bars=True, period_label=period.display_label)
+    result = build_content_discovery(
+        read_available_csvs(base),
+        period_content_dir(period),
+        season=period.season,
+        week=period.end_week,
+        week_complete=week_complete,
+        docs_dir=ROOT / "docs",
+        period=period,
+    )
     print(
         json.dumps(
             {
@@ -65,17 +84,12 @@ def build_period(period: Period, args: argparse.Namespace) -> None:
                 "period": period.period_type.value,
                 "start_week": period.start_week,
                 "end_week": period.end_week,
-                "leaderboards": [
-                    {
-                        "id": result.definition.id,
-                        "png": str(result.png_path),
-                        "csv": str(result.csv_path),
-                        "rows": int(len(result.rows)),
-                    }
-                    for result in results
-                ],
-                "manifest": str(out / "manifest.json"),
-                "content_ideas": str(out / "content_ideas.md"),
+                "week_complete": week_complete,
+                "markdown": str(result["markdown"]),
+                "csv": str(result["csv"]),
+                "manifest": str(result["manifest"]),
+                "observation_count": result["observation_count"],
+                "observations_by_section": result["observations_by_section"],
             },
             indent=2,
         )
