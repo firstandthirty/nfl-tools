@@ -524,7 +524,7 @@ Publishing semantics:
 - Public player cards include only reader-facing fields: name, display position, injury/practice/designation, reserve status, designated-for-return status, transaction date when available, source label, and `F&T Note:` text when present.
 - Internal review and relevance fields such as PFF IDs, candidate reasons, snap percentages, review-state labels, and automated/default-review flags are intentionally excluded from both the HTML and sanitized public view model.
 
-Remote deployment remains explicit. The builder prepares static files only; the publish-prep command copies approved HTML into the local Pages subtree, but nothing commits, pushes, or deploys automatically.
+Remote deployment remains explicit. The builder prepares static files only. The publish-prep command copies approved HTML into the local Pages subtree, and the final GitHub publish command commits and pushes only a narrow weekly allowlist after Git safety checks pass.
 
 ## Weekly Operating Workflow
 
@@ -614,14 +614,34 @@ Normal weekly flow:
 
    It does not copy `public_view_model.json`, and it does not run `git add`, `git commit`, or `git push`.
 
-7. Deploy only when ready. For the first injury-tracker deployment, review `git status` and then use explicit paths:
+7. Publish the reviewed weekly update when ready:
 
    ```powershell
-   git status --short
-   git add "index.html" "injury_tracker" "injuries/index.html" "injuries/2026/week_04/index.html"
-   git commit -m "Add First & Thirty injury tracker public workflow"
-   git push origin main
+   injury_tracker\05_PUBLISH_TO_GITHUB.bat
    ```
+
+   Equivalent command:
+
+   ```powershell
+   py -m injury_tracker.scripts.publish_to_github --config injury_tracker\config\current_week.json
+   ```
+
+   This command verifies the repository root, confirms branch `main`, refuses unexpected origin remotes, refuses pre-existing staged changes, runs `git fetch origin`, stops if local `main` is ahead/behind/diverged from `origin/main`, stages only the weekly publication allowlist, verifies the staged set, commits as `Update Week N injury tracker`, re-fetches, then pushes with ordinary `git push origin main`.
+
+   The weekly allowlist is:
+
+   ```text
+   injuries/index.html
+   injuries/{season}/week_{WW}/index.html
+   injury_tracker/config/current_week.json
+   injury_tracker/data/manual/manual_players.csv
+   injury_tracker/data/manual/overrides.csv
+   injury_tracker/data/manual/pff_player_mappings.csv
+   injury_tracker/data/manual/review_decisions.csv
+   injury_tracker/data/manual/review_status.csv
+   ```
+
+   It does not stage raw snapshots, processed outputs, local preview files, source-code changes, tests, README edits, or unrelated dirty monorepo work. If there is nothing to publish, it exits successfully without creating a commit.
 
 Public URL expectations for the current GitHub remote `firstandthirty/nfl-tools`:
 
@@ -631,7 +651,11 @@ Current: https://firstandthirty.github.io/nfl-tools/injuries/
 Week 4:  https://firstandthirty.github.io/nfl-tools/injuries/2026/week_04/
 ```
 
-Do not treat those URLs as live until GitHub Pages is configured/enabled and the commit is pushed.
+The stable injury-tracker URL is:
+
+```text
+https://firstandthirty.github.io/nfl-tools/injuries/
+```
 
 ### Stale-review semantics
 

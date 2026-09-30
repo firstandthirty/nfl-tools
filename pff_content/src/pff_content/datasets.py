@@ -12,6 +12,9 @@ class DatasetSpec:
 
 DATASETS: tuple[DatasetSpec, ...] = (
     DatasetSpec("games", "/v1/games", "games"),
+    DatasetSpec("offense_summary", "/v1/facet/offense/summary", "offense_summary"),
+    DatasetSpec("defense_summary", "/v1/facet/defense/summary", "defense_summary"),
+    DatasetSpec("special_summary", "/v1/facet/special/summary", "special_teams_summary"),
     DatasetSpec("passing", "/v1/facet/passing/summary", "passing_summary"),
     DatasetSpec("receiving", "/v1/facet/receiving/summary", "receiving_summary"),
     DatasetSpec("rushing", "/v1/facet/rushing/summary", "rushing_summary"),
