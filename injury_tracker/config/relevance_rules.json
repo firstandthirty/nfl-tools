@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "philosophy": "Automation decides who deserves manual review; a human decides who gets published.",
+  "manual_overrides_always_win": true,
+  "candidate_rules": {
+    "qb_always_candidate": true,
+    "season_snap_pct_threshold": 0.25,
+    "previous_game_snap_pct_threshold": 0.25,
+    "include_ir_players": true,
+    "include_out_or_doubtful_players": true,
+    "exclude_special_teams_by_default": true
+  },
+  "review_flags": {
+    "flag_missing_pff_match": true,
+    "flag_ambiguous_fallback_defensive_position": true,
+    "flag_manual_position_override": true
+  }
+}

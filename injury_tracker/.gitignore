@@ -1,0 +1,36 @@
+# Python/runtime caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local scratch/test/runtime artifacts
+.tmp_tests/
+*.tmp
+*.bak
+*.log
+*.pid
+
+# Raw fetched source snapshots. Keep the placeholder only.
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated processed/enriched snapshots and derived indexes. Keep the placeholder only.
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated review/build/runtime outputs. Human decisions live in data/manual and are not ignored.
+data/reviewed/
+data/output/*
+!data/output/.gitkeep
+output/
+
+# Local static preview/debug artifacts. Public Pages HTML is published from repo-root injuries/.
+docs/injuries/
+
+# Keep manual human state tracked, but ignore editor/Excel lock files.
+data/manual/~$*
+data/manual/*.tmp
+data/manual/*.bak

@@ -1,0 +1,16 @@
+season,week,team,player_name,normalized_player_name,pff_player_id,decision,ft_note,note,display_position,display_injury,reviewed_at
+2026,3,ATL,Michael Penix Jr.,michael penix,82134,EXCLUDE,,,,,2026-09-30T13:40:28.506269+00:00
+2026,3,ATL,Tua Tagovailoa,tua tagovailoa,60326,EXCLUDE,,,,,2026-09-30T13:39:42.970410+00:00
+2026,3,ATL,,,,EXCLUDE,,,,,2026-09-30T13:40:22.877946+00:00
+2026,3,ATL,Brian Robinson,brian robinson,57120,EXCLUDE,,,,,2026-09-30T13:40:13.303495+00:00
+2026,3,ATL,Jalon Walker,jalon walker,157070,INCLUDE,,,,,2026-09-30T13:41:12.992899+00:00
+2026,3,ATL,Test,test,,EXCLUDE,,,,,2026-09-30T13:49:01.198135+00:00
+2026,3,BUF,DJ Moore,dj moore,48267,INCLUDE,,,,,2026-09-30T13:46:04.481877+00:00
+2026,4,PIT,Rico Dowdle,rico dowdle,40693,,Toe injury suffered during week 2. Unlikely to play. ,,,,
+2026,4,PIT,Jalen Ramsey,jalen ramsey,10639,,"Broke his wrist week 3, but still trying to play. ",,,,
+2026,4,PIT,Joey Porter Jr.,joey porter,101364,INCLUDE,"Hasn't played this season due to contract dispute, but appears likely to return Thursday as he's practicing in full. ",,,,2026-09-30T14:09:19.462735+00:00
+2026,4,CLE,Tylan Wallace,tylan wallace,61577,EXCLUDE,,,,,2026-09-30T14:10:45.397998+00:00
+2026,4,CLE,Tyson Campbell,tyson campbell,83217,,Last week - 3 LP but missed. Decent chance he returns this week. ,,,,
+2026,4,CLE,Grant Delpit,grant delpit,60685,,Limited but played last week. He's good to go.,,,,
+2026,4,CLE,Elgton Jenkins,elgton jenkins,46298,,"Concussion from week 3, unlikely to play.",,,,
+2026,4,CLE,Tytus Howard,tytus howard,25472,,"Played week 3, also with a knee injury. Expected to play. ",,,,

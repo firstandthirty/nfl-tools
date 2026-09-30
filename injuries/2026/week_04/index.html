@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First &amp; Thirty - NFL Week 4 Injury Tracker</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --panel: #ffffff;
+  --ink: #17202a;
+  --muted: #667085;
+  --line: #d9dee7;
+  --accent: #155e75;
+  --soft: #eef7fa;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+.topbar {
+  padding: 24px clamp(16px, 4vw, 44px) 18px;
+  background: #101820;
+  color: #fff;
+}
+.eyebrow {
+  margin: 0 0 6px;
+  color: #9fd5df;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+h1, h2, h3, h4, p { margin-top: 0; }
+h1 { margin-bottom: 8px; font-size: clamp(28px, 4vw, 46px); letter-spacing: 0; }
+.updated { margin-bottom: 0; color: #cbd5e1; }
+.subtitle {
+  max-width: 760px;
+  margin-bottom: 8px;
+  color: #e5eef5;
+  font-size: 15px;
+}
+.week-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px clamp(16px, 4vw, 44px);
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.nav-link {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.nav-link.pending { color: var(--muted); }
+main { padding: 18px clamp(12px, 3vw, 36px) 42px; }
+.game {
+  max-width: 1120px;
+  margin: 0 auto 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.game-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.game-header h2 { margin-bottom: 4px; font-size: 22px; letter-spacing: 0; }
+.game-header p { margin-bottom: 0; color: var(--muted); }
+.status-pill {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.status-pill.reviewed { color: #0f5132; background: #d1e7dd; }
+.status-pill.pending { color: #664d03; background: #fff3cd; }
+.pending-copy { margin: 14px 18px 0; color: var(--muted); }
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+}
+.team-card {
+  min-width: 0;
+  padding: 16px 18px 18px;
+}
+.team-card + .team-card { border-left: 1px solid var(--line); }
+.team-header h3 { margin-bottom: 14px; font-size: 18px; letter-spacing: 0; }
+.team-header span { display: block; color: var(--muted); font-size: 13px; font-weight: 400; }
+.team-source-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+}
+.player-section + .player-section { margin-top: 18px; }
+.player-section h4 {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.player {
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+.player-main {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.pos {
+  min-width: 36px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+}
+.player-meta {
+  margin: 4px 0 0 44px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+.ft-note {
+  margin: 6px 0 0 44px;
+  padding: 8px 10px;
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  color: #1f2937;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.empty {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+@media (max-width: 760px) {
+  .teams { grid-template-columns: 1fr; }
+  .team-card + .team-card {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .game-header { flex-direction: column; }
+  .player-meta, .ft-note { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">First &amp; Thirty</p>
+      <h1>NFL Week 4 Injury Tracker</h1>
+      <p class="subtitle">Key injuries, practice participation, reserve status, and First &amp; Thirty notes for every Week 4 matchup.</p>
+      <p class="updated">Updated 2026-09-30 15:02 EDT</p>
+    </div>
+  </header>
+  <nav class="week-nav" aria-label="Game navigation">
+    <a class="nav-link" href="#2026-w04-cle-pit">PIT at CLE</a>
+<a class="nav-link pending" href="#2026-w04-ind-was">IND at WAS</a>
+<a class="nav-link pending" href="#2026-w04-ari-nyg">ARI at NYG</a>
+<a class="nav-link pending" href="#2026-w04-bal-ten">TEN at BAL</a>
+<a class="nav-link pending" href="#2026-w04-buf-ne">NE at BUF</a>
+<a class="nav-link pending" href="#2026-w04-chi-nyj">NYJ at CHI</a>
+<a class="nav-link pending" href="#2026-w04-cin-jax">JAX at CIN</a>
+<a class="nav-link pending" href="#2026-w04-dal-hou">DAL at HOU</a>
+<a class="nav-link pending" href="#2026-w04-gb-tb">GB at TB</a>
+<a class="nav-link pending" href="#2026-w04-lar-phi">LAR at PHI</a>
+<a class="nav-link pending" href="#2026-w04-mia-min">MIA at MIN</a>
+<a class="nav-link pending" href="#2026-w04-den-sf">DEN at SF</a>
+<a class="nav-link pending" href="#2026-w04-kc-lv">KC at LV</a>
+<a class="nav-link pending" href="#2026-w04-lac-sea">LAC at SEA</a>
+<a class="nav-link pending" href="#2026-w04-car-det">DET at CAR</a>
+<a class="nav-link pending" href="#2026-w04-atl-no">ATL at NO</a>
+  </nav>
+  <main>
+    <section class="game" id="2026-w04-cle-pit">
+  <div class="game-header">
+    <div>
+      <h2>PIT at CLE</h2>
+      <p>Thu, Oct 1, 8:15 PM ET</p>
+    </div>
+    
+  </div>
+  
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.steelers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">PIT <span>Pittsburgh Steelers</span></a></h3>
+  </div>
+  <section class="player-section">
+  <h4>Current injuries</h4>
+  <div class="player-list">
+    <article class="player">
+  <div class="player-main">
+    <span class="pos">HB</span>
+    <strong>Rico Dowdle</strong>
+  </div>
+  <p class="player-meta">Toe | Practice: DNP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Toe injury suffered during week 2. Unlikely to play.</p>
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">CB</span>
+    <strong>Joey Porter Jr.</strong>
+  </div>
+  <p class="player-meta">NIR/Conditioning | Practice: FP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Hasn&#x27;t played this season due to contract dispute, but appears likely to return Thursday as he&#x27;s practicing in full.</p>
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">S</span>
+    <strong>Jalen Ramsey</strong>
+  </div>
+  <p class="player-meta">Wrist | Practice: LP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Broke his wrist week 3, but still trying to play.</p>
+</article>
+  </div>
+</section><section class="player-section">
+  <h4>Reserve / IR</h4>
+  <div class="player-list">
+    <article class="player">
+  <div class="player-main">
+    <span class="pos">S</span>
+    <strong>DeShon Elliott</strong>
+  </div>
+  <p class="player-meta">Reserve/Injured</p>
+  
+</article>
+  </div>
+</section>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.clevelandbrowns.com/team/injury-report/" target="_blank" rel="noopener noreferrer">CLE <span>Cleveland Browns</span></a></h3>
+  </div>
+  <section class="player-section">
+  <h4>Current injuries</h4>
+  <div class="player-list">
+    <article class="player">
+  <div class="player-main">
+    <span class="pos">C</span>
+    <strong>Elgton Jenkins</strong>
+  </div>
+  <p class="player-meta">Concussion | Practice: DNP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Concussion from week 3, unlikely to play.</p>
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">T</span>
+    <strong>Tytus Howard</strong>
+  </div>
+  <p class="player-meta">Knee | Practice: LP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Played week 3, also with a knee injury. Expected to play.</p>
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">CB</span>
+    <strong>Tyson Campbell</strong>
+  </div>
+  <p class="player-meta">Knee | Practice: LP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Last week - 3 LP but missed. Decent chance he returns this week.</p>
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">S</span>
+    <strong>Grant Delpit</strong>
+  </div>
+  <p class="player-meta">Shoulder | Practice: LP</p>
+  <p class="ft-note"><strong>F&amp;T Note:</strong> Limited but played last week. He&#x27;s good to go.</p>
+</article>
+  </div>
+</section><section class="player-section">
+  <h4>Reserve / IR</h4>
+  <div class="player-list">
+    <article class="player">
+  <div class="player-main">
+    <span class="pos">QB</span>
+    <strong>Dillon Gabriel</strong>
+  </div>
+  <p class="player-meta">Reserve/Injured</p>
+  
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">ED</span>
+    <strong>Alex Wright</strong>
+  </div>
+  <p class="player-meta">Reserve/Injured</p>
+  
+</article><article class="player">
+  <div class="player-main">
+    <span class="pos">DI</span>
+    <strong>Kalia Davis</strong>
+  </div>
+  <p class="player-meta">Reserve/Injured</p>
+  
+</article>
+  </div>
+</section>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-ind-was">
+  <div class="game-header">
+    <div>
+      <h2>IND at WAS</h2>
+      <p>Sun, Oct 4, 9:30 AM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.colts.com/team/injury-report/" target="_blank" rel="noopener noreferrer">IND <span>Indianapolis Colts</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.commanders.com/team/injury-report/" target="_blank" rel="noopener noreferrer">WAS <span>Washington Commanders</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-ari-nyg">
+  <div class="game-header">
+    <div>
+      <h2>ARI at NYG</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.azcardinals.com/team/injury-report/" target="_blank" rel="noopener noreferrer">ARI <span>Arizona Cardinals</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.giants.com/team/injury-report/" target="_blank" rel="noopener noreferrer">NYG <span>New York Giants</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-bal-ten">
+  <div class="game-header">
+    <div>
+      <h2>TEN at BAL</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.tennesseetitans.com/team/injury-report/" target="_blank" rel="noopener noreferrer">TEN <span>Tennessee Titans</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.baltimoreravens.com/team/injury-report/" target="_blank" rel="noopener noreferrer">BAL <span>Baltimore Ravens</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-buf-ne">
+  <div class="game-header">
+    <div>
+      <h2>NE at BUF</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.patriots.com/team/injury-report/" target="_blank" rel="noopener noreferrer">NE <span>New England Patriots</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.buffalobills.com/team/injury-report/" target="_blank" rel="noopener noreferrer">BUF <span>Buffalo Bills</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-chi-nyj">
+  <div class="game-header">
+    <div>
+      <h2>NYJ at CHI</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.newyorkjets.com/team/injury-report/" target="_blank" rel="noopener noreferrer">NYJ <span>New York Jets</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.chicagobears.com/team/injury-report/" target="_blank" rel="noopener noreferrer">CHI <span>Chicago Bears</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-cin-jax">
+  <div class="game-header">
+    <div>
+      <h2>JAX at CIN</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.jaguars.com/team/injury-report/" target="_blank" rel="noopener noreferrer">JAX <span>Jacksonville Jaguars</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.bengals.com/team/injury-report/" target="_blank" rel="noopener noreferrer">CIN <span>Cincinnati Bengals</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-dal-hou">
+  <div class="game-header">
+    <div>
+      <h2>DAL at HOU</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.dallascowboys.com/team/injury-report/" target="_blank" rel="noopener noreferrer">DAL <span>Dallas Cowboys</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.houstontexans.com/team/injury-report/" target="_blank" rel="noopener noreferrer">HOU <span>Houston Texans</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-gb-tb">
+  <div class="game-header">
+    <div>
+      <h2>GB at TB</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.packers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">GB <span>Green Bay Packers</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.buccaneers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">TB <span>Tampa Bay Buccaneers</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-lar-phi">
+  <div class="game-header">
+    <div>
+      <h2>LAR at PHI</h2>
+      <p>Sun, Oct 4, 1:00 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.therams.com/team/injury-report/" target="_blank" rel="noopener noreferrer">LAR <span>Los Angeles Rams</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.philadelphiaeagles.com/team/injury-report/" target="_blank" rel="noopener noreferrer">PHI <span>Philadelphia Eagles</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-mia-min">
+  <div class="game-header">
+    <div>
+      <h2>MIA at MIN</h2>
+      <p>Sun, Oct 4, 4:05 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.miamidolphins.com/team/injury-report/" target="_blank" rel="noopener noreferrer">MIA <span>Miami Dolphins</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.vikings.com/team/injury-report/" target="_blank" rel="noopener noreferrer">MIN <span>Minnesota Vikings</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-den-sf">
+  <div class="game-header">
+    <div>
+      <h2>DEN at SF</h2>
+      <p>Sun, Oct 4, 4:25 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.denverbroncos.com/team/injury-report/" target="_blank" rel="noopener noreferrer">DEN <span>Denver Broncos</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.49ers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">SF <span>San Francisco 49ers</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-kc-lv">
+  <div class="game-header">
+    <div>
+      <h2>KC at LV</h2>
+      <p>Sun, Oct 4, 4:25 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.chiefs.com/team/injury-report/" target="_blank" rel="noopener noreferrer">KC <span>Kansas City Chiefs</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.raiders.com/team/injury-report/" target="_blank" rel="noopener noreferrer">LV <span>Las Vegas Raiders</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-lac-sea">
+  <div class="game-header">
+    <div>
+      <h2>LAC at SEA</h2>
+      <p>Sun, Oct 4, 4:25 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.chargers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">LAC <span>Los Angeles Chargers</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.seahawks.com/team/injury-report/" target="_blank" rel="noopener noreferrer">SEA <span>Seattle Seahawks</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-car-det">
+  <div class="game-header">
+    <div>
+      <h2>DET at CAR</h2>
+      <p>Sun, Oct 4, 8:20 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.detroitlions.com/team/injury-report/" target="_blank" rel="noopener noreferrer">DET <span>Detroit Lions</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.panthers.com/team/injury-report/" target="_blank" rel="noopener noreferrer">CAR <span>Carolina Panthers</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+<section class="game" id="2026-w04-atl-no">
+  <div class="game-header">
+    <div>
+      <h2>ATL at NO</h2>
+      <p>Mon, Oct 5, 8:15 PM ET</p>
+    </div>
+    <span class="status-pill pending">Pending</span>
+  </div>
+  <p class="pending-copy">Pending First &amp; Thirty review.</p>
+  <div class="teams">
+    <article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.atlantafalcons.com/team/injury-report/" target="_blank" rel="noopener noreferrer">ATL <span>Atlanta Falcons</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+<article class="team-card">
+  <div class="team-header">
+    <h3><a class="team-source-link" href="https://www.neworleanssaints.com/team/injury-report/" target="_blank" rel="noopener noreferrer">NO <span>New Orleans Saints</span></a></h3>
+  </div>
+  <p class="empty">Official injury report not yet available. Player list pending review.</p>
+</article>
+  </div>
+</section>
+  </main>
+</body>
+</html>
