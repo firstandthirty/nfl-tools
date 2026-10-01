@@ -8,9 +8,17 @@ season,week,team,player_name,normalized_player_name,pff_player_id,decision,ft_no
 2026,3,BUF,DJ Moore,dj moore,48267,INCLUDE,,,,,2026-09-30T13:46:04.481877+00:00
 2026,4,PIT,Rico Dowdle,rico dowdle,40693,,Toe injury suffered during week 2. Unlikely to play. ,,,,
 2026,4,PIT,Jalen Ramsey,jalen ramsey,10639,,"Broke his wrist week 3, but still trying to play. ",,,,
-2026,4,PIT,Joey Porter Jr.,joey porter,101364,INCLUDE,"Hasn't played this season due to contract dispute, but appears likely to return Thursday as he's practicing in full. ",,,,2026-09-30T14:09:19.462735+00:00
+2026,4,PIT,Joey Porter Jr.,joey porter,101364,EXCLUDE,"Joey Porter Jr has been ruled OUT for week 4. He's practicing in full, but has a contract dispute with the Steelers. ",,,,2026-10-01T13:43:18.845746+00:00
 2026,4,CLE,Tylan Wallace,tylan wallace,61577,EXCLUDE,,,,,2026-09-30T14:10:45.397998+00:00
 2026,4,CLE,Tyson Campbell,tyson campbell,83217,,Last week - 3 LP but missed. Decent chance he returns this week. ,,,,
 2026,4,CLE,Grant Delpit,grant delpit,60685,,Limited but played last week. He's good to go.,,,,
 2026,4,CLE,Elgton Jenkins,elgton jenkins,46298,,"Concussion from week 3, unlikely to play.",,,,
 2026,4,CLE,Tytus Howard,tytus howard,25472,,"Played week 3, also with a knee injury. Expected to play. ",,,,
+2026,4,NE,Mike Onwenu,mike onwenu,27357,,out for the year ,,,,
+2026,4,NE,Julian Hill,julian hill,88685,EXCLUDE,,,,,2026-09-30T20:18:54.599790+00:00
+2026,4,NE,A.J. Brown,aj brown,48327,,cannot return before week 6. Progressing well.,,,,
+2026,4,NE,Greg Van Roten,greg van roten,7746,,Onwenu's back up,,,,
+2026,4,IND,Alec Pierce,alec pierce,78038,,Heel injury week 2.,,,,
+2026,4,IND,Jonathan Taylor,jonathan taylor,57488,INCLUDE,"Technically LP'd on Wednesday, but he did the thing last week and had no restrictions. He's fine. ",,,,2026-10-01T13:58:02.854513+00:00
+2026,4,IND,Keenan Allen,keenan allen,7857,,"Technically LP'd on Wednesday, but he did the thing last week and had no restrictions. He's fine. ",,,,
+2026,4,WAS,Jayden Daniels,jayden daniels,97993,,Dislocated left elbow week 2. LP Wednesday (9/30) was first practice since the injury. Commanders are in London this week.,,,Left Elbow,
