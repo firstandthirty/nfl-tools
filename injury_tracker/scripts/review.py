@@ -391,7 +391,8 @@ def apply_review_decisions(records: list[dict[str, Any]], decisions: dict[str, d
             final_include = False
             review_state = "MANUAL_EXCLUDE"
         display_position = (decision or {}).get("display_position") or record.get("canonical_position")
-        display_injury = (decision or {}).get("display_injury") or record.get("injury")
+        manual_injury_override = (decision or {}).get("display_injury") or None
+        display_injury = manual_injury_override or record.get("injury")
         enriched = dict(record)
         enriched.update(
             {
@@ -399,6 +400,7 @@ def apply_review_decisions(records: list[dict[str, Any]], decisions: dict[str, d
                 "manual_note": (decision or {}).get("note") or None,
                 "ft_note": (decision or {}).get("ft_note") or None,
                 "ft_note_source": "manual_review" if (decision or {}).get("ft_note") else None,
+                "manual_injury_override": manual_injury_override,
                 "reviewed_at": (decision or {}).get("reviewed_at") or None,
                 "review_state": review_state,
                 "explicitly_reviewed": manual_decision in {"INCLUDE", "EXCLUDE"},
@@ -442,6 +444,7 @@ def reviewed_row(record: dict[str, Any], *, include_excluded: bool = False) -> d
         "position_group": record.get("position_group"),
         "pff_position": record.get("pff_position"),
         "injury": record.get("injury"),
+        "manual_injury_override": record.get("manual_injury_override"),
         "display_injury": record.get("display_injury"),
         "latest_practice": record.get("latest_practice"),
         "game_status": record.get("game_status"),
@@ -608,6 +611,46 @@ def save_ft_note(
         "note": (existing or {}).get("note", ""),
         "display_position": (existing or {}).get("display_position", ""),
         "display_injury": (existing or {}).get("display_injury", ""),
+        "reviewed_at": (existing or {}).get("reviewed_at", ""),
+    }
+    upsert_csv(path, REVIEW_DECISION_COLUMNS, row, lambda old: decision_matches_row(row, old))
+    return row
+
+
+def save_injury_override(
+    *,
+    season: int,
+    week: int,
+    team: str,
+    player_name: str,
+    normalized_player_name: str | None,
+    pff_player_id: str | None,
+    display_injury: str,
+    path: Path = MANUAL_DIR / "review_decisions.csv",
+) -> dict[str, str]:
+    ensure_csv(path, REVIEW_DECISION_COLUMNS)
+    normalized = normalized_player_name or normalize_player_name(player_name)
+    existing = find_existing_decision_row(
+        path,
+        season=season,
+        week=week,
+        team=team,
+        player_name=player_name,
+        normalized_player_name=normalized,
+        pff_player_id=pff_player_id,
+    )
+    row = {
+        "season": str(season),
+        "week": str(week),
+        "team": team,
+        "player_name": player_name,
+        "normalized_player_name": normalized,
+        "pff_player_id": pff_player_id or "",
+        "decision": (existing or {}).get("decision", ""),
+        "ft_note": (existing or {}).get("ft_note", ""),
+        "note": (existing or {}).get("note", ""),
+        "display_position": (existing or {}).get("display_position", ""),
+        "display_injury": display_injury.strip(),
         "reviewed_at": (existing or {}).get("reviewed_at", ""),
     }
     upsert_csv(path, REVIEW_DECISION_COLUMNS, row, lambda old: decision_matches_row(row, old))

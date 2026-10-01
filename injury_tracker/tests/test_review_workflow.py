@@ -23,6 +23,7 @@ from injury_tracker.scripts.review import (  # noqa: E402
     restore_review_record,
     save_decision,
     save_ft_note,
+    save_injury_override,
     save_review_status,
 )
 from injury_tracker.scripts.review_app import HTML as REVIEW_HTML  # noqa: E402
@@ -46,6 +47,7 @@ def injury_row(
     candidate: bool = True,
     position_group: str = "WR",
     reasons: list[str] | None = None,
+    injury: str | None = "Knee",
 ) -> dict:
     return {
         "season": 2026,
@@ -59,7 +61,7 @@ def injury_row(
         "canonical_position": position_group,
         "position_group": position_group,
         "source_position": position_group,
-        "injury": "Knee",
+        "injury": injury,
         "practice_by_day": {"Friday": "LP"},
         "practice_observations": [{"day": "Friday", "participation": "LP"}],
         "game_status": "Questionable",
@@ -330,6 +332,9 @@ class ReviewWorkflowTests(unittest.TestCase):
         self.assertIn("restorePlayer", REVIEW_HTML)
         self.assertIn("/api/restore", REVIEW_HTML)
         self.assertIn("Restore selected player", REVIEW_HTML)
+        self.assertIn("Official injury:", REVIEW_HTML)
+        self.assertIn("Manual injury", REVIEW_HTML)
+        self.assertIn("/api/injury", REVIEW_HTML)
 
     def test_rebuild_persistence_game_status_new_candidate_and_disappeared_player(self) -> None:
         self.seed(
@@ -479,6 +484,113 @@ class ReviewWorkflowTests(unittest.TestCase):
         self.assertEqual(record["manual_decision"], "EXCLUDE")
         self.assertFalse(record["final_include"])
         self.assertEqual(record["ft_note"], "Monitor pregame warmups.")
+
+    def test_manual_injury_override_precedence_clear_and_rebuild_persistence(self) -> None:
+        self.seed([injury_row("Blank Injury", pff_id="91", injury=None)], [])
+        blank = self.bundle()["records"][0]
+
+        self.assertIsNone(blank["injury"])
+        self.assertIsNone(blank["manual_injury_override"])
+        self.assertIsNone(blank["display_injury"])
+
+        save_injury_override(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Blank Injury",
+            normalized_player_name="blankinjury",
+            pff_player_id="91",
+            display_injury="Knee",
+            path=self.decisions_path,
+        )
+        save_ft_note(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Blank Injury",
+            normalized_player_name="blankinjury",
+            pff_player_id="91",
+            ft_note="Check pregame.",
+            path=self.decisions_path,
+        )
+        overridden = self.bundle()["records"][0]
+        with self.manual_path.open(newline="", encoding="utf-8") as handle:
+            manual_rows = list(csv.DictReader(handle))
+
+        self.assertIsNone(overridden["injury"])
+        self.assertEqual(overridden["manual_injury_override"], "Knee")
+        self.assertEqual(overridden["display_injury"], "Knee")
+        self.assertEqual(overridden["ft_note"], "Check pregame.")
+        self.assertEqual(manual_rows, [])
+
+        self.seed([injury_row("Blank Injury", pff_id="91", injury="Ankle")], [])
+        conflict = self.bundle()["records"][0]
+
+        self.assertEqual(conflict["injury"], "Ankle")
+        self.assertEqual(conflict["manual_injury_override"], "Knee")
+        self.assertEqual(conflict["display_injury"], "Knee")
+        self.assertEqual(conflict["ft_note"], "Check pregame.")
+        self.assertEqual(len(self.bundle()["records"]), 1)
+
+        save_injury_override(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Blank Injury",
+            normalized_player_name="blankinjury",
+            pff_player_id="91",
+            display_injury="",
+            path=self.decisions_path,
+        )
+        cleared = self.bundle()["records"][0]
+
+        self.assertEqual(cleared["injury"], "Ankle")
+        self.assertIsNone(cleared["manual_injury_override"])
+        self.assertEqual(cleared["display_injury"], "Ankle")
+        self.assertEqual(cleared["ft_note"], "Check pregame.")
+
+    def test_manual_injury_edit_does_not_change_decision_restore_or_stale_review(self) -> None:
+        self.seed([injury_row("Stable Injury", pff_id="92", injury=None)], [])
+        records = self.bundle()["records"]
+        save_review_status(
+            season=2026,
+            week=3,
+            scope="GAME",
+            game_id="2026-W03-NE-NYJ",
+            source_fingerprint=game_source_fingerprint(records, "2026-W03-NE-NYJ"),
+            path=self.status_path,
+        )
+        save_decision(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Stable Injury",
+            normalized_player_name="stableinjury",
+            pff_player_id="92",
+            decision="EXCLUDE",
+            path=self.decisions_path,
+        )
+        excluded = self.bundle()["records"][0]
+        restore_review_record(excluded, path=self.decisions_path)
+        save_injury_override(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Stable Injury",
+            normalized_player_name="stableinjury",
+            pff_player_id="92",
+            display_injury="Hamstring",
+            path=self.decisions_path,
+        )
+
+        bundle = self.bundle()
+        record = bundle["records"][0]
+
+        self.assertEqual(record["manual_decision"], "INCLUDE")
+        self.assertTrue(record["final_include"])
+        self.assertEqual(record["manual_injury_override"], "Hamstring")
+        self.assertEqual(bundle["summary"]["games_reviewed"], 1)
+        self.assertEqual(bundle["summary"]["games_stale"], 0)
 
     def test_ft_note_and_decision_are_week_scoped(self) -> None:
         self.seed([injury_row("Scoped Player", pff_id="83")], [])

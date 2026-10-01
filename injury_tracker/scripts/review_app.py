@@ -18,6 +18,7 @@ try:
         restore_review_record,
         save_decision,
         save_ft_note,
+        save_injury_override,
         save_review_status,
     )
     from .injury_schema import load_teams
@@ -31,6 +32,7 @@ except ImportError:  # pragma: no cover - allows direct script execution
         restore_review_record,
         save_decision,
         save_ft_note,
+        save_injury_override,
         save_review_status,
     )
     from injury_schema import load_teams  # type: ignore
@@ -185,13 +187,25 @@ function renderPlayer(p) {
   const source = p.source_labels.map(x => `<span class="tag">${x.replace('_',' ')}</span>`).join('');
   const fallback = p.prior_season_fallback_used ? '<span class="tag warn">2025 fallback</span>' : '';
   const reviewed = p.explicitly_reviewed ? '<span class="tag">reviewed</span>' : '<span class="tag warn">default</span>';
+  const injuryOverride = p.manual_injury_override || '';
+  const officialInjury = p.injury || '';
+  const injuryTag = injuryOverride ? '<span class="tag warn">manual injury</span>' : '';
+  const injuryMismatch = injuryOverride && officialInjury && injuryOverride !== officialInjury
+    ? `<div class="small">Official differs: ${escapeHtml(officialInjury)}</div>`
+    : '';
   const reserve = p.canonical_roster_status ? `<div>${p.raw_roster_status || p.canonical_roster_status}${p.designated_for_return ? ' DFR' : ''}</div><div class="small">${p.reserve_transaction_date || ''}</div>` : '';
   const decisionButtons = p.manual_decision === 'EXCLUDE'
     ? `<button class="include" onclick="restorePlayer('${p.record_id}')">RESTORE</button>`
     : `<button class="include" onclick="decide('${p.record_id}','INCLUDE')">INCLUDE</button><button class="exclude" onclick="decide('${p.record_id}','EXCLUDE')">EXCLUDE</button>`;
   return `<div class="player" data-id="${p.record_id}">
     <div><div class="name">${p.player_name}</div><div class="small">${p.display_position || p.canonical_position || ''} ${p.pff_position ? `PFF ${p.pff_position}` : ''}</div>${source}${fallback}${reviewed}</div>
-    <div><div>${p.display_injury || ''}</div><div class="small">Practice: ${p.latest_practice || ''} &nbsp; Game: ${p.game_status || ''}</div></div>
+    <div>
+      <div>${p.display_injury || ''} ${injuryTag}</div>
+      <div class="small">Official injury: ${officialInjury || '(blank)'}</div>
+      ${injuryMismatch}
+      <label class="small">Manual injury<input value="${escapeHtml(injuryOverride)}" onchange="saveInjury('${p.record_id}', this.value)" placeholder="optional override"></label>
+      <div class="small">Practice: ${p.latest_practice || ''} &nbsp; Game: ${p.game_status || ''}</div>
+    </div>
     <div>${reserve}<div class="small">${(p.candidate_reasons || []).join(', ')}</div></div>
     <div><div>Snap: ${fmtPct(p.relevant_snap_pct)}</div><div class="small">Source season: ${p.participation_source_season || ''}</div></div>
     <div class="actions">${decisionButtons}</div>
@@ -239,6 +253,14 @@ async function saveNote(id, ft_note) {
   await post('/api/note', {
     team: p.team, player_name: p.player_name, normalized_player_name: p.normalized_player_name,
     pff_player_id: p.pff_player_id, ft_note
+  });
+}
+
+async function saveInjury(id, display_injury) {
+  const p = record(id);
+  await post('/api/injury', {
+    team: p.team, player_name: p.player_name, normalized_player_name: p.normalized_player_name,
+    pff_player_id: p.pff_player_id, display_injury
   });
 }
 
@@ -391,6 +413,18 @@ class ReviewHandler(BaseHTTPRequestHandler):
                     normalized_player_name=payload.get("normalized_player_name"),
                     pff_player_id=payload.get("pff_player_id"),
                     ft_note=payload.get("ft_note") or "",
+                    path=self.server.paths.review_decisions_path,
+                )
+                self.send_json({"ok": True})
+            elif self.path == "/api/injury":
+                save_injury_override(
+                    season=self.server.season,
+                    week=self.server.week,
+                    team=payload["team"],
+                    player_name=payload["player_name"],
+                    normalized_player_name=payload.get("normalized_player_name"),
+                    pff_player_id=payload.get("pff_player_id"),
+                    display_injury=payload.get("display_injury") or "",
                     path=self.server.paths.review_decisions_path,
                 )
                 self.send_json({"ok": True})
