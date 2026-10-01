@@ -20,10 +20,12 @@ from injury_tracker.scripts.review import (  # noqa: E402
     build_unified_source_records,
     game_source_fingerprint,
     load_review_bundle,
+    restore_review_record,
     save_decision,
     save_ft_note,
     save_review_status,
 )
+from injury_tracker.scripts.review_app import HTML as REVIEW_HTML  # noqa: E402
 from injury_tracker.scripts.schedule_context import ScheduleGameContext  # noqa: E402
 
 
@@ -239,6 +241,95 @@ class ReviewWorkflowTests(unittest.TestCase):
         self.assertTrue(records["Auto No"]["final_include"])
         self.assertEqual(records["Auto Yes"]["review_state"], "MANUAL_EXCLUDE")
         self.assertEqual(records["Auto No"]["review_state"], "MANUAL_INCLUDE")
+
+    def test_manual_excluded_source_player_can_be_restored_without_manual_player_row(self) -> None:
+        self.seed(
+            [
+                injury_row(
+                    "Restorable Source",
+                    pff_id="901",
+                    candidate=True,
+                    position_group="RB",
+                    reasons=["season_snap_pct=67.0"],
+                )
+            ],
+            [],
+        )
+        save_decision(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Restorable Source",
+            normalized_player_name="restorablesource",
+            pff_player_id="901",
+            decision="EXCLUDE",
+            path=self.decisions_path,
+        )
+
+        excluded_bundle = self.bundle()
+        excluded = excluded_bundle["records"][0]
+
+        self.assertFalse(excluded["final_include"])
+        self.assertEqual(excluded["manual_decision"], "EXCLUDE")
+        self.assertEqual([row["player_name"] for row in excluded_bundle["manual_add_options"]], ["Restorable Source"])
+        self.assertEqual(excluded_bundle["manual_add_options"][0]["manual_add_label"], "manually_excluded")
+        grouped_excluded_names = [
+            player["player_name"]
+            for game in excluded_bundle["manual_excluded_grouped"]
+            for team in game["teams"]
+            for group in team["groups"]
+            for player in group["players"]
+        ]
+        self.assertEqual(grouped_excluded_names, ["Restorable Source"])
+        self.assertEqual(excluded_bundle["primary_records"], [])
+
+        restore_review_record(excluded_bundle["manual_add_options"][0], path=self.decisions_path)
+        save_ft_note(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Restorable Source",
+            normalized_player_name="restorablesource",
+            pff_player_id="901",
+            ft_note="Played through same status last week.",
+            path=self.decisions_path,
+        )
+        restored_bundle = self.bundle()
+        restored = restored_bundle["records"][0]
+        with self.manual_path.open(newline="", encoding="utf-8") as handle:
+            manual_rows = list(csv.DictReader(handle))
+
+        self.assertTrue(restored["final_include"])
+        self.assertEqual(restored["manual_decision"], "INCLUDE")
+        self.assertEqual(restored["review_state"], "MANUAL_INCLUDE")
+        self.assertEqual(restored["ft_note"], "Played through same status last week.")
+        self.assertTrue(restored["source_memberships"]["injury_report"])
+        self.assertFalse(restored["source_memberships"]["manual_player"])
+        self.assertEqual(restored["injury"], "Knee")
+        self.assertEqual(restored["latest_practice"], "LP")
+        self.assertEqual(restored["pff_player_id"], "901")
+        self.assertEqual(restored["position_group"], "RB")
+        self.assertEqual(restored["candidate_reasons"], ["season_snap_pct=67.0"])
+        self.assertEqual(manual_rows, [])
+        self.assertEqual([row["player_name"] for row in restored_bundle["primary_records"]], ["Restorable Source"])
+
+        rebuilt_source = injury_row("Restorable Source", pff_id="901", candidate=False, position_group="RB", reasons=["low_role"])
+        rebuilt_source["injury"] = "Knee"
+        self.seed([rebuilt_source], [])
+        rebuilt_bundle = self.bundle()
+        rebuilt = rebuilt_bundle["records"][0]
+
+        self.assertTrue(rebuilt["final_include"])
+        self.assertEqual(rebuilt["manual_decision"], "INCLUDE")
+        self.assertEqual(rebuilt["ft_note"], "Played through same status last week.")
+        self.assertEqual(rebuilt["candidate_reasons"], ["low_role"])
+        self.assertEqual(len(rebuilt_bundle["records"]), 1)
+
+    def test_review_app_restore_ui_uses_shared_restore_endpoint(self) -> None:
+        self.assertIn("RESTORE", REVIEW_HTML)
+        self.assertIn("restorePlayer", REVIEW_HTML)
+        self.assertIn("/api/restore", REVIEW_HTML)
+        self.assertIn("Restore selected player", REVIEW_HTML)
 
     def test_rebuild_persistence_game_status_new_candidate_and_disappeared_player(self) -> None:
         self.seed(

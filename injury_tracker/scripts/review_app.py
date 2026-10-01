@@ -15,6 +15,7 @@ try:
         default_review_paths,
         game_source_fingerprint,
         load_review_bundle,
+        restore_review_record,
         save_decision,
         save_ft_note,
         save_review_status,
@@ -27,6 +28,7 @@ except ImportError:  # pragma: no cover - allows direct script execution
         default_review_paths,
         game_source_fingerprint,
         load_review_bundle,
+        restore_review_record,
         save_decision,
         save_ft_note,
         save_review_status,
@@ -101,7 +103,7 @@ HTML = r"""<!doctype html>
   </div>
   <label style="display:block;margin-top:8px">Manual note <textarea id="manualNote"></textarea></label>
   <div class="actions" style="margin-top:10px">
-    <button onclick="includeKnown()">Include selected known player</button>
+    <button id="knownAction" onclick="includeKnown()">Include selected known player</button>
     <button onclick="addManual()">Add missing player</button>
     <button onclick="document.getElementById('addDialog').close()">Close</button>
   </div>
@@ -137,7 +139,8 @@ function render() {
     `Fully reviewed: ${s.week_fully_reviewed ? 'yes' : 'no'}`
   ].map(x => `<span class="pill">${x}</span>`).join('');
   document.getElementById('filters').innerHTML = filters.map(([id,label]) => `<button class="${filter===id?'active':''}" onclick="filter='${id}'; render()">${label}</button>`).join('');
-  document.getElementById('app').innerHTML = bundle.grouped.map(renderGame).join('');
+  const groups = filter === 'manual_excluded' ? (bundle.manual_excluded_grouped || []) : bundle.grouped;
+  document.getElementById('app').innerHTML = groups.map(renderGame).join('');
 }
 
 function renderGame(game) {
@@ -183,12 +186,15 @@ function renderPlayer(p) {
   const fallback = p.prior_season_fallback_used ? '<span class="tag warn">2025 fallback</span>' : '';
   const reviewed = p.explicitly_reviewed ? '<span class="tag">reviewed</span>' : '<span class="tag warn">default</span>';
   const reserve = p.canonical_roster_status ? `<div>${p.raw_roster_status || p.canonical_roster_status}${p.designated_for_return ? ' DFR' : ''}</div><div class="small">${p.reserve_transaction_date || ''}</div>` : '';
+  const decisionButtons = p.manual_decision === 'EXCLUDE'
+    ? `<button class="include" onclick="restorePlayer('${p.record_id}')">RESTORE</button>`
+    : `<button class="include" onclick="decide('${p.record_id}','INCLUDE')">INCLUDE</button><button class="exclude" onclick="decide('${p.record_id}','EXCLUDE')">EXCLUDE</button>`;
   return `<div class="player" data-id="${p.record_id}">
     <div><div class="name">${p.player_name}</div><div class="small">${p.display_position || p.canonical_position || ''} ${p.pff_position ? `PFF ${p.pff_position}` : ''}</div>${source}${fallback}${reviewed}</div>
     <div><div>${p.display_injury || ''}</div><div class="small">Practice: ${p.latest_practice || ''} &nbsp; Game: ${p.game_status || ''}</div></div>
     <div>${reserve}<div class="small">${(p.candidate_reasons || []).join(', ')}</div></div>
     <div><div>Snap: ${fmtPct(p.relevant_snap_pct)}</div><div class="small">Source season: ${p.participation_source_season || ''}</div></div>
-    <div class="actions"><button class="include" onclick="decide('${p.record_id}','INCLUDE')">INCLUDE</button><button class="exclude" onclick="decide('${p.record_id}','EXCLUDE')">EXCLUDE</button></div>
+    <div class="actions">${decisionButtons}</div>
     <div style="grid-column:1 / -1"><label class="small">F&amp;T Note</label><textarea rows="2" onchange="saveNote('${p.record_id}', this.value)" placeholder="Human editorial note only">${escapeHtml(p.ft_note || '')}</textarea></div>
   </div>`;
 }
@@ -217,6 +223,14 @@ async function decide(id, decision) {
   await post('/api/decision', {
     team: p.team, player_name: p.player_name, normalized_player_name: p.normalized_player_name,
     pff_player_id: p.pff_player_id, decision
+  });
+}
+
+async function restorePlayer(id) {
+  const p = record(id);
+  await post('/api/restore', {
+    team: p.team, player_name: p.player_name, normalized_player_name: p.normalized_player_name,
+    pff_player_id: p.pff_player_id
   });
 }
 
@@ -254,16 +268,32 @@ function renderKnownOptions() {
   const options = bundle.manual_add_options
     .filter(p => p.team === addTeam && (!q || p.player_name.toLowerCase().includes(q)))
     .slice(0, 80)
-    .map(p => `<option value="${p.record_id}">${p.player_name} - ${p.canonical_position || ''} - ${(p.candidate_reasons || []).join(', ')}</option>`)
+    .map(p => `<option value="${p.record_id}" data-restore="${p.manual_decision === 'EXCLUDE' ? '1' : ''}">${p.player_name} - ${p.canonical_position || ''} - ${knownOptionLabel(p)}</option>`)
     .join('');
   document.getElementById('knownList').innerHTML = options;
+  updateKnownAction();
 }
 document.getElementById('knownSearch').addEventListener('input', renderKnownOptions);
+document.getElementById('knownList').addEventListener('change', updateKnownAction);
+
+function knownOptionLabel(p) {
+  if (p.manual_add_label) return p.manual_add_label.replace('_', ' ');
+  if (p.manual_decision === 'EXCLUDE') return 'manually excluded';
+  return (p.candidate_reasons || []).join(', ');
+}
+
+function updateKnownAction() {
+  const list = document.getElementById('knownList');
+  const selected = list.options[list.selectedIndex];
+  document.getElementById('knownAction').textContent = selected && selected.dataset.restore ? 'Restore selected player' : 'Include selected known player';
+}
 
 async function includeKnown() {
   const id = document.getElementById('knownList').value;
   if (!id) return;
-  await decide(id, 'INCLUDE');
+  const p = record(id);
+  if (p && p.manual_decision === 'EXCLUDE') await restorePlayer(id);
+  else await decide(id, 'INCLUDE');
   document.getElementById('addDialog').close();
 }
 
@@ -338,6 +368,19 @@ class ReviewHandler(BaseHTTPRequestHandler):
                     source_fingerprint=source_fingerprint,
                     path=self.server.paths.review_status_path,
                 )
+                self.send_json({"ok": True})
+            elif self.path == "/api/restore":
+                bundle = load_review_bundle(self.server.season, self.server.week, self.server.paths)
+                target = find_record(
+                    bundle["records"],
+                    team=payload["team"],
+                    player_name=payload["player_name"],
+                    normalized_player_name=payload.get("normalized_player_name"),
+                    pff_player_id=payload.get("pff_player_id"),
+                )
+                if target is None:
+                    raise ValueError("Player not found in review population")
+                restore_review_record(target, path=self.server.paths.review_decisions_path)
                 self.send_json({"ok": True})
             elif self.path == "/api/note":
                 save_ft_note(
@@ -421,6 +464,7 @@ class ReviewServer(ThreadingHTTPServer):
             "primary_records": bundle["primary_records"],
             "manual_add_options": bundle["manual_add_options"],
             "grouped": bundle["grouped"],
+            "manual_excluded_grouped": bundle["manual_excluded_grouped"],
             "team_info": team_info(),
         }
 
@@ -433,6 +477,24 @@ def json_ready(value: Any) -> Any:
     if isinstance(value, list):
         return [json_ready(item) for item in value]
     return value
+
+
+def find_record(
+    records: list[dict[str, Any]],
+    *,
+    team: str,
+    player_name: str,
+    normalized_player_name: str | None,
+    pff_player_id: str | None,
+) -> dict[str, Any] | None:
+    for record in records:
+        if pff_player_id and record.get("pff_player_id") == pff_player_id:
+            return record
+        if record.get("team") == team and record.get("normalized_player_name") == normalized_player_name:
+            return record
+        if record.get("team") == team and record.get("player_name") == player_name:
+            return record
+    return None
 
 
 def team_info() -> dict[str, dict[str, str]]:

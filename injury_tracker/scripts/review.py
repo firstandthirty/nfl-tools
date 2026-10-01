@@ -123,10 +123,15 @@ def load_review_bundle(
     stale_info = build_stale_review_info(records, statuses, paths=paths)
     primary_records = [record for record in records if record["final_include"]]
     manual_add_options = sorted(
-        [record for record in records if not record["automated_candidate"] and not record["final_include"]],
+        [manual_add_option_record(record) for record in records if manual_add_option(record)],
         key=record_sort_key,
     )
     grouped = group_for_review(primary_records, statuses, stale_info=stale_info)
+    manual_excluded_grouped = group_for_review(
+        [record for record in records if record.get("manual_decision") == "EXCLUDE"],
+        statuses,
+        stale_info=stale_info,
+    )
     reviewed = generate_reviewed_outputs(records, paths=paths)
     summary = build_review_summary(records, statuses, reviewed, paths=paths, stale_info=stale_info)
     return {
@@ -137,6 +142,7 @@ def load_review_bundle(
         "primary_records": primary_records,
         "manual_add_options": manual_add_options,
         "grouped": grouped,
+        "manual_excluded_grouped": manual_excluded_grouped,
         "summary": summary,
         "stale_info": stale_info,
     }
@@ -555,6 +561,19 @@ def save_decision(
     return row
 
 
+def restore_review_record(record: dict[str, Any], *, path: Path = MANUAL_DIR / "review_decisions.csv") -> dict[str, str]:
+    return save_decision(
+        season=int(record["season"]),
+        week=int(record["week"]),
+        team=str(record["team"]),
+        player_name=str(record["player_name"]),
+        normalized_player_name=record.get("normalized_player_name"),
+        pff_player_id=record.get("pff_player_id"),
+        decision="INCLUDE",
+        path=path,
+    )
+
+
 def save_ft_note(
     *,
     season: int,
@@ -681,6 +700,23 @@ def load_review_decisions(path: Path) -> dict[str, dict[str, str]]:
         key = decision_lookup_key(row)
         decisions[key] = {**row, "decision": decision if decision in {"INCLUDE", "EXCLUDE"} else ""}
     return decisions
+
+
+def manual_add_option(record: dict[str, Any]) -> bool:
+    if record.get("final_include"):
+        return False
+    if record.get("manual_decision") == "EXCLUDE":
+        return True
+    return not bool(record.get("automated_candidate"))
+
+
+def manual_add_option_record(record: dict[str, Any]) -> dict[str, Any]:
+    output = dict(record)
+    if record.get("manual_decision") == "EXCLUDE":
+        output["manual_add_label"] = "manually_excluded"
+    else:
+        output["manual_add_label"] = "|".join(record.get("candidate_reasons") or []) or "known_player"
+    return output
 
 
 def find_existing_decision_row(
