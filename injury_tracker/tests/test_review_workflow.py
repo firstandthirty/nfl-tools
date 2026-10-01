@@ -244,6 +244,45 @@ class ReviewWorkflowTests(unittest.TestCase):
         self.assertEqual(records["Auto Yes"]["review_state"], "MANUAL_EXCLUDE")
         self.assertEqual(records["Auto No"]["review_state"], "MANUAL_INCLUDE")
 
+    def test_review_population_round_trips_canonical_fingerprint_fields(self) -> None:
+        self.seed(
+            [injury_row("Injury Fingerprint", pff_id="301", candidate=True)],
+            [reserve_row("Reserve Fingerprint", pff_id="302", candidate=True, fallback=True)],
+        )
+
+        bundle = self.bundle()
+        population_rows = json.loads((self.output_dir / "review_population.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            game_source_fingerprint(bundle["records"], "2026-W03-NE-NYJ"),
+            game_source_fingerprint(population_rows, "2026-W03-NE-NYJ"),
+        )
+        reserve = next(row for row in population_rows if row["player_name"] == "Reserve Fingerprint")
+        injury = next(row for row in population_rows if row["player_name"] == "Injury Fingerprint")
+        self.assertEqual(reserve["record_id"], "2026|3|pff:302")
+        self.assertEqual(reserve["source_labels"], ["reserve_roster"])
+        self.assertEqual(reserve["canonical_roster_status"], "IR")
+        self.assertEqual(reserve["candidate_reasons"], ["prior_season_snap_pct=42.0"])
+        self.assertEqual(injury["practice_by_day"], {"Friday": "LP"})
+
+    def test_orphaned_decisions_are_reported_without_reattaching(self) -> None:
+        self.seed([injury_row("Current Player", pff_id="311")], [])
+        save_decision(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Old Player",
+            normalized_player_name="oldplayer",
+            pff_player_id="399",
+            decision="INCLUDE",
+            path=self.decisions_path,
+        )
+
+        bundle = self.bundle()
+
+        self.assertEqual(len(bundle["records"]), 1)
+        self.assertEqual(bundle["orphaned_decisions"][0]["player_name"], "Old Player")
+
     def test_manual_excluded_source_player_can_be_restored_without_manual_player_row(self) -> None:
         self.seed(
             [
@@ -484,6 +523,57 @@ class ReviewWorkflowTests(unittest.TestCase):
         self.assertEqual(record["manual_decision"], "EXCLUDE")
         self.assertFalse(record["final_include"])
         self.assertEqual(record["ft_note"], "Monitor pregame warmups.")
+
+    def test_save_decision_preserves_unrelated_editorial_fields(self) -> None:
+        self.seed([injury_row("Editorial Fixture", pff_id="84")], [])
+        save_ft_note(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Editorial Fixture",
+            normalized_player_name="editorialfixture",
+            pff_player_id="84",
+            ft_note="Existing note.",
+            path=self.decisions_path,
+        )
+        save_injury_override(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Editorial Fixture",
+            normalized_player_name="editorialfixture",
+            pff_player_id="84",
+            display_injury="Manual Knee",
+            path=self.decisions_path,
+        )
+        save_decision(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Editorial Fixture",
+            normalized_player_name="editorialfixture",
+            pff_player_id="84",
+            decision="INCLUDE",
+            display_position="WR*",
+            path=self.decisions_path,
+        )
+        save_decision(
+            season=2026,
+            week=3,
+            team="NE",
+            player_name="Editorial Fixture",
+            normalized_player_name="editorialfixture",
+            pff_player_id="84",
+            decision="EXCLUDE",
+            path=self.decisions_path,
+        )
+
+        record = self.bundle()["records"][0]
+
+        self.assertEqual(record["manual_decision"], "EXCLUDE")
+        self.assertEqual(record["ft_note"], "Existing note.")
+        self.assertEqual(record["manual_injury_override"], "Manual Knee")
+        self.assertEqual(record["display_position"], "WR*")
 
     def test_manual_injury_override_precedence_clear_and_rebuild_persistence(self) -> None:
         self.seed([injury_row("Blank Injury", pff_id="91", injury=None)], [])

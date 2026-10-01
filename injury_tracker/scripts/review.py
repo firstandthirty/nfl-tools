@@ -121,6 +121,7 @@ def load_review_bundle(
     statuses = load_review_status(paths.review_status_path)
     records = apply_review_decisions(source_records, decisions)
     stale_info = build_stale_review_info(records, statuses, paths=paths)
+    orphaned_decisions = find_orphaned_decisions(records, decisions)
     primary_records = [record for record in records if record["final_include"]]
     manual_add_options = sorted(
         [manual_add_option_record(record) for record in records if manual_add_option(record)],
@@ -145,6 +146,7 @@ def load_review_bundle(
         "manual_excluded_grouped": manual_excluded_grouped,
         "summary": summary,
         "stale_info": stale_info,
+        "orphaned_decisions": orphaned_decisions,
     }
 
 
@@ -427,6 +429,7 @@ def generate_reviewed_outputs(records: list[dict[str, Any]], *, paths: ReviewPat
 
 def reviewed_row(record: dict[str, Any], *, include_excluded: bool = False) -> dict[str, Any]:
     row = {
+        "record_id": record.get("record_id"),
         "season": record["season"],
         "week": record["week"],
         "game_id": record["game_id"],
@@ -444,21 +447,25 @@ def reviewed_row(record: dict[str, Any], *, include_excluded: bool = False) -> d
         "position_group": record.get("position_group"),
         "pff_position": record.get("pff_position"),
         "injury": record.get("injury"),
+        "practice_by_day": record.get("practice_by_day") or {},
         "manual_injury_override": record.get("manual_injury_override"),
         "display_injury": record.get("display_injury"),
         "latest_practice": record.get("latest_practice"),
         "game_status": record.get("game_status"),
+        "canonical_roster_status": record.get("canonical_roster_status"),
         "reserve_status": record.get("canonical_roster_status"),
         "raw_roster_status": record.get("raw_roster_status"),
         "designated_for_return": record.get("designated_for_return"),
         "reserve_transaction_date": record.get("reserve_transaction_date"),
+        "reserve_transaction_type": record.get("reserve_transaction_type"),
         "participation_source_season": record.get("participation_source_season"),
         "prior_season_fallback_used": record.get("prior_season_fallback_used"),
         "relevant_snap_pct": record.get("relevant_snap_pct"),
         "snap_data_status": record.get("snap_data_status"),
+        "source_labels": record.get("source_labels") or [],
         "source_memberships": "|".join(record.get("source_labels") or []),
         "automated_candidate": record.get("automated_candidate"),
-        "candidate_reasons": "|".join(record.get("candidate_reasons") or []),
+        "candidate_reasons": record.get("candidate_reasons") or [],
         "manual_decision": record.get("manual_decision"),
         "manual_note": record.get("manual_note"),
         "ft_note": record.get("ft_note"),
@@ -555,9 +562,9 @@ def save_decision(
         "pff_player_id": pff_player_id or "",
         "decision": decision,
         "ft_note": ft_note if ft_note is not None else (existing or {}).get("ft_note", ""),
-        "note": note or "",
-        "display_position": display_position or "",
-        "display_injury": display_injury or "",
+        "note": note if note is not None else (existing or {}).get("note", ""),
+        "display_position": display_position if display_position is not None else (existing or {}).get("display_position", ""),
+        "display_injury": display_injury if display_injury is not None else (existing or {}).get("display_injury", ""),
         "reviewed_at": now,
     }
     upsert_csv(path, REVIEW_DECISION_COLUMNS, row, lambda old: decision_matches_row(row, old))
@@ -743,6 +750,15 @@ def load_review_decisions(path: Path) -> dict[str, dict[str, str]]:
         key = decision_lookup_key(row)
         decisions[key] = {**row, "decision": decision if decision in {"INCLUDE", "EXCLUDE"} else ""}
     return decisions
+
+
+def find_orphaned_decisions(records: list[dict[str, Any]], decisions: dict[str, dict[str, str]]) -> list[dict[str, str]]:
+    active_keys = set()
+    for record in records:
+        if record.get("pff_player_id"):
+            active_keys.add(f'{record["season"]}|{record["week"]}|pff:{record["pff_player_id"]}')
+        active_keys.add(f'{record["season"]}|{record["week"]}|team:{record["team"]}|name:{record["normalized_player_name"]}')
+    return [row for key, row in sorted(decisions.items()) if key not in active_keys]
 
 
 def manual_add_option(record: dict[str, Any]) -> bool:

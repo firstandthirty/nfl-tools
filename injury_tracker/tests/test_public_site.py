@@ -19,6 +19,15 @@ from injury_tracker.scripts.build_public_site import (  # noqa: E402
 )
 from injury_tracker.scripts.publish_public_site import copy_public_outputs  # noqa: E402
 from injury_tracker.scripts.review import REVIEW_STATUS_COLUMNS, game_source_fingerprint, save_review_status  # noqa: E402
+from injury_tracker.scripts.review import (  # noqa: E402
+    MANUAL_PLAYERS_COLUMNS,
+    REVIEW_DECISION_COLUMNS,
+    ReviewPaths,
+    load_review_bundle,
+    save_decision,
+    save_ft_note,
+    save_injury_override,
+)
 from injury_tracker.scripts.review_app import HTML as REVIEW_HTML, team_info  # noqa: E402
 from injury_tracker.scripts.schedule_context import ScheduleGameContext  # noqa: E402
 
@@ -41,6 +50,7 @@ def reviewed_player(
     position: str = "CB",
     group: str = "CB",
     injury: str | None = "Hamstring",
+    display_injury: str | None = None,
     practice: str | None = "LP",
     designation: str | None = "Questionable",
     reserve_status: str | None = None,
@@ -68,7 +78,8 @@ def reviewed_player(
         "position_group": group,
         "pff_position": position,
         "injury": injury,
-        "display_injury": injury,
+        "manual_injury_override": display_injury if display_injury and display_injury != injury else None,
+        "display_injury": injury if display_injury is None else display_injury,
         "latest_practice": practice,
         "game_status": designation,
         "reserve_status": reserve_status,
@@ -89,6 +100,58 @@ def reviewed_player(
         "review_state": "UNREVIEWED_DEFAULT",
         "explicitly_reviewed": False,
         "final_include": True,
+    }
+
+
+def source_injury_row(player: str, *, injury: str | None = "Knee", pff_id: str = "source-1") -> dict:
+    return {
+        "season": 2026,
+        "week": 4,
+        "team": "PIT",
+        "player_name": player,
+        "normalized_player_name": player.lower().replace(" ", ""),
+        "pff_player_id": pff_id,
+        "pff_player_name": player,
+        "pff_position": "CB",
+        "canonical_position": "CB",
+        "position_group": "CB",
+        "source_position": "CB",
+        "injury": injury,
+        "practice_by_day": {"Wednesday": "LP"},
+        "practice_observations": [{"day": "Wednesday", "participation": "LP"}],
+        "game_status": "Questionable",
+        "season_relevant_snap_pct": 0.81,
+        "participation_source_season": 2026,
+        "snap_data_status": "OFFENSE_DEFENSE",
+        "key_candidate": True,
+        "candidate_reasons": ["season_snap_pct=81.0"],
+    }
+
+
+def source_reserve_row(player: str, *, pff_id: str = "source-2") -> dict:
+    return {
+        "season": 2026,
+        "week": 4,
+        "team": "CLE",
+        "player_name": player,
+        "normalized_player_name": player.lower().replace(" ", ""),
+        "pff_player_id": pff_id,
+        "pff_player_name": player,
+        "pff_position": "EDGE",
+        "canonical_position": "EDGE",
+        "position_group": "EDGE",
+        "source_position": "EDGE",
+        "raw_roster_status": "Reserve/Injured",
+        "canonical_roster_status": "IR",
+        "designated_for_return": True,
+        "reserve_transaction_date": "2026-09-01",
+        "reserve_transaction_type": "PLACED_ON_IR",
+        "participation_source_season": 2025,
+        "prior_season_relevant_snap_pct": 0.61,
+        "snap_data_status": "NO_DATA",
+        "prior_season_snap_data_status": "OFFENSE_DEFENSE",
+        "key_candidate": True,
+        "candidate_reasons": ["prior_season_snap_pct=61.0"],
     }
 
 
@@ -216,6 +279,18 @@ class PublicSiteTests(unittest.TestCase):
         player = model["games"][0]["teams"][0]["current_injuries"][0]
         self.assertEqual(set(player).difference({"player_name", "team", "opponent", "position", "position_group", "section", "injury", "practice", "designation", "reserve_status", "reserve_transaction_date", "designated_for_return", "source", "ft_note"}), set())
 
+    def test_public_site_uses_effective_injury_without_override_provenance(self) -> None:
+        model = self.build_model([reviewed_player("Override Player", injury="Ankle", display_injury="Knee")])
+        html = render_html(model)
+        serialized = json.dumps(model)
+        player = model["games"][0]["teams"][0]["current_injuries"][0]
+
+        self.assertEqual(player["injury"], "Knee")
+        self.assertIn("Knee", html)
+        self.assertNotIn("Ankle", html)
+        self.assertNotIn("manual_injury_override", serialized)
+        self.assertNotIn("display_injury", serialized)
+
     def test_nav_and_current_archive_outputs_are_generated_without_mutating_manual_file(self) -> None:
         rows = [reviewed_player("Nav Player")]
         write_json(self.reviewed_path, rows)
@@ -286,12 +361,154 @@ class PublicSiteTests(unittest.TestCase):
         self.assertIn("Updated injury information is pending First &amp; Thirty review.", html)
         self.assertNotIn("New Candidate", html)
 
+    def test_public_builder_uses_canonical_review_population_fingerprint(self) -> None:
+        root = self.root / "canonical"
+        root.mkdir()
+        injury_path = root / "injury.json"
+        reserve_path = root / "reserve.json"
+        decisions_path = root / "review_decisions.csv"
+        status_path = root / "review_status.csv"
+        manual_path = root / "manual_players.csv"
+        output_dir = root / "reviewed"
+        write_json(injury_path, [source_injury_row("Canonical Injury")])
+        write_json(reserve_path, [source_reserve_row("Canonical Reserve")])
+        write_header(decisions_path, REVIEW_DECISION_COLUMNS)
+        write_header(status_path, REVIEW_STATUS_COLUMNS)
+        write_header(manual_path, MANUAL_PLAYERS_COLUMNS)
+        paths = ReviewPaths(
+            injury_path=injury_path,
+            reserve_path=reserve_path,
+            output_dir=output_dir,
+            review_decisions_path=decisions_path,
+            review_status_path=status_path,
+            manual_players_path=manual_path,
+        )
+        bundle = load_review_bundle(2026, 4, paths, contexts=self.contexts)
+        save_review_status(
+            season=2026,
+            week=4,
+            scope="GAME",
+            game_id="2026-W04-CLE-PIT",
+            source_fingerprint=game_source_fingerprint(bundle["records"], "2026-W04-CLE-PIT"),
+            path=status_path,
+        )
+
+        model = self.public_model_from_paths(paths, status_path)
+
+        pit_cle = next(game for game in model["games"] if game["game_id"] == "2026-W04-CLE-PIT")
+        self.assertTrue(pit_cle["reviewed"])
+        self.assertFalse(pit_cle["stale_review"])
+        self.assertEqual(sum(len(team["current_injuries"]) + len(team["reserve_players"]) for team in pit_cle["teams"]), 2)
+
+    def test_public_builder_stale_state_tracks_source_not_editorial_changes(self) -> None:
+        root = self.root / "editorial"
+        root.mkdir()
+        injury_path = root / "injury.json"
+        reserve_path = root / "reserve.json"
+        decisions_path = root / "review_decisions.csv"
+        status_path = root / "review_status.csv"
+        manual_path = root / "manual_players.csv"
+        output_dir = root / "reviewed"
+        write_json(injury_path, [source_injury_row("Editorial Injury", pff_id="source-3")])
+        write_json(reserve_path, [])
+        write_header(decisions_path, REVIEW_DECISION_COLUMNS)
+        write_header(status_path, REVIEW_STATUS_COLUMNS)
+        write_header(manual_path, MANUAL_PLAYERS_COLUMNS)
+        paths = ReviewPaths(
+            injury_path=injury_path,
+            reserve_path=reserve_path,
+            output_dir=output_dir,
+            review_decisions_path=decisions_path,
+            review_status_path=status_path,
+            manual_players_path=manual_path,
+        )
+        original = load_review_bundle(2026, 4, paths, contexts=self.contexts)
+        save_review_status(
+            season=2026,
+            week=4,
+            scope="GAME",
+            game_id="2026-W04-CLE-PIT",
+            source_fingerprint=game_source_fingerprint(original["records"], "2026-W04-CLE-PIT"),
+            path=status_path,
+        )
+        save_ft_note(
+            season=2026,
+            week=4,
+            team="PIT",
+            player_name="Editorial Injury",
+            normalized_player_name="editorialinjury",
+            pff_player_id="source-3",
+            ft_note="Editorial only.",
+            path=decisions_path,
+        )
+        save_injury_override(
+            season=2026,
+            week=4,
+            team="PIT",
+            player_name="Editorial Injury",
+            normalized_player_name="editorialinjury",
+            pff_player_id="source-3",
+            display_injury="Manual Knee",
+            path=decisions_path,
+        )
+        save_decision(
+            season=2026,
+            week=4,
+            team="PIT",
+            player_name="Editorial Injury",
+            normalized_player_name="editorialinjury",
+            pff_player_id="source-3",
+            decision="EXCLUDE",
+            path=decisions_path,
+        )
+        save_decision(
+            season=2026,
+            week=4,
+            team="PIT",
+            player_name="Editorial Injury",
+            normalized_player_name="editorialinjury",
+            pff_player_id="source-3",
+            decision="INCLUDE",
+            path=decisions_path,
+        )
+        load_review_bundle(2026, 4, paths, contexts=self.contexts)
+        editorial_model = self.public_model_from_paths(paths, status_path)
+        editorial_game = next(game for game in editorial_model["games"] if game["game_id"] == "2026-W04-CLE-PIT")
+
+        self.assertTrue(editorial_game["reviewed"])
+        self.assertFalse(editorial_game["stale_review"])
+
+        changed = source_injury_row("Editorial Injury", pff_id="source-3")
+        changed["injury"] = "Shoulder"
+        write_json(injury_path, [changed])
+        load_review_bundle(2026, 4, paths, contexts=self.contexts)
+        stale_model = self.public_model_from_paths(paths, status_path)
+        stale_game = next(game for game in stale_model["games"] if game["game_id"] == "2026-W04-CLE-PIT")
+
+        self.assertFalse(stale_game["reviewed"])
+        self.assertTrue(stale_game["stale_review"])
+
     def test_internal_review_app_team_link_data_and_safe_attributes_exist(self) -> None:
         info = team_info()
 
         self.assertEqual(info["PIT"]["injury_report_url"], "https://www.steelers.com/team/injury-report/")
         self.assertIn('target="_blank" rel="noopener noreferrer"', REVIEW_HTML)
         self.assertIn("teamLink(team.team)", REVIEW_HTML)
+
+    def public_model_from_paths(self, paths: ReviewPaths, status_path: Path) -> dict:
+        summary = build_public_site(
+            2026,
+            4,
+            reviewed_path=paths.output_dir / "reviewed_players.json",
+            review_population_path=paths.output_dir / "review_population.json",
+            review_status_path=status_path,
+            output_root=paths.output_dir / "docs",
+            contexts=self.contexts,
+            manifest_path=self.manifest_path,
+            generated_at=datetime(2026, 9, 30, 14, 30, tzinfo=timezone.utc),
+            print_summary=False,
+        )
+        return json.loads(Path(summary["archive_view_model"]).read_text(encoding="utf-8"))
 
     def test_publish_copy_updates_current_archive_preserves_unrelated_and_skips_json(self) -> None:
         local_root = self.root / "local_public"
