@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>First &amp; Thirty - NFL Week 8 Injury Tracker</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --panel: #ffffff;
+  --ink: #17202a;
+  --muted: #667085;
+  --line: #d9dee7;
+  --accent: #155e75;
+  --soft: #eef7fa;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+.topbar {
+  padding: 24px clamp(16px, 4vw, 44px) 18px;
+  background: #101820;
+  color: #fff;
+}
+.eyebrow {
+  margin: 0 0 6px;
+  color: #9fd5df;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+h1, h2, h3, h4, p { margin-top: 0; }
+h1 { margin-bottom: 8px; font-size: clamp(28px, 4vw, 46px); letter-spacing: 0; }
+.updated { margin-bottom: 0; color: #cbd5e1; }
+.subtitle {
+  max-width: 760px;
+  margin-bottom: 8px;
+  color: #e5eef5;
+  font-size: 15px;
+}
+.week-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px clamp(16px, 4vw, 44px);
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.nav-link {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.nav-link.pending { color: var(--muted); }
+main { padding: 18px clamp(12px, 3vw, 36px) 42px; }
+.game {
+  max-width: 1120px;
+  margin: 0 auto 20px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.game-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.game-header h2 { margin-bottom: 4px; font-size: 22px; letter-spacing: 0; }
+.game-header p { margin-bottom: 0; color: var(--muted); }
+.status-pill {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.status-pill.reviewed { color: #0f5132; background: #d1e7dd; }
+.status-pill.pending { color: #664d03; background: #fff3cd; }
+.pending-copy { margin: 14px 18px 0; color: var(--muted); }
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+}
+.team-card {
+  min-width: 0;
+  padding: 16px 18px 18px;
+}
+.team-card + .team-card { border-left: 1px solid var(--line); }
+.team-header h3 { margin-bottom: 14px; font-size: 18px; letter-spacing: 0; }
+.team-header span { display: block; color: var(--muted); font-size: 13px; font-weight: 400; }
+.team-source-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+}
+.player-section + .player-section { margin-top: 18px; }
+.player-section h4 {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.player {
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+.player-main {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.pos {
+  min-width: 36px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+}
+.player-meta {
+  margin: 4px 0 0 44px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+.ft-note {
+  margin: 6px 0 0 44px;
+  padding: 8px 10px;
+  background: var(--soft);
+  border-left: 3px solid var(--accent);
+  color: #1f2937;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.empty {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+@media (max-width: 760px) {
+  .teams { grid-template-columns: 1fr; }
+  .team-card + .team-card {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .game-header { flex-direction: column; }
+  .player-meta, .ft-note { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">First &amp; Thirty</p>
+      <h1>NFL Week 8 Injury Tracker</h1>
+      <p class="subtitle">Key injuries, practice participation, reserve status, and First &amp; Thirty notes for every Week 8 matchup.</p>
+      <p class="updated">Updated 2026-10-28 20:04 EDT</p>
+    </div>
+  </header>
+  <nav class="week-nav" aria-label="Game navigation">
+    
+  </nav>
+  <main>
+    
+  </main>
+</body>
+</html>
